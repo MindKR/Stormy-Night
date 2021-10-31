@@ -4,6 +4,27 @@
 
 add_namespace = austria-hungary
 
+############
+### START ###
+############
+
+country_event = {
+	id = austria-hungary.1
+	title = austria-hungary.1.t
+	desc = austria-hungary.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = austria-hungary.1.a
+		if = {
+			limit = {
+				is_ai = no
+			}
+		}
+	}
+}
+
 #############
 ### SYSTEM ###
 #############
@@ -67,7 +88,7 @@ country_event = {
 
 # Independence of Croatia-Bosnia
 country_event = {
-	id = austria-hungary.3
+	id = austria-hungary.5
 
 	tigger = {
 		CRB = {
