@@ -1,0 +1,45 @@
+#Category only allowed for GER
+GER_history_category = {
+
+	GER_history = {
+
+		icon = generic
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		visible = {
+			original_tag = GER
+		}
+		
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			GER = { country_event = germany.1 }
+		}
+	}
+	
+	GER_Frederick_III = {
+
+		icon = generic
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		visible = {
+			original_tag = GER
+		}
+		
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			GER = { country_event = germany.10000 }
+		}
+	}
+}

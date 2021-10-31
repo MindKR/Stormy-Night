@@ -1,0 +1,91 @@
+#State System
+AUH_hungary_loyalty_increase_effect = {
+	custom_effect_tooltip = AUH_hungary_tt
+	custom_effect_tooltip = AUH_loyalty_increase_tt
+	add_to_variable = { AUH_hungary_loyalty = AUH_state_increase }
+	clamp_variable = {
+		var = AUH_hungary_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUH_hungary_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUH_hungary_tt
+	custom_effect_tooltip = AUH_loyalty_decrease_tt
+	add_to_variable = { AUH_hungary_loyalty = AUH_state_decrease }
+	clamp_variable = {
+		var = AUH_hungary_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF BOHEMIA
+AUH_bohemia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUH_bohemia_tt
+	custom_effect_tooltip = AUH_loyalty_increase_tt
+	add_to_variable = { AUH_bohemia_loyalty = AUH_state_increase }
+	clamp_variable = {
+		var = AUH_bohemia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUH_bohemia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUH_bohemia_tt
+	custom_effect_tooltip = AUH_loyalty_decrease_tt
+	add_to_variable = { AUH_bohemia_loyalty = AUH_state_decrease }
+	clamp_variable = {
+		var = AUH_bohemia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF GALICIA AND LODOMERIA
+AUH_galicia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUH_galicia_tt
+	custom_effect_tooltip = AUH_loyalty_increase_tt
+	add_to_variable = { AUH_galicia_loyalty = AUH_state_increase }
+	clamp_variable = {
+		var = AUH_galicia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUH_galicia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUH_galicia_tt
+	custom_effect_tooltip = AUH_loyalty_decrease_tt
+	add_to_variable = { AUH_galicia_loyalty = AUH_state_decrease }
+	clamp_variable = {
+		var = AUH_galicia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF CROATIA_BOSNIA
+AUH_croatia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUH_croatia_tt
+	custom_effect_tooltip = AUH_loyalty_increase_tt
+	add_to_variable = { AUH_croatia_loyalty = AUH_state_increase }
+	clamp_variable = {
+		var = AUH_croatia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUH_croatia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUH_croatia_tt
+	custom_effect_tooltip = AUH_loyalty_decrease_tt
+	add_to_variable = { AUH_croatia_loyalty = AUH_state_decrease }
+	clamp_variable = {
+		var = AUH_croatia_loyalty
+		min = 0
+		max = 100
+	}
+}

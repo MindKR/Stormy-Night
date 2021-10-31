@@ -1,0 +1,26 @@
+
+state={
+	id=16
+	name="STATE_16"
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 2
+			anti_air_building = 2
+			air_base = 3
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		6547 6949 9507 9523 9534 9725 11491 11518 
+	}
+	manpower=4208754
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

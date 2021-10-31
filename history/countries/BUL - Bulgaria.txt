@@ -1,0 +1,54 @@
+﻿capital = 48
+
+oob = "BUL"
+
+set_technology = {
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+
+set_politics = {
+	ruling_party = authoritarian
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	authoritarian = 100
+}
+
+create_country_leader = { 
+	name = "Ferdinand I"
+	desc = "POLITICS_FERDINAND_I_DESC"
+	picture = "Portrait_BUL_Ferdinand_I.png"
+	expire = "1948.9.10"
+	ideology = authoritarian_subtype	
+	traits = {
+		tsar_unifier
+	}
+}
+
+#create_country_leader = { 
+#	name = "Boris III"
+#	desc = "POLITICS_BORIS_III_DESC"
+#	picture = "Portrait_Bulgaria_Boris_III.dds"
+#	expire = "1965.1.1"
+#	ideology = authoritarian_subtype		
+#	traits = {
+#		tsar_unifier
+#	}
+#}

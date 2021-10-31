@@ -1,0 +1,266 @@
+AUH_constituent_states = {
+
+	AUH_cooperation_hungary  = {
+
+		priority = 42
+
+		icon = GFX_decision_auh_cooperation_hungary
+
+		ai_will_do = {
+			base = 4
+			modifier = {
+				factor = 0.1
+			}
+		}
+
+		allowed = { 
+			original_tag = AUH
+			NOT = { has_country_flag = AUH_hungary_independent_flag }
+		}
+
+		visible = { original_tag = AUH }
+
+		available = {
+			NOT = { has_country_flag = AUH_internal_affairs_ongoing_flag }
+		}
+
+		days_remove = AUH_state_days_remove_very_high
+
+		days_re_enable = AUH_state_days_reenable_high
+
+		cancel_effect = {
+			clr_country_flag = AUH_internal_affairs_ongoing_flag
+		}
+
+		cost = AUH_state_interaction_cost_standard
+
+		complete_effect = {
+			set_country_flag = AUH_internal_affairs_ongoing_flag
+		}
+
+		remove_effect = {
+			AUH_hungary_loyalty_increase_effect = yes
+			set_country_flag = AUH_cooperation_hungary_flag
+			clr_country_flag = AUH_internal_affairs_ongoing_flag
+			custom_effect_tooltip = AUH_cooperation_state_cd_tt
+		}
+	}
+
+	AUH_opposite_hungary = {
+		icon = GFX_decision_auh_opposite_hungary
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			original_tag = HUN
+		}
+
+		cost = 30
+
+		days_remove = 35
+
+		remove_effect = {
+			AUH = { AUH_hungary_loyalty_decrease_effect = yes }
+		}
+	}
+
+	AUH_cooperation_bohemia  = {
+
+		priority = 32
+
+		icon = GFX_decision_auh_cooperation_bohemia
+
+		ai_will_do = {
+			base = 4
+			modifier = {
+				factor = 0.1
+			}
+		}
+
+		allowed = { 
+			original_tag = AUH
+			NOT = { has_country_flag = AUH_bohemia_independent_flag }
+		}
+
+		visible = { original_tag = AUH }
+
+		available = {
+			NOT = { has_country_flag = AUH_internal_affairs_ongoing_flag }
+		}
+
+		days_remove = AUH_state_days_remove_very_low
+
+		days_re_enable = AUH_state_days_reenable_low
+
+		cancel_effect = {
+			clr_country_flag = AUH_internal_affairs_ongoing_flag
+		}
+
+		cost = AUH_state_interaction_cost_standard
+
+		complete_effect = {
+			set_country_flag = AUH_internal_affairs_ongoing_flag
+		}
+
+		remove_effect = {
+			AUH_bohemia_loyalty_increase_effect = yes
+			set_country_flag = AUH_cooperation_bohemia_flag
+			clr_country_flag = AUH_internal_affairs_ongoing_flag
+			custom_effect_tooltip = AUH_cooperation_state_cd_tt
+		}
+	}
+
+	AUH_opposite_bohemia = {
+		icon = GFX_decision_auh_opposite_bohemia
+
+		allowed = {
+			original_tag = CZE
+		}
+
+		available = {
+			original_tag = CZE
+		}
+
+		cost = 60
+
+		days_remove = 35
+
+		remove_effect = {
+			AUH = { AUH_bohemia_loyalty_decrease_effect = yes }
+		}
+	}
+
+	AUH_cooperation_galicia  = {
+
+		priority = 22
+
+		icon = GFX_decision_auh_cooperation_galicia
+
+		ai_will_do = {
+			base = 4
+			modifier = {
+				factor = 0.1
+			}
+		}
+
+		allowed = { 
+			original_tag = AUH
+			NOT = { has_country_flag = AUH_galicia_independent_flag }
+		}
+
+		visible = { original_tag = AUH }
+
+		available = {
+			NOT = { has_country_flag = AUH_internal_affairs_ongoing_flag }
+		}
+
+		days_remove = AUH_state_days_remove_very_low
+
+		days_re_enable = AUH_state_days_reenable_low
+
+		cancel_effect = {
+			clr_country_flag = AUH_internal_affairs_ongoing_flag
+		}
+
+		cost = AUH_state_interaction_cost_standard
+
+		complete_effect = {
+			set_country_flag = AUH_internal_affairs_ongoing_flag
+		}
+
+		remove_effect = {
+			AUH_galicia_loyalty_increase_effect = yes
+			set_country_flag = AUH_cooperation_galicia_flag
+			clr_country_flag = AUH_internal_affairs_ongoing_flag
+			custom_effect_tooltip = AUH_cooperation_state_cd_tt
+		}
+	}
+
+	AUH_opposite_galicia = {
+		icon = GFX_decision_auh_opposite_galicia
+
+		allowed = {
+			original_tag = GAL
+		}
+
+		available = {
+			original_tag = GAL
+		}
+
+		cost = 60
+
+		days_remove = 35
+
+		remove_effect = {
+			AUH = { AUH_galicia_loyalty_decrease_effect = yes }
+		}
+	}
+
+	AUH_cooperation_croatia  = {
+
+		priority = 12
+
+		icon = GFX_decision_auh_cooperation_croatia
+
+		ai_will_do = {
+			base = 4
+			modifier = {
+				factor = 0.1
+			}
+		}
+
+		allowed = { 
+			original_tag = AUH
+			NOT = { has_country_flag = AUH_croatia_independent_flag }
+		}
+
+		visible = { original_tag = AUH }
+
+		available = {
+			NOT = { has_country_flag = AUH_internal_affairs_ongoing_flag }
+		}
+
+		days_remove = AUH_state_days_remove_very_low
+
+		days_re_enable = AUH_state_days_reenable_low
+
+		cancel_effect = {
+			clr_country_flag = AUH_internal_affairs_ongoing_flag
+		}
+
+		cost = AUH_state_interaction_cost_standard
+
+		complete_effect = {
+			set_country_flag = AUH_internal_affairs_ongoing_flag
+		}
+
+		remove_effect = {
+			AUH_galicia_loyalty_increase_effect = yes
+			set_country_flag = AUH_cooperation_galicia_flag
+			clr_country_flag = AUH_internal_affairs_ongoing_flag
+			custom_effect_tooltip = AUH_cooperation_state_cd_tt
+		}
+	}
+
+	AUH_opposite_croatia = {
+		icon = GFX_decision_auh_opposite_croatia
+
+		allowed = {
+			original_tag = CRB
+		}
+
+		available = {
+			original_tag = CRB
+		}
+
+		cost = 60
+
+		days_remove = 35
+
+		remove_effect = {
+			AUH = { AUH_croatia_loyalty_decrease_effect = yes }
+		}
+	}
+}

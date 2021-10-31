@@ -1,0 +1,6 @@
+GER_history_category = { 
+	allowed = {
+		original_tag = GER
+	}
+	priority = -9999
+}
