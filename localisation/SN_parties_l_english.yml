@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  neutrality:0 "비동맹주의"
  neutrality_noun:0 "비동맹주의"
  communism:0 "사회주의"
@@ -31,12 +31,12 @@
  dictatorship_subtype_desc:0 "일인 또는 하나의 집단이 권력을 독점하는 독재는, 쿠데타 또는 혼란 수습 등을 이유로 집권해 막강한 힘을 발휘합니다."
 
  marxist:0 "마르크스주의"
- marxist_desc:0 "마르크스주의"
- marxist_subtype:0 "정통마르크스주의"
+ marxist_desc:0 "사회주의 체제"
+ marxist_subtype_desc:0 "정통마르크스주의"
 
- leninist:0 "마르크스주의"
- leninist_desc:0 "마르크스주의"
- leninist_subtype:0 "정통마르크스주의"
+ leninist:0 "레닌주의"
+ leninist_desc:0 "사회주의 체제"
+ leninist_subtype_desc:0 "레닌주의"
 
  AUH_authoritarian_party:1 "합스부르크로트링겐가"
  AUH_social_democrat_party:0 "사회민주노동자당"
@@ -56,6 +56,10 @@
  GER_liberal_party_desc:0 "민주당"
  GER_conservative_party:0 "중앙당"
  GER_conservative_party_long:0 "중앙당"
+ GER_marxist_party:0 "독일 공산당"
+ GER_marxist_party_long:0 "독일 공산당 (마르크스주의)"
+ GER_leninist_party:0 "독일 공산당"
+ GER_leninist_party_long:0 "독일 공산당 (레닌주의)"
  GER_authoritarian_party:0 "인민당"
  GER_authoritarian_party_long:0 "인민당"
 
@@ -65,6 +69,10 @@
  FRA_liberal_party_long:0 "자유주의자"
  FRA_conservative_party:0 "보수주의자"
  FRA_conservative_party_long:0 "보수주의자"
+ FRA_marxist_party:0 "마르크스주의자"
+ FRA_marxist_party_long:0 "마르크스주의자"
+ FRA_leninist_party:0 "레닌주의자"
+ FRA_leninist_party_long:0 "레닌주의자"
  FRA_authoritarian_party:0 "왕당파"
  FRA_authoritarian_party_long:0 "왕당파"
 
@@ -79,6 +87,19 @@
  USA_liberal_party_long:0 "민주당"
  USA_conservative_party:0 "공화당"
  USA_conservative_party_long:0 "공화당"
+
+ SOV_social_democrat_party:0 "멘셰비키"
+ SOV_social_democrat_party_long:0 "멘셰비키"
+ SOV_liberal_party:0 ""
+ SOV_liberal_party_long:0 ""
+ SOV_conservative_party:0 ""
+ SOV_conservative_party_long:0 ""
+ SOV_marxist_party:0 "전연방 공산당"
+ SOV_marxist_party_long:0 "전연방 공산당"
+ SOV_leninist_party:0 "전연방 공산당"
+ SOV_leninist_party_long:0 "전연방 공산당"
+ SOV_authoritarian_party:0 "로마노프가"
+ SOV_authoritarian_party_long:0 "로마노프가"
 
  SWE_social_democrat_party:0 "사회민주노동자당"
  SWE_social_democrat_party_long:0 "사회민주노동자당"
