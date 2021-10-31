@@ -18,7 +18,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	dictator = 100
+	dictatorship = 100
 }
 
 create_country_leader = {
