@@ -126,7 +126,7 @@ country_event = {
 		ai_chance = { 
 			factor = 20
 			modifier = {
-				set_country_flag = AUH_hungary_independent_flag
+				has_country_flag = AUH_hungary_independent_flag
 				strength_ratio = { tag = HUN ratio < 1 }
 				factor = 100
 			}
@@ -167,7 +167,7 @@ country_event = {
 			desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
 			picture = "gfx/leaders/AUS/Portrait_AUH_Franz_Joseph_II.png"
 			expire = "1965.1.1"
-			ideology = social_democat_subtype
+			ideology = social_democrat_subtype
 			traits = {
 				#
 			}
@@ -197,7 +197,7 @@ country_event = {
 			desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
 			picture = "gfx/leaders/AUS/Portrait_AUH_Franz_Joseph_II.png"
 			expire = "1965.1.1"
-			ideology = despotism
+			ideology = authoritarian_subtype
 			traits = {
 				#
 			}
