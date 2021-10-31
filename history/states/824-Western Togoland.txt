@@ -1,0 +1,24 @@
+state={
+	id=824
+	name="STATE_824"
+
+	history={
+		owner = GER
+		add_core_of = TOG
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			12785 1 
+		}
+
+	}
+
+	provinces={
+		12785 13243 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

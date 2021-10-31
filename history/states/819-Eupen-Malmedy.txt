@@ -1,0 +1,22 @@
+
+state={
+	id=819
+	name="STATE_819"
+	manpower = 100000
+
+	state_category = town
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+			dockyard = 1
+			industrial_complex = 2
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		3488
+	}
+}

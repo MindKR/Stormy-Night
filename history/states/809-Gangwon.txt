@@ -1,0 +1,30 @@
+state=
+{
+	id=809
+	name="STATE_809"
+	manpower = 1650000
+	
+	state_category = large_city
+	resources={
+		tungsten=28 # was: 52
+	}
+
+	history=
+	{
+		owner = KOR
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+			}
+		victory_points = {
+			1148 1
+		}
+
+		add_core_of = KOR
+
+	}
+	provinces={
+		9981 4004 11958 1148 7021 9936 12011
+	}
+}
