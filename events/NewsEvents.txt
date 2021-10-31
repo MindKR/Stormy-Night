@@ -6,18 +6,18 @@ add_namespace = worldnews
 
 # Crisis on the Danube - War
 news_event = {
-	id = sn_news.1
-	title = sn_news.1.t
+	id = worldnews.1
+	title = worldnews.1.t
 	picture = GFX_news_event_001
 	desc = {
-		text = sn_news.1.d.hungary.war
+		text = worldnews.1.d.hungary.war
 		trigger = {
 			AUH = {
 				has_war_with = HUN
 			}
 		}
 
-		text = sn_news.1.d.hungary.peace
+		text = worldnews.1.d.hungary.peace
 		trigger = {
 			AUH = { 
 				NOT = {
@@ -33,7 +33,7 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = sn_news.1.a.war
+		name = worldnews.1.a.war
 		trigger = {
 			TAG = AUH
 			AUH = {
@@ -47,7 +47,7 @@ news_event = {
 		}
 	}
 	option = {
-		name = sn_news.1.a.peace
+		name = worldnews.1.a.peace
 		trigger = {
 			TAG = AUH
 			AUH = {
@@ -63,7 +63,7 @@ news_event = {
 		}
 	}
 	option = {
-		name = sn_news.1.b
+		name = worldnews.1.b
 		trigger = { 
 			TAG = HUN
 			HUN = {
@@ -72,7 +72,7 @@ news_event = {
 		}
 	}
 	option = {
-		name = sn_news.1.c.war
+		name = worldnews.1.c.war
 		trigger = {
 			NOT = { 
 				TAG = AUH
@@ -87,7 +87,7 @@ news_event = {
 		}
 	}
 	option = {
-		name = sn_news.1.c.peace
+		name = worldnews.1.c.peace
 		trigger = {
 			NOT = { 
 				TAG = AUH
