@@ -136,7 +136,7 @@ create_country_leader = {
 	desc = "POLITICS_IVANOE_BONOMI_DESC"
 	picture = "Portrait_ITA_Ivanoe_Bonomi.png"
 	expire = "1938.1.1"
-	ideology = social_democrat
+	ideology = social_democrat_subtype
 	traits = {
 		
 	}
