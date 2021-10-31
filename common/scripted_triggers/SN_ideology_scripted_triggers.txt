@@ -15,6 +15,7 @@ has_socialist_government = {
 		tooltip = SN_is_socialist
 		OR = {
 			has_government = marxist
+			has_government = leninist
 		}
 	}
 }
