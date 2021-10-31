@@ -15,10 +15,12 @@ AUH_constituent_states = {
 
 		allowed = { 
 			original_tag = AUH
-			NOT = { has_country_flag = AUH_hungary_independent_flag }
 		}
 
-		visible = { original_tag = AUH }
+		visible = {
+			original_tag = AUH
+			NOT = { has_country_flag = AUH_hungary_independent_flag }
+		}
 
 		available = {
 			NOT = { has_country_flag = AUH_internal_affairs_ongoing_flag }
@@ -81,10 +83,12 @@ AUH_constituent_states = {
 
 		allowed = { 
 			original_tag = AUH
-			NOT = { has_country_flag = AUH_bohemia_independent_flag }
 		}
 
-		visible = { original_tag = AUH }
+		visible = {
+			original_tag = AUH
+			NOT = { has_country_flag = AUH_bohemia_independent_flag }
+		}
 
 		available = {
 			NOT = { has_country_flag = AUH_internal_affairs_ongoing_flag }
@@ -147,10 +151,12 @@ AUH_constituent_states = {
 
 		allowed = { 
 			original_tag = AUH
-			NOT = { has_country_flag = AUH_galicia_independent_flag }
 		}
 
-		visible = { original_tag = AUH }
+		visible = {
+			original_tag = AUH
+			NOT = { has_country_flag = AUH_galicia_independent_flag }
+		}
 
 		available = {
 			NOT = { has_country_flag = AUH_internal_affairs_ongoing_flag }
@@ -213,10 +219,12 @@ AUH_constituent_states = {
 
 		allowed = { 
 			original_tag = AUH
-			NOT = { has_country_flag = AUH_croatia_independent_flag }
 		}
 
-		visible = { original_tag = AUH }
+		visible = {
+			original_tag = AUH
+			NOT = { has_country_flag = AUH_croatia_independent_flag }
+			}
 
 		available = {
 			NOT = { has_country_flag = AUH_internal_affairs_ongoing_flag }
