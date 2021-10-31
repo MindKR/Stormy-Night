@@ -41,7 +41,7 @@ country_event = {
 		AUH = { has_country_flag = AUH_hungary_independent_flag }
 	}
 
-	hidden_effect = {
+ 	immediate = {
 		HUN = { set_cosmetic_tag = HUN }
 	}
 }
@@ -58,7 +58,7 @@ country_event = {
 		AUH = { has_country_flag = AUH_bohemia_independent_flag }
 	}
 
-	hidden_effect = {
+ 	immediate = {
 		CZE = { set_cosmetic_tag = CZE }
 	}
 }
@@ -75,7 +75,7 @@ country_event = {
 		AUH = { has_country_flag = AUH_galicia_independent_flag }
 	}
 
-	hidden_effect = {
+ 	immediate = {
 		GAL = { set_cosmetic_tag = GAL }
 	}
 }
@@ -92,7 +92,7 @@ country_event = {
 		AUH = { has_country_flag = AUH_croatia_independent_flag }
 	}
 
-	hidden_effect = {
+ 	immediate = {
 		CRB = { set_cosmetic_tag = CRB }
 	}
 }
@@ -118,7 +118,7 @@ country_event = {
 			declare_war_on = { target = HUN type = annex_everything }
 			create_faction = Austrian_Empire
 		}
-		hidden_effect = { news_event = { id = sn_news.1 hours = 12 } }
+		hidden_effect = { news_event = { id = worldnews.1 hours = 12 } }
 	}
 
 	option = {
@@ -134,7 +134,7 @@ country_event = {
 		AUH = {
 			create_faction = Austrian_Empire
 		}
-		hidden_effect = { news_event = { id = sn_news.1 hours = 12 } }
+		hidden_effect = { news_event = { id = worldnews.1 hours = 12 } }
 	}
 }
 
