@@ -1,0 +1,28 @@
+﻿###########################
+# Korean Events
+###########################
+
+add_namespace = korea
+
+#############
+### SYSTEM ###
+#############
+
+# 조선총독부
+country_event = {
+	id = korea.100000
+	
+	trigger = {
+		original_tag = KOR
+		is_subject_of = JAP
+	}
+
+	hidden = yes
+
+	hidden_effect = {
+		set_cosmetic_tag = KOR_JAP
+	}
+}
+
+
+}

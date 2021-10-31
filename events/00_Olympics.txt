@@ -1,0 +1,128 @@
+﻿###########################
+# Olympics Events
+###########################
+
+add_namespace = olympics
+
+# Games of the XI Olympiad
+news_event = {
+	id = olympics.1
+	title = olympics.1.t
+	desc = olympics.1.d.b
+
+	picture = GFX_news_event_rs_1940
+	
+	major = yes
+	
+	trigger = {
+		date > 1936.8.15
+		NOT = { has_global_flag = olympics_1936 }
+		country_exists = GER
+		country_exists = USA
+		GER = { has_war = no }
+		FRA = { has_war = no }
+		ENG = { has_war = no }
+		USA = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = olympics_1936 
+	}
+	
+	option = {
+		name = olympics.1.a
+		trigger = { 
+			NOT = { TAG = GER }
+		}
+	}
+	option = {
+		name = olympics.1.b
+		trigger = { TAG = GER }
+	}
+}
+
+# Games of the XII Olympiad (Tokyo)
+news_event = {
+	id = olympics.2
+	title = olympics.2.t
+	desc = olympics.2.d
+	picture = GFX_news_event_070
+	
+	major = yes
+	
+	trigger = {
+		date > 1940.10.5
+		has_global_flag = olympics_1936 
+		NOT = {
+			has_global_flag = olympics_jap_1940
+			has_global_flag = olympics_fin_1940
+		}
+		country_exists = JAP
+		country_exists = USA
+		country_exists = GER
+		GER = { has_war = no }
+		FRA = { has_war = no }
+		ENG = { has_war = no }
+		USA = { has_war = no }
+		JAP = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = olympics_jap_1940
+	}
+	
+	option = {
+		name = olympics.1.a
+	}
+}
+
+# Games of the XII Olympiad (Helsinki)
+news_event = {
+	id = olympics.3
+	title = olympics.2.t
+	desc = olympics.3.d
+	picture = GFX_news_event_069
+	
+	major = yes
+	
+	trigger = {
+		date > 1940.8.3
+		has_global_flag = olympics_1936
+		NOT = {
+			has_global_flag = olympics_jap_1940
+			has_global_flag = olympics_fin_1940
+		}
+		country_exists = FIN
+		country_exists = USA
+		country_exists = GER
+		country_exists = ITA
+		JAP = { has_war = yes }
+		FIN = { has_war = no }
+		ITA = { has_war = no }
+		SOV = { has_war = no }
+		GER = { has_war = no }
+		FRA = { has_war = no }
+		ENG = { has_war = no }
+		USA = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = olympics_fin_1940
+	}
+	
+	option = {
+		name = olympics.1.a
+	}
+}

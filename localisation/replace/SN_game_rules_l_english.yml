@@ -1,0 +1,8 @@
+﻿l_english:
+ RULE_OPTION_DEMOCRATIC:0 "민주주의"
+ RULE_OPTION_NEUTRALITY:0 "비동맹주의"
+ RULE_OPTION_COMMUNIST:0 "사회주의"
+ RULE_OPTION_FASCIST:0 "프로토파시즘"
+
+ RULE_PREVENT_WAR_WITH_TOW_TT:0 "§R바르샤바 조약을 체결한 나라를 상대로 선전포고를 할 수 없습니다.§!"
+ RULE_PREVENT_WARGOAL_WITH_TOW_TT:0 "§R바르샤바 조약을 체결한 나라를 상대로 전쟁 목표를 정당화할 수 없습니다.§!"

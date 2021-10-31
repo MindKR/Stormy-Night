@@ -1,0 +1,40 @@
+spriteTypes = {	
+
+	# Germany
+	SpriteType = {
+		name = "GFX_idea_wilhelm_ii"
+		texturefile = "gfx/interface/ideas/GER/idea_Wilhelm_II.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_wilhelm_iii"
+		texturefile = "gfx/interface/ideas/GER/idea_Wilhelm_III.png"	
+	}
+	SpriteType = {
+		name = "GFX_idea_unified_german_pride"
+		texturefile = "gfx/interface/ideas/GER/idea_unified_german_pride.dds"	
+	}
+
+	#France
+	SpriteType = {
+		name = "GFX_idea_FRA_paris_commune"
+		texturefile = "gfx/interface/ideas/FRA/idea_FRA_paris_commune.dds"	
+	}
+
+	# Austria
+	spriteType = {
+		name = "GFX_idea_AUH_habsburg-lothringen"
+		texturefile = "gfx/interface/ideas/AUS/idea_AUH_habsburg-lothringen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Flag_of_Austria-Hungary"
+		texturefile = "gfx/interface/ideas/AUS/idea_flag_of_austria-hungary.dds"
+	}
+
+	# Korea
+	spriteType = {
+		name = "GFX_idea_yi_kang"
+		texturefile = "gfx/interface/ideas/KOR/idea_yi_kang.dds"
+	}
+
+}

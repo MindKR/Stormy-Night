@@ -1,0 +1,29 @@
+﻿l_english:
+ treaty_of_warsaw:0 "바르샤바 조약"
+ treaty_of_warsaw_desc:1 "바르샤바 조약은 독일이 당시에 독립한 신생 국가 폴란드와 소련 견제를 목적으로 체결한 방위조약으로, 소련이 폴란드를 침공할 시에 독일이 폴란드의 편에 서서 맞서 싸울 것을 나타내고 있습니다."
+ treaty_of_warsaw_tt:2 "§R바르샤바 조약을 체결한 나라를 상대로 전쟁 목표 정당화 및 선전포고를 할 수 없습니다.§!\n"
+
+ Austria-Hungary:0 "오스트리아-헝가리의 구성국"
+ Austria-Hungary_desc:0 ""
+
+### Germany ###
+ wilhelm_ii:0 "빌헬름 2세"
+ wilhelm_ii_desc:0 "빌헬름 2세는 독일의 3대 국왕으로, 선왕이었던 프리드리히 3세를 이어 1917년 3월 9일에 즉위했습니다. 비록 그가 그의 아버지와는 다른 행보를 보여주긴 하지만... 독일 국민들의 귀감이 될 수 있을 것입니다."
+ wilhelm_iii:0 "빌헬름 3세"
+ unified_german_pride:0 "통일된 독일의 긍지"
+
+### France ###
+ FRA_paris_commune:0 "파리 코뮌의 긍지"
+ FRA_overseas_france:0 "프랑스 해외 영토"
+ FRA_overseas_france_desc:0 "파리 코뮌은 결성된 이후 외국인의 권리 신장을 위해 노력해왔습니다. 그 정책은 아프리카를 비롯한 식민지에도 적용이 되었고, 과거의 식민지인들은 프랑스에 동화되어 프랑스인의 정체성을 가지게 되었습니다. 적어도 우리가 통치하는 동안, 프랑스는 하나로 단결할 것입니다."
+
+### Austria-Hungary ###
+ POLITICS_OTTO_I_DESC:0 "앙"
+
+ AUH_habsburg-lothringen:0 "합스부르크로트링겐가"
+ AUH_habsburg-lothringen_desc:0 "합스부르크로트링겐가는 오랫동안 오스트리아를 통치하며 유럽에서 영향력 있는 가문입니다." 
+ AUS_an_empire_left_alone:0 "홀로 남은 제국"
+ AUS_indivisibiliter_ac_inseparabiliter:0 "갈라질 수도 없고 분리될 수도 없다."
+
+### Korea ###
+ yi_kang:0 "승광황제 이강"
