@@ -33,15 +33,13 @@ country_event = {
 country_event = {
 	id = austria-hungary.2
 
-	tigger = {
+	trigger = {
 		HUN = {
 			has_cosmetic_tag = HUN_AUH
 			NOT = { has_idea = Austria-Hungary }
 		}
 		AUH = { has_country_flag = AUH_hungary_independent_flag }
 	}
-
-	hidden = yes
 
 	hidden_effect = {
 		HUN = { set_cosmetic_tag = HUN }
@@ -52,15 +50,13 @@ country_event = {
 country_event = {
 	id = austria-hungary.3
 
-	tigger = {
+	trigger = {
 		CZE = {
 			has_cosmetic_tag = BOH
 			NOT = { has_idea = Austria-Hungary }
 		}
 		AUH = { has_country_flag = AUH_bohemia_independent_flag }
 	}
-
-	hidden = yes
 
 	hidden_effect = {
 		CZE = { set_cosmetic_tag = CZE }
@@ -71,15 +67,13 @@ country_event = {
 country_event = {
 	id = austria-hungary.4
 
-	tigger = {
+	trigger = {
 		GAL = {
 			has_cosmetic_tag = GAL_AUH
 			NOT = { has_idea = Austria-Hungary }
 		}
 		AUH = { has_country_flag = AUH_galicia_independent_flag }
 	}
-
-	hidden = yes
 
 	hidden_effect = {
 		GAL = { set_cosmetic_tag = GAL }
@@ -90,15 +84,13 @@ country_event = {
 country_event = {
 	id = austria-hungary.5
 
-	tigger = {
+	trigger = {
 		CRB = {
 			has_cosmetic_tag = CRB_AUH
 			NOT = { has_idea = Austria-Hungary }
 		}
 		AUH = { has_country_flag = AUH_croatia_independent_flag }
 	}
-
-	hidden = yes
 
 	hidden_effect = {
 		CRB = { set_cosmetic_tag = CRB }
