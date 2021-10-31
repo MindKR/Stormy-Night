@@ -19,10 +19,9 @@ on_actions = {
 						rule = GER_reichskriegsflagge
 						option = WAR
 					}
-					GER = {
-						has_war = no
-						has_cosmetic_tag = GER_german_empire
-					}
+					original_tag = GER
+					has_war = no
+					has_cosmetic_tag = GER_german_empire
 				}
 				set_cosmetic_tag = GER
 			}
