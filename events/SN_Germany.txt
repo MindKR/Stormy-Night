@@ -1,0 +1,120 @@
+﻿###########################
+# German Events
+###########################
+
+add_namespace = germany
+
+#########################
+### HISTORY OF GERMANY ###
+########################
+
+# Frederick III
+country_event = {
+	id = germany.10000
+	title = germany.10000.t
+	desc = germany.10000.d
+	picture = GFX_Frederick_III
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.10000.a
+		trigger = {
+		}
+	}
+}
+
+############
+### START ###
+############
+
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_Germany_Start
+
+	is_triggered_only = yes
+
+	option = {
+		name = germany.1.a
+		if = {
+			limit = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+############
+### EVENT ###
+############
+
+# Wilhelm II dies (democratic)
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GER
+		date > 1939.1.1
+		has_idea = wilhelm_ii
+	}
+
+	mean_time_to_happen = {
+			days = 1460
+	}
+
+	option = {
+		name = germany.2.a
+		add_ideas = wilhelm_iii
+		remove_ideas = wilhelm_ii
+		create_country_leader = {
+			name = "Wilhelm III"
+			desc = "POLITICS_WILHELM_III_DESC"
+			picture = GFX_portrait_ger_wilhelm_iii
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				popular_figurehead2
+			}
+		}
+	}
+}
+
+# Treaty of Warsaw 
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+
+	picture = GFX_report_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	#immediate = {
+	#	remove_ideas = treaty_of_warsaw
+	#}
+	
+	option = {
+		name = germany.3.a
+		add_to_war = {
+			targeted_alliance = POL
+			enemy = SOV
+			hostility_reason = ally
+		}
+		add_to_faction = POL
+		FROM = {
+			add_ai_strategy = {
+				type = alliance
+				id = "GER"
+				value = 200
+			}
+		}
+		country_event = { id = poland.1 }
+	}
+}
