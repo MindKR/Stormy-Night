@@ -1,7 +1,8 @@
-﻿capital = 525 #South Korea - Seoul or Busan
+﻿capital = 525
 
 oob = "KOR_1936"
 
+country_event = { id = korea.1 days = 1 }
 country_event = { id = korea.2 days = 22 }
 
 # Starting tech
