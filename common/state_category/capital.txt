@@ -1,8 +1,0 @@
-state_categories={
-	capital = {
-		local_building_slots = 8
-	
-			color = { 0 120 240 }
-
-	}
-}

@@ -1,6 +1,0 @@
-POL_treaty_of_warsaw = { 
-	allowed = {
-		original_tag = POL
-	}
-	priority = 100
-}

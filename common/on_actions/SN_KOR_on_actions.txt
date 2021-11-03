@@ -1,9 +1,0 @@
-on_actions = {
-	on_war = {
-		effect = {
-			if = {
-				KOR = give_resource_rights = { receiver = GER state = 809 }
-			}
-		}
-	}
-}
