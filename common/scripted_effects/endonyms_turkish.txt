@@ -60,6 +60,25 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Afyonkarahisar
+		limit = { state = 343 }
+		343 = {
+			set_state_name = Afyon
+		}
+		set_province_name = {
+			id = 3856
+			name = Kutahya
+		}
+		set_province_name = {
+			id = 9878
+			name = Afyon
+		}
+		set_province_name = {
+			id = 10041
+			name = Denizli
+		}
+	}
+
 	if = { #İzmit
 		limit = { state = 347 }
 		347 = {

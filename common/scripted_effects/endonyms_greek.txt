@@ -60,6 +60,25 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Afyonkarahisar
+		limit = { state = 343 }
+		343 = {
+			set_state_name = Nicopolis
+		}
+		set_province_name = {
+			id = 3856
+			name = Kotyaion
+		}
+		set_province_name = {
+			id = 9878
+			name = Nicopolis
+		}
+		set_province_name = {
+			id = 10041
+			name = Attouda
+		}
+	}
+
 	if = { #İzmit
 		limit = { state = 347 }
 		347 = {
