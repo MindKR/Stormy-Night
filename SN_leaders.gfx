@@ -1,9 +1,0 @@
-spriteTypes = {
-	
-	### AUH
-	
-	spriteType = {
-		name = "GFX_Portrait_otto_von_habsburg"
-		texturefile = "gfx/leaders/AUH/Portrait_AUH_Otto_von_Habsburg.png"		
-	}
-}
