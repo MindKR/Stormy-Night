@@ -1,0 +1,30 @@
+state={
+	id=851
+	name="STATE_851"
+
+	history={
+		owner = GER
+		add_core_of = SAM
+		buildings = {
+			infrastructure = 3
+			7290 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			7290 1 
+		}
+
+	}
+
+	provinces={
+		7290 
+	}
+	manpower=35000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+
+	local_supplies = 0.0 
+}

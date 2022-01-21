@@ -1,0 +1,31 @@
+
+state={
+	id=853
+	name="STATE_853"
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+			1324 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			1901 1 
+		}
+		add_core_of = SAF
+		add_claim_by = NMB
+
+	}
+
+	provinces={
+		1901
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
