@@ -11,6 +11,14 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Aegean Islands
+		limit = { state = 187 }
+		set_province_name = {
+			id = 8435
+			name = Mytilene
+		}
+	}
+
 	if = { #Izmir
 		limit = { state = 339 }
 		339 = {
