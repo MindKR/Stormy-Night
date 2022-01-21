@@ -1,0 +1,175 @@
+﻿add_namespace = startup
+
+country_event = { #ideology opinion modifiers
+	id = startup.1
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	option = {
+		every_other_country = {
+			if = {
+				limit = { is_same_ideology = yes }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_same_ideology
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						AND = {
+							has_government = social_democrat
+							ROOT = {
+								OR = {
+									has_government = liberal
+									has_government = conservative
+								}
+							}
+						}
+						AND = {
+							OR = {
+								has_government = liberal
+								has_government = conservative
+							}
+							ROOT = { has_government = social_democrat }
+						}
+						AND = {
+							has_government = liberal
+							ROOT = { has_government = conservative }
+						}
+						AND = {
+							has_government = conservative
+							ROOT = { has_government = liberal }
+						}
+						AND = {
+							has_government = libertarian_socialist
+							ROOT = { has_government = authoritarian_socialist }
+						}
+						AND = {
+							has_government = authoritarian_socialist
+							ROOT = { has_government = libertarian_socialist }
+						}
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_similar_ideology
+				}
+			}
+			else = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_different_ideology
+				}
+			}
+		}
+	}
+}
+
+country_event = { #ideology opinion modifiers on government change
+	id = startup.2
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		every_other_country = {
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = SN_same_ideology
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = SN_similar_ideology
+			}
+			remove_opinion_modifier = {
+				target = ROOT
+				modifier = SN_different_ideology
+			}
+			ROOT = {
+				remove_opinion_modifier = {
+					target = ROOT
+					modifier = SN_same_ideology
+				}
+				remove_opinion_modifier = {
+					target = ROOT
+					modifier = SN_similar_ideology
+				}
+				remove_opinion_modifier = {
+					target = ROOT
+					modifier = SN_different_ideology
+				}
+			}
+			if = {
+				limit = { is_same_ideology = yes }
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_same_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_same_ideology
+				}
+			}
+			else_if = {
+				limit = {
+					OR = {
+						AND = {
+							has_government = social_democrat
+							ROOT = {
+								OR = {
+									has_government = liberal
+									has_government = conservative
+								}
+							}
+						}
+						AND = {
+							OR = {
+								has_government = liberal
+								has_government = conservative
+							}
+							ROOT = { has_government = social_democrat }
+						}
+						AND = {
+							has_government = liberal
+							ROOT = { has_government = conservative }
+						}
+						AND = {
+							has_government = conservative
+							ROOT = { has_government = liberal }
+						}
+						AND = {
+							has_government = libertarian_socialist
+							ROOT = { has_government = authoritarian_socialist }
+						}
+						AND = {
+							has_government = authoritarian_socialist
+							ROOT = { has_government = libertarian_socialist }
+						}
+					}
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_similar_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_similar_ideology
+				}
+			}
+			else = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_different_ideology
+				}
+				reverse_add_opinion_modifier = {
+					target = ROOT
+					modifier = SN_different_ideology
+				}
+			}
+		}
+	}
+}

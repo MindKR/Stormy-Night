@@ -1,0 +1,123 @@
+apply_korean_endonyms = {
+
+	if = { #경기
+		limit = { state =  525 }
+		525 = { 
+			set_state_name = Gyeonggi
+		}
+		set_province_name = { #Seoul
+			id = 1043
+			name = Seoul
+		}
+		set_province_name = { #Incheon
+			id = 5095
+			name = Incheon
+		}
+	}
+
+	if = { #평안
+		limit = { state =  527 }
+		527 = { 
+			set_state_name = Pyongan
+		}
+		set_province_name = { #Pyeongyang
+			id = 4052
+			name = Pyeongyang
+		}
+		set_province_name = { #Sinuiju
+			id = 11835
+			name = Sinuiju
+		}
+	}
+
+	if = { #충청
+		limit = { state =  840 }
+		840 = { 
+			set_state_name = Chungcheong
+		}
+		set_province_name = { #Chongju
+			id = 1100
+			name = Chongju
+		}
+		set_province_name = { #Daejeon
+			id = 7175
+			name = Daejeon
+		}
+	}
+
+	if = { #강원
+		limit = { state = 841 }
+		841 = { 
+			set_state_name = Gangwon
+		}
+		set_province_name = { #Chuncheon
+			id = 1148
+			name = Chuncheon
+		}
+	}
+
+	if = { #전라
+		limit = { state = 842 }
+		842 = { 
+			set_state_name = Jeolla
+		}
+		set_province_name = { #Jeju
+			id = 1177
+			name = Jeju
+		}
+		set_province_name = { #Jeonju
+			id = 11977
+			name = Jeonju
+		}
+		set_province_name = { #Gwangju
+			id = 12085
+			name = Gwangju
+		}
+	}
+
+	if = { #경상
+		limit = { state = 843 }
+		843 = { 
+			set_state_name = Gyeongsang
+		}
+		set_province_name = {
+			id = 4056
+			name = Ulsan
+		}
+		set_province_name = {
+			id = 4086
+			name = Daegu
+		}
+		set_province_name = {
+			id = 8088
+			name = Busan
+		}
+	}
+
+	if = { #황해
+		limit = { state = 844 }
+		844 = { 
+			set_state_name = Hwanghae
+		}
+		set_province_name = { #Haeju
+			id = 1003
+			name = Haeju
+		}
+	}
+
+	if = { #함경
+		limit = { state = 845 }
+		845 = { 
+			set_state_name = Hamgyong
+		}
+		set_province_name = {
+			id = 6822
+			name = Chongjin
+		}
+		set_province_name = {
+			id = 6928
+			name = Hamhung
+		}
+	}
+			
+}

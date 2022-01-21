@@ -1,0 +1,182 @@
+﻿###########################
+# Olympics Events
+###########################
+
+add_namespace = olympics
+
+# Games of the XI Olympiad
+country_event = {
+	id = olympics.1
+	title = {
+		text = olympics.1.t.a
+		trigger = {
+			country_exists = GER
+			country_exists = USA
+			GER = { has_war = no }
+			FRA = { has_war = no }
+			ENG = { has_war = no }
+			USA = { has_war = no }
+		}
+
+		text = olympics.1.t.b
+		trigger = {
+			OR = {
+				NOT = { country_exists = GER }
+				GER = { has_war = yes }
+			}
+		}
+	}
+
+	desc = {
+		text = olympics.1.d.a
+		trigger = {
+			country_exists = GER
+			country_exists = USA
+			GER = { has_war = no }
+			FRA = { has_war = no }
+			ENG = { has_war = no }
+			USA = { has_war = no }
+		}
+
+		text = olympics.1.d.b
+		trigger = {
+			OR = {
+				NOT = { country_exists = GER }
+				GER = { has_war = yes }
+			}
+		}
+	}
+
+	picture = GFX_XI_Olympiad
+
+	major = yes
+
+	is_triggered_only = yes
+	
+	option = { #열림 - 독일 아님
+		name = olympics.1.a
+		trigger = {
+			NOT = { TAG = GER }
+			country_exists = GER
+			country_exists = USA
+			GER = { has_war = no }
+			FRA = { has_war = no }
+			ENG = { has_war = no }
+			USA = { has_war = no }
+		}
+	}
+	option = { #열림 - 독일
+		name = olympics.1.b
+		trigger = {
+			TAG = GER
+			country_exists = GER
+			country_exists = USA
+			GER = { has_war = no }
+			FRA = { has_war = no }
+			ENG = { has_war = no }
+			USA = { has_war = no }
+		}
+	}
+	option = { #안열림 - 독일 아님
+		name = olympics.1.c
+		trigger = {
+			NOT = { TAG = GER }
+			OR = {
+				NOT = { country_exists = GER }
+				GER = { has_war = yes }
+			}
+		}
+	}
+	option = { #안열림 - 독일
+		name = olympics.1.d
+		trigger = {
+			TAG = GER
+			OR = {
+				NOT = { country_exists = GER }
+				GER = { has_war = yes }
+			}
+		}
+	}
+}
+
+# Games of the XII Olympiad (Tokyo)
+news_event = {
+	id = olympics.2
+	title = olympics.2.t
+	desc = olympics.2.d
+	picture = GFX_news_event_070
+	
+	major = yes
+	
+	trigger = {
+		date > 1940.10.5
+		has_global_flag = olympics_1936 
+		NOT = {
+			has_global_flag = olympics_jap_1940
+			has_global_flag = olympics_fin_1940
+		}
+		country_exists = JAP
+		country_exists = USA
+		country_exists = GER
+		GER = { has_war = no }
+		FRA = { has_war = no }
+		ENG = { has_war = no }
+		USA = { has_war = no }
+		JAP = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = olympics_jap_1940
+	}
+	
+	option = {
+		name = olympics.1.a
+	}
+}
+
+# Games of the XII Olympiad (Helsinki)
+news_event = {
+	id = olympics.3
+	title = olympics.2.t
+	desc = olympics.3.d
+	picture = GFX_news_event_069
+	
+	major = yes
+	
+	trigger = {
+		date > 1940.8.3
+		has_global_flag = olympics_1936
+		NOT = {
+			has_global_flag = olympics_jap_1940
+			has_global_flag = olympics_fin_1940
+		}
+		country_exists = FIN
+		country_exists = USA
+		country_exists = GER
+		country_exists = ITA
+		JAP = { has_war = yes }
+		FIN = { has_war = no }
+		ITA = { has_war = no }
+		SOV = { has_war = no }
+		GER = { has_war = no }
+		FRA = { has_war = no }
+		ENG = { has_war = no }
+		USA = { has_war = no }
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	immediate = {
+		set_global_flag = olympics_fin_1940
+	}
+	
+	option = {
+		name = olympics.1.a
+	}
+}

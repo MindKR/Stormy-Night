@@ -1,0 +1,434 @@
+# Has Government based on Ideology
+
+is_same_ideology = {
+	OR = {
+		AND = {
+			has_government = social_democrat
+			ROOT = {
+				has_government = social_democrat
+			}
+		}
+		AND = {
+			has_government = liberal
+			ROOT = { has_government = liberal }
+		}
+		AND = {
+			has_government = conservative
+			ROOT = { has_government = conservative }
+		}
+		AND = {
+			has_government = strong_autocrat
+			ROOT = { has_government = strong_autocrat }
+		}
+		AND = {
+			has_government = libertarian_socialist
+			ROOT = { has_government = libertarian_socialist }
+		}
+		AND = {
+			has_government = authoritarian_socialist
+			ROOT = { has_government = authoritarian_socialist }
+		}
+		AND = {
+			has_government = anarchist
+			ROOT = { has_government = anarchist }
+		}
+		AND = {
+			has_government = national_populist
+			ROOT = { has_government = national_populist }
+		}
+	}
+}
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			OR = {
+				has_government = social_democrat
+				has_government = liberal
+				has_government = conservative
+			}
+			ROOT = {
+				OR = {
+					has_government = libertarian_socialist
+					has_government = authoritarian_socialist
+					has_government = strong_autocrat
+					has_government = national_populist
+					has_government = anarchist
+				}
+			}
+		}
+		AND = {
+			OR = {
+				has_government = libertarian_socialist
+				has_government = authoritarian_socialist
+			}
+			ROOT = {
+				OR = {
+					has_government = social_democrat
+					has_government = liberal
+					has_government = conservative
+					has_government = strong_autocrat
+					has_government = national_populist
+				}
+			}
+		}
+		AND = {
+			OR = {
+				has_government = strong_autocrat
+				has_government = national_populist
+			}
+			ROOT = {
+				OR = {
+					has_government = social_democrat
+					has_government = liberal
+					has_government = conservative
+					has_government = libertarian_socialist
+					has_government = authoritarian_socialist
+				}
+			}
+		}
+		AND = {
+			has_government = anarchist
+			ROOT = {
+				OR = {
+					has_government = social_democrat
+					has_government = liberal
+					has_government = conservative
+					has_government = strong_autocrat
+					has_government = national_populist
+				}
+			}
+		}
+	}
+}
+
+
+has_democratic_government = {
+	custom_trigger_tooltip = {
+		tooltip = SN_is_democratic
+		OR = {
+			has_government = social_democrat
+			has_government = liberal
+			has_government = conservative
+		}
+	}
+}
+
+has_socialist_government = {
+	custom_trigger_tooltip = {
+		tooltip = SN_is_socialist
+		OR = {
+			has_government = libertarian_socialist
+			has_government = authoritarian_socialist
+		}
+	}
+}
+
+# Plurality
+social_democrat_plurality = {
+
+	OR = {
+		social_democrat > 0.5
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@libertarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@authoritarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@strong_autocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@national_populist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@social_democrat
+				value = ROOT.party_popularity@anarchist
+				compare = greater_than
+			}
+		}
+	}
+}
+
+liberal_plurality = {
+
+	OR = {
+		liberal > 0.5
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@liberal
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal
+				value = ROOT.party_popularity@conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal
+				value = ROOT.party_popularity@libertarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal
+				value = ROOT.party_popularity@authoritarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal
+				value = ROOT.party_popularity@strong_autocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal
+				value = ROOT.party_popularity@national_populist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@liberal
+				value = ROOT.party_popularity@anarchist
+				compare = greater_than
+			}
+		}
+	}
+}
+
+conservative_plurality = {
+
+	OR = {
+		conservative > 0.5
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@conservative
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservative
+				value = ROOT.party_popularity@liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservative
+				value = ROOT.party_popularity@libertarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservative
+				value = ROOT.party_popularity@authoritarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservative
+				value = ROOT.party_popularity@strong_autocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservative
+				value = ROOT.party_popularity@national_populist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@conservative
+				value = ROOT.party_popularity@anarchist
+				compare = greater_than
+			}
+		}
+	}
+}
+
+libertarian_socialist_plurality = {
+
+	OR = {
+		libertarian_socialist > 0.5
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@libertarian_socialist
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@libertarian_socialist
+				value = ROOT.party_popularity@liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@libertarian_socialist
+				value = ROOT.party_popularity@conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@libertarian_socialist
+				value = ROOT.party_popularity@authoritarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@libertarian_socialist
+				value = ROOT.party_popularity@strong_autocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@libertarian_socialist
+				value = ROOT.party_popularity@national_populist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@libertarian_socialist
+				value = ROOT.party_popularity@anarchist
+				compare = greater_than
+			}
+		}
+	}
+}
+
+authoritarian_socialist_plurality = {
+
+	OR = {
+		authoritarian_socialist > 0.5
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_socialist
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_socialist
+				value = ROOT.party_popularity@liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_socialist
+				value = ROOT.party_popularity@conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_socialist
+				value = ROOT.party_popularity@libertarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_socialist
+				value = ROOT.party_popularity@strong_autocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_socialist
+				value = ROOT.party_popularity@national_populist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@authoritarian_socialist
+				value = ROOT.party_popularity@anarchist
+				compare = greater_than
+			}
+		}
+	}
+}
+
+strong_autocrat_plurality = {
+
+	OR = {
+		strong_autocrat > 0.5
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@strong_autocrat
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@strong_autocrat
+				value = ROOT.party_popularity@liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@strong_autocrat
+				value = ROOT.party_popularity@conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@strong_autocrat
+				value = ROOT.party_popularity@libertarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@strong_autocrat
+				value = ROOT.party_popularity@authoritarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@strong_autocrat
+				value = ROOT.party_popularity@national_populist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@strong_autocrat
+				value = ROOT.party_popularity@anarchist
+				compare = greater_than
+			}
+		}
+	}
+}
+
+national_populist_plurality = {
+
+	OR = {
+		national_populist > 0.5
+		AND = {
+			check_variable = {
+				var = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@social_democrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@liberal
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@conservative
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@libertarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@authoritarian_socialist
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@strong_autocrat
+				compare = greater_than
+			}
+			check_variable = {
+				var = ROOT.party_popularity@national_populist
+				value = ROOT.party_popularity@anarchist
+				compare = greater_than
+			}
+		}
+	}
+}

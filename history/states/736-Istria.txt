@@ -1,0 +1,31 @@
+state={
+	id=736
+	name="STATE_736"
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			6626 1 
+		}
+		owner = AUS
+		add_core_of = AUS
+		buildings = {
+			infrastructure = 1
+			6626 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		11595 11735 
+	}
+	manpower=814852
+	buildings_max_level_factor=1.000
+
+	local_supplies=0.0 
+}

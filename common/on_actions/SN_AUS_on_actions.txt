@@ -1,0 +1,21 @@
+on_actions = {
+	on_war = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = AUS
+					check_variable = { var = AUS_hungary_loyalty value = 30 compare = less_than }
+					any_enemy_country = {
+						strength_ratio = { 
+							tag = AUS
+							ratio > 1
+						}
+					}
+				}
+				HUN = {
+					country_event = { days = 1 id = hungary.2 }
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+Wilhelm_II_dies = {
+	custom_effect_tooltip = Wilhelm_II_dies_tt
+	hidden_effect = {
+		limit = {
+			has_idea = wilhelm_ii
+		}
+		add_ideas = wilhelm_iii
+		remove_ideas = wilhelm_ii
+	}
+	hidden_effect = {
+		GER_wilhelm_iii = {
+			add_country_leader_role = {
+			country_leader = {
+				expire = "1965.1.1"
+				ideology = strong_autocrat_subtype
+				traits = {
+					popular_figurehead2
+				}
+			}
+			promote_leader = yes
+			}
+			remove_unit_leader_role = yes
+		}
+	}
+}

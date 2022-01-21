@@ -1,0 +1,22 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					FRA = { has_socialist_government = yes }
+				}
+				FRA = { set_cosmetic_tag = FRA }
+			}
+		}
+	}
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					FRA = { has_democratic_government = yes }
+				}
+				FRA = { set_cosmetic_tag = FRA_blue }
+			}
+		}
+	}
+}

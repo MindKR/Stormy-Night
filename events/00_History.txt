@@ -1,0 +1,21 @@
+﻿###########################
+# Historical Events
+###########################
+
+add_namespace = History
+
+# Austrian-Serbian War
+country_event = {
+	id = History.2
+	title = History.2.t
+	desc = History.2.d
+	picture = GFX_gavrilo_princip_captured
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = History_GER.1.a
+		trigger = {
+		}
+	}
+}

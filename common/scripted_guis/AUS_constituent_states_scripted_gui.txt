@@ -1,0 +1,9 @@
+scripted_gui = {
+
+	aus_constituent_states_decision_ui = {
+		context_type = decision_category
+		window_name = "aus_constituent_states_decision_ui_window"
+	}
+	
+}
+

@@ -1,0 +1,30 @@
+state= {
+	id=842
+	name="STATE_842"
+	manpower = 4200000
+	
+	state_category = large_city
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+		victory_points = {
+			 1177 1
+		}
+		victory_points = {
+			 11977 1
+		}
+		victory_points = {
+			 12085 1
+		}
+		add_core_of = KOR
+	}
+	provinces={
+		10110 12085 11948 1177 4126 10749 11977
+	}
+
+	local_supplies = 0.0 
+}

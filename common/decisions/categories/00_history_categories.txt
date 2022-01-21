@@ -1,0 +1,6 @@
+history_category = { 
+	allowed = {
+		always = yes
+	}
+	priority = -10000
+}

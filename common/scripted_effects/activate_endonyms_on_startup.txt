@@ -1,0 +1,55 @@
+activate_endonyms_on_startup = {
+	if = { limit = { controller = { tag = KOR } }
+		apply_korean_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = JAP } }
+		apply_japanese_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { is_german_speaking_country = yes } }
+		apply_german_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = FRA } }
+		apply_french_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = ITA } }
+		apply_italian_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = RUS } }
+		apply_russian_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = POL } }
+		apply_polish_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = LIT } }
+		apply_lithuanian_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = CZE } }
+		apply_czech_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { is_turkish_speaking_country = yes } }
+		apply_turkish_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = GRE } }
+		apply_greek_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = BUL } }
+		apply_bulgarian_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { is_arabic_speaking_country = yes } }
+		apply_arab_endonyms = yes
+	}
+
+	else = { reset_state_name = yes }
+}

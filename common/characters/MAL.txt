@@ -1,0 +1,41 @@
+characters={
+	MAL_onn_jaafar={
+		name="Onn Jaafar"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=conservative_subtype
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_shenton_thomas={
+		name="Shenton Thomas"
+		portraits={
+			civilian={
+				large="GFX_portrait_malaya_shenton_thomas"
+			}
+		}
+		country_leader={
+			ideology=conservative_subtype
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_lai_teck={
+		name="Lai Teck"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=libertarian_socialist_subtype
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+}

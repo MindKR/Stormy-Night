@@ -1,0 +1,16 @@
+leader_traits = {
+
+	grandson_of_karl_marx = {
+		random = no
+		stability_factor = 0.10
+		political_power_factor = 0.1
+		libertarian_socialist_drift = 0.10
+		libertarian_socialist_acceptance = 75
+	}
+
+	strategist_of_desert = {
+		random = no
+		acclimatization_hot_climate_gain_factor = 0.25
+	}
+
+}

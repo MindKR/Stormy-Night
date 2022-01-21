@@ -1,0 +1,43 @@
+﻿###########################
+# Korean Events
+###########################
+
+add_namespace = korea
+
+#############
+### SYSTEM ###
+#############
+country_event = {
+	id = korea.1
+	title = korea.1.t
+	desc = korea.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.1.a
+		if = {
+			limit = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+############
+### EVENT ###
+############
+
+country_event = {
+	id = korea.2
+	title = korea.2.t
+	desc = korea.2.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = korea.2.a
+		GER = { remove_resource_rights = 807 }
+	}
+}

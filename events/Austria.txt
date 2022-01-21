@@ -1,0 +1,134 @@
+﻿###########################
+# Austrian Events
+###########################
+
+add_namespace = austria
+
+############
+### START ###
+############
+
+country_event = {
+	id = austria.1
+	title = austria.1.t
+	desc = austria.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = austria.1.a
+		if = {
+			limit = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+# Hungary's Independence - War
+country_event = {
+	id = austria.2
+	title = austria.2.t
+	desc = austria.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = austria.2.a
+		ai_chance = {
+			factor = 80
+			modifier = {
+				has_country_flag = AUS_hungary_independent_flag
+				strength_ratio = { tag = HUN ratio > 1 }
+			}	
+		}
+		AUS = {
+			declare_war_on = { target = HUN type = annex_everything }
+			create_faction = Austrian_Empire
+		}
+		hidden_effect = { news_event = { id = worldnews.1 hours = 12 } }
+	}
+
+	option = {
+		name = austria.2.b
+		ai_chance = { 
+			factor = 20
+			modifier = {
+				has_country_flag = AUS_hungary_independent_flag
+				strength_ratio = { tag = HUN ratio < 1 }
+				factor = 100
+			}
+		}
+		AUS = {
+			create_faction = Austrian_Empire
+		}
+		hidden_effect = { news_event = { id = worldnews.1 hours = 12 } }
+	}
+}
+
+############
+### EVENT ###
+############
+
+# Karl I dies
+country_event = {
+	id = austria.3
+	title = austria.3
+	desc = austria.3
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1939.1.1
+		has_country_leader = { ruling_only = yes name = "Karl I" }
+	}
+
+	mean_time_to_happen = {
+			days = 2130
+	}
+
+	option = {
+		name = austria.3.a
+		create_country_leader = {
+			name = "Franz Joseph II"
+			desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
+			picture = "gfx/leaders/AUS/Portrait_AUS_Franz_Joseph_II.png"
+			expire = "1965.1.1"
+			ideology = social_democrat_subtype
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Franz Joseph II"
+			desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
+			picture = "gfx/leaders/AUS/Portrait_AUS_Franz_Joseph_II.png"
+			expire = "1965.1.1"
+			ideology = liberal_subtype
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Franz Joseph II"
+			desc = "POLITICS_FRANZ_JOSEPH_II_DESC"	
+			picture = "gfx/leaders/AUS/Portrait_AUS_Franz_Joseph_II.png"
+			expire = "1965.1.1"
+			ideology = conservative_subtype
+			traits = {
+				#
+			}
+		}
+		create_country_leader = {
+			name = "Franz Joseph II"
+			desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
+			picture = "gfx/leaders/AUS/Portrait_AUS_Franz_Joseph_II.png"
+			expire = "1965.1.1"
+			ideology = strong_autocrat_subtype
+			traits = {
+				#
+			}
+		}
+	}
+}

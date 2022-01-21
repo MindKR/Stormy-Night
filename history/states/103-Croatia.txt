@@ -1,0 +1,47 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = CRB
+		victory_points = {
+			3868 3 
+		}
+		victory_points = {
+			3924 3 
+		}
+		victory_points = {
+			11564 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 3
+			3924 = {
+				naval_base = 3
+
+			}
+			3943 = {
+				naval_base = 1
+
+			}
+			6889 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CRB
+		add_core_of = CRO
+
+	}
+
+	provinces={
+		984 3868 3924 3943 3974 6889 11816 11901 
+	}
+	manpower=1349700
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=4.000
+}

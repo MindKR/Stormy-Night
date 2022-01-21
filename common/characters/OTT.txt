@@ -1,0 +1,19 @@
+characters={
+	OTT_abdulmejid_ii={
+		name = "Abdulmejid II"
+		desc = "POLITICS_ABDULMEJID_II_DESC"
+		allowed  = {
+			original_tag  = OTT
+		}
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/Portrait_OTT_Abdulmejid_II.png"
+			}
+		}
+		country_leader={
+			ideology=strong_autocrat_subtype
+			expire = "1944.8.23"
+			id=-1
+		}
+	}
+}

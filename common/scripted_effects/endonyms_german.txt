@@ -1,0 +1,267 @@
+apply_german_endonyms = {
+
+	if = { #Ermland-Masuren
+		limit = { state = 5 }
+		5 = {
+			set_state_name = Ermland-Masuren
+		}
+		set_province_name = {
+			id = 6375
+			name = Allenstein
+		}
+	}
+	
+	if = { #Čechy
+		limit = { state = 9 }
+		9 = {
+			set_state_name = Bohmen
+		}
+		set_province_name = {
+			id = 6418
+			name = Pilsen
+		}
+		set_province_name = {
+			id = 11542
+			name = Prag
+		}
+	}
+
+	if = { #Alsace-Lorraine
+		limit = { state = 28 }
+		28 = {
+			set_state_name = Elsass-Lothringen
+		}
+		set_province_name = {
+			id = 678
+			name = Mulhausen
+		}
+		set_province_name = {
+			id = 9503
+			name = Strassburg
+		}
+		set_province_name = {
+			id = 9559
+			name = Metz_GER
+		}
+	}
+
+	if = { #Südtirol
+		limit = { state = 39 }
+		39 = {
+			set_state_name = Sudtirol
+		}
+		set_province_name = {
+			id = 11598
+			name = Bozen
+		}
+	}
+
+	if = { #Hinterpommern
+		limit = { state = 63 }
+		63 = {
+			set_state_name = Hinterpommern
+		}
+		set_province_name = {
+			id = 6282
+			name = Stettin
+		}
+		set_province_name = {
+			id = 11372
+			name = Koslin
+		}
+	}
+
+	if = { #Sachsen
+		limit = { state = 65 }
+		65 = {
+			set_state_name = Sachsen
+		}
+		set_province_name = {
+			id = 514
+			name = Dresden
+		}
+		set_province_name = {
+			id = 3535
+			name = Leipzig
+		}
+	}
+
+	if = { #Niederschlesien
+		limit = { state = 66 }
+		66 = {
+			set_state_name = Niederschlesien
+		}
+		set_province_name = {
+			id = 9570
+			name = Breslau
+		}
+	}
+
+	if = { #Oberschlesien
+		limit = { state = 67 }
+		67 = {
+			set_state_name = Oberschlesien
+		}
+		set_province_name = {
+			id = 6464
+			name = Kattowitz
+		}
+		set_province_name = {
+			id = 9511
+			name = Oppeln
+		}
+		set_province_name = {
+			id = 11467
+			name = Gleiwitz
+		}
+	}
+
+	if = { #Ostmark
+		limit = { state = 68 }
+		68 = {
+			set_state_name = Ostmark
+		}
+		set_province_name = {
+			id = 3473
+			name = Kustrin
+		}
+	}
+
+	if = { #Sudety
+		limit = { state = 69 }
+		69 = {
+			set_state_name = Sudetenland
+		}
+		set_province_name = {
+			id = 3585
+			name = Karlsbad
+		}
+		set_province_name = {
+			id = 11401
+			name = Reichenberg
+		}
+	}
+	
+	if = { #Czech Silesia
+		limit = { state = 74 }
+		74 = {
+			set_state_name = Tschechisch-Schlesien
+		}
+		set_province_name = {
+			id = 3583
+			name = Troppau
+		}
+	}
+
+	if = { #Morava
+		limit = { state = 75 }
+		75 = {
+			set_state_name = Mahren
+		}
+		set_province_name = {
+			id = 3569
+			name = Brunn
+		}
+		set_province_name = {
+			id = 6562
+			name = Olmutz
+		}
+		set_province_name = {
+			id = 9567
+			name = Ostrau
+		}
+	}
+
+	if = { #Posen
+		limit = { state = 86 }
+		86 = {
+			set_state_name = Posen
+		}
+		set_province_name = {
+			id = 6558
+			name = Posen
+		}
+	}
+
+	if = { #Lombardy
+		limit = { state = 159 }
+		159 = {
+			set_state_name = Lombardei
+		}
+		set_province_name = {
+			id = 3780
+			name = Mailand
+		}
+	}
+
+	if = { #Trient
+		limit = { state = 163 }
+		163 = {
+			set_state_name = Trient
+		}
+		set_province_name = {
+			id = 9598
+			name = Trient
+		}
+	}
+
+	if = { #Memel
+		limit = { state = 188 }
+		188 = {
+			set_state_name = Memel
+		}
+		set_province_name = {
+			id = 3288
+			name = Memel
+		}
+	}
+
+	if = { #Saint Petersburg
+		limit = { state = 195 }
+		195 = {
+			set_state_name = StPetersburg
+		}
+		set_province_name = {
+			id = 3151
+			name = StPetersburg
+		}
+	}
+
+	if = { #Königsberg
+		limit = { state = 763 }
+		763 = {
+			set_state_name = Konigsberg
+		}
+		set_province_name = {
+			id = 6332
+			name = Konigsberg
+		}
+	}
+
+	if = { #Westpreußen
+		limit = { state = 807 }
+		807 = {
+			set_state_name = Westpreussen
+		}
+		set_province_name = {
+			id = 279
+			name = Bromberg
+		}
+		set_province_name = {
+			id = 3295
+			name = Thorn
+		}
+		set_province_name = {
+			id = 9263
+			name = Gdingen
+		}
+	}
+
+	if = { #Berlin
+		limit = { state = 835 }
+		set_province_name = {
+			id = 6521
+			name = Berlin_GER
+		}
+	}		
+}
