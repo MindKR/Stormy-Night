@@ -1,0 +1,14 @@
+is_turkic_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_turkic_country_tt
+		OR = {
+			original_tag = TUR
+			original_tag = OTT
+			original_tag = UZB
+			original_tag = KAZ
+			original_tag = AZR
+			original_tag = KYR
+			original_tag = TMS
+		}
+	}
+}

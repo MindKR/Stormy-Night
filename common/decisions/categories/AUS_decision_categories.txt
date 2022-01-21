@@ -1,0 +1,24 @@
+AUS_constituent_states = {
+	priority = 10
+
+	icon = power_struggle
+
+	picture = GFX_decision_cat_generic_austria_hungary
+
+	scripted_gui = aus_constituent_states_decision_ui
+
+	visible = {
+		OR = {
+			has_idea = AUS_habsburg-lothringen
+			has_idea = Austria-Hungary
+		}
+	}
+
+	allowed = {
+		OR = {
+			has_idea = AUS_habsburg-lothringen
+			has_idea = Austria-Hungary
+		}
+		
+	}
+}

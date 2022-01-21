@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = startup.1
+			}
+		}
+	}
+
+	on_government_change = {
+		effect = {
+			country_event = startup.2
+		}
+	}
+}
