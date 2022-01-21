@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿capital = 266
 
 oob = "PER"
@@ -42,49 +41,4 @@ recruit_character = PER_ali_akbar_deiva
 recruit_character = PER_hossein_afkhami
 recruit_character = PER_ali_zohayli
 recruit_character = PER_mahmud_jam
-=======
-﻿capital = 266
-
-oob = "PER"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	gw_artillery = 1
-	early_fighter = 1
-	CAS1 = 1
-}
-
-set_convoys = 10
-set_politics = {
-	ruling_party = strong_autocrat
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	strong_autocrat = 100
-}
-
-recruit_character = PER_reza_shah_pahlavi
-recruit_character = PER_soleyman_mirza_eskandari
-recruit_character = PER_hasan_arfa
-recruit_character = PER_dalir_pesyan
-recruit_character = PER_mir_afkhami
-recruit_character = PER_ahmad_khan_nakhjavan
-recruit_character = PER_reza_mizani
-recruit_character = PER_ali_razmara
-recruit_character = PER_hassan_majid_firooz
-recruit_character = PER_ahmad_mira_khosravani
-recruit_character = PER_ahmad_khan_nakhjaavan
-recruit_character = PER_mohammed_nakhjavani
-recruit_character = PER_abdolreza_afkhami
-recruit_character = PER_fazlollah_zahedi
-recruit_character = PER_mohammed_reza_pahlavi
-recruit_character = PER_ali_akbar_deiva
-recruit_character = PER_hossein_afkhami
-recruit_character = PER_ali_zohayli
-recruit_character = PER_mahmud_jam
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
 recruit_character = PER_ali_khan_mansour

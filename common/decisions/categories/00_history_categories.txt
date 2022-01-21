@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 history_category = { 
 	allowed = {
 		always = yes
 	}
 	priority = -10000
-=======
-history_category = { 
-	allowed = {
-		always = yes
-	}
-	priority = -10000
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
 }

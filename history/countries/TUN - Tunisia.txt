@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿capital = 458
 
 set_cosmetic_tag = TUN_FRA
@@ -36,43 +35,4 @@ set_politics = {
 }
 set_popularities = {
 	libertarian_socialist = 100
-=======
-﻿capital = 458
-
-set_cosmetic_tag = TUN_FRA
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
-
-set_convoys = 20
-
-recruit_character = TUN_acgs
-recruit_character = TUN_acr
-recruit_character = TUN_stc
-recruit_character = TUN_ncm
-recruit_character = TUN_coi
-recruit_character = TUN_pot
-recruit_character = TUN_aa2
-recruit_character = TUN_awt
-recruit_character = TUN_acas
-recruit_character = TUN_mt
-recruit_character = TUN_nccr
-recruit_character = TUN_ai2
-recruit_character = TUN_ncs
-recruit_character = TUN_aco2
-recruit_character = TUN_acd2
-recruit_character = TUN_nt
-recruit_character = TUN_ar
-
-set_politics = {
-	ruling_party = libertarian_socialist
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	libertarian_socialist = 100
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
 }

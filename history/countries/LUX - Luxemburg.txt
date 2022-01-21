@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿capital = 8
 
 oob = "LUX"
@@ -43,50 +42,4 @@ recruit_character = LUX_paul_medinger
 recruit_character = LUX_nicholas_diedrich
 recruit_character = LUX_pierre_dupong
 recruit_character = LUX_pierre_krier
-=======
-﻿capital = 8
-
-oob = "LUX"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	gw_artillery = 1
-	tech_support = 1		
-	tech_engineers = 1
-	early_fighter = 1
-}
-set_war_support = 0.1
-set_stability = 0.8
-
-set_politics = {
-	ruling_party = conservative
-	last_election = "1934.6.3"
-	election_frequency = 36
-	elections_allowed = yes
-}
-set_popularities = {
-	social_democrat = 25
-	conservative = 47
-	liberal = 28
-}
-
-recruit_character = LUX_joseph_bech
-recruit_character = LUX_damien_roeser
-recruit_character = LUX_florent_destriveaux
-recruit_character = LUX_alexander_von_falkenhausen
-recruit_character = LUX_pierre_fischbach
-recruit_character = LUX_guillaume_soisson
-recruit_character = LUX_alex_federspiel
-recruit_character = LUX_henri_ahnen
-recruit_character = LUX_emile_speller
-recruit_character = LUX_francois_schammel
-recruit_character = LUX_aloyse_glodt
-recruit_character = LUX_nicolas_de_dixmude
-recruit_character = LUX_paul_medinger
-recruit_character = LUX_nicholas_diedrich
-recruit_character = LUX_pierre_dupong
-recruit_character = LUX_pierre_krier
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
 recruit_character = LUX_martin_karp

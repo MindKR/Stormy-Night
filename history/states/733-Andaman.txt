@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 state={
 	id=733
 	name="STATE_733"
@@ -22,28 +21,3 @@ state={
 
 	local_supplies=0.0 
 }
-=======
-state={
-	id=733
-	name="STATE_733"
-	manpower=29500
-	state_category = small_island
-	
-	history={
-		owner = ENG
-		buildings = {
-			infrastructure = 2
-			12251 = {
-				naval_base = 2
-
-			}
-		}
-
-	}
-	provinces={
-		10321 12251 
-	}
-
-	local_supplies=0.0 
-}
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

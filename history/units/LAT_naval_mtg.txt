@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿units = {
 
 	##### NAVAL UNITS #####
@@ -14,20 +13,3 @@
 	}
 }
 
-=======
-﻿units = {
-
-	##### NAVAL UNITS #####
-	fleet = {
-		name = "Latvijas Kara Flote"			
-		naval_base = 9340 # Riga
-		task_force = {
-			name = "Latvijas Kara Flote"
-			location =  9340 # Riga
-			ship = { name = "Ronis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = LAT version_name = "Ronis Class" } } }
-			ship = { name = "Spidola" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = LAT version_name = "Ronis Class" } } }
-		}					
-	}
-}
-
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

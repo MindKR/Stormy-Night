@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 state={
 	id=479
@@ -35,41 +34,3 @@ state={
 
 	local_supplies=0.0 
 }
-=======
-
-state={
-	id=479
-	name="STATE_479"
-	manpower = 1032988
-	
-	state_category = town
-
-	resources={
-		oil=9
-		#steel=2 moved to Guerrero
-	}
-	
-	history={
-		owner = MEX
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
-		add_core_of = MEX
-		victory_points = {
-			4956 10
-		}
-		victory_points = {
-			5015 5
-		}
-
-	}
-
-	provinces={
-		1952 2083 4956 5015 5021 12721 13088 
-	}
-	
-
-	local_supplies=0.0 
-}
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

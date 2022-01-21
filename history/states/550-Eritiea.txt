@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 state=
 {
 	id=550
@@ -28,34 +27,3 @@ state=
 
 	local_supplies=0.0 
 }
-=======
-state=
-{
-	id=550
-	name="STATE_550"
-	manpower = 600600
-	
-	state_category = rural
-	
-	history=
-	{
-		owner = ITA
-		add_core_of = ERI
-		victory_points = {
-			12766 1
-		}
-		buildings = {
-			infrastructure = 2
-			air_base = 3
-			12766 = {
-				naval_base = 3
-			}
-		}
-	}
-	provinces={
-		5017 5047 5091 8043 12723 12766
-	}
-
-	local_supplies=0.0 
-}
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

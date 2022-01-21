@@ -1,6 +1,12 @@
 ﻿l_english:
 #Endonyms and exonyms are classified according to pronunciation.
 
+#Konstantiniye
+ Istanbul:0 "이스탄불"
+ Constantinopolis:0 "콘스탄티노폴리스"
+ Tsargrad:0 "차르그라드"
+ Qustantiniya:0 "쿠스탄티니야"
+
 
 #1, Corsica
  Corse:0 "코르스"
@@ -155,14 +161,6 @@
  Trento:0 "트렌토"
 
 
-#184, Thrace
- Trakya:0 "트라캬"
- Thraki:0 "트라키"
-
- Dedeagac:0 "데데아아치"
- Alexandroupolis:0 "알렉산드로폴리스"
-
-
 #188, Memel
  Memel:0 "메멜"
  Klaipeda:0 "클라이페다"
@@ -176,27 +174,6 @@
 
 #247, Tver
  Tver:0 "트베리"
-
-
-#340, Bursa
- Bursa:0 "부르사"
- Prussa:0 "프루사"
-
- Balikesir:0 "발리케시르"
- Palaeokastron:0 "팔레오카스트론"
-
-
-#341, Edirne
- Edirne:0 "에디르네"
- Hadrianopolis:0 "아드리아노폴리스"
-
-
-#347, İzmit
- Izmit:0 "이즈미트"
- Nicomedia:0 "니코메디아"
-
- Adapazari:0 "아다파자리"
- Agrilion:0 "아그릴리온"
 
 
 #458, Tunisia
@@ -259,14 +236,6 @@
 
 #784, Vilnius
  Wilna:0 "빌나"
-
-
-#797, Konstantiniyye
- Konstantiniyye:0 "콘스탄티니예"
- Istanbul:0 "이스탄불"
- Constantinopolis:0 "콘스탄티노폴리스"
- Tsargrad:0 "차르그라드"
- Qustantiniya:0 "쿠스탄티니야"
 
 
 #807, Westpreußen

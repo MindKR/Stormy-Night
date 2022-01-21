@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 state={
 	id=16
@@ -26,32 +25,3 @@ state={
 
 	local_supplies=0.0 
 }
-=======
-
-state={
-	id=16
-	name="STATE_16"
-	manpower = 4208754
-	
-	state_category = metropolis
-	
-
-	history={
-		owner = FRA
-		buildings = {
-			infrastructure = 4
-			arms_factory = 4
-			industrial_complex = 4
-			anti_air_building = 3
-			air_base = 5
-		}
-		add_core_of = FRA
-	}
-
-	provinces={
-		6547 6949 9507 9523 9534 9725 11491 11518  
-	}
-
-	local_supplies=0.0 
-}
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

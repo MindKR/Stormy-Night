@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿units = {
 
 	##### Naval OOB #####
@@ -16,22 +15,3 @@
 }
 
 
-=======
-﻿units = {
-
-	##### Naval OOB #####
-	fleet = {
-		name = "Royal Canadian Navy"
-		naval_base = 7361 # Halifax
-		task_force = {				
-			name = "Atlantic Squadron"			
-			location = 7361 # Halifax
-			# Scrap Iron Flotilla
-			ship = { name = "HMCS Saguenay" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
-			ship = { name = "HMCS Skeena" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = CAN version_name = "Sanguenay Class" } } }
-		}				
-	}
-}
-
-
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

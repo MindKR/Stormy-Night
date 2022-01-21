@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 state_categories={
 	megalopolis = {
 		local_building_slots = 12
@@ -7,13 +6,3 @@ state_categories={
 
 	}
 }
-=======
-state_categories={
-	megalopolis = {
-		local_building_slots = 12
-	
-			color = { 0 240 240 }
-
-	}
-}
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

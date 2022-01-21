@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 characters={
 	LBA_Omar_Mukhtar={
 		name = "LBA_Omar_Mukhtar"
@@ -25,32 +24,4 @@ characters={
 			}
 		}
 	}
-=======
-characters={
-	LBA_Omar_Mukhtar={
-		name = "LBA_Omar_Mukhtar"
-		desc = "POLITICS_OMAR_MUKHTAR_DESC"
-		portraits={
-			civilian={
-				large="gfx/leaders/LBA/Portrait_LBA_Omar_Mukhtar.dds"
-			}
-		}
-		country_leader={
-			ideology=strong_autocrat_subtype
-			traits={ strategist_of_desert }
-			expire = "1953.3.1"
-			id=-1
-		}
-	}
-
-	LBA_Idris_Senussi={
-		name = "LBA_Idris_Senussi"
-		desc = "POLITICS_IDRIS_SENUSSI_DESC"
-		portraits={
-			civilian={
-				large="gfx/leaders/LBA/Portrait_LBA_Idris_Senussi.dds"
-			}
-		}
-	}
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
 }

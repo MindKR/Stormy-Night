@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 state_categories={
 	town = {
 		local_building_slots = 4
@@ -6,13 +5,4 @@ state_categories={
 		color = { 200 200 0 }
 
 	}
-=======
-state_categories={
-	town = {
-		local_building_slots = 4
-	
-		color = { 200 200 0 }
-
-	}
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
 }

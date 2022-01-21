@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿
 units= {
 
@@ -15,21 +14,3 @@ units= {
 	}
 } 
 
-=======
-﻿
-units= {
-
-	##### Naval OOB #####
-	fleet = {
-		name = "Armada Nacional"			
-		naval_base = 12790 # Cartegena
-		task_force = {
-			name = "Armada Nacional"
-			location = 12790 # Cartegena
-			ship = { name = "ARC Antioquia" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
-			ship = { name = "ARC Caldas" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
-		}				
-	}
-} 
-
->>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
