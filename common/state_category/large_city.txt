@@ -1,0 +1,17 @@
+<<<<<<< HEAD
+state_categories={
+	large_city = {
+		local_building_slots = 8
+	
+		color = { 0 240 0 }
+	}
+}
+=======
+state_categories={
+	large_city = {
+		local_building_slots = 8
+	
+		color = { 0 240 0 }
+	}
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

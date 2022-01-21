@@ -1,0 +1,134 @@
+<<<<<<< HEAD
+#Category only allowed for GER
+GER_history_category = {
+
+	GER_history = {
+
+		icon = generic
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		visible = {
+			original_tag = GER
+		}
+		
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			GER = { country_event = germany.1 }
+		}
+	}
+	
+	GER_history_Frederick_III = {
+
+		icon = generic
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		visible = {
+			original_tag = GER
+		}
+		
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			GER = { country_event = History_GER.1 }
+		}
+	}
+
+	GER_history_russian_intervention = {
+
+		icon = generic
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		visible = {
+			original_tag = GER
+		}
+		
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			GER = { country_event = History_GER.2 }
+		}
+	}
+=======
+#Category only allowed for GER
+GER_history_category = {
+
+	GER_history = {
+
+		icon = generic
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		visible = {
+			original_tag = GER
+		}
+		
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			GER = { country_event = germany.1 }
+		}
+	}
+	
+	GER_history_Frederick_III = {
+
+		icon = generic
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		visible = {
+			original_tag = GER
+		}
+		
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			GER = { country_event = History_GER.1 }
+		}
+	}
+
+	GER_history_russian_intervention = {
+
+		icon = generic
+		
+		allowed = {
+			original_tag = GER
+		}
+
+		visible = {
+			original_tag = GER
+		}
+		
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			GER = { country_event = History_GER.2 }
+		}
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					FRA = { has_socialist_government = yes }
+				}
+				FRA = { set_cosmetic_tag = FRA }
+			}
+		}
+	}
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					FRA = { has_democratic_government = yes }
+				}
+				FRA = { set_cosmetic_tag = FRA_blue }
+			}
+		}
+	}
+=======
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {
+					FRA = { has_socialist_government = yes }
+				}
+				FRA = { set_cosmetic_tag = FRA }
+			}
+		}
+	}
+	on_peaceconference_ended = {
+		effect = {
+			if = {
+				limit = {
+					FRA = { has_democratic_government = yes }
+				}
+				FRA = { set_cosmetic_tag = FRA_blue }
+			}
+		}
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

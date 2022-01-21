@@ -1,0 +1,9 @@
+spriteTypes = {
+	
+	### AUH
+	
+	SpriteType = {
+		name = "GFX_standstill"
+		texturefile = "gfx/interface/goals/standstill.dds"	
+	}
+}

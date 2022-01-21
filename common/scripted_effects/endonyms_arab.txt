@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+apply_arab_endonyms = {
+
+	if = { #Qustantiniya
+		limit = { state = 797 }
+		797 = {
+			set_state_name = Qustantiniya
+		}
+		set_province_name = {
+			id = 9833
+			name = Qustantiniya
+		}
+	}
+=======
+apply_arab_endonyms = {
+
+	if = { #Qustantiniya
+		limit = { state = 797 }
+		797 = {
+			set_state_name = Qustantiniya
+		}
+		set_province_name = {
+			id = 9833
+			name = Qustantiniya
+		}
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

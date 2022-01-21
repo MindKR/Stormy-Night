@@ -1,0 +1,6 @@
+﻿l_english:
+ RULE_PREVENT_WAR_WITH_TOW_TT:0 "§R바르샤바 조약을 체결한 나라를 상대로 선전포고를 할 수 없습니다.§!"
+ RULE_PREVENT_WARGOAL_WITH_TOW_TT:0 "§R바르샤바 조약을 체결한 나라를 상대로 전쟁 목표를 정당화할 수 없습니다.§!"
+
+ RULE_PREVENT_WAR_WITH_TOP_TT:0 "§R파리 조약의 영향을 받는 나라를 상대로 선전포고를 할 수 없습니다.§!"
+ RULE_PREVENT_WARGOAL_WITH_TOP_TT:0 "§R파리 조약의 영향을 받는 나라를 상대로 전쟁 목표를 정당화할 수 없습니다.§!"

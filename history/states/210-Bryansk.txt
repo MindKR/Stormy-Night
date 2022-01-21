@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+
+state={
+	id=210
+	name="STATE_210" # Nevel
+	manpower = 830133
+	
+	state_category = rural
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		add_core_of = RUS
+		victory_points = {
+			11234 1
+		}
+	}
+
+	provinces={
+		207 248 354 387 3333 6242 6293 9254 9331 9353 9386 11234 11259 
+	}
+
+	local_supplies=0.0 
+}
+=======
+
+state={
+	id=210
+	name="STATE_210" # Nevel
+	manpower = 830133
+	
+	state_category = rural
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		add_core_of = RUS
+		victory_points = {
+			11234 1
+		}
+	}
+
+	provinces={
+		207 248 354 387 3333 6242 6293 9254 9331 9353 9386 11234 11259 
+	}
+
+	local_supplies=0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

@@ -1,0 +1,136 @@
+<<<<<<< HEAD
+autonomy_state = {
+	id = sn_protectorate
+	
+	is_puppet = no
+	
+	min_freedom_level = 0.75
+	
+	manpower_influence = 0.25
+	
+	rule = {
+		can_not_declare_war = yes
+		can_decline_call_to_war = yes
+		units_deployed_to_overlord = no
+		can_be_spymaster = no
+		contributes_operatives = no
+		can_create_collaboration_government = no
+	}
+	
+	modifier = {
+		autonomy_manpower_share = 0.25
+	  	can_master_build_for_us = 1
+		extra_trade_to_overlord_factor = 0.5
+		overlord_trade_cost_factor = -0.5
+		cic_to_overlord_factor = 0.2
+		mic_to_overlord_factor = 0.3
+		ai_join_ally_desire_factor = -4000
+	}
+	
+	ai_subject_wants_higher = {
+		factor = 0.5
+	}
+	
+	ai_overlord_wants_lower = {
+		factor = 0.1
+	}
+
+	ai_overlord_wants_garrison = {
+		always = no
+	}
+
+	allowed = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Waking the Tiger"
+		}
+		if = {
+			limit = {
+				OVERLORD = {
+					original_tag = OTT
+				}
+			}
+			OR = {
+				original_tag = AZR
+				original_tag = GEO
+				original_tag = ARM
+			}
+		}
+	}
+	
+	can_take_level = {
+		always = no
+	}
+
+	can_lose_level = {
+		always = no
+	}
+=======
+autonomy_state = {
+	id = sn_protectorate
+	
+	is_puppet = no
+	
+	min_freedom_level = 0.75
+	
+	manpower_influence = 0.25
+	
+	rule = {
+		can_not_declare_war = yes
+		can_decline_call_to_war = yes
+		units_deployed_to_overlord = no
+		can_be_spymaster = no
+		contributes_operatives = no
+		can_create_collaboration_government = no
+	}
+	
+	modifier = {
+		autonomy_manpower_share = 0.25
+	  	can_master_build_for_us = 1
+		extra_trade_to_overlord_factor = 0.5
+		overlord_trade_cost_factor = -0.5
+		cic_to_overlord_factor = 0.2
+		mic_to_overlord_factor = 0.3
+		ai_join_ally_desire_factor = -4000
+	}
+	
+	ai_subject_wants_higher = {
+		factor = 0.5
+	}
+	
+	ai_overlord_wants_lower = {
+		factor = 0.1
+	}
+
+	ai_overlord_wants_garrison = {
+		always = no
+	}
+
+	allowed = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Waking the Tiger"
+		}
+		if = {
+			limit = {
+				OVERLORD = {
+					original_tag = OTT
+				}
+			}
+			OR = {
+				original_tag = AZR
+				original_tag = GEO
+				original_tag = ARM
+			}
+		}
+	}
+	
+	can_take_level = {
+		always = no
+	}
+
+	can_lose_level = {
+		always = no
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

@@ -1,0 +1,166 @@
+<<<<<<< HEAD
+ideas = {
+
+	country = {
+
+		AUS_habsburg-lothringen = {
+			allowed = {
+				original_tag = "AUS"
+			}	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		Austria-Hungary = {
+
+			picture = Flag_of_Austria-Hungary
+
+			allowed = {
+				has_autonomy_state = sn_crownland
+			}
+
+			available = {
+				has_autonomy_state = sn_crownland
+			}
+
+			removal_cost = -1 
+
+			modifier = {
+				custom_modifier_tooltip = austria-hungary_tt
+			}
+		}
+	}
+
+
+	# TECHNOLOGY
+	tank_manufacturer = {
+		
+		designer = yes
+		
+		steyr_daimler_puch = {
+			picture = generic_tank_manufacturer_1
+
+			
+			allowed = {
+				original_tag = AUS
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		AUS_hirtenberger = {
+			picture = generic_artillery_manufacturer_3
+
+			
+			allowed = {
+				original_tag = AUS
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+=======
+ideas = {
+
+	country = {
+
+		AUS_habsburg-lothringen = {
+			allowed = {
+				original_tag = "AUS"
+			}	
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		Austria-Hungary = {
+
+			picture = Flag_of_Austria-Hungary
+
+			allowed = {
+				has_autonomy_state = sn_crownland
+			}
+
+			available = {
+				has_autonomy_state = sn_crownland
+			}
+
+			removal_cost = -1 
+
+			modifier = {
+				custom_modifier_tooltip = austria-hungary_tt
+			}
+		}
+	}
+
+
+	# TECHNOLOGY
+	tank_manufacturer = {
+		
+		designer = yes
+		
+		steyr_daimler_puch = {
+			picture = generic_tank_manufacturer_1
+
+			
+			allowed = {
+				original_tag = AUS
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+
+	materiel_manufacturer = {
+		
+		designer = yes
+		
+		AUS_hirtenberger = {
+			picture = generic_artillery_manufacturer_3
+
+			
+			allowed = {
+				original_tag = AUS
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

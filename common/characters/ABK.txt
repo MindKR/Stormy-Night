@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+characters = {
+	ABK_kirilli_bechvaya = {
+		name = "Kirill Bechvaya" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialist_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
+=======
+characters = {
+	ABK_kirilli_bechvaya = {
+		name = "Kirill Bechvaya" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_socialist_subtype
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

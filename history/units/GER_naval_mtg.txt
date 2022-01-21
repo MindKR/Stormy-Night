@@ -1,0 +1,510 @@
+<<<<<<< HEAD
+﻿
+units= {
+	##### NAVAL UNITS #####
+	
+	fleet = {
+		name = "Kaiserliche Marine"			
+		naval_base = 241  # Wilhemshaven
+		task_force = {				
+			name = "SMS Hochseeflotte"
+			location = 241  # Wilhemshaven
+			ship = { name = "SMS Rhein" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_experiment = { amount = 1 owner = GER version_name = "Rhein Class" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "GER" amount = 15 }
+					cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 15 }
+				}
+			}
+			ship = { name = "SMS Deutschland" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
+			ship = { name = "SMS Admiral Scheer" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "SMS Nürnberg" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig Class" } } } 		
+			ship = { name = "SMS Leipzig" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig Class" } } }		
+			ship = { name = "SMS Königsberg" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
+			ship = { name = "SMS Karlsruhe" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }	
+			ship = { name = "SMS Köln" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
+			ship = { name = "Emden" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Emden Class" } } }
+			# 1. Torpedobootflottille
+			ship = { name = "SMS Jaguar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Leopard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Luchs" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Tiger" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+		}
+		task_force = {
+			name = "Ostseeflotte"
+			location = 6332  # Konigsberg
+			ship = { name = "SMS Schleswig-Holstein" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "SMS Schlesien" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = GER version_name = "Deutschland Class" } } }			
+			# 2. Torpedobootflottille
+			ship = { name = "SMS Möwe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Albatros" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Seeadler" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Greif" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			# 3. Torpedobootflottille
+			ship = { name = "SMS Falke" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Kondor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Wolf" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Iltis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+		}
+		task_force = {
+			name = "Marineschule Kiel"
+			location = 6389 	# Kiel
+			ship = { name = "SMS Brummer" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremse Class" } } }			
+			ship = { name = "SMS Bremse" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremse Class" } } }
+		}
+	}
+	fleet = {
+		name = "Unterseeboots-Flotte "			
+		naval_base = 6389  # Kiel
+		task_force = {
+			name = "I. U-Boots Flottille Weddigen"
+			location = 6389  # Kiel
+			# 1. Unterseebootsflottille
+			ship = { name = "SM U-103" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-104" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-105" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-106" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			# 4. Unterseebootsflottille
+			ship = { name = "SM U-107" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-108" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-109" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-110" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-111" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-112" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-113" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-114" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-115" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-116" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-117" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-118" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-119" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-120" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-121" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-125" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+		}
+		task_force = {
+			name = "II. U-Boots-Ausbildungs-Gruppe"
+			location = 241  # Wilhemshaven
+			# 2. Unterseebootsflottille
+			ship = { name = "SM U-92" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-93" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-94" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-95" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-96" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-97" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-98" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-99" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			# 3. Unterseebootsflottille
+			ship = { name = "SM U-100" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-101" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-102" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+		}
+	}
+}
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	### Ships Under Contruction ###
+	# SS: Type IIA (x2) ("SM U-131" "SM U-132"), Type IIB (x6) ("SM U-122" "SM U-124" "SM U-125" "SM U-123" "SM U-127" "SM U-126")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "GER" 
+			version_name = "Type II Class"
+		}
+		requested_factories = 1
+		progress = 0.75
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "GER" 
+			version_name = "Type II Class"
+		}
+		requested_factories = 1
+		progress = 0.65
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "GER" 
+			version_name = "Type II Class"
+		}
+		requested_factories = 1
+		progress = 0.55
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "GER" 
+			version_name = "Type II Class"
+		}
+		requested_factories = 1
+		progress = 0.45
+		amount = 2
+	}
+	# DD: 1934 class (x4) ("Z1" "Z2" "Z3" "Z4")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934 Class"
+		}
+		requested_factories = 1
+		progress = 0.75
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934 Class"
+		}
+		requested_factories = 1
+		progress = 0.65
+		amount = 2
+	}
+	
+	# CA: "Graf Spee"
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_panzerschiff
+			creator = "GER"
+			version_name = "Deutschland Class"
+		}
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+	}
+	# CA: "Admiral Hipper"
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "GER"
+			version_name = "Admiral Hipper Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	# Scharnhorst
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GER"
+			version_name = "Scharnhorst Class"
+		}
+		requested_factories = 1
+		progress = 0.35
+		amount = 1
+	}
+	# Gneisenau
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GER"
+			version_name = "Scharnhorst Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	# DD: 1934A class (x12) ("Z5"-"Z16")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934A Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 4
+	}
+	# DD: 1934A class (x12) ("Z5"-"Z16")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934A Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 4
+	}
+	# DD: 1934A class (x12) ("Z5"-"Z16")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934A Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 4
+	}
+}
+
+=======
+﻿
+units= {
+	##### NAVAL UNITS #####
+	
+	fleet = {
+		name = "Kaiserliche Marine"			
+		naval_base = 241  # Wilhemshaven
+		task_force = {				
+			name = "SMS Hochseeflotte"
+			location = 241  # Wilhemshaven
+			ship = { name = "SMS Rhein" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_experiment = { amount = 1 owner = GER version_name = "Rhein Class" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "GER" amount = 15 }
+					cv_nav_bomber_equipment_1 =  { owner = "GER" amount = 15 }
+				}
+			}
+			ship = { name = "SMS Deutschland" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }	
+			ship = { name = "SMS Admiral Scheer" pride_of_the_fleet = yes definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_panzerschiff = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "SMS Nürnberg" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig Class" } } } 		
+			ship = { name = "SMS Leipzig" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Leipzig Class" } } }		
+			ship = { name = "SMS Königsberg" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
+			ship = { name = "SMS Karlsruhe" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }	
+			ship = { name = "SMS Köln" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Class" } } }			
+			ship = { name = "Emden" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Emden Class" } } }
+			# 1. Torpedobootflottille
+			ship = { name = "SMS Jaguar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Leopard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Luchs" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Tiger" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+		}
+		task_force = {
+			name = "Ostseeflotte"
+			location = 6332  # Konigsberg
+			ship = { name = "SMS Schleswig-Holstein" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "SMS Schlesien" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_pre_dreadnought = { amount = 1 owner = GER version_name = "Deutschland Class" } } }			
+			# 2. Torpedobootflottille
+			ship = { name = "SMS Möwe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Albatros" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Seeadler" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Greif" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			# 3. Torpedobootflottille
+			ship = { name = "SMS Falke" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Kondor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Wolf" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+			ship = { name = "SMS Iltis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 24 Class" } } }
+		}
+		task_force = {
+			name = "Marineschule Kiel"
+			location = 6389 	# Kiel
+			ship = { name = "SMS Brummer" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremse Class" } } }			
+			ship = { name = "SMS Bremse" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Bremse Class" } } }
+		}
+	}
+	fleet = {
+		name = "Unterseeboots-Flotte "			
+		naval_base = 6389  # Kiel
+		task_force = {
+			name = "I. U-Boots Flottille Weddigen"
+			location = 6389  # Kiel
+			# 1. Unterseebootsflottille
+			ship = { name = "SM U-103" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-104" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-105" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-106" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			# 4. Unterseebootsflottille
+			ship = { name = "SM U-107" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-108" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-109" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-110" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-111" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-112" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-113" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-114" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-115" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-116" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-117" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-118" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-119" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-120" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-121" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-125" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+		}
+		task_force = {
+			name = "II. U-Boots-Ausbildungs-Gruppe"
+			location = 241  # Wilhemshaven
+			# 2. Unterseebootsflottille
+			ship = { name = "SM U-92" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-93" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-94" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-95" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-96" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-97" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-98" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-99" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			# 3. Unterseebootsflottille
+			ship = { name = "SM U-100" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-101" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+			ship = { name = "SM U-102" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GER version_name = "Type II Class" } } }
+		}
+	}
+}
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	### Ships Under Contruction ###
+	# SS: Type IIA (x2) ("SM U-131" "SM U-132"), Type IIB (x6) ("SM U-122" "SM U-124" "SM U-125" "SM U-123" "SM U-127" "SM U-126")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "GER" 
+			version_name = "Type II Class"
+		}
+		requested_factories = 1
+		progress = 0.75
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "GER" 
+			version_name = "Type II Class"
+		}
+		requested_factories = 1
+		progress = 0.65
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "GER" 
+			version_name = "Type II Class"
+		}
+		requested_factories = 1
+		progress = 0.55
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "GER" 
+			version_name = "Type II Class"
+		}
+		requested_factories = 1
+		progress = 0.45
+		amount = 2
+	}
+	# DD: 1934 class (x4) ("Z1" "Z2" "Z3" "Z4")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934 Class"
+		}
+		requested_factories = 1
+		progress = 0.75
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934 Class"
+		}
+		requested_factories = 1
+		progress = 0.65
+		amount = 2
+	}
+	
+	# CA: "Graf Spee"
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_panzerschiff
+			creator = "GER"
+			version_name = "Deutschland Class"
+		}
+		requested_factories = 1
+		progress = 0.95
+		amount = 1
+	}
+	# CA: "Admiral Hipper"
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "GER"
+			version_name = "Admiral Hipper Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	# Scharnhorst
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GER"
+			version_name = "Scharnhorst Class"
+		}
+		requested_factories = 1
+		progress = 0.35
+		amount = 1
+	}
+	# Gneisenau
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GER"
+			version_name = "Scharnhorst Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 1
+	}
+	# DD: 1934A class (x12) ("Z5"-"Z16")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934A Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 4
+	}
+	# DD: 1934A class (x12) ("Z5"-"Z16")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934A Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 4
+	}
+	# DD: 1934A class (x12) ("Z5"-"Z16")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "Zerstörer 1934A Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 4
+	}
+}
+
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+#####################

@@ -1,0 +1,47 @@
+<<<<<<< HEAD
+state={
+	id=848
+	name="STATE_848"
+	manpower = 252433
+
+	state_category = rural
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = GER
+	}
+	provinces={
+		332 11251
+	}
+	buildings_max_level_factor=1.000
+
+	local_supplies = 0.0 
+}
+=======
+state={
+	id=848
+	name="STATE_848"
+	manpower = 252433
+
+	state_category = rural
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = GER
+	}
+	provinces={
+		332 11251
+	}
+	buildings_max_level_factor=1.000
+
+	local_supplies = 0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

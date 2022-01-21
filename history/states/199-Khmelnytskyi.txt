@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+
+state={
+	id=199
+	name="STATE_199"
+	manpower = 1424022
+	
+	state_category = town
+
+	history={
+		victory_points = {
+			3457 3
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = RUS
+		add_core_of = UKR
+	}
+
+	provinces={
+		462 3430 3457 3511 6429 6509 
+	}
+
+	local_supplies=4.0 
+}
+=======
+
+state={
+	id=199
+	name="STATE_199"
+	manpower = 1424022
+	
+	state_category = town
+
+	history={
+		victory_points = {
+			3457 3
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = RUS
+		add_core_of = UKR
+	}
+
+	provinces={
+		462 3430 3457 3511 6429 6509 
+	}
+
+	local_supplies=4.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

@@ -1,0 +1,114 @@
+<<<<<<< HEAD
+﻿capital = 301
+
+oob = "PAR"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	liberal = 25
+	social_democrat = 75
+}
+
+#create_country_leader = {
+#	name = "Eusebio Ayala"
+#	desc = "POLITICS_EUSEBIO_AYALA_DESC"
+#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = liberal_subtype
+#	traits = {
+#		#
+#	}
+#}
+
+# Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
+create_country_leader = {
+	name = "Rafael Franco"
+	desc = "POLITICS_RAFAEL_FRANCO_DESC"
+	picture = "GFX_Portrait_paraguay_rafael_franco"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Higinio Morinigo"
+	desc = "POLITICS_HIGINIO_MORINIGO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = strong_autocrat_subtype
+	traits = {
+		#
+	}
+=======
+﻿capital = 301
+
+oob = "PAR"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+set_country_flag = monroe_doctrine
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	liberal = 25
+	social_democrat = 75
+}
+
+#create_country_leader = {
+#	name = "Eusebio Ayala"
+#	desc = "POLITICS_EUSEBIO_AYALA_DESC"
+#	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = liberal_subtype
+#	traits = {
+#		#
+#	}
+#}
+
+# Rafael Franco technically comes to and loses power slightly after/before the bookmarks, but is the go-to choice for a socialist leader
+create_country_leader = {
+	name = "Rafael Franco"
+	desc = "POLITICS_RAFAEL_FRANCO_DESC"
+	picture = "GFX_Portrait_paraguay_rafael_franco"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Higinio Morinigo"
+	desc = "POLITICS_HIGINIO_MORINIGO_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = strong_autocrat_subtype
+	traits = {
+		#
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

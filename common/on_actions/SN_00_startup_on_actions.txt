@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = startup.1
+			}
+		}
+	}
+
+	on_government_change = {
+		effect = {
+			country_event = startup.2
+		}
+	}
+=======
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				country_event = startup.1
+			}
+		}
+	}
+
+	on_government_change = {
+		effect = {
+			country_event = startup.2
+		}
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

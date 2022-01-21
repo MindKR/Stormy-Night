@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+
+state={
+	id=475
+	name="STATE_475"
+	manpower = 805874
+	
+	state_category = rural
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MEX
+
+		victory_points = {
+			1900 3
+		}
+	}
+
+	provinces={
+		1900 12753 12867 
+	}
+	
+
+	local_supplies=0.0 
+}
+=======
+
+state={
+	id=475
+	name="STATE_475"
+	manpower = 805874
+	
+	state_category = rural
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MEX
+
+		victory_points = {
+			1900 3
+		}
+	}
+
+	provinces={
+		1900 12753 12867 
+	}
+	
+
+	local_supplies=0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
