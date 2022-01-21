@@ -1,8 +1,0 @@
-spriteTypes = {
-	
-	spriteType = {
-		name = "GFX_terrain_berlin"
-		texturefile = "gfx/interface/terrains/terrain_berlin.png"
-	}
-
-}
