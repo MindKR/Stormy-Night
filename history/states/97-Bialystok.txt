@@ -1,0 +1,35 @@
+
+state={
+	id=97
+	name="STATE_97"
+
+	history={
+		owner = RUS
+		victory_points = {
+			11301 3 
+		}
+		victory_points = {
+			3393 3 
+		}
+		victory_points = {
+			3254 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		290 318 347 3281 6359 11247 11301 11357 13206 
+	}
+	manpower=1157200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=5.000
+}
