@@ -1,5 +1,20 @@
 apply_greek_endonyms = {
 
+	if = { #Ankara
+		limit = { state = 49 }
+		49 = {
+			set_state_name = Ancyra
+		}
+		set_province_name = {
+			id = 3951
+			name = Dorylaion
+		}
+		set_province_name = {
+			id = 11747
+			name = Ancyra
+		}
+	}
+
 	if = { #Dedeağaç
 		limit = { state = 184 }
 		184 = {

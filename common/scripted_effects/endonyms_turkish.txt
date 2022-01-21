@@ -1,5 +1,20 @@
 apply_turkish_endonyms = {
 
+	if = { #Ankara
+		limit = { state = 49 }
+		49 = {
+			set_state_name = Ankara
+		}
+		set_province_name = {
+			id = 3951
+			name = Eskisehir
+		}
+		set_province_name = {
+			id = 11747
+			name = Ankara
+		}
+	}
+
 	if = { #Dedeağaç
 		limit = { state = 184 }
 		184 = {
