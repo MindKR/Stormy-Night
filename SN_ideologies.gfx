@@ -1,0 +1,59 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_ideology_liberal_group"
+		texturefile = "gfx/interface/ideologies/liberal_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_conservative_group"
+		texturefile = "gfx/interface/ideologies/conservative_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_marxist_group"
+		texturefile = "gfx/interface/ideologies/marxist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_anarchist_group"
+		texturefile = "gfx/interface/ideologies/anarchist_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/social_democrat_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_authoritarian_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_group.png"
+	}
+
+	#GER
+	spriteType = {
+		name = "GFX_ideology_GER_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/GER/GER_social_democrat_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_GER_conservative_group_group"
+		texturefile = "gfx/interface/ideologies/GER/GER_conservative_group.png"
+	}
+
+	#AUH
+	spriteType = {
+		name = "GFX_ideology_AUH_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/AUH/AUH_social_democrat_group.png"
+	}
+
+	#USA
+	spriteType = {
+		name = "GFX_ideology_USA_liberal_group"
+		texturefile = "gfx/interface/ideologies/USA/USA_liberal_group.png"
+	}
+	spriteType = {
+		name = "GFX_ideology_USA_conservative_group"
+		texturefile = "gfx/interface/ideologies/USA/USA_conservative_group.png"
+	}
+
+	#SWE
+	spriteType = {
+		name = "GFX_ideology_SWE_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/SWE/SWE_social_democrat_group.png"
+	}
+}
