@@ -60,6 +60,17 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Antalya
+		limit = { state = 342 }
+		342 = {
+			set_state_name = Attaleia
+		}
+		set_province_name = {
+			id = 1005
+			name = Attaleia
+		}
+	}
+
 	if = { #Afyonkarahisar
 		limit = { state = 343 }
 		343 = {
@@ -79,7 +90,7 @@ apply_greek_endonyms = {
 		}
 	}
 
-	if = { #İzmit
+	if = { #Izmit
 		limit = { state = 347 }
 		347 = {
 			set_state_name = Nicomedia
