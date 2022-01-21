@@ -1,0 +1,57 @@
+<<<<<<< HEAD
+
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+
+		}
+		victory_points = {
+			9627 3 
+		}
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		596 653 665 3654 6672 6687 6690 6691 9596 9646 9648 9650 9679 
+	}
+	manpower=1015000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies = 0.0 
+}
+=======
+
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+
+		}
+		victory_points = {
+			9627 3 
+		}
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		596 653 665 3654 6672 6687 6690 6691 9596 9646 9648 9650 9679 
+	}
+	manpower=1015000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies = 0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+
+state={
+	id=228
+	name="STATE_228"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		523 6493 6505 6519 9446 11487 
+	}
+	manpower=2167411
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
+=======
+
+state={
+	id=228
+	name="STATE_228"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		523 6493 6505 6519 9446 11487 
+	}
+	manpower=2167411
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

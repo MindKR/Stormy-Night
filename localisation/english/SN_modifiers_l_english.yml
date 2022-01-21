@@ -1,0 +1,21 @@
+﻿l_english:
+ social_democrat_drift:0 "일일 사회민주주의 지지"
+ liberal_drift:0 "일일 자유주의 지지"
+ conservative_drift:0 "일일 보수주의 지지"
+ libertarian_socialist_drift:0 "일일 자유지상적 사회주의 지지"
+ authoritarian_socialist_drift:0 "일일 권위주의적 사회주의 지지"
+ anarchist_drift:0 "일일 아나키즘 지지"
+ strong_autocrat_drift:0 "일일 강권전제주의 지지"
+ national_populist_drift:0 "일일 국민대중주의 지지"
+
+ social_democrat_acceptance:0 "사회민주주의 외교 수용"
+ liberal_acceptance:0 "자유주의 외교 수용"
+ conservative_acceptance:0 "보수주의 외교 수용"
+ libertarian_socialist_acceptance:0 "자유지상적 사회주의 외교 수용"
+ authoritarian_socialist_acceptance:0 "권위주의적 사회주의 외교 수용"
+ anarchist_acceptance:0 "아나키즘 외교 수용"
+ strong_autocrat_acceptance:0 "강권전제주의 외교 수용"
+ national_populist_acceptance:0 "국민대중주의 외교 수용"
+
+ SN_is_democratic:0 "현재 집권당이 §C민주주의 정부§!임."
+ SN_is_socialist:0 "현재 집권당이 §R사회주의 정부§!임"

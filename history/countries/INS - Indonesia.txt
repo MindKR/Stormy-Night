@@ -1,0 +1,127 @@
+<<<<<<< HEAD
+﻿capital = 335 #Jakarta
+
+oob = "INS"
+
+set_research_slots = 2
+
+# Starting tech
+# clone of Holland
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	
+	transport = 1
+	fuel_silos = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_destroyer = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		basic_battery = 1
+	}
+}
+
+set_convoys = 25
+set_popularities = {
+	social_democrat = 10
+	authoritarian_socialist = 30
+	libertarian_socialist = 0
+	conservative = 60
+	strong_autocrat = 0
+}
+
+recruit_character = INS_a_t_van_starkenborgh_stachouwer
+recruit_character = INS_sukarno
+recruit_character = INS_amir_sjarifuddin_harahap
+recruit_character = INS_suharto
+
+set_cosmetic_tag = INS_HOL # Netherlands East Indies
+=======
+﻿capital = 335 #Jakarta
+
+oob = "INS"
+
+set_research_slots = 2
+
+# Starting tech
+# clone of Holland
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	
+	transport = 1
+	fuel_silos = 1
+}
+
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_destroyer = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		basic_battery = 1
+	}
+}
+
+set_convoys = 25
+set_popularities = {
+	social_democrat = 10
+	authoritarian_socialist = 30
+	libertarian_socialist = 0
+	conservative = 60
+	strong_autocrat = 0
+}
+
+recruit_character = INS_a_t_van_starkenborgh_stachouwer
+recruit_character = INS_sukarno
+recruit_character = INS_amir_sjarifuddin_harahap
+recruit_character = INS_suharto
+
+set_cosmetic_tag = INS_HOL # Netherlands East Indies
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

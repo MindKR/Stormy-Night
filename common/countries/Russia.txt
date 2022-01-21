@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+graphical_culture = eastern_european_gfx
+graphical_culture_2d = eastern_european_2d
+
+=======
+graphical_culture = eastern_european_gfx
+graphical_culture_2d = eastern_european_2d
+
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+color = rgb { 163 0 0 }

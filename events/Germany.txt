@@ -1,0 +1,254 @@
+<<<<<<< HEAD
+﻿###########################
+# German Events
+###########################
+
+add_namespace = germany
+add_namespace = History_GER
+
+#########################
+### HISTORY OF GERMANY ###
+#########################
+
+# Frederick III
+country_event = {
+	id = History_GER.1
+	title = History_GER.1.t
+	desc = History_GER.1.d
+	picture = GFX_Frederick_III
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = History_GER.1.a
+		trigger = {
+		}
+	}
+}
+
+# Russian intervention
+news_event = {
+	id = History_GER.2
+	title = History_GER.2.t
+	desc = History_GER.2.d
+	picture = GFX_news_event_ger_russian_intervention
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = History_GER.1.a
+		trigger = {
+		}
+	}
+}
+
+############
+### START ###
+############
+
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_Germany_Start
+
+	is_triggered_only = yes
+
+	option = {
+		name = germany.1.a
+		if = {
+			limit = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+############
+### EVENT ###
+############
+
+# Wilhelm II dies
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = GER
+		OR = {
+			has_idea = wilhelm_ii
+			has_country_leader = { character = GER_Wilhelm_II }
+		}
+	}
+
+	option = {
+		name = germany.2.a
+		Wilhelm_II_dies = yes
+	}
+}
+
+# Treaty of Warsaw 
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+
+	picture = GFX_report_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	#immediate = {
+	#	remove_ideas = treaty_of_warsaw
+	#}
+	
+	option = {
+		name = germany.3.a
+		add_to_war = {
+			targeted_alliance = POL
+			enemy = SOV
+			hostility_reason = ally
+		}
+		add_to_faction = POL
+		FROM = {
+			add_ai_strategy = {
+				type = alliance
+				id = "GER"
+				value = 200
+			}
+		}
+		country_event = { id = poland.1 }
+	}
+=======
+﻿###########################
+# German Events
+###########################
+
+add_namespace = germany
+add_namespace = History_GER
+
+#########################
+### HISTORY OF GERMANY ###
+#########################
+
+# Frederick III
+country_event = {
+	id = History_GER.1
+	title = History_GER.1.t
+	desc = History_GER.1.d
+	picture = GFX_Frederick_III
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = History_GER.1.a
+		trigger = {
+		}
+	}
+}
+
+# Russian intervention
+news_event = {
+	id = History_GER.2
+	title = History_GER.2.t
+	desc = History_GER.2.d
+	picture = GFX_news_event_ger_russian_intervention
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = History_GER.1.a
+		trigger = {
+		}
+	}
+}
+
+############
+### START ###
+############
+
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = germany.1.d
+	picture = GFX_Germany_Start
+
+	is_triggered_only = yes
+
+	option = {
+		name = germany.1.a
+		if = {
+			limit = {
+				is_ai = no
+			}
+		}
+	}
+}
+
+############
+### EVENT ###
+############
+
+# Wilhelm II dies
+country_event = {
+	id = germany.2
+	title = germany.2.t
+	desc = germany.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = GER
+		OR = {
+			has_idea = wilhelm_ii
+			has_country_leader = { character = GER_Wilhelm_II }
+		}
+	}
+
+	option = {
+		name = germany.2.a
+		Wilhelm_II_dies = yes
+	}
+}
+
+# Treaty of Warsaw 
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+
+	picture = GFX_report_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	#immediate = {
+	#	remove_ideas = treaty_of_warsaw
+	#}
+	
+	option = {
+		name = germany.3.a
+		add_to_war = {
+			targeted_alliance = POL
+			enemy = SOV
+			hostility_reason = ally
+		}
+		add_to_faction = POL
+		FROM = {
+			add_ai_strategy = {
+				type = alliance
+				id = "GER"
+				value = 200
+			}
+		}
+		country_event = { id = poland.1 }
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

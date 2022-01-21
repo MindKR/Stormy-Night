@@ -1,0 +1,184 @@
+<<<<<<< HEAD
+#State System
+AUS_hungary_loyalty_increase_effect = {
+	custom_effect_tooltip = AUS_hungary_tt
+	custom_effect_tooltip = AUS_loyalty_increase_tt
+	add_to_variable = { AUS_hungary_loyalty = AUS_state_increase }
+	clamp_variable = {
+		var = AUS_hungary_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUS_hungary_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUS_hungary_tt
+	custom_effect_tooltip = AUS_loyalty_decrease_tt
+	add_to_variable = { AUS_hungary_loyalty = AUS_state_decrease }
+	clamp_variable = {
+		var = AUS_hungary_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF BOHEMIA
+AUS_bohemia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUS_bohemia_tt
+	custom_effect_tooltip = AUS_loyalty_increase_tt
+	add_to_variable = { AUS_bohemia_loyalty = AUS_state_increase }
+	clamp_variable = {
+		var = AUS_bohemia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUS_bohemia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUS_bohemia_tt
+	custom_effect_tooltip = AUS_loyalty_decrease_tt
+	add_to_variable = { AUS_bohemia_loyalty = AUS_state_decrease }
+	clamp_variable = {
+		var = AUS_bohemia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF GALICIA AND LODOMERIA
+AUS_galicia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUS_galicia_tt
+	custom_effect_tooltip = AUS_loyalty_increase_tt
+	add_to_variable = { AUS_galicia_loyalty = AUS_state_increase }
+	clamp_variable = {
+		var = AUS_galicia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUS_galicia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUS_galicia_tt
+	custom_effect_tooltip = AUS_loyalty_decrease_tt
+	add_to_variable = { AUS_galicia_loyalty = AUS_state_decrease }
+	clamp_variable = {
+		var = AUS_galicia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF CROATIA_BOSNIA
+AUS_croatia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUS_croatia_tt
+	custom_effect_tooltip = AUS_loyalty_increase_tt
+	add_to_variable = { AUS_croatia_loyalty = AUS_state_increase }
+	clamp_variable = {
+		var = AUS_croatia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUS_croatia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUS_croatia_tt
+	custom_effect_tooltip = AUS_loyalty_decrease_tt
+	add_to_variable = { AUS_croatia_loyalty = AUS_state_decrease }
+	clamp_variable = {
+		var = AUS_croatia_loyalty
+		min = 0
+		max = 100
+	}
+=======
+#State System
+AUS_hungary_loyalty_increase_effect = {
+	custom_effect_tooltip = AUS_hungary_tt
+	custom_effect_tooltip = AUS_loyalty_increase_tt
+	add_to_variable = { AUS_hungary_loyalty = AUS_state_increase }
+	clamp_variable = {
+		var = AUS_hungary_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUS_hungary_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUS_hungary_tt
+	custom_effect_tooltip = AUS_loyalty_decrease_tt
+	add_to_variable = { AUS_hungary_loyalty = AUS_state_decrease }
+	clamp_variable = {
+		var = AUS_hungary_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF BOHEMIA
+AUS_bohemia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUS_bohemia_tt
+	custom_effect_tooltip = AUS_loyalty_increase_tt
+	add_to_variable = { AUS_bohemia_loyalty = AUS_state_increase }
+	clamp_variable = {
+		var = AUS_bohemia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUS_bohemia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUS_bohemia_tt
+	custom_effect_tooltip = AUS_loyalty_decrease_tt
+	add_to_variable = { AUS_bohemia_loyalty = AUS_state_decrease }
+	clamp_variable = {
+		var = AUS_bohemia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF GALICIA AND LODOMERIA
+AUS_galicia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUS_galicia_tt
+	custom_effect_tooltip = AUS_loyalty_increase_tt
+	add_to_variable = { AUS_galicia_loyalty = AUS_state_increase }
+	clamp_variable = {
+		var = AUS_galicia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUS_galicia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUS_galicia_tt
+	custom_effect_tooltip = AUS_loyalty_decrease_tt
+	add_to_variable = { AUS_galicia_loyalty = AUS_state_decrease }
+	clamp_variable = {
+		var = AUS_galicia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+#KINGDOM OF CROATIA_BOSNIA
+AUS_croatia_loyalty_increase_effect = {
+	custom_effect_tooltip = AUS_croatia_tt
+	custom_effect_tooltip = AUS_loyalty_increase_tt
+	add_to_variable = { AUS_croatia_loyalty = AUS_state_increase }
+	clamp_variable = {
+		var = AUS_croatia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
+AUS_croatia_loyalty_decrease_effect = {
+	custom_effect_tooltip = AUS_croatia_tt
+	custom_effect_tooltip = AUS_loyalty_decrease_tt
+	add_to_variable = { AUS_croatia_loyalty = AUS_state_decrease }
+	clamp_variable = {
+		var = AUS_croatia_loyalty
+		min = 0
+		max = 100
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

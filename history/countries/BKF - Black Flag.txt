@@ -1,0 +1,46 @@
+<<<<<<< HEAD
+﻿capital = 864
+
+oob = "BKF"
+set_cosmetic_flag = BKF_VIN
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_war_support = 0.3
+set_convoys = 5
+
+set_politics = {
+	ruling_party = strong_autocrat
+	last_election = "1935.1.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	strong_autocrat = 100
+=======
+﻿capital = 864
+
+oob = "BKF"
+set_cosmetic_flag = BKF_VIN
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_war_support = 0.3
+set_convoys = 5
+
+set_politics = {
+	ruling_party = strong_autocrat
+	last_election = "1935.1.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	strong_autocrat = 100
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

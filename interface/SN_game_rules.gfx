@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_reichskriegsflagge"
+		texturefile = "gfx/game_rules/GER_reichskriegsflagge.png"	
+	}
+
+}

@@ -1,0 +1,45 @@
+<<<<<<< HEAD
+
+state={
+	id=678
+	name="STATE_678"
+	manpower=42
+	state_category = wasteland
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		4932 5081 8030 8118 10870 12740 12768 
+	}
+
+	local_supplies=0.0 
+}
+=======
+
+state={
+	id=678
+	name="STATE_678"
+	manpower=42
+	state_category = wasteland
+
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		4932 5081 8030 8118 10870 12740 12768 
+	}
+
+	local_supplies=0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

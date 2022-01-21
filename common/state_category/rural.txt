@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+state_categories={
+	rural = {
+		local_building_slots = 2
+	
+		color = { 240 160 0 }
+
+	}
+=======
+state_categories={
+	rural = {
+		local_building_slots = 2
+	
+		color = { 240 160 0 }
+
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

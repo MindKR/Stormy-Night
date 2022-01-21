@@ -1,0 +1,53 @@
+<<<<<<< HEAD
+state={
+	id=862
+	name="STATE_862"
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 0
+
+		}
+		victory_points = {
+			4191 3
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		1057 1140 1994 4191 10104 10754 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
+=======
+state={
+	id=862
+	name="STATE_862"
+
+	history={
+		owner = LBA
+		buildings = {
+			infrastructure = 0
+
+		}
+		victory_points = {
+			4191 3
+		}
+		add_core_of = LBA
+
+	}
+
+	provinces={
+		1057 1140 1994 4191 10104 10754 
+	}
+	manpower=50000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

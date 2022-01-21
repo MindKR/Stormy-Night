@@ -1,0 +1,67 @@
+<<<<<<< HEAD
+
+state={
+	id=826
+	name="STATE_826"
+
+	history={
+		owner = RUS
+		victory_points = {
+			11617 1 
+		}
+		victory_points = {
+			9663 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = RUS
+		add_core_of = GEO
+		add_core_of = ABK
+
+	}
+
+	provinces={
+		672 9663 11599 11617 11647 
+	}
+	manpower=561569
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
+=======
+
+state={
+	id=826
+	name="STATE_826"
+
+	history={
+		owner = RUS
+		victory_points = {
+			11617 1 
+		}
+		victory_points = {
+			9663 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = RUS
+		add_core_of = GEO
+		add_core_of = ABK
+
+	}
+
+	provinces={
+		672 9663 11599 11617 11647 
+	}
+	manpower=561569
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

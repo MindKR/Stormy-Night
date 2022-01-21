@@ -1,0 +1,65 @@
+<<<<<<< HEAD
+state={
+	id=762
+	name="STATE_762"
+
+	history={
+		owner = FRA
+		add_core_of = OCC
+		add_core_of = FRA
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 4
+			9909 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3959 6975 9909 
+	}
+	manpower=408424
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies = 0.0 
+}
+=======
+state={
+	id=762
+	name="STATE_762"
+
+	history={
+		owner = FRA
+		add_core_of = OCC
+		add_core_of = FRA
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 4
+			9909 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3959 6975 9909 
+	}
+	manpower=408424
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies = 0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

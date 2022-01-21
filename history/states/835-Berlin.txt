@@ -1,0 +1,59 @@
+<<<<<<< HEAD
+state={
+	id=835
+	name="STATE_835"
+	history={
+		owner = GER
+		victory_points = {
+			6521 50
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 1
+			anti_air_building = 2
+			air_base = 3
+
+		}
+		add_core_of = GER
+
+	}
+	provinces={
+		6521 
+	}
+	manpower=4275000
+	buildings_max_level_factor=1.000
+	state_category=capital
+
+	local_supplies = 0.0 
+}
+=======
+state={
+	id=835
+	name="STATE_835"
+	history={
+		owner = GER
+		victory_points = {
+			6521 50
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 2
+			industrial_complex = 1
+			anti_air_building = 2
+			air_base = 3
+
+		}
+		add_core_of = GER
+
+	}
+	provinces={
+		6521 
+	}
+	manpower=4275000
+	buildings_max_level_factor=1.000
+	state_category=capital
+
+	local_supplies = 0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

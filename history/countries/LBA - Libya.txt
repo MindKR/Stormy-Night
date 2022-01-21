@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+﻿capital = 862
+
+set_cosmetic_tag = LBA_Senussi
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = strong_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	strong_autocrat = 100
+}
+
+recruit_character = LBA_Omar_Mukhtar
+=======
+﻿capital = 862
+
+set_cosmetic_tag = LBA_Senussi
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+}
+
+set_convoys = 20
+
+set_politics = {
+	ruling_party = strong_autocrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	strong_autocrat = 100
+}
+
+recruit_character = LBA_Omar_Mukhtar
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+recruit_character = LBA_Idris_Senussi

@@ -1,0 +1,77 @@
+<<<<<<< HEAD
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 2402591
+	resources={
+		steel=38 # was: 60
+		aluminium=13 # was: 20
+	}
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			11467 5
+		}
+		victory_points = {
+			9511 3
+		}
+		victory_points = {
+			6464 5
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		add_core_of = SIL
+	}
+
+	provinces={
+		479 506 6512 6464 9457 9511 11467 13205
+	}
+
+	local_supplies=4.0 
+}
+=======
+
+state={
+	id=67
+	name="STATE_67"
+	manpower = 2402591
+	resources={
+		steel=38 # was: 60
+		aluminium=13 # was: 20
+	}
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			11467 5
+		}
+		victory_points = {
+			9511 3
+		}
+		victory_points = {
+			6464 5
+		}
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = GER
+		add_core_of = SIL
+	}
+
+	provinces={
+		479 506 6512 6464 9457 9511 11467 13205
+	}
+
+	local_supplies=4.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+OTT = "countries/Ottoman.txt"
+JBS = "countries/Jabal Shammar.txt"
+GAL = "countries/Galicia-Lodomeria.txt"
+CRB = "countries/Croatia-Bosnia.txt"
+FEN = "countries/Fengtian.txt"
+WAF = "countries/West Africa.txt"
+EAF = "countries/Equatorial Africa.txt"
+BKF = "countries/Black Flag.txt"
+=======
+OTT = "countries/Ottoman.txt"
+JBS = "countries/Jabal Shammar.txt"
+GAL = "countries/Galicia-Lodomeria.txt"
+CRB = "countries/Croatia-Bosnia.txt"
+FEN = "countries/Fengtian.txt"
+WAF = "countries/West Africa.txt"
+EAF = "countries/Equatorial Africa.txt"
+BKF = "countries/Black Flag.txt"
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+RUS = "countries/Russia.txt"

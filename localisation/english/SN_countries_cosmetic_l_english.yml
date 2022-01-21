@@ -1,0 +1,45 @@
+﻿l_english:
+ OVERLORD_SUBJECT:0 "$OVERLORDADJ$령 $NONIDEOLOGY$"
+ SN_negotiation_territory:0 "$NONIDEOLOGY$ 협의통치령"
+
+ INS_HOL:0 "네덜란드령 동인도"
+ INS_HOL_DEF:0 "네덜란드령 동인도"
+
+ KOR_JAP_subject:0 "조선총독부"
+
+ IRE_ENG_autonomy_dominion:0 "아일랜드 자유국"
+
+ HUN_AUS_subject:0 "헝가리 왕국"
+ BOH:0 "보헤미아"
+ SER_AUS_subject:0 "세르비아 섭정왕국"
+
+ FRA_blue:0 "프랑스 공화국"
+ FRA_blue_authoritarian:0 "프랑스 제국"
+
+ POL_subject:0 "$OVERLORDADJ$령 폴란드"
+ POL_subject_DEF:0 "$OVERLORDADJ$령 폴란드"
+ POL_marxist_subject:0 "폴란드 자치 사회주의 공화국"
+ POL_marxist_subject_DEF:0 "폴란드 자치 사회주의 공화국"
+ POL_leninist_subject:0 "폴란드 자치 사회주의 공화국"
+ POL_leninist_subject_DEF:0 "폴란드 자치 사회주의 공화국"
+ POL_RUS_authoritarian_subject:0 "폴란드 입헌왕국"
+ POL_RUS_authoritarian_subject_DEF:0 "폴란드 입헌왕국"
+
+ FIN_subject:0 "$OVERLORDADJ$령 핀란드"
+ FIN_subject_DEF:0 "$OVERLORDADJ$령 핀란드"
+ FIN_marxist_subject:0 "핀란드 자치 사회주의 공화국"
+ FIN_marxist_subject_DEF:0 "핀란드 자치 사회주의 공화국"
+ FIN_leninist_subject:0 "핀란드 자치 사회주의 공화국"
+ FIN_leninist_subject_DEF:0 "핀란드 자치 사회주의 공화국"
+ FIN_RUS_authoritarian:0 "핀란드 대공국"
+ FIN_RUS_authoritarian_DEF:0 "핀란드 대공국"
+
+ MOR_FRA:0 "모로코 협의통치령"
+ TUN_FRA:0 "튀니지 협의통치령"
+ DJI_FRA:0 "지부티 협의통치령"
+
+ ARM_OTT:0 "오스만령 아르메니아"
+ AZR_OTT:0 "아제르바이잔"
+ GEO_OTT:0 "조지아"
+
+ LBA_Senussi:0 "세누시야"

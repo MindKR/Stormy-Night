@@ -1,0 +1,102 @@
+<<<<<<< HEAD
+﻿###########################
+# Hungarian Events
+###########################
+
+add_namespace = hungary
+
+# Hungary's Independence - War
+country_event = {
+	id = hungary.2
+	title = hungary.2.t
+	desc = hungary.2.d
+	
+	is_triggered_only = yes
+	
+	option = { #independence
+		name = hungary.2.a
+		ai_chance = {
+			factor = 70
+		}
+		HUN = { country_event = { id = hungary.3 hours = 24 } }
+	}
+
+	option = { #stay
+		name = hungary.2.b
+		ai_chance = {
+			factor = 30
+		}
+		add_political_power = 50
+	}
+}
+
+#decide on independence
+country_event = {
+	id = hungary.3
+	title = hungary.3.t
+	desc = hungary.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	option = {
+		name = hungary.3.a
+		AUS = {
+			set_autonomy = { target = HUN autonomy_state = autonomy_free }
+			remove_from_faction = HUN
+			set_country_flag = AUS_hungary_independent_flag
+			country_event = { id = austria.2 days = 5 }
+		}
+	}
+=======
+﻿###########################
+# Hungarian Events
+###########################
+
+add_namespace = hungary
+
+# Hungary's Independence - War
+country_event = {
+	id = hungary.2
+	title = hungary.2.t
+	desc = hungary.2.d
+	
+	is_triggered_only = yes
+	
+	option = { #independence
+		name = hungary.2.a
+		ai_chance = {
+			factor = 70
+		}
+		HUN = { country_event = { id = hungary.3 hours = 24 } }
+	}
+
+	option = { #stay
+		name = hungary.2.b
+		ai_chance = {
+			factor = 30
+		}
+		add_political_power = 50
+	}
+}
+
+#decide on independence
+country_event = {
+	id = hungary.3
+	title = hungary.3.t
+	desc = hungary.3.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	option = {
+		name = hungary.3.a
+		AUS = {
+			set_autonomy = { target = HUN autonomy_state = autonomy_free }
+			remove_from_faction = HUN
+			set_country_flag = AUS_hungary_independent_flag
+			country_event = { id = austria.2 days = 5 }
+		}
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

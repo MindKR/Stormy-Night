@@ -1,0 +1,166 @@
+<<<<<<< HEAD
+apply_turkish_endonyms = {
+
+	if = { #Dedeağaç
+		limit = { state = 184 }
+		184 = {
+			set_state_name = Trakya
+		}
+		set_province_name = {
+			id = 11905
+			name = Dedeagac
+		}
+	}
+
+	if = { #Bursa
+		limit = { state = 340 }
+		340 = {
+			set_state_name = Bursa
+		}
+		set_province_name = {
+			id = 947
+			name = Bursa
+		}
+		set_province_name = {
+			id = 9799
+			name = Balikesir
+		}
+	}
+
+	if = { #Edirne
+		limit = { state = 341 }
+		341 = {
+			set_state_name = Edirne
+		}
+		set_province_name = {
+			id = 11842
+			name = Edirne
+		}
+	}
+
+	if = { #İzmit
+		limit = { state = 347 }
+		347 = {
+			set_state_name = Izmit
+		}
+		set_province_name = {
+			id = 904
+			name = Adapazari
+		}
+		set_province_name = {
+			id = 11811
+			name = Izmit
+		}
+	}
+
+	if = { #Konstantiniyye
+		limit = {
+			state = 797
+			controller = { tag = OTT }
+		}
+		797 = {
+			set_state_name = Konstantiniyye
+		}
+		set_province_name = {
+			id = 9833
+			name = Konstantiniyye
+		}
+	}
+
+	if = { #Istanbul
+		limit = {
+			state = 797
+			controller = { tag = TUR }
+		}
+		797 = {
+			set_state_name = Istanbul
+		}
+		set_province_name = {
+			id = 9833
+			name = Istanbul
+		}
+	}
+=======
+apply_turkish_endonyms = {
+
+	if = { #Dedeağaç
+		limit = { state = 184 }
+		184 = {
+			set_state_name = Trakya
+		}
+		set_province_name = {
+			id = 11905
+			name = Dedeagac
+		}
+	}
+
+	if = { #Bursa
+		limit = { state = 340 }
+		340 = {
+			set_state_name = Bursa
+		}
+		set_province_name = {
+			id = 947
+			name = Bursa
+		}
+		set_province_name = {
+			id = 9799
+			name = Balikesir
+		}
+	}
+
+	if = { #Edirne
+		limit = { state = 341 }
+		341 = {
+			set_state_name = Edirne
+		}
+		set_province_name = {
+			id = 11842
+			name = Edirne
+		}
+	}
+
+	if = { #İzmit
+		limit = { state = 347 }
+		347 = {
+			set_state_name = Izmit
+		}
+		set_province_name = {
+			id = 904
+			name = Adapazari
+		}
+		set_province_name = {
+			id = 11811
+			name = Izmit
+		}
+	}
+
+	if = { #Konstantiniyye
+		limit = {
+			state = 797
+			controller = { tag = OTT }
+		}
+		797 = {
+			set_state_name = Konstantiniyye
+		}
+		set_province_name = {
+			id = 9833
+			name = Konstantiniyye
+		}
+	}
+
+	if = { #Istanbul
+		limit = {
+			state = 797
+			controller = { tag = TUR }
+		}
+		797 = {
+			set_state_name = Istanbul
+		}
+		set_province_name = {
+			id = 9833
+			name = Istanbul
+		}
+	}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

@@ -1,0 +1,61 @@
+<<<<<<< HEAD
+state={
+	id=356
+	name="STATE_356" # Kastamonu
+	manpower = 860589
+	state_category = rural
+
+	history={
+		owner = OTT
+		victory_points = {
+			6938 10
+		}
+		victory_points = {
+			6995 3 
+		}
+		buildings = {
+			infrastructure = 2
+			6995 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = OTT
+	}
+
+	provinces={
+		979 3967 3982 6920 6938 6978 6995 9844 9871 11839 11897 
+	}
+
+	local_supplies=0.0 
+}
+=======
+state={
+	id=356
+	name="STATE_356" # Kastamonu
+	manpower = 860589
+	state_category = rural
+
+	history={
+		owner = OTT
+		victory_points = {
+			6938 10
+		}
+		victory_points = {
+			6995 3 
+		}
+		buildings = {
+			infrastructure = 2
+			6995 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = OTT
+	}
+
+	provinces={
+		979 3967 3982 6920 6938 6978 6995 9844 9871 11839 11897 
+	}
+
+	local_supplies=0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

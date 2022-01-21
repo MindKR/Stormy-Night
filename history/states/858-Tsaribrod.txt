@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+state={
+	id=858
+	name="STATE_858"
+
+	history={
+		owner = BUL
+		victory_points = {
+			11868 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		11868 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
+=======
+state={
+	id=858
+	name="STATE_858"
+
+	history={
+		owner = BUL
+		victory_points = {
+			11868 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		11868 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

@@ -1,0 +1,49 @@
+<<<<<<< HEAD
+wargoal_types = {
+	restoration_of_soviet_control = {
+		# PREV = original target country
+		# ROOT = goal owner country
+
+		war_name = RESTORATION_OF_SOVIET_CONTROL_WAR_NAME
+
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		take_states = {
+		}
+		
+		take_states_limit = 1
+		take_states_cost = -100
+		
+		threat = -50
+		annex_threat_factor = -50
+		annex_cost = -75
+	}
+}
+=======
+wargoal_types = {
+	restoration_of_soviet_control = {
+		# PREV = original target country
+		# ROOT = goal owner country
+
+		war_name = RESTORATION_OF_SOVIET_CONTROL_WAR_NAME
+
+		allowed = {
+			always = no
+		}
+		available = {
+		}
+		take_states = {
+		}
+		
+		take_states_limit = 1
+		take_states_cost = -100
+		
+		threat = -50
+		annex_threat_factor = -50
+		annex_cost = -75
+	}
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

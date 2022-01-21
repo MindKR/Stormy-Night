@@ -1,0 +1,383 @@
+﻿l_english:
+#Endonyms and exonyms are classified according to pronunciation.
+
+
+#1, Corsica
+ Corse:0 "코르스"
+ Corsica:0 "코르시카"
+
+ Ajaccio:0 "아작시오"
+ Aiaccio:0 "아야치오"
+
+
+#5, Ermland-Masuren
+ Ermland-Masuren:0 "에름란트-마주렌"
+ Warmia-Masuria:0 "바르미아마주리"
+
+ Allenstein:0 "알렌슈타인"
+ Olsztyn:0 "올슈틴"
+
+ 
+#9, Čechy
+ Cechy:0 "체히"
+ Bohmen:0 "뵈멘"
+
+ Plzen:0 "플젠"
+ Pilsen:0 "필젠"
+ Praha:0 "프라하"
+ Prag:0 "프라그"
+
+
+#28, Elsaß-Lothringen
+ Elsass-Lothringen:0 "엘자스-로트링겐"
+ Alsace-Lorraine:0 "알자스-로렌"
+
+ Mulhausen:0 "뮐하우젠"
+ Mulhouse:0 "뮐루즈"
+ Strassburg:0 "슈트라스부르크"
+ Strasbourg:0 "스트라스부르"	
+ Metz_GER:0 "메츠"
+ Metz_FRA:0 "메스"	
+
+
+#39, Südtirol
+ Sudtirol:0 "쥐트티롤"
+ Bozen:0 "보첸"
+ Bolzano:0 "볼차노"	
+
+
+#63, Hinterpommern
+ Hinterpommern:0 "힌터포메른"
+ Zachodniopomorskie:0 "서포모제"
+
+ Stettin:0 "슈테틴"
+ Szczecin:0 "슈체친"
+ Koslin:0 "쾨즐린"
+ Koszalin:0 "코샬린"
+
+
+#65, Sachsen
+ Sachsen:0 "작센"
+ Saksonia:0 "삭소니아"
+
+ Dresden:0 "드레스덴"
+ Drezno:0 "드레즈노"
+ Leipzig:0 "라이프치히"
+ Lipsk:0 "립스크"
+
+
+#66, Niederschlesien
+ Niederschlesien:0 "니더슐레지엔"
+ Dolny_Slask:0 "도르니 실롱스크"
+
+ Breslau:0 "브레슬라우"
+ Wroclaw:0 "브로츠와프"
+
+
+#67, Oberschlesien
+ Oberschlesien:0 "오버슐레지엔"
+ Gorny_Slask:0 "고르니 실롱스크"
+
+ Kattowitz:0 "카토비츠"
+ Katowice:0 "카토비체"
+ Oppeln:0 "오펠른"
+ Opole:0 "오폴레"
+ Gleiwitz:0 "글라이비츠"
+ Gliwice:0 "글리비체"
+
+
+#68, Ostmark
+ Ostmark:0 "오스트마르크"
+ Lubuskie:0 "루부시"
+
+ Kustrin:0 "퀴스트린"
+ Kostrzyn_nad_Odra:0 "코스트신나트오드롱"
+
+
+#69, Sudety
+ Sudety:0 "수데티"
+ Sudetenland:0 "주데텐란트"
+
+ Karlovy_Vary:0 "카를로비바리"
+ Karlsbad:0 "카를스바트"
+
+ Liberec:0 "리베레츠"
+ Reichenberg:0 "라이헨베르크"
+
+
+#74, Czech Silesia
+ Ceske_Slezsko:0 "체코령 실레시아"
+ Tschechisch-Schlesien:0 "체히시슐레지엔"
+ Slask_Czeski:0 "실롱스크 체스키"
+
+ Opava:0 "오파바"
+ Troppau:0 "트로파우"
+ Opawa:0 "오파바"
+
+
+#75, Morava
+ Morava:0 "모라바"
+ Mahren:0 "메렌"
+
+ Brno:0 "브르노"
+ Brunn:0 "브륀"
+ Olomouc:0 "올로모우츠"
+ Olmutz:0 "올뮈츠"
+ Ostrava:0 "오스트라바"
+ Ostrau:0 "오스트라우"
+
+
+#86, Posen
+ Posen:0 "포젠"
+ Poznan:0 "포즈난"
+
+
+#158, Piemonte
+ Piemonte:0 "피에몬테"
+ Piemont:0 "피에몽"
+
+ Torino:0 "토리노"
+ Turin:0 "튀랭"
+
+
+#159, Lombardy
+ Lombardia:0 "롬바르디아"
+ Lombardie:0 "롬바르디"
+ Lombardei:0 "롬바르다이"
+
+ Milano:0 "밀라노"
+ Milan:0 "밀롱"
+ Mailand:0 "마일란트"
+
+
+#163, Trient
+ Trient:0 "트리엔트"
+ Trento:0 "트렌토"
+
+
+#184, Thrace
+ Trakya:0 "트라캬"
+ Thraki:0 "트라키"
+
+ Dedeagac:0 "데데아아치"
+ Alexandroupolis:0 "알렉산드로폴리스"
+
+
+#188, Memel
+ Memel:0 "메멜"
+ Klaipeda:0 "클라이페다"
+ Klajpeda:0 "크와이페다"
+
+
+#195, Saint Petersburg
+ StPetersburg:0 "상트페테르부르크"
+ Petrograd:0 "페트로그라드"
+
+
+#247, Tver
+ Tver:0 "트베리"
+
+
+#340, Bursa
+ Bursa:0 "부르사"
+ Prussa:0 "프루사"
+
+ Balikesir:0 "발리케시르"
+ Palaeokastron:0 "팔레오카스트론"
+
+
+#341, Edirne
+ Edirne:0 "에디르네"
+ Hadrianopolis:0 "아드리아노폴리스"
+
+
+#347, İzmit
+ Izmit:0 "이즈미트"
+ Nicomedia:0 "니코메디아"
+
+ Adapazari:0 "아다파자리"
+ Agrilion:0 "아그릴리온"
+
+
+#458, Tunisia
+ Tunisie:0 "튀니지"
+ Tunisia:0 "투니지아"
+
+ Bizerte:0 "비제르테"
+ Biserta:0 "비제르타"
+ Tunis:0 "튀니스"
+ Tunisia:0 "투니지아"
+
+
+#525, Gyeonggi
+ Gyeonggi:0 "경기"
+ Keiki:0 "게이키"
+
+ Seoul:0 "서울"
+ Keijo:0 "게이조"
+ Gyeongseong:0 "경성"
+ Hanseong:0 "한성"	
+ Hanyang:0 "한양"
+ Namgyeong:0 "남경"
+ Wiryeseong:0 "위례성"
+ Incheon:0 "인천"
+ Jinsen:0 "진센"
+
+
+#527, Pyongan
+ Pyongan:0 "평안"
+ Heian:0 "헤이안"
+
+ Pyeongyang:0 "평양"
+ Heijo:0 "헤이조"
+ Sinuiju:0 "신의주"
+ Singishu:0 "신기슈"
+
+
+#735, Savoy
+ Savoie:0 "사부아"
+ Savoy:0 "사보이"
+ Savoia:0 "사보이아"
+
+ Annecy:0 "안시"
+ Annesi:0 "안네시"
+
+
+#742, Dushanbe
+ Dushanbe:0 "두샨베"
+
+
+#762, Nice
+ Nice:0 "니스"
+ Nizza:0 "니차"
+
+
+#763, Königsberg
+ Konigsberg:0 "쾨니히스베르크"
+ Krolewiec:0 "크롤레비츠"
+
+
+#784, Vilnius
+ Wilna:0 "빌나"
+
+
+#797, Konstantiniyye
+ Konstantiniyye:0 "콘스탄티니예"
+ Istanbul:0 "이스탄불"
+ Constantinopolis:0 "콘스탄티노폴리스"
+ Tsargrad:0 "차르그라드"
+ Qustantiniya:0 "쿠스탄티니야"
+
+
+#807, Westpreußen
+ Westpreussen:0 "서프로이센"
+ Gdingen:0 "그딩겐"
+ Gdynia:0 "그디니아"
+
+ Bromberg:0 "브롬베르크"
+ Bydgoszcz:0 "비드고슈치"
+ Thorn:0 "토른"
+ Torun:0 "토룬"
+
+
+#835, Berlin
+ Berlin:0 "베를린"
+ Berlin_GER:0 "§Y베를린§!"
+ Berlin_FRA:0 "§B베를린§!"
+ Berlin_ITA:0 "§G베를린§!"
+ Berlin_Socialist:0 "§R베를린§!"
+
+
+#840, Chungcheong
+ Chungcheong:0 "충청"
+ Chusei:0 "주세이"
+
+ Chongju:0 "청주"
+ Chushu:0 "츄슈"
+ Daejeon:0 "대전"
+ Daiten:0 "다이텐"
+
+
+#841, Gangwon
+ Gangwon:0 "강원"
+ Kogen:0 "고겐"
+
+ Chuncheon:0 "춘천"
+ Shunsen:0 "슌센"
+
+
+#842, Jeolla
+ Jeolla:0 "전라"
+ Zenra:0 "젠라"
+
+ Jeju:0 "제주"
+ Saishu:0 "사이슈"
+ Jeonju:0 "전주"
+ Jenshu:0 "젠슈"
+ Gwangju:0 "광주"
+ Koshu:0 "코슈"
+
+
+#843, Gyeongsang
+ Gyeongsang:0 "경상"
+ Keisho:0 "게이쇼"
+
+ Ulsan:0 "울산"
+ Urusan:0 "우루산"
+ Daegu:0 "대구"
+ Daiku:0 "다이큐"
+ Busan:0 "부산"
+ Fuzan:0 "후잔"
+
+
+#844, Hwanghae
+ Hwanghae:0 "황해"
+ Kokai:0 "고카이"
+
+ Haeju:0 "해주"
+ Kaishu:0 "카이슈"
+
+
+#845, Hamgyeong
+ Hamgyong:0 "함경"
+ Kankyo:0 "간쿄"
+
+ Chongjin:0 "청진"
+ Seishin:0 "세이신"
+ Hamhung:0 "함흥"
+ Ganko:0 "간코"
+
+
+# Polish Provinces
+ Wilno:0 "빌노"					#Vilnius, 3320, 784
+
+
+
+# Soviet Provinces
+ Volgograd:0 "볼고그라드"				#Tsaritsyn, 3529, 217
+ Donetsk:0 "도네츠크"				#Stalino, 6474, 227
+
+ Pokrovsk:0 "포크롭스크"				#Engels, 11523, 829
+ Kirov:0 "키로프"					#Vyatka, 6124, 400
+ Nizhny-Novgorod:0 "니즈니노브고로드"		#Gorky, 11375, 252
+ Vladikavkaz:0 "블라디캅카스"			#Ordzhonikidze, 9628
+ Vishkek:0 "비슈케크"				#Frunze, 12583
+ Yoshkar-Ola:0 "요시카르올라"			#Krasnokokshaysk, 9402
+ Krasnokokshaysk:0 "크라스노콕샤이스크"		#Tsaryovokokshask
+ Tsaryovokokshaysk:0 "차료보콕샤이스크"	
+ Kyzil:0 "키질"					#Khem-Beldir, 10627
+ Khem-Beldir:0 "헴벨디르"				#Belotsarsk
+ Belotsarsk:0 "벨로차르스크"
+ Makhachkala:0 "마하치칼라"				#Petrovsk-Port, 6701
+ Petrovsk-Port:0 "페트롭스크포르트"			#Petrovskoye
+ Petrovskoye:0 "페트로브스코예"		
+ Yekaterinburg:0 "예카테린부르크"			#Sverdlovsk, 1821, 653
+ Sverdlovsk:0 "스베르들롭스크"
+
+
+# Turkish States
+ Ustrumca:0 "움스트룸자"				#Strumica, 6886, 856
+
+
+# Greek States
+ Stromnica:0 "스트롬니차"				#Strumica, 6886, 856

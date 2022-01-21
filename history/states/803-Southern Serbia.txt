@@ -1,0 +1,51 @@
+<<<<<<< HEAD
+
+state={
+	id=803
+	name="STATE_803"
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		11832 
+	}
+	manpower=210000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}
+=======
+
+state={
+	id=803
+	name="STATE_803"
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		11832 
+	}
+	manpower=210000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

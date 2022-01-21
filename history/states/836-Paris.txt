@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+state={
+	id=836
+	name="STATE_836"
+
+	history={
+		owner = FRA
+		victory_points = {
+			11506 50 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 3
+			air_base = 2
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		11506 
+	}
+	manpower=2829746
+	buildings_max_level_factor=1.000
+	state_category=capital
+
+	local_supplies = 0.0 
+}
+=======
+state={
+	id=836
+	name="STATE_836"
+
+	history={
+		owner = FRA
+		victory_points = {
+			11506 50 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 1
+			industrial_complex = 2
+			anti_air_building = 3
+			air_base = 2
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		11506 
+	}
+	manpower=2829746
+	buildings_max_level_factor=1.000
+	state_category=capital
+
+	local_supplies = 0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

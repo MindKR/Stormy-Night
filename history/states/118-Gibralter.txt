@@ -1,0 +1,55 @@
+<<<<<<< HEAD
+state=
+{
+	id=118
+	name="STATE_118"
+	manpower=21372
+	
+	state_category = enclave
+	history={
+		owner = ENG
+		victory_points = { 4135 10 }
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			4135 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+		}
+		add_claim_by = SPR
+	}
+	provinces={
+		4135
+	}
+
+	local_supplies=0.0 
+}
+=======
+state=
+{
+	id=118
+	name="STATE_118"
+	manpower=21372
+	
+	state_category = enclave
+	history={
+		owner = ENG
+		victory_points = { 4135 10 }
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			4135 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+		}
+		add_claim_by = SPR
+	}
+	provinces={
+		4135
+	}
+
+	local_supplies=0.0 
+}
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a

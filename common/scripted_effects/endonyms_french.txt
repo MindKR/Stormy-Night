@@ -1,0 +1,200 @@
+<<<<<<< HEAD
+apply_french_endonyms = {
+
+	if = { #Corsica
+		limit = { state = 1 }
+		1 = { #Corsica
+			set_state_name = Corse
+		}
+		set_province_name = { #Ajaccio
+			id = 3838
+			name = Ajaccio
+		}
+	}
+
+	if = { #Alsace-Lorraine
+		limit = { state = 28 }
+		28 = {
+			set_state_name = Alsace-Lorraine
+		}
+		set_province_name = {
+			id = 678
+			name = Mulhouse
+		}
+		set_province_name = {
+			id = 9503
+			name = Strasbourg
+		}
+		set_province_name = {
+			id = 9559
+			name = Metz_FRA
+		}
+	}
+
+	if = { #Piemonte
+		limit = { state = 158 }
+		158 = {
+			set_state_name = Piemont
+		}
+		set_province_name = {
+			id = 6780
+			name = Turin
+		}
+	}
+
+	if = { #Lombardy
+		limit = { state = 159 }
+		159 = {
+			set_state_name = Lombardie
+		}
+		set_province_name = {
+			id = 3780
+			name = Milan
+		}
+	}
+
+	if = { #Tunisia
+		limit = { state = 458 }
+		458 = { #Tunisia
+			set_state_name = Tunisie
+		}
+		set_province_name = { #Bizerte
+			id = 9994
+			name = Bizerte
+		}
+		set_province_name = { #Tunis
+			id = 11969
+			name = Tunis
+		}
+	}
+
+	if = { #Savoy
+		limit = { state = 735 }
+		735 = { #Savoy
+			set_state_name = Savoie
+		}
+		set_province_name = { #Annecy
+			id = 778
+			name = Annecy
+		}
+	}
+
+	if = { #Nice
+		limit = { state = 762 }
+		762 = { #Nice
+			set_state_name = Nice
+		}
+		set_province_name = {
+			id = 9909
+			name = Nice
+		}
+	}
+
+	if = { #Berlin
+		limit = { state = 835 }
+		set_province_name = {
+			id = 6521
+			name = Berlin_FRA
+		}
+	}		
+=======
+apply_french_endonyms = {
+
+	if = { #Corsica
+		limit = { state = 1 }
+		1 = { #Corsica
+			set_state_name = Corse
+		}
+		set_province_name = { #Ajaccio
+			id = 3838
+			name = Ajaccio
+		}
+	}
+
+	if = { #Alsace-Lorraine
+		limit = { state = 28 }
+		28 = {
+			set_state_name = Alsace-Lorraine
+		}
+		set_province_name = {
+			id = 678
+			name = Mulhouse
+		}
+		set_province_name = {
+			id = 9503
+			name = Strasbourg
+		}
+		set_province_name = {
+			id = 9559
+			name = Metz_FRA
+		}
+	}
+
+	if = { #Piemonte
+		limit = { state = 158 }
+		158 = {
+			set_state_name = Piemont
+		}
+		set_province_name = {
+			id = 6780
+			name = Turin
+		}
+	}
+
+	if = { #Lombardy
+		limit = { state = 159 }
+		159 = {
+			set_state_name = Lombardie
+		}
+		set_province_name = {
+			id = 3780
+			name = Milan
+		}
+	}
+
+	if = { #Tunisia
+		limit = { state = 458 }
+		458 = { #Tunisia
+			set_state_name = Tunisie
+		}
+		set_province_name = { #Bizerte
+			id = 9994
+			name = Bizerte
+		}
+		set_province_name = { #Tunis
+			id = 11969
+			name = Tunis
+		}
+	}
+
+	if = { #Savoy
+		limit = { state = 735 }
+		735 = { #Savoy
+			set_state_name = Savoie
+		}
+		set_province_name = { #Annecy
+			id = 778
+			name = Annecy
+		}
+	}
+
+	if = { #Nice
+		limit = { state = 762 }
+		762 = { #Nice
+			set_state_name = Nice
+		}
+		set_province_name = {
+			id = 9909
+			name = Nice
+		}
+	}
+
+	if = { #Berlin
+		limit = { state = 835 }
+		set_province_name = {
+			id = 6521
+			name = Berlin_FRA
+		}
+	}		
+>>>>>>> 05aae6cc8f955221c6d2a967dafbc0bcf6125f9a
+}

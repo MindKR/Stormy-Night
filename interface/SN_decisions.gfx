@@ -1,0 +1,50 @@
+spriteTypes = {	
+
+	### categories
+	
+
+	spriteType = {
+		name = "GFX_decision_state_aus_hungary"
+		texturefile = "gfx/interface/decisions/decision_state_aus_hungary.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_aus_cooperation_hungary"
+		texturefile = "gfx/interface/decisions/aus_states/decision_aus_cooperation_hungary.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_aus_opposite_hungary"
+		texturefile = "gfx/interface/decisions/aus_states/decision_aus_opposite_hungary.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_state_aus_bohemia"
+		texturefile = "gfx/interface/decisions/decision_state_aus_bohemia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_aus_cooperation_bohemia"
+		texturefile = "gfx/interface/decisions/aus_states/decision_aus_cooperation_bohemia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_state_aus_galicia"
+		texturefile = "gfx/interface/decisions/decision_state_aus_galicia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_aus_cooperation_galicia"
+		texturefile = "gfx/interface/decisions/aus_states/decision_aus_cooperation_galicia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_state_aus_croatia"
+		texturefile = "gfx/interface/decisions/decision_state_aus_croatia.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_aus_cooperation_croatia"
+		texturefile = "gfx/interface/decisions/aus_states/decision_aus_cooperation_croatia.dds"
+	}
+}
