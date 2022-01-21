@@ -105,6 +105,21 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Mersin
+		limit = { state = 345 }
+		345 = {
+			set_state_name = Mersin
+		}
+		set_province_name = {
+			id = 10056
+			name = Mersin
+		}
+		set_province_name = {
+			id = 11810
+			name = Tarsus
+		}
+	}
+
 	if = { #Konya
 		limit = { state = 346 }
 		346 = {

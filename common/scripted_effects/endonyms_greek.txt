@@ -105,6 +105,21 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Mersin
+		limit = { state = 345 }
+		345 = {
+			set_state_name = Hadrianopolis
+		}
+		set_province_name = {
+			id = 10056
+			name = Hadrianopolis
+		}
+		set_province_name = {
+			id = 11810
+			name = Tarsos
+		}
+	}
+
 	if = { #Konya
 		limit = { state = 346 }
 		346 = {
