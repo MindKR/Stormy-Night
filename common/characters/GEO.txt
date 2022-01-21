@@ -1,0 +1,15 @@
+characters={
+	GEO_noe_zhordania={
+		name="Noe Zhordania"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

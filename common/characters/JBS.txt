@@ -1,0 +1,16 @@
+characters={
+	JBS_muhammad_bin_talal={
+		name = "Muhammad bin Talal"
+		desc = "POLITICS_MUHAMMAD_BIN_TALAL_DESC"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_Arabia_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=strong_autocrat_subtype
+			expire = "1953.3.1"
+			id=-1
+		}
+	}
+}
