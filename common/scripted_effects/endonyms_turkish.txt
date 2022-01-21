@@ -11,6 +11,21 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Izmir
+		limit = { state = 339 }
+		339 = {
+			set_state_name = Izmir
+		}
+		set_province_name = {
+			id = 4112
+			name = Izmir
+		}
+		set_province_name = {
+			id = 928
+			name = Manisa
+		}
+	}
+
 	if = { #Bursa
 		limit = { state = 340 }
 		340 = {
