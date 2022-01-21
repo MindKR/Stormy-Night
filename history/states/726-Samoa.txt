@@ -1,0 +1,19 @@
+state={
+	id=726
+	name="STATE_726"
+	manpower=88214
+	state_category = small_island
+
+	history={
+		owner = USA
+		add_core_of = SAM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		13080
+	}
+
+	local_supplies=0.0 
+}
