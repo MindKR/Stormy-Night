@@ -105,6 +105,25 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Konya
+		limit = { state = 346 }
+		346 = {
+			set_state_name = Iconium
+		}
+		set_province_name = {
+			id = 784
+			name = Saporda
+		}
+		set_province_name = {
+			id = 6807
+			name = Laranda
+		}
+		set_province_name = {
+			id = 9861
+			name = Iconium
+		}
+	}
+
 	if = { #Izmit
 		limit = { state = 347 }
 		347 = {

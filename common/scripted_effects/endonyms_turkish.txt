@@ -105,6 +105,25 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Konya
+		limit = { state = 346 }
+		346 = {
+			set_state_name = Konya
+		}
+		set_province_name = {
+			id = 784
+			name = Isparta
+		}
+		set_province_name = {
+			id = 6807
+			name = Karaman
+		}
+		set_province_name = {
+			id = 9861
+			name = Konya
+		}
+	}
+
 	if = { #Izmit
 		limit = { state = 347 }
 		347 = {
