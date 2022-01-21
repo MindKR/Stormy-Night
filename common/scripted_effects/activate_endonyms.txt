@@ -35,5 +35,21 @@ activate_endonyms = {
 		apply_czech_endonyms = yes
 	}
 
+	else_if = { limit = { ROOT = { is_turkish_speaking_country = yes } }
+		apply_turkish_endonyms = yes
+	}
+
+	else_if = { limit = { ROOT = { tag = GRE } }
+		apply_greek_endonyms = yes
+	}
+
+	else_if = { limit = { ROOT = { tag = BUL } }
+		apply_bulgarian_endonyms = yes
+	}
+
+	else_if = { limit = { ROOT = { is_arabic_speaking_country = yes } }
+		apply_arab_endonyms = yes
+	}
+
 	else = { reset_state_name = yes }
 }
