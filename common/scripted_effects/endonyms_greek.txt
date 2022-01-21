@@ -154,6 +154,17 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Kayseri
+		limit = { state = 348 }
+		348 = {
+			set_state_name = Caesarea
+		}
+		set_province_name = {
+			id = 3870
+			name = Caesarea
+		}
+	}
+
 	if = { #Constantinopolis
 		limit = { state = 797 }
 		797 = {

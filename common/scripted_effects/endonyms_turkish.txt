@@ -154,6 +154,17 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Kayseri
+		limit = { state = 348 }
+		348 = {
+			set_state_name = Kayseri
+		}
+		set_province_name = {
+			id = 3870
+			name = Kayseri
+		}
+	}
+
 	if = { #Konstantiniyye
 		limit = {
 			state = 797
