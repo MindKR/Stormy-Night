@@ -1,0 +1,28 @@
+
+state={
+	id=200
+	name="STATE_200"
+
+	history={
+		owner = RUS
+		victory_points = {
+			11405 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+
+		}
+		add_core_of = RUS
+		add_core_of = UKR
+
+	}
+
+	provinces={
+		429 453 472 588 3399 3767 6596 9571 9729 11405 11700 
+	}
+	manpower=1294082
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
