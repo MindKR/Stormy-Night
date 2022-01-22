@@ -177,6 +177,17 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Samsun
+		limit = { state = 355 }
+		355 = {
+			set_state_name = Sampsounta 
+		}
+		set_province_name = {
+			id = 11881
+			name = Sampsounta 
+		}
+	}
+
 	if = { #Kastamonu
 		limit = { state = 356 }
 		356 = {
