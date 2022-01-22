@@ -105,6 +105,18 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Adana
+		limit = { state = 344 }
+		set_province_name = {
+			id = 6813
+			name = Germanikeia
+		}
+		set_province_name = {
+			id = 7620
+			name = Melitene
+		}
+	}
+
 	if = { #Mersin
 		limit = { state = 345 }
 		345 = {

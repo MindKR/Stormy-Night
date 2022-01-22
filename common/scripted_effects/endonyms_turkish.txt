@@ -105,6 +105,18 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Adana
+		limit = { state = 344 }
+		set_province_name = {
+			id = 6813
+			name = Kahramanmaras
+		}
+		set_province_name = {
+			id = 7620
+			name = Malatya
+		}
+	}
+
 	if = { #Mersin
 		limit = { state = 345 }
 		345 = {
@@ -151,17 +163,6 @@ apply_turkish_endonyms = {
 		set_province_name = {
 			id = 11811
 			name = Izmit
-		}
-	}
-
-	if = { #Kayseri
-		limit = { state = 348 }
-		348 = {
-			set_state_name = Kayseri
-		}
-		set_province_name = {
-			id = 3870
-			name = Kayseri
 		}
 	}
 
