@@ -193,4 +193,19 @@ apply_turkish_endonyms = {
 			name = Istanbul
 		}
 	}
+
+	if = { #Amasya
+		limit = { state = 798 }
+		798 = {
+			set_state_name = Amasya
+		}
+		set_province_name = {
+			id = 919
+			name = Amasya
+		}
+		set_province_name = {
+			id = 3862
+			name = Yozgat
+		}
+	}
 }

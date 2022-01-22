@@ -233,6 +233,7 @@
  Malatya:0 "말라티아"
  Melitene:0 "멜리티니"
 
+
 #345, Mersin
  Mersin:0 "메르신"
 
@@ -332,6 +333,14 @@
  Constantinopolis:0 "콘스탄티노폴리스"
  Tsargrad:0 "차르그라드"
  Qustantiniya:0 "쿠스탄티니야"
+
+
+#798, Amasya
+ Amasya:0 "아마시아"
+ Amaseia:0 "아마세이아"
+
+ Yozgat:0 "요즈가트"
+ Bozok:0 "보조크"
 
 
 #807, Westpreußen

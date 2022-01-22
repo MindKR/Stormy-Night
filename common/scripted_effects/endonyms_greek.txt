@@ -187,4 +187,19 @@ apply_greek_endonyms = {
 			name = Constantinopolis
 		}
 	}
+
+	if = { #Amasya
+		limit = { state = 798 }
+		798 = {
+			set_state_name = Amaseia
+		}
+		set_province_name = {
+			id = 919
+			name = Amaseia
+		}
+		set_province_name = {
+			id = 3862
+			name = Bozok
+		}
+	}
 }
