@@ -177,6 +177,17 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Sivas
+		limit = { state = 349 }
+		349 = {
+			set_state_name = Sivas
+		}
+		set_province_name = {
+			id = 9777
+			name = Sivas
+		}
+	}
+
 	if = { #Samsun
 		limit = { state = 355 }
 		355 = {

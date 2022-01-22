@@ -177,6 +177,17 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Sivas
+		limit = { state = 349 }
+		349 = {
+			set_state_name = Sebastia
+		}
+		set_province_name = {
+			id = 9777
+			name = Sebastia
+		}
+	}
+
 	if = { #Samsun
 		limit = { state = 355 }
 		355 = {
