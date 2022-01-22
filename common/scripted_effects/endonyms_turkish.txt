@@ -166,6 +166,32 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Kayseri
+		limit = { state = 348 }
+		348 = {
+			set_state_name = Kayseri
+		}
+		set_province_name = {
+			id = 3870
+			name = Kayseri
+		}
+	}
+
+	if = { #Kastamonu
+		limit = { state = 356 }
+		356 = {
+			set_state_name = Kastamonu
+		}
+		set_province_name = {
+			id = 6938
+			name = Kastamonu
+		}
+		set_province_name = {
+			id = 6995
+			name = Sinop
+		}
+	}
+
 	if = { #Konstantiniyye
 		limit = {
 			state = 797

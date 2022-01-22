@@ -51,5 +51,8 @@ activate_endonyms_on_startup = {
 		apply_arab_endonyms = yes
 	}
 
-	else = { reset_state_name = yes }
+	else = {
+		reset_state_name = yes
+		reset_province_name = yes
+	}
 }

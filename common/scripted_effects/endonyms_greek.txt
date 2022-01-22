@@ -177,6 +177,21 @@ apply_greek_endonyms = {
 		}
 	}
 
+	if = { #Kastamonu
+		limit = { state = 356 }
+		356 = {
+			set_state_name = Kastamone
+		}
+		set_province_name = {
+			id = 6938
+			name = Kastamone
+		}
+		set_province_name = {
+			id = 6995
+			name = Sinope
+		}
+	}
+
 	if = { #Constantinopolis
 		limit = { state = 797 }
 		797 = {
