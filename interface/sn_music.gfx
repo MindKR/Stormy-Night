@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_sn_music_art"
+		texturefile = "gfx/interface_topbar/musicplayer/sn_music.png"		
+	}
+}

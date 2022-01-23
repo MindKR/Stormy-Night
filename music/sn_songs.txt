@@ -1,5 +1,5 @@
 
-music_station = "base_music"
+music_station = "sn_music"
 	
 music = {
 	song = "Heil_dir_im_Siegerkranz"

@@ -1,6 +1,6 @@
 music = {
 	name = "Heil_dir_im_Siegerkranz"
-	file = "Heil_dir_im_Siegerkranz.ogg"
+	file = "Hei dir im Siegerkranz.ogg"
 	volume = 0.75
 }
 music = {
@@ -21,5 +21,10 @@ music = {
 music = {
 	name = "whenjohnnycomesmarchinghome"
 	file = "whenjohnnycomesmarchinghome.ogg"
+	volume = 0.75
+}
+music = {
+	name = "Farewell_of_Slavianka"
+	file = "Farewell of Slavianka.ogg"
 	volume = 0.75
 }
