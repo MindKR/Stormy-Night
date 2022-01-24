@@ -89,3 +89,47 @@ AUS_croatia_loyalty_decrease_effect = {
 		max = 100
 	}
 }
+
+Karl_I_dies = {
+	custom_effect_tooltip = Karl_I_dies_tt
+	hidden_effect = {
+		AUS_Franz_Joseph_II = {
+			add_country_leader_role = {
+			country_leader = {
+				desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
+				expire = "1965.1.1"
+				ideology = social_democrat_subtype
+				traits = {
+					popular_figurehead2
+				}
+			}
+			country_leader = {
+				desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
+				expire = "1965.1.1"
+				ideology = liberal_subtype
+				traits = {
+					popular_figurehead2
+				}
+			}
+			country_leader = {
+				desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
+				expire = "1965.1.1"
+				ideology = conservative_subtype
+				traits = {
+					popular_figurehead2
+				}
+			}
+			country_leader = {
+				desc = "POLITICS_FRANZ_JOSEPH_II_DESC"
+				expire = "1965.1.1"
+				ideology = strong_autocrat_subtype
+				traits = {
+					popular_figurehead2
+				}
+			}
+			promote_leader = yes
+			}
+			remove_unit_leader_role = yes
+		}
+	}
+}

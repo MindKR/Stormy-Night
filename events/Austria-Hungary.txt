@@ -1,0 +1,91 @@
+﻿###########################
+# Austrian Events
+###########################
+
+add_namespace = austria-hungary
+
+# Hungary's Independence - Decide (HUN)
+country_event = {
+	id = austria-hungary.1
+	title = austria-hungary.1.t
+	desc = austria-hungary.1.d
+	
+	is_triggered_only = yes
+	
+	option = { #independence
+		name = austria-hungary.1.a
+		ai_chance = {
+			factor = 70
+		}
+		HUN = { country_event = { id = austria-hungary.2 hours = 24 } }
+	}
+
+	option = { #stay
+		name = austria-hungary.1.b
+		ai_chance = {
+			factor = 30
+		}
+		add_political_power = 50
+	}
+}
+
+#decide on independence
+country_event = {
+	id = austria-hungary.2
+	title = austria-hungary.2.t
+	desc = austria-hungary.2.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	option = {
+		name = austria-hungary.2.a
+		AUS = {
+			set_autonomy = { target = HUN autonomy_state = autonomy_free }
+			remove_from_faction = HUN
+			set_country_flag = AUS_hungary_independent_flag
+			country_event = { id = austria-hungary.3 days = 5 }
+		}
+	}
+}
+
+# Hungary's Independence - Decide (AUS)
+country_event = {
+	id = austria-hungary.3
+	title = austria-hungary.3.t
+	desc = austria-hungary.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = austria-hungary.3.a
+		ai_chance = {
+			factor = 80
+			modifier = {
+				has_country_flag = AUS_hungary_independent_flag
+				strength_ratio = { tag = HUN ratio > 1 }
+			}	
+		}
+		AUS = {
+			declare_war_on = { target = HUN type = annex_everything }
+			create_faction = Austrian_Empire
+		}
+		hidden_effect = { news_event = { id = worldnews.1 hours = 12 } }
+	}
+
+	option = {
+		name = austria-hungary.3.b
+		ai_chance = { 
+			factor = 20
+			modifier = {
+				has_country_flag = AUS_hungary_independent_flag
+				strength_ratio = { tag = HUN ratio < 1 }
+				factor = 100
+			}
+		}
+		AUS = {
+			create_faction = Austrian_Empire
+		}
+		hidden_effect = { news_event = { id = worldnews.1 hours = 12 } }
+	}
+}
