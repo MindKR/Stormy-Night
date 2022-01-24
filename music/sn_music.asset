@@ -1,7 +1,7 @@
 music = {
 	name = "Heil_dir_im_Siegerkranz"
-	file = "Hei dir im Siegerkranz.ogg"
-	volume = 0.75
+	file = "Heil dir im Siegerkranz.ogg"
+	volume = 0.65
 }
 music = {
 	name = "Gott_erhalte_Franz_den_Kaiser"
@@ -19,6 +19,11 @@ music = {
 	volume = 0.75
 }
 music = {
+	name = "Le_Drapeau_Rouge"
+	file = "Le Drapeau Rouge.ogg"
+	volume = 0.75
+}
+music = {
 	name = "whenjohnnycomesmarchinghome"
 	file = "whenjohnnycomesmarchinghome.ogg"
 	volume = 0.75
@@ -26,5 +31,10 @@ music = {
 music = {
 	name = "Farewell_of_Slavianka"
 	file = "Farewell of Slavianka.ogg"
+	volume = 0.75
+}
+music = {
+	name = "La_Varsovienne"
+	file = "La Varsovienne.ogg"
 	volume = 0.75
 }

@@ -71,9 +71,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_democratic_government = yes
 				}
-				has_government = democratic
+				has_democratic_government = yes
 			}
 		}
 	}
@@ -93,9 +93,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 		}
 	}
@@ -105,9 +105,9 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_democratic_government = yes
 					}
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				AND = {
 					FROM = {
@@ -117,9 +117,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_socialist_government = yes
 					}
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -142,9 +142,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_democratic_government = yes
 				}
-				has_government = democratic
+				has_democratic_government = yes
 			}
 		}
 		ai_chance = {
@@ -184,9 +184,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 		}
 		ai_chance = {
@@ -206,9 +206,9 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_democratic_government = yes
 					}
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				AND = {
 					FROM = {
@@ -218,9 +218,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_socialist_government = yes
 					}
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -356,9 +356,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_democratic_government = yes
 				}
-				has_government = democratic
+				has_democratic_government = yes
 			}
 		}
 	}
@@ -380,9 +380,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 		}
 	}
@@ -392,9 +392,9 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_democratic_government = yes
 					}
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				AND = {
 					FROM = {
@@ -404,9 +404,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_socialist_government = yes
 					}
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -428,9 +428,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_democratic_government = yes
 				}
-				has_government = democratic
+				has_democratic_government = yes
 			}
 		}
 	}
@@ -462,9 +462,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 		}
 	}
@@ -474,9 +474,9 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_democratic_government = yes
 					}
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				AND = {
 					FROM = {
@@ -486,9 +486,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_socialist_government = yes
 					}
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -519,9 +519,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_democratic_government = yes
 				}
-				has_government = democratic
+				has_democratic_government = yes
 			}
 		}
 	}
@@ -541,9 +541,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 		}
 	}
@@ -553,9 +553,9 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_democratic_government = yes
 					}
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				AND = {
 					FROM = {
@@ -565,9 +565,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_socialist_government = yes
 					}
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -591,9 +591,9 @@ country_event = {
 			is_in_faction = no
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_democratic_government = yes
 				}
-				has_government = democratic
+				has_democratic_government = yes
 			}
 		}
 		ai_chance = {
@@ -624,7 +624,7 @@ country_event = {
 				limit = {
 					FROM = {
 						original_tag = GER
-						has_government = democratic
+						has_democratic_government = yes
 						has_completed_focus = GER_pool_technical_know_how
 					}
 					NOT = { has_idea = GER_pool_technical_know_how }
@@ -668,9 +668,9 @@ country_event = {
 			is_in_faction = no
 			AND = {
 				FROM = {
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 		}
 		ai_chance = {
@@ -704,9 +704,9 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_democratic_government = yes
 					}
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				AND = {
 					FROM = {
@@ -716,9 +716,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_socialist_government = yes
 					}
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -781,7 +781,7 @@ country_event = {
 				limit = {
 					FROM = {
 						original_tag = GER
-						has_government = democratic
+						has_democratic_government = yes
 						has_completed_focus = GER_pool_technical_know_how
 					}
 					NOT = { has_idea = GER_pool_technical_know_how }
@@ -803,9 +803,9 @@ country_event = {
 				factor = 0
 				FROM = {
 					original_tag = YUG
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 			
 			modifier = {
@@ -903,9 +903,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_democratic_government = yes
 				}
-				has_government = democratic
+				has_democratic_government = yes
 			}
 		}
 	}
@@ -927,9 +927,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 		}
 	}
@@ -939,9 +939,9 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_democratic_government = yes
 					}
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				AND = {
 					FROM = {
@@ -951,9 +951,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_socialist_government = yes
 					}
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -975,9 +975,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = democratic
+					has_democratic_government = yes
 				}
-				has_government = democratic
+				has_democratic_government = yes
 			}
 		}
 	}
@@ -997,9 +997,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_socialist_government = yes
 				}
-				has_government = communism
+				has_socialist_government = yes
 			}
 		}
 	}
@@ -1009,9 +1009,9 @@ country_event = {
 			NOT = {
 				AND = {
 					FROM = {
-						has_government = democratic
+						has_democratic_government = yes
 					}
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				AND = {
 					FROM = {
@@ -1021,9 +1021,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_socialist_government = yes
 					}
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 		}
@@ -1381,7 +1381,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
+				FROM = { has_socialist_government = yes }
 				communism > 0.1
 				NOT = { communism > 0.2 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
@@ -1391,8 +1391,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
+				FROM = { has_socialist_government = yes }
+				NOT = { has_socialist_government = yes }
 				communism > 0.2
 				NOT = { communism > 0.3 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
@@ -1402,8 +1402,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
+				FROM = { has_socialist_government = yes }
+				NOT = { has_socialist_government = yes }
 				communism > 0.3
 				NOT = { communism > 0.4 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
@@ -1413,8 +1413,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
+				FROM = { has_socialist_government = yes }
+				NOT = { has_socialist_government = yes }
 				communism > 0.4
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
@@ -1423,8 +1423,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
+				FROM = { has_democratic_government = yes }
+				NOT = { has_democratic_government = yes }
 				democratic > 0.1
 				NOT = { democratic > 0.2 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
@@ -1434,8 +1434,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
+				FROM = { has_democratic_government = yes }
+				NOT = { has_democratic_government = yes }
 				democratic > 0.2
 				NOT = { democratic > 0.3 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
@@ -1445,8 +1445,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
+				FROM = { has_democratic_government = yes }
+				NOT = { has_democratic_government = yes }
 				democratic > 0.3
 				NOT = { democratic > 0.4 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
@@ -1456,8 +1456,8 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = democratic }
-				NOT = { has_government = democratic }
+				FROM = { has_democratic_government = yes }
+				NOT = { has_democratic_government = yes }
 				democratic > 0.4
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}

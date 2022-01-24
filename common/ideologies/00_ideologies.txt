@@ -16,7 +16,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
 		}
 		
-		color = { 50 100 200 }
+		color = { 255 119 207 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -69,7 +69,7 @@ ideologies = {
 			"FACTION_NAME_LIBERAL_6"
 		}
 		
-		color = { 255 255 0 }
+		color = { 255 226 0 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -122,7 +122,7 @@ ideologies = {
 			"FACTION_NAME_CONSERVATIVE_6"
 		}
 		
-		color = { 0 0 255 }
+		color = { 54 62 176 }
 		
 		rules = {
 			can_create_collaboration_government = no
@@ -174,7 +174,7 @@ ideologies = {
 			"FACTION_NAME_libertarian_socialist_5"
 		}
 		
-		color = { 200 65 65 }
+		color = { 255 12 0 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -219,7 +219,7 @@ ideologies = {
 			"FACTION_NAME_AUTHORITARIAN_SOCIALIST_5"
 		}
 		
-		color = { 200 0 0 }
+		color = { 152 7 38 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -264,7 +264,7 @@ ideologies = {
 			"FACTION_NAME_ANARCHIST_5"
 		}
 		
-		color = { 127 0 0 }
+		color = { 0 0 0 }
 		
 		war_impact_on_world_tension = 0.75
 		faction_impact_on_world_tension = 0.5
@@ -310,7 +310,7 @@ ideologies = {
 			"FACTION_NAME_strong_autocrat_5"
 		}
 		
-		color = { 100 100 100 }
+		color = { 70 70 70 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -358,7 +358,7 @@ ideologies = {
 			"FACTION_NAME_NATIONAL_POPULIST_5"
 		}
 		
-		color = { 50 50 50 }
+		color = { 100 60 0 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
