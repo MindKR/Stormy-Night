@@ -25,22 +25,6 @@ country_event = {
 	}
 }
 
-# Russian intervention
-news_event = {
-	id = History_GER.2
-	title = History_GER.2.t
-	desc = History_GER.2.d
-	picture = GFX_news_event_ger_russian_intervention
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = History_GER.1.a
-		trigger = {
-		}
-	}
-}
-
 ############
 ### START ###
 ############
