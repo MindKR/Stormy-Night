@@ -96,12 +96,15 @@
  PHI_conservative_party_long:0 "필리핀 국민당"
  PHI_authoritarian_socialist_party:0 "필리핀 공산당"
 
- SOV_social_democrat_party:0 "멘셰비키"
- SOV_liberal_party:0 ""
- SOV_conservative_party:0 ""
- SOV_libertarian_socialist_party:0 "전연방 공산당"
- SOV_authoritarian_socialist_party:0 "전연방 공산당"
- SOV_strong_autocrat_party:0 "로마노프가"
+ RUS_social_democrat_party:0 "사회민주노동당"
+ RUS_liberal_party:0 "입헌민주당"
+ RUS_conservative_party:0 "10월당"
+ RUS_libertarian_socialist_party:0 "사회혁명당"
+ RUS_authoritarian_socialist_party:0 "볼셰비키"
+ RUS_strong_autocrat_party:0 "로마노프가"
+ RUS_national_populist_party:0 "러시아 군사 정부"
+ RUS_anarchist_party:0 "러시아 아나르코생디칼리스트 총연맹"
+
  SIK_authoritarian_socialist_party:0 "소련 공산당"
 
  MON_authoritarian_socialist_party:0 "몽골 인민당"
