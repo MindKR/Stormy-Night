@@ -25,10 +25,7 @@ ideas = {
 
 			available = {
 				NOT = {
-					country_exists = RUS
-					RUS = {
-						has_government = strong_autocrat
-					}
+					RUS = { has_country_leader_with_trait = house_of_romanov }
 				}
 				
 			}

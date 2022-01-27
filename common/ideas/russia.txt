@@ -2,15 +2,16 @@ ideas = {
 	country = {
 
 		RUS_constitutional_crisis = {
-			picture = FRA_disjointed_government
 			
 			allowed = {
-				original_tag = "RUS"
+				original_tag = RUS
 			}
 
 			allowed_civil_war = {
 				always = no
 			}
+
+			picture = FRA_disjointed_government
 			
 			removal_cost = -1
 			
@@ -25,7 +26,7 @@ ideas = {
 			picture = generic_communism_drift_bonus
 			
 			allowed = {
-				original_tag = "RUS"
+				original_tag = RUS
 			}
 
 			allowed_civil_war = {
@@ -43,12 +44,13 @@ ideas = {
 		RUS_romanovs_in_exile = {
 			
 			allowed = {
-				original_tag = "RUS"
-				NOT = {
-					OR = {
-						has_country_leader_with_trait = house_of_romanov
-						any_country = { has_idea = romanovs_in_exile }
-					}
+				original_tag = RUS
+			}
+
+			available = {
+				OR = {
+					has_country_leader_with_trait = house_of_romanov
+					any_country = { has_idea = romanovs_in_exile }
 				}
 			}
 
@@ -59,6 +61,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
+				custom_modifier_tooltip = romanovs_in_exile_tt
 				stability_factor = -0.1
 			}
 		}
