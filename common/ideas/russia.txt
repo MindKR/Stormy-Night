@@ -1,0 +1,66 @@
+ideas = {
+	country = {
+
+		RUS_constitutional_crisis = {
+			picture = FRA_disjointed_government
+			
+			allowed = {
+				original_tag = "RUS"
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				party_popularity_stability_factor = -0.5
+				political_power_gain = -0.05
+			}
+		}
+
+		RUS_rising_communist_sentiments = {
+			picture = generic_communism_drift_bonus
+			
+			allowed = {
+				original_tag = "RUS"
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				libertarian_socialist_acceptance = 50
+				authoritarian_socialist_acceptance = 50
+			}
+		}
+
+		RUS_romanovs_in_exile = {
+			
+			allowed = {
+				original_tag = "RUS"
+				NOT = {
+					OR = {
+						has_country_leader_with_trait = house_of_romanov
+						any_country = { has_idea = romanovs_in_exile }
+					}
+				}
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+			}
+		}
+	}
+}

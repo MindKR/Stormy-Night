@@ -9,8 +9,12 @@ leader_traits = {
 	}
 
 	strategist_of_desert = {
-		random = no
+		random = yes
 		acclimatization_hot_climate_gain_factor = 0.25
+	}
+
+	house_of_romanov = {
+		random = no
 	}
 
 }

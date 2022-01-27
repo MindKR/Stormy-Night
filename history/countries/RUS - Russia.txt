@@ -276,40 +276,38 @@ if = {
 }
 
 add_ideas = {	
-	home_of_revolution
-	trotskyite_plot_nsb
-	RUS_politicized_military
-
-	RUS_genrikh_yagoda #NKVD Chief (political advisor)
+	RUS_constitutional_crisis
+	RUS_rising_communist_sentiments
+	RUS_romanovs_in_exile
 }
 
-	if = {
-		limit = {
-			NOT = { has_dlc = "No Step Back" }
-		}
-		add_tech_bonus = {
-			name = med_armor_bonus
-			ahead_reduction = 2
-			category = cat_medium_armor
-		}
-		add_tech_bonus = {
-			name = armor_bonus
-			bonus = 1.0
-			uses = 1
-			category = armor
-		}
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
 	}
-	if = {
-		limit = {
-			has_dlc = "No Step Back"
-		}
-		add_tech_bonus = {
-			name = armor_bonus
-			bonus = 1.0
-			uses = 2
-			category = armor
-		}
+	add_tech_bonus = {
+		name = med_armor_bonus
+		ahead_reduction = 2
+		category = cat_medium_armor
 	}
+	add_tech_bonus = {
+		name = armor_bonus
+		bonus = 1.0
+		uses = 1
+		category = armor
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	add_tech_bonus = {
+		name = armor_bonus
+		bonus = 1.0
+		uses = 2
+		category = armor
+	}
+}
 
 
 set_convoys = 50

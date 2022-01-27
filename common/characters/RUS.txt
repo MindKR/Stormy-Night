@@ -20,7 +20,7 @@ characters = {
 			}
 			army = {
 				large = "gfx/leaders/RUS/Portrait_Leon_Trotsky.dds"
-				small = "gfx/interface/ideas/idea_SOV_leon_trotsky.dds"
+				small = "gfx/interface/ideas/idea_RUS_leon_trotsky.dds"
 			}
 		}
 		country_leader = {
@@ -29,7 +29,26 @@ characters = {
 			expire = "1965.3.1.1"
 			id = -1
 		}
-	}                                                                                                        
+	}
+
+	RUS_nicholas_ii = {
+		name = RUS_nicholas_ii
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_Nicholas_II.dds"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_Nicholas_II.dds"
+				small = "gfx/interface/ideas/idea_RUS_Nicholas_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = strong_autocrat_subtype
+			traits = { house_of_romanov }
+			expire = "1965.3.1.1"
+			id = -1
+		}
+	}
 
 	RUS_iosif_stalin = {
 		name = RUS_iosif_stalin
