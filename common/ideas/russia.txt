@@ -17,7 +17,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.05
-				party_popularity_stability_factor = -0.5
+				party_popularity_stability_factor = -0.15
 				political_power_gain = -0.05
 			}
 		}
@@ -42,8 +42,6 @@ ideas = {
 		}
 
 		RUS_romanovs_in_exile = {
-
-			desc = romanovs_in_exile
 			
 			allowed = {
 				original_tag = RUS
