@@ -11,7 +11,7 @@ ideas = {
 				always = no
 			}
 
-			picture = FRA_disjointed_government
+			picture = generic_disjointed_gov
 			
 			removal_cost = -1
 			
@@ -42,6 +42,8 @@ ideas = {
 		}
 
 		RUS_romanovs_in_exile = {
+
+			desc = romanovs_in_exile
 			
 			allowed = {
 				original_tag = RUS
