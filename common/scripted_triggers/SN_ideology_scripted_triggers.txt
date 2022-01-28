@@ -122,6 +122,16 @@ has_socialist_government = {
 	}
 }
 
+has_authoritarian_government = {
+	custom_trigger_tooltip = {
+		tooltip = SN_is_authoritarian
+		OR = {
+			has_government = strong_autocrat
+			has_government = national_populist
+		}
+	}
+}
+
 # Plurality
 social_democrat_plurality = {
 

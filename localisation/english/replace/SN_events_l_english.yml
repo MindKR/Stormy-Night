@@ -11,6 +11,20 @@
  worldnews.1.c.war:0 "예정된 결과였다."
  worldnews.1.c.peace:0 "상황을 예의주시하자."
 
+##############
+### GENERIC ###
+##############
+ generic.2.d.anarchist:0 "[alliance_applicant.GetName](은)는 아나키즘의 세계적 입지를 확고히 하기 위해서는, 아나키스트들의 연대가 필요함을 깨달았기에 결성되었습니다. [alliance_applicant.GetAdjective](은)는 드디어 우리와 동맹을 맺고 싶다는 요청을 해왔고, 우리는 권위주의라는 역경을 타파하는 주역이 될 것입니다."
+ generic.3.anarchist:0 "완전한 '아나키'를 위해, 일시적인 동맹은 필요하다."
+ generic.4.anarchist:0 "그들도 결국 권위주의에 빠져버렸다."
+ generic.5.d.anarchist:0 "우리의 이념적 동맹 [alliance_inviter.GetName](이)가 노동자 권익에 관한 우리의 값진 공헌을 높이 사, 오늘 아침 [alliance_inviter.GetFactionName](으)로의 초청을 해왔습니다. 이는 더욱 강하게 혁명을 전파할 수 있을 것입니다."
+ generic.5.anarchist:0 "우리의 목표를 실현시키자!"
+
+#######################
+### WAR JUSTIFICATION ###
+#######################
+ war_justification.217.a:0 "이는 필히 전쟁을 불러일으킬 것이다."
+
 ###############
 ### GERMANY ###
 ###############

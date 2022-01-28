@@ -17,7 +17,8 @@ country_event = {
 			ENG = { has_war = no }
 			USA = { has_war = no }
 		}
-
+	}
+	title = {
 		text = olympics.1.t.b
 		trigger = {
 			OR = {
@@ -37,7 +38,8 @@ country_event = {
 			ENG = { has_war = no }
 			USA = { has_war = no }
 		}
-
+	}
+	desc = {
 		text = olympics.1.d.b
 		trigger = {
 			OR = {

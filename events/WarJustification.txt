@@ -14,7 +14,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = strong_autocrat
+		has_government = national_populist
 		FROM = {
 			has_democratic_government = no
 			has_socialist_government = no
@@ -43,7 +43,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = strong_autocrat
+		has_government = national_populist
 		FROM = { has_democratic_government = yes }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -69,7 +69,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		has_government = strong_autocrat
+		has_government = national_populist
 		FROM = { has_socialist_government = yes }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -95,8 +95,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = strong_autocrat
-		FROM = { has_government = strong_autocrat }
+		has_government = national_populist
+		FROM = { has_government = national_populist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -203,7 +203,7 @@ country_event = {
 
 	trigger = {
 		has_socialist_government = yes
-		FROM = { has_government = strong_autocrat }
+		FROM = { has_government = national_populist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -310,7 +310,7 @@ country_event = {
 
 	trigger = {
 		has_democratic_government = yes
-		FROM = { has_government = strong_autocrat }
+		FROM = { has_government = national_populist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -421,7 +421,7 @@ country_event = {
 	trigger = {
 		has_democratic_government = no
 		has_socialist_government = no
-		FROM = { has_government = strong_autocrat }
+		FROM = { has_government = national_populist }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -855,39 +855,22 @@ country_event = {
 	
 	option = {
 		name = war_justification.301.a
-		trigger = { has_government = democratic }
+		trigger = { has_democratic_government = yes }
 		add_political_power = -30
 		add_war_support = -0.05
-		add_popularity = {
-			ideology = democratic
-			popularity = -0.05
-		}
 	}
 
 	option = {
 		name = war_justification.301.b
-		trigger = { has_government = communism }
+		trigger = { has_socialist_government = yes }
 		add_political_power = -30
 		add_war_support = -0.05
-		add_popularity = {
-			ideology = communism
-			popularity = -0.05
-		}
 	}
 
 	option = {
 		name = war_justification.301.c
-		trigger = {
-			OR = {
-				has_government = fascism
-				has_government = neutrality
-			}
-		}
+		trigger = { has_authoritarian_government = yes }
 		add_political_power = -30
 		add_war_support = -0.05
-		add_popularity = {
-			ideology = fascism
-			popularity = -0.05
-		}
 	}
 }
