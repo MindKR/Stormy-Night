@@ -10,7 +10,7 @@ country_event = { #ideology opinion modifiers
 	option = {
 		every_other_country = {
 			if = {
-				limit = { is_same_ideology = yes }
+				limit = { has_same_ideology = yes }
 				add_opinion_modifier = {
 					target = ROOT
 					modifier = SN_same_ideology
@@ -20,36 +20,14 @@ country_event = { #ideology opinion modifiers
 				limit = {
 					OR = {
 						AND = {
-							has_government = social_democrat
+							has_democratic_government = yes
 							ROOT = {
-								OR = {
-									has_government = liberal
-									has_government = conservative
-								}
+								has_democratic_government = yes
 							}
 						}
 						AND = {
-							OR = {
-								has_government = liberal
-								has_government = conservative
-							}
-							ROOT = { has_government = social_democrat }
-						}
-						AND = {
-							has_government = liberal
-							ROOT = { has_government = conservative }
-						}
-						AND = {
-							has_government = conservative
-							ROOT = { has_government = liberal }
-						}
-						AND = {
-							has_government = libertarian_socialist
-							ROOT = { has_government = authoritarian_socialist }
-						}
-						AND = {
-							has_government = authoritarian_socialist
-							ROOT = { has_government = libertarian_socialist }
+							has_socialist_government = yes
+							ROOT = { has_socialist_government = yes }
 						}
 					}
 				}
