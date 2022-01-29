@@ -11,14 +11,18 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_government = strong_autocrat #remove if King 
-					has_socialist_government = yes #remove if King in power
+					OR = {
+						has_country_leader = { character = GER_wilhelm_ii }
+						has_socialist_government = yes #remove if King in power
+					}
 				}
 			}
 
 			allowed_civil_war = {
 				NOT = {
-					has_socialist_government = yes
+					OR = {
+						has_socialist_government = yes
+						has_government = anarchist
 				}
 			}
 			
@@ -39,14 +43,18 @@ ideas = {
 
 			available = {
 				NOT = {
-					has_government = strong_autocrat #remove if King 
-					has_socialist_government = yes #remove if King in power
+					OR = {
+						has_country_leader = { character = GER_wilhelm_ii }
+						has_socialist_government = yes #remove if King in power
+					}
 				}
 			}
 
 			allowed_civil_war = {
 				NOT = {
-					has_socialist_government = yes
+					OR = {
+						has_socialist_government = yes
+						has_government = anarchist
 				}
 			}
 			

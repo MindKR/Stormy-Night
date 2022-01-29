@@ -66,7 +66,7 @@ country_event = {
 		original_tag = GER
 		OR = {
 			has_idea = wilhelm_ii
-			has_country_leader = { character = GER_Wilhelm_II }
+			has_country_leader = { character = GER_wilhelm_ii }
 		}
 	}
 
