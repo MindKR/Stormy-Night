@@ -31,31 +31,6 @@ characters={
 				large="gfx/leaders/FRA/Portrait_FRA_Jean_Longuet.png"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = jean_longuet
-			allowed  = {
-				original_tag  = FRA
-			}
-			available  = {
-				if  = {
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				democratic_reformer 
-			}
-			do_effect  = {
-				NOT  = {
-					has_government  = democratic 
-				}
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
 	}
 
 	FRA_charles_rappoport={
@@ -63,31 +38,6 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/FRA/Portrait_FRA_Charles_Rappoport.png"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = charles_rappoport
-			allowed  = {
-				original_tag  = FRA
-			}
-			available  = {
-				if  = {
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				democratic_reformer 
-			}
-			do_effect  = {
-				NOT  = {
-					has_government  = democratic 
-				}
-			}
-			ai_will_do  = {
-				factor  = 0.000
 			}
 		}
 	}

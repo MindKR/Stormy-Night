@@ -370,7 +370,7 @@ on_actions = {
 				limit = {
 					ROOT = { 
 						original_tag = SOV 
-						has_government = communism 
+						has_socialist_government = yes 
 					}
 					FROM = { has_idea = anti_soviet_pact }
 				}
@@ -411,10 +411,10 @@ on_actions = {
 					FROM = {
 						is_in_faction_with = GER
 					#	has_civil_war = yes
-						NOT = { has_government = democratic }
+						NOT = { has_democratic_government = yes }
 					}
-					has_government = democratic
-					GER = { has_government = democratic }
+					has_democratic_government = yes
+					GER = { has_democratic_government = yes }
 				}
 				FROM = { set_country_flag = GER_civil_war_target }
 				GER = { remove_from_faction = FROM }
@@ -577,7 +577,7 @@ on_actions = {
 			if = {
 				limit = {
 					original_tag = FRA
-					has_government = democratic
+					has_democratic_government = yes
 					NOT = { has_global_flag = achievement_france_surrender } #might as well use the achievement flag to check if france.10 fired
 					16 = { is_controlled_by = GER } # Don't fire if someone else is the occupier of Paris
 					is_subject = no
@@ -608,111 +608,10 @@ on_actions = {
 			if = {
 				limit = {
 					original_tag = FRA
-					has_government = democratic
+					has_democratic_government = yes
 					is_puppet = no
 				}
 				drop_cosmetic_tag = yes
-			}
-		}
-	}
-
-	on_government_change = {
-		effect = {			
-			#Make sure Soviet can always create factions
-			if = {
-				limit = {
-					original_tag = SOV
-					NOT = { has_government = communism }
-				}
-				set_rule = { can_create_factions = yes }
-			}
-			if = {
-				limit = { has_government = democratic }
-				if = {
-					limit = { has_idea = democratic_opposition_voicing_protests }
-					remove_ideas = democratic_opposition_voicing_protests
-				}
-				if = {
-					limit = { has_idea = democratic_revolutionaries }
-					remove_ideas = democratic_revolutionaries
-				}
-				if = {
-					limit = { has_idea = reign_of_terror }
-					remove_ideas = reign_of_terror
-				}
-			}
-			if = {
-				limit = { has_government = communism }
-				if = {
-					limit = { TAG = SAF }
-					set_cosmetic_tag = SAF_COM
-				}
-				if = {
-					limit = { has_idea = communist_partisans_recruiting }
-					remove_ideas = communist_partisans_recruiting
-				}
-				if = {
-					limit = { has_idea = communist_revolutionaries }
-					remove_ideas = communist_revolutionaries
-				}
-				if = {
-					limit = { has_idea = communism_defeated }
-					remove_ideas = communism_defeated
-				}
-
-				#Remove anti_soviet_pact
-				if = {
-					limit = { has_idea = anti_soviet_pact }
-					remove_ideas = anti_soviet_pact
-				}
-			}
-			if = {
-				limit = { has_government = fascism }
-				if = {
-					limit = { has_idea = fascist_assault_divisions }
-					remove_ideas = fascist_assault_divisions
-				}
-				if = {
-					limit = { has_idea = fascist_revolutionaries }
-					remove_ideas = fascist_revolutionaries
-				}
-				if = {
-					limit = { has_idea = fascism_defeated }
-					remove_ideas = fascism_defeated
-				}
-				if = {
-					limit = { has_idea = anti_nazi_coup }
-					remove_ideas = anti_nazi_coup
-				}
-			}
-			#Replace the following two with events for SOV if they are not communist.
-			#if = {
-			#	limit = { 
-			#		OR = {
-			#			has_idea = trotskyite_plot 
-			#			has_idea = trotskyite_plot_purged
-			#		}
-			#		NOT = {
-			#			has_civil_war = yes
-			#		}
-			#	}
-			#	country_event = { id = soviet.54 }
-			#}
-		}
-	}
-
-	on_coup_succeeded = {
-		effect = {
-			#Turn elections on for democracies created from coup
-			random_other_country = {
-				limit = {
-					has_government = democratic
-					original_tag = ROOT
-				}
-				set_politics = {
-					ruling_party = democratic
-					elections_allowed = yes
-				}
 			}
 		}
 	}
@@ -729,14 +628,14 @@ on_actions = {
 						original_tag = WGR
 						original_tag = GER
 					}
-					has_government = communism
+					has_socialist_government = yes
 					OR = {
 						has_country_leader = { name = "Wilhelm Pieck" }
 						has_country_leader = { character = GER_wilhelm_pieck }
 					}
 					FROM = {
 						original_tag = SOV
-						has_government = communism
+						has_socialist_government = yes
 						has_country_leader = { character = SOV_iosif_stalin } # Would look silly if Trotsky released Stalin's Puppet
 					}
 				}
@@ -745,7 +644,7 @@ on_actions = {
 			if = {
 				limit = {
 					NOT = { has_elections = yes }
-					has_government = democratic
+					has_democratic_government = yes
 				}
 				set_politics = {
 					ruling_party = democratic

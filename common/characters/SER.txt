@@ -355,34 +355,6 @@ characters={
 			}
 		}
 	}
-	SER_milovan_djilas={
-		advisor={
-			slot = political_advisor
-			idea_token = SER_milovan_djilas
-			available  = {
-					if  = {
-						limit  = {
-							has_dlc = "Man the Guns"
-						}
-						not  = {
-							has_autonomy_state  = autonomy_supervised_state
-						}
-					}
-				}
-				allowed  = {
-					original_tag  = SER
-				}
-				traits  = {
-					democratic_reformer 
-				}
-		}
-		name=SER_milovan_djilas
-		portraits={
-			army={
-				small="GFX_idea_SER_milovan_djilas"
-			}
-		}
-	}
 	SER_milan_nedic={
 		advisor={
 			slot = political_advisor

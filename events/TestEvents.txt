@@ -343,7 +343,7 @@ country_event = {
 
 		every_country = {
 			limit = {
-				has_government = democratic
+				has_democratic_government = yes
 			}
 			ENG = { add_to_faction = PREV }
 		}
@@ -360,7 +360,7 @@ country_event = {
 			GER = { add_to_faction = PREV }
 		}
 		every_country = {
-			limit = { has_government = communism }
+			limit = { has_socialist_government = yes }
 			SOV = { add_to_faction = PREV }
 		}
 		GER = {

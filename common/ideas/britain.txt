@@ -9,12 +9,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT ={
-					has_government = communism
+					has_socialist_government = yes
 				}
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_democratic_government = yes 
 						NOT = {
 							tag = ROOT
 						}
@@ -37,12 +37,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT ={
-					has_government = communism
+					has_socialist_government = yes
 				}
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_democratic_government = yes 
 						NOT = {
 							tag = ROOT
 						}
@@ -90,12 +90,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT ={
-					has_government = communism
+					has_socialist_government = yes
 				}
 				NOT = {
 					any_other_country = {
 						original_tag = ENG
-						has_government = democratic 
+						has_democratic_government = yes 
 						NOT = {
 							tag = ROOT
 						}
@@ -181,7 +181,7 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 
@@ -223,7 +223,7 @@ ideas = {
 			
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_socialist_government = yes
 				}
 			}
 
@@ -269,7 +269,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_democratic_government = yes
 			}
 
 			picture = generic_morale_bonus
@@ -1159,7 +1159,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_democratic_government = yes
 			}
 			
 			modifier = {
@@ -1180,7 +1180,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_democratic_government = yes
 			}
 			
 			modifier = {
@@ -1203,7 +1203,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_democratic_government = yes
 			}
 			
 			modifier = {
@@ -1266,7 +1266,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_democratic_government = yes
 			}
 			
 			modifier = {
@@ -1715,7 +1715,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = communism }
+				NOT = { has_socialist_government = yes }
 			}
 			
 			removal_cost = -1
@@ -1736,7 +1736,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				NOT = { has_government = communism }
+				NOT = { has_socialist_government = yes }
 			}
 			
 			removal_cost = -1

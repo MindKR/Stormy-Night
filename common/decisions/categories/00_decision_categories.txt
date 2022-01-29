@@ -119,60 +119,6 @@ fascism_on_the_rise = {
 	}
 }
 
-democratic_on_the_rise = {
-	icon = generic_democracy
-
-	allowed = {
-		NOT = {
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					original_tag = POL
-				}
-			}
-		}
-	}
-	
-	#visible = {
-	#	NOT = { has_government = democratic }
-	#	has_idea_with_trait = democratic_reformer
-	#}
-}
-
-communism_on_the_rise = {
-	icon = generic_communism
-
-	allowed = {
-		NOT = {
-			AND = {
-				has_dlc = "Man the Guns"
-				OR = {
-					original_tag = USA
-					original_tag = MEX
-					original_tag = ENG
-				}
-			}
-			AND = {
-				has_dlc = "No Step Back"
-				OR = {
-					original_tag = EST
-					original_tag = LAT
-					original_tag = LIT
-					original_tag = POL
-				}
-			}
-		}
-	}
-	
-	#visible = {
-	#	NOT = { has_government = communism }
-	#	has_idea_with_trait = communist_revolutionary
-	#}
-}
-
 crisis = {
 	icon = generic_crisis
 	priority = 100

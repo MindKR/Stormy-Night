@@ -320,7 +320,7 @@ characters = {
 			}
 			country_leader = {
 				ideology=liberal_subtype
-				traits = { democratic_reformer }
+				traits = { }
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -692,45 +692,6 @@ characters = {
 		}
 	}
 
-	POR_alvaro_cunhal = {
-		advisor = {
-			slot = political_advisor
-			idea_token = POR_alvaro_cunhal
-			name = POR_alvaro_cunhal 
-			allowed = {
-				has_dlc = "La Resistance"
-				original_tag = POR
-			}
-			available = {
-				NOT = {
-					has_completed_focus = POR_estado_novo 
-				}
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-			}
-			do_effect = {
-				NOT = {
-					has_government = communism 
-				}
-			}
-			traits = {
-				communist_revolutionary 
-			}
-		}
-		name = POR_alvaro_cunhal
-		portraits = {
-			army = {
-				small = "GFX_idea_POR_alvaro_cunhal"
-			}
-		}
-	}
-
 	POR_raul_brandao = {
 		advisor = {
 			slot = political_advisor
@@ -911,66 +872,6 @@ characters = {
 		portraits = {
 			army = {
 				small = "GFX_idea_generic_political_advisor_europe_2"
-			}
-		}
-	}
-
-	POR_augusto_de_vasconcelos = {
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "La Resistance"
-				}
-			}
-			advisor = {
-				slot = political_advisor
-				idea_token = POR_augusto_de_vasconcelos
-				allowed = {
-					original_tag = POR
-					NOT = {
-						has_dlc = "La Resistance"
-					}
-				}
-				traits = {
-					compassionate_gentleman 
-				}
-			}
-			name = POR_augusto_de_vasconcelos
-			portraits = {
-				army = {
-					small = "GFX_idea_generic_political_advisor_europe_1"
-				}
-			}
-		}
-		instance = {
-			allowed = {
-				has_dlc = "La Resistance"
-			}
-			advisor = {
-				slot = political_advisor
-				idea_token = POR_augusto_de_vasconcelos
-				allowed = {
-					original_tag = POR
-					has_dlc = "La Resistance"
-				}
-				traits = {
-					democratic_reformer 
-				}
-				do_effect = {
-					NOT = {
-						has_government = democratic 
-					}
-				}
-				name = POR_augusto_de_vasconcelos 
-				ai_will_do = {
-					factor = 0.000
-				}
-			}
-			name = POR_augusto_de_vasconcelos
-			portraits = {
-				army = {
-					small = "GFX_idea_por_augusto_de_vasconcelos"
-				}
 			}
 		}
 	}

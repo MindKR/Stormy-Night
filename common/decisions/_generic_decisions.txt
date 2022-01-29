@@ -1380,11 +1380,11 @@ war_measures = {
             has_idea = tot_economic_mobilisation
             OR = {
                 AND = {
-                    has_government = democratic
+                    has_democratic_government = yes
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = communism
+                    has_socialist_government = yes
                     has_war_support > 0.79
                 }
                 AND = {
@@ -1446,11 +1446,11 @@ war_measures = {
             has_war = yes
             OR = {
                 AND = {
-                    has_government = democratic
+                    has_democratic_government = yes
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = communism
+                    has_socialist_government = yes
                     has_war_support > 0.79
                 }
                 AND = {

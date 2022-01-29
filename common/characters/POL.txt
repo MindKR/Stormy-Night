@@ -210,21 +210,6 @@ characters = {
 		}
 	}
 
-	POL_wladyslaw_raczkiewicz = {
-		name=POL_wladyslaw_raczkiewicz
-		portraits = {
-			civilian = {
-				large="GFX_portrait_POL_wladyslaw_raczkiewicz"
-			}
-		}
-		country_leader = {
-			ideology=liberal_subtype
-			traits = { democratic_restorationist }
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-
 	POL_wincenty_witos = {
 		name=POL_wincenty_witos
 		portraits = {
@@ -931,85 +916,6 @@ characters = {
 		}
 	}
 
-	POL_mieczyslaw_michalowicz={
-		instance = {
-			allowed = {
-				has_dlc = "No Step Back"
-			}
-			name=POL_mieczyslaw_michalowicz
-			portraits={
-				army={
-					small="GFX_idea_POL_mieczyslaw_michalowicz"
-				}
-			}
-			advisor={
-				slot = political_advisor
-				idea_token = POL_mieczyslaw_michalowicz
-				allowed = {
-					original_tag = POL
-					has_dlc = "No Step Back"
-				}
-				available = {
-					has_completed_focus = POL_reassemble_the_sejm 
-				}
-				traits = {
-					socdem_reformist 
-				}
-				ai_will_do = {
-					factor = 0.000
-				}
-			}			
-		}
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "No Step Back"
-				}
-			}
-			name=POL_mieczyslaw_michalowicz
-			portraits={
-				army={
-					small="GFX_idea_POL_mieczyslaw_michalowicz"
-				}
-			}
-			advisor={
-				slot = political_advisor
-				idea_token = POL_mieczyslaw_michalowicz
-				allowed = {
-					original_tag = POL
-					NOT = {
-						has_dlc = "No Step Back"
-					}
-				}
-				available = {
-					if = {
-						limit = {
-							has_dlc = "Man the Guns"
-						}
-						NOT = {
-							has_autonomy_state = autonomy_supervised_state
-						}
-					}
-					if = {
-						limit = {
-							has_dlc = "Poland: United and Ready"
-							NOT = {
-								has_dlc = "No Step Back"
-							}
-						}
-						has_completed_focus = POL_restore_the_sejm 
-					}
-				}
-				traits = {
-					democratic_reformer 
-				}
-				ai_will_do = {
-					factor = 0.000
-				}
-			}
-		}
-	}
-
 	POL_henryk_floyar_rajchman={
 		name=POL_henryk_floyar_rajchman
 		portraits={
@@ -1053,7 +959,7 @@ characters = {
 				}
 				if = {
 					limit = { NOT = { has_DLC = "No Step Back" } }
-					has_government = communism 
+					has_socialist_government = yes 
 				}
 			}
 			traits = {
@@ -1064,7 +970,7 @@ characters = {
 				modifier = {
 					factor = 0.000
 					NOT = {
-						has_government = communism 
+						has_socialist_government = yes 
 					}
 				}
 			}
@@ -1091,7 +997,7 @@ characters = {
 				}
 				if = {
 					limit = { NOT = { has_DLC = "No Step Back" } }
-					has_government = communism 
+					has_socialist_government = yes 
 				}
 			}
 			traits = {
@@ -1102,7 +1008,7 @@ characters = {
 				modifier = {
 					factor = 0.000
 					NOT = {
-						has_government = communism 
+						has_socialist_government = yes 
 					}
 				}
 			}
@@ -1241,88 +1147,6 @@ characters = {
 			}
 			traits = {
 				national_determinist 
-			}
-		}
-	}
-
-	POL_aleksander_kakowski={
-		name=POL_aleksander_kakowski
-		portraits={
-			army={
-				small="GFX_idea_POL_aleksander_kakowski"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = POL_aleksander_kakowski
-			allowed = {
-				original_tag = POL
-			}
-			available = {
-				has_completed_focus = POL_assemble_the_regency_council
-				OR = {
-					has_government = neutrality
-					has_government = fascism
-				}
-			}
-			traits = {
-				autocratic_archbishop 
-			}
-			ai_will_do = {
-				factor = 1.000
-				modifier = {
-					factor = 0.000
-					NOT = {
-						has_government = neutrality 
-					}
-				}
-			}
-		}		
-	}
-
-	POL_stanislaw_radkiewicz={
-		name=POL_stanislaw_radkiewicz
-		portraits={
-			army={
-				small="GFX_idea_POL_stanislaw_radkiewicz"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = POL_stanislaw_radkiewicz
-			allowed = {
-				original_tag = POL
-			}
-			available = {
-				if = {
-					limit = {
-						has_dlc = "Man the Guns"
-					}
-					NOT = {
-						has_autonomy_state = autonomy_supervised_state
-					}
-				}
-				if = {
-					limit = {
-						has_dlc = "Poland: United and Ready"
-						NOT = {
-							has_dlc = "No Step Back"
-						}
-					}
-					has_completed_focus = POL_restore_the_sejm 
-				}
-				if = {
-					limit = {
-						has_dlc = "No Step Back"
-					}
-					has_completed_focus = POL_a_leftist_sejm 
-				}
-			}
-			traits = {
-				communist_revolutionary 
-			}
-			ai_will_do = {
-				factor = 0.000
 			}
 		}
 	}

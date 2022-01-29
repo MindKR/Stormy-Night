@@ -1298,7 +1298,7 @@ characters={
 			}
 		}
 		allowed_civil_war = {
-			has_government = communism 
+			has_socialist_government = yes 
 		}
 	}
 
@@ -1458,113 +1458,6 @@ characters={
 		allowed_civil_war  = {
 			NOT  = {
 				has_government  = communism 
-			}
-		}
-	}
-
-	USA_harold_ickes={
-		name=USA_harold_ickes
-		portraits={
-			army={
-				small="GFX_idea_harold_ickes"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = harold_ickes
-			allowed  = {
-				original_tag  = USA
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				democratic_reformer 
-			}
-			do_effect  = {
-				NOT  = {
-					has_government  = democratic 
-				}
-			}
-			ai_will_do  = {
-				factor  = 0.000
-			}
-		}
-	}
-
-	USA_charles_coughlin={
-		name=USA_charles_coughlin
-		portraits={
-			army={
-				small="GFX_idea_charles_coughlin"
-			}
-		}
-		advisor={
-			slot = political_advisor
-			idea_token = charles_coughlin
-			allowed  = {
-				original_tag  = USA
-			}
-			available  = {
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					has_completed_focus  = USA_america_first 
-					NOT  = {
-						focus_progress  = {
-							focus  = USA_neutrality_act 
-							progress > 0.000
-						}
-					}
-					NOT  = {
-						focus_progress  = {
-							focus  = USA_limited_intervention 
-							progress > 0.000
-						}
-					}
-				}
-				if  = {
-					limit  = {
-						has_dlc = "Man the Guns"
-					}
-					NOT  = {
-						has_autonomy_state  = autonomy_supervised_state
-					}
-				}
-			}
-			traits  = {
-				fascist_demagogue 
-			}
-			do_effect  = {
-				NOT  = {
-					has_government  = fascism 
-				}
-			}
-			ai_will_do  = {
-				factor  = 10.000
-				modifier  = {
-					is_historical_focus_on  = yes 
-					has_game_rule  = {
-						rule  = USA_ai_behavior 
-						option  = default 
-					}
-					factor  = 0.000
-				}
-				modifier  = {
-					is_historical_focus_on  = yes 
-					NOT  = {
-						has_dlc = "Man the Guns"
-					}
-					factor  = 0.000
-				}
 			}
 		}
 	}

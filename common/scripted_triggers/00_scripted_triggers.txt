@@ -408,8 +408,8 @@ should_USA_invade_europe_or_africa = {
 		USA = {
 			OR = {
 				AND = {
-					has_government = democratic
-					ENG = { has_government = democratic }
+					has_democratic_government = yes
+					ENG = { has_democratic_government = yes }
 					OR = {
 						GER = { has_government = fascism }
 						ITA = { has_government = fascism }

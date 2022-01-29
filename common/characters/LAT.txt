@@ -155,39 +155,9 @@ characters={
 				small="GFX_idea_LAT_fricis_menders"
 			}
 		}
-		advisor={
-			slot = political_advisor
-			idea_token = LAT_fricis_menders
-			allowed = {
-				original_tag = LAT
-			}
-			available = {
-				IF = {
-					limit = { has_dlc = "No Step Back" }
-					has_completed_focus = LAT_renew_kviesis_term 
-				}
-			}
-			traits = {
-				democratic_reformer 
-			}
-			ai_will_do = {
-				factor = 0
-				modifier = {
-					add = 100
-					OR = {
-						has_government = democratic
-						has_country_flag = LAT_AI_RANDOM_DEMOCRATIC
-						has_game_rule = {
-							rule = LAT_ai_behavior
-							option = DEMOCRATIC
-						}
-					}
-				}
-			}
-		}
 
 		country_leader={
-			ideology=socialism
+			ideology=social_democrat_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}
