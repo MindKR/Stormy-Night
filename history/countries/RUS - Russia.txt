@@ -108,20 +108,6 @@ set_technology = {
 	synth_oil_experiments = 1
 }
 
-every_state = {
-	if = {
-		limit = { is_core_of = UKR }
-		add_manpower = 3000000
-	}
-	if = {
-		limit = {
-			is_core_of = RUS
-			is_on_continent = europe
-		}
-		add_manpower = 13700000
-	}
-}
-
 set_autonomy = {
 	target = POL
 	autonomous_state = SN_confederation

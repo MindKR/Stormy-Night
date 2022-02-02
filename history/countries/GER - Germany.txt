@@ -1,11 +1,6 @@
 ﻿capital = 835
 
 if = {
-	limit = { is_core_of = GER }
-	add_manpower = 2220880
-}
-
-if = {
 	limit = {
 		NOT = {
 			has_dlc = "No Step Back"
