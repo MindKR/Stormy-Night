@@ -1,0 +1,27 @@
+state={
+	id=867
+	name="STATE_867"
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			3522 5 
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		3522 6441 6487 9456 9560 11359 11545 
+	}
+	manpower=3800000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}
