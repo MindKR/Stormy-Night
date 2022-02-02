@@ -101,8 +101,8 @@ KUR_FRA = {
 }
 
 BOH = {
-    color = rgb { 78 142 136 }
-    color_ui = rgb { 78 142 136 }
+    color = rgb { 200 100 100 }
+    color_ui = rgb { 200 100 100 }
 }
 
 FRA_blue = {
