@@ -1,10 +1,8 @@
 ﻿capital = 835
 
-every_core_state = {
-	if = {
-		limit = { is_core_of = GER }
-		add_manpower = 2221000
-	}
+if = {
+	limit = { is_core_of = GER }
+	add_manpower = 2220880
 }
 
 if = {
