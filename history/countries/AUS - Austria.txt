@@ -2,17 +2,7 @@
 
 oob = "AUS"
 
-every_core_state = {
-	if = {
-		limit = {
-			is_core_of = AUS
-			is_core_of = HUN
-			is_core_of = CRB
-			is_core_of = GAL
-		}
-		add_manpower = 1200000
-	}
-}
+country_event = { id = austria.1 days = 1 }
 
 set_variable = { AUS_hungary_loyalty = 50 }
 set_variable = { AUS_bohemia_loyalty = 80 }
@@ -156,6 +146,7 @@ add_command_power = 20
 
 add_ideas = {
 	AUS_habsburg-lothringen
+	Austria-Hungary
 	limited_conscription
 	partial_economic_mobilisation
 }

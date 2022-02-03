@@ -16,7 +16,7 @@ ideas = {
 
 		Austria-Hungary = {
 
-			picture = Flag_of_Austria-Hungary
+			picture = AUS_golden_austria-hungary
 
 			allowed = {
 				has_autonomy_state = sn_crownland

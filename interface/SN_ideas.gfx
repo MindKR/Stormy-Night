@@ -39,8 +39,13 @@ spriteTypes = {
 
 	# Austria
 	spriteType = {
-		name = "GFX_idea_AUH_habsburg-lothringen"
-		texturefile = "gfx/interface/ideas/AUS/AUH_habsburg-lothringen.dds"
+		name = "GFX_idea_AUS_habsburg-lothringen"
+		texturefile = "gfx/interface/ideas/AUS/AUS_habsburg-lothringen.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_AUS_golden_austria-hungary"
+		texturefile = "gfx/interface/ideas/AUS/AUS_golden_austria-hungary.png"
 	}
 
 	spriteType = {

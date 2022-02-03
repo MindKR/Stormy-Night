@@ -5,7 +5,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_decision_state_aus_hungary"
-		texturefile = "gfx/interface/decisions/decision_state_aus_hungary.dds"
+		texturefile = "gfx/interface/decisions/decision_state_aus_hungary.png"
 	}
 
 	spriteType = {
@@ -20,7 +20,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_decision_state_aus_bohemia"
-		texturefile = "gfx/interface/decisions/decision_state_aus_bohemia.dds"
+		texturefile = "gfx/interface/decisions/decision_state_aus_bohemia.png"
 	}
 
 	spriteType = {
@@ -30,7 +30,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_decision_state_aus_galicia"
-		texturefile = "gfx/interface/decisions/decision_state_aus_galicia.dds"
+		texturefile = "gfx/interface/decisions/decision_state_aus_galicia.png"
 	}
 
 	spriteType = {
@@ -40,7 +40,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_decision_state_aus_croatia"
-		texturefile = "gfx/interface/decisions/decision_state_aus_croatia.dds"
+		texturefile = "gfx/interface/decisions/decision_state_aus_croatia.png"
 	}
 
 	spriteType = {

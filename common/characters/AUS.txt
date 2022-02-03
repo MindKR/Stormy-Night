@@ -1,7 +1,6 @@
 characters={
 	AUS_Karl_I={
 		name = "AUS_Karl_I"
-		desc = "POLITICS_KARL_I_DESC"
 		portraits={
 			civilian={
 				large="gfx/leaders/AUS/Portrait_AUS_Karl_I.png"
@@ -9,21 +8,25 @@ characters={
 		}
 		country_leader={
 			ideology=social_democrat_subtype
+			desc = "AUS_Karl_I_desc"
 			expire = "1965.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=liberal_subtype
+			desc = "AUS_Karl_I_desc"
 			expire = "1965.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=conservative_subtype
+			desc = "AUS_Karl_I_desc"
 			expire = "1965.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=strong_autocrat_subtype
+			desc = "AUS_Karl_I_desc"
 			expire = "1965.1.1"
 			id=-1
 		}
