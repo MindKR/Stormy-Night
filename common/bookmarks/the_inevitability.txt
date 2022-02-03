@@ -44,7 +44,6 @@ bookmarks = {
 			ideas = {
 				wilhelm_ii
 				unified_german_pride
-				general_staff
 			}
 			focuses = {
 			}
@@ -53,8 +52,8 @@ bookmarks = {
 			history = "ITA_INEVITABILITY_DESC"
 			ideology = democratic
 			ideas = {
-				vittoria_mutilata
 				victor_emmanuel
+				ITA_risorgimento4
 			}	
 			focuses = {
 			}		
