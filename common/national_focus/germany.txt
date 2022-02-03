@@ -1,5 +1,5 @@
 focus_tree = {
-	id = german_focus
+	id = germany
 	country = {
 		factor = 0
 		modifier = {
@@ -7,66 +7,403 @@ focus_tree = {
 			tag = GER
 		}
 	}
-
 	default = no
-
 	focus = {
-		id = standstill
-		icon = GFX_standstill
+		id = GER_navy_budget_reduction
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 10.00
-		x = 5
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = GER_recovery_from_the_great_depression
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = GER_navy_budget_reduction
+		}
+		x = 0
 		y = 1
 
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = GER_industrial_effort_2IC
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = GER_industrial_effort_2IC
-			}
-			random_owned_controlled_state = {
-				limit = {
-					free_building_slots = {
-						building = industrial_complex
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				set_state_flag = GER_industrial_effort_2IC
-			}
+	}
+	focus = {
+		id = GER_five_year_plan
+		icon = GFX_goal_continuous_non_factory_construct
+		cost = 10.00
+		prerequisite = {
+			focus = GER_recovery_from_the_great_depression
 		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = GER_restoration_of_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = GER_navy_budget_reduction
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = GER_budget_investment
+		icon = GFX_goal_generic_consumer_goods
+		cost = 5.00
+		prerequisite = {
+			focus = GER_restoration_of_shipbuilding
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = GER_elsace-lotringen_steel_industry
+		icon = GFX_focus_generic_steel
+		cost = 10.00
+		prerequisite = {
+			focus = GER_budget_investment
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = GER_african_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = GER_budget_investment
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = GER_WA_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = GER_african_shipbuilding
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = GER_OA_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = GER_african_shipbuilding
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = GER_mainland_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = GER_budget_investment
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = GER_schleswig_plan
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = GER_mainland_shipbuilding
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = GER_WA_autonomous_government
+		icon = GFX_goal_continuous_boost_freedom
+		cost = 10.00
+		prerequisite = {
+			focus = GER_WA_shipbuilding
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = GER_OA_autonomous_government
+		icon = GFX_goal_continuous_boost_freedom
+		cost = 10.00
+		prerequisite = {
+			focus = GER_OA_shipbuilding
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = GER_pacific_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = GER_budget_investment
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = GER_new_guinea_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = GER_pacific_shipbuilding
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = GER_new_guinea_autonomous_government
+		icon = GFX_goal_continuous_boost_freedom
+		cost = 10.00
+		prerequisite = {
+			focus = GER_new_guinea_shipbuilding
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = GER_tsingtao_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = GER_pacific_shipbuilding
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = GER_future_direction_of_navy 
+		icon = GFX_goal_continuous_naval_production
+		cost = 5.00
+		prerequisite = {
+			focus = GER_navy_budget_reduction
+		}
+		x = 27
+		y = 1
+
+	}
+	focus = {
+		id = GER_maintaining_the_high_seas_fleet
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 5.00
+		prerequisite = {
+			focus = GER_future_direction_of_navy 
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = GER_capital_ship_primacy
+		icon = GFX_focus_generic_navy_battleship2
+		cost = 10.00
+		prerequisite = {
+			focus = GER_maintaining_the_high_seas_fleet
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = GER_fast_battleship
+		icon = GFX_goal_generic_navy_battleship
+		cost = 10.00
+		prerequisite = {
+			focus = GER_capital_ship_primacy
+		}
+		mutually_exclusive = {
+			focus = GER_carrier_primacy
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = GER_carrier_primacy
+		icon = GFX_goal_generic_navy_carrier
+		cost = 10.00
+		prerequisite = {
+			focus = GER_capital_ship_primacy
+		}
+		mutually_exclusive = {
+			focus = GER_fast_battleship
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = GER_nav_bomber
+		icon = GFX_goal_generic_air_naval_bomber
+		cost = 10.00
+		prerequisite = {
+			focus = GER_carrier_primacy
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = GER_importance_of_escort_fleet
+		icon = GFX_goal_generic_occupy_states_coastal
+		cost = 10.00
+		prerequisite = {
+			focus = GER_maintaining_the_high_seas_fleet
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = GER_destroyer_effort
+		icon = GFX_focus_generic_destroyer
+		cost = 10.00
+		prerequisite = {
+			focus = GER_importance_of_escort_fleet
+		}
+		x = 26
+		y = 4
+
+	}
+	focus = {
+		id = GER_anti_submarine_tactics
+		icon = GFX_goal_generic_navy_anti_submarine
+		cost = 10.00
+		prerequisite = {
+			focus = GER_destroyer_effort
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = GER_new_weapon
+		icon = GFX_goal_poland_goal
+		cost = 10.00
+		prerequisite = {
+			focus = GER_future_direction_of_navy 
+		}
+		x = 30
+		y = 2
+
+	}
+	focus = {
+		id = GER_submarine_plan
+		icon = GFX_goal_generic_navy_submarine
+		cost = 5.00
+		prerequisite = {
+			focus = GER_new_weapon
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = GER_mine_warfare
+		icon = GFX_goal_generic_secret_weapon
+		cost = 10.00
+		prerequisite = {
+			focus = GER_submarine_plan
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = GER_light_cruiser_effort
+		icon = GFX_focus_generic_cruiser2
+		cost = 10.00
+		prerequisite = {
+			focus = GER_submarine_plan
+			focus = GER_destroyer_effort
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = GER_wolfpack
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = GER_submarine_plan
+		}
+		x = 32
+		y = 4
+
+	}
+	focus = {
+		id = GER_SWA_shipbuilding
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5.00
+		prerequisite = {
+			focus = GER_african_shipbuilding
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = GER_SWA_autonomous_government
+		icon = GFX_goal_continuous_boost_freedom
+		cost = 10.00
+		prerequisite = {
+			focus = GER_SWA_shipbuilding
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = GER_decolonization
+		icon = GFX_goal_continuous_boost_freedom
+		cost = 10.00
+		prerequisite = {
+			focus = GER_colony_support
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = GER_colony_support
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = GER_WA_autonomous_government
+		}
+		prerequisite = {
+			focus = GER_SWA_autonomous_government
+		}
+		prerequisite = {
+			focus = GER_OA_autonomous_government
+		}
+		prerequisite = {
+			focus = GER_new_guinea_autonomous_government
+		}
+		x = 15
+		y = 6
+
 	}
 }
