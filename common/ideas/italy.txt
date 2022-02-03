@@ -30,36 +30,87 @@ ideas = {
 			}
 		}
 
-		support_from_britain = {
-			picture = generic_foreign_capital
+		ITA_risorgimento = {
 			
 			allowed = {
 				original_tag = "ITA"
 			}
 
 			allowed_civil_war = {
-				has_socialist_government = no
-				NOT = {
-					any_other_country = {
-						original_tag = ITA
-						OR = {
-							has_democratic_government = yes
-							has_government = strong_autocrat
-						}
-					}
-				}
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = -0.05
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		ITA_risorgimento2 = {
+
+			name = ITA_risorgimento
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			allowed_civil_war = {
+				always = no
 			}
 			
 			removal_cost = -1
 			
 			modifier = {
 				consumer_goods_factor = 0.05
-				political_power_gain = -0.5		
+				production_speed_buildings_factor = -0.05
+			}
+		}
+
+		ITA_risorgimento3 = {
+
+			name = ITA_risorgimento
+			
+			allowed = {
+				original_tag = "ITA"
 			}
 
-			research_bonus = {
-				industry = 0.1
-				naval_doctrine = 0.1
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = 0.05
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		ITA_risorgimento4 = {
+
+			name = ITA_risorgimento
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				political_power_factor = 0.15
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
 			}
 		}
 	}

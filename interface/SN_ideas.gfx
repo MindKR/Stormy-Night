@@ -9,7 +9,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/coat_of_arms_of_russian_empire.dds"	
 	}
 
-	# Germany
 	SpriteType = {
 		name = "GFX_idea_wilhelm_ii"
 		texturefile = "gfx/interface/ideas/GER/Wilhelm_II.png"	
@@ -27,7 +26,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GER/GER_conservative_military.png"	
 	}
 
-	#France
 	SpriteType = {
 		name = "GFX_idea_FRA_lagacy_of_revolution"
 		texturefile = "gfx/interface/ideas/FRA/FRA_lagacy_of_revolution.dds"	
@@ -37,23 +35,35 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/FRA/FRA_resting_place_for_socialists.dds"	
 	}
 
-	# Austria
 	spriteType = {
 		name = "GFX_idea_AUS_habsburg-lothringen"
 		texturefile = "gfx/interface/ideas/AUS/AUS_habsburg-lothringen.dds"
 	}
-
 	spriteType = {
 		name = "GFX_idea_AUS_golden_austria-hungary"
 		texturefile = "gfx/interface/ideas/AUS/AUS_golden_austria-hungary.png"
 	}
-
 	spriteType = {
 		name = "GFX_idea_Flag_of_Austria-Hungary"
 		texturefile = "gfx/interface/ideas/AUS/flag_of_austria-hungary.dds"
 	}
 
-	# Russia
+	spriteType = {
+		name = "GFX_idea_ITA_risorgimento"
+		texturefile = "gfx/interface/ideas/ITA/ITA_risorgimento.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_risorgimento2"
+		texturefile = "gfx/interface/ideas/ITA/ITA_risorgimento2.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_risorgimento3"
+		texturefile = "gfx/interface/ideas/ITA/ITA_risorgimento3.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ITA_risorgimento4"
+		texturefile = "gfx/interface/ideas/ITA/ITA_risorgimento4.png"
+	}
 
 	spriteType = {
 		name = "GFX_idea_RUS_romanovs_in_exile"
