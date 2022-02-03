@@ -14,6 +14,7 @@ replace_path="common/scripted_localisation"
 replace_path="common/state_category"
 replace_path="common/technology_sharing"
 replace_path="events"
+replace_path="gfx/loadingscreens"
 replace_path="history/states"
 replace_path="map/strategicregions"
 tags={
