@@ -71,8 +71,6 @@ ideas = {
 		}
 
 		ITA_risorgimento3 = {
-
-			name = ITA_risorgimento
 			
 			allowed = {
 				original_tag = "ITA"
@@ -94,7 +92,7 @@ ideas = {
 
 		ITA_risorgimento4 = {
 
-			name = ITA_risorgimento
+			name = ITA_risorgimento3
 			
 			allowed = {
 				original_tag = "ITA"
