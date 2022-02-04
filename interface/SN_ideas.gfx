@@ -47,6 +47,10 @@ spriteTypes = {
 		name = "GFX_idea_Flag_of_Austria-Hungary"
 		texturefile = "gfx/interface/ideas/AUS/flag_of_austria-hungary.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_AUS_incompatible_irredentism"
+		texturefile = "gfx/interface/ideas/AUS/AUS_incompatible_irredentism.png"
+	}
 
 	spriteType = {
 		name = "GFX_idea_ITA_risorgimento"

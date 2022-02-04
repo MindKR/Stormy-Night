@@ -90,6 +90,15 @@ AUS_croatia_loyalty_decrease_effect = {
 	}
 }
 
+AUS_incompatible_irredentism_effect = {
+	add_to_variable = { AUS_croatia_loyalty = AUS_incompatible_irredentism_decrease }
+	clamp_variable = {
+		var = AUS_croatia_loyalty
+		min = 0
+		max = 100
+	}
+}
+
 Karl_I_dies = {
 	custom_effect_tooltip = Karl_I_dies_tt
 	hidden_effect = {

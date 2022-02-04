@@ -15,7 +15,7 @@ country_event = {
 	option = { #independence
 		name = austria-hungary.1.a
 		ai_chance = {
-			factor = 70
+			factor = 95
 		}
 		HUN = { country_event = { id = austria-hungary.2 hours = 24 } }
 	}
@@ -23,7 +23,7 @@ country_event = {
 	option = { #stay
 		name = austria-hungary.1.b
 		ai_chance = {
-			factor = 30
+			factor = 5
 		}
 		add_political_power = 50
 	}
@@ -60,7 +60,7 @@ country_event = {
 	option = {
 		name = austria-hungary.3.a
 		ai_chance = {
-			factor = 80
+			factor = 95
 			modifier = {
 				has_country_flag = AUS_hungary_independent_flag
 				strength_ratio = { tag = HUN ratio > 1 }
@@ -76,11 +76,11 @@ country_event = {
 	option = {
 		name = austria-hungary.3.b
 		ai_chance = { 
-			factor = 20
+			factor = 5
 			modifier = {
 				has_country_flag = AUS_hungary_independent_flag
 				strength_ratio = { tag = HUN ratio < 1 }
-				factor = 100
+				factor = 50
 			}
 		}
 		AUS = {

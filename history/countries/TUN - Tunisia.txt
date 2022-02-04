@@ -1,7 +1,5 @@
 ﻿capital = 458
 
-set_cosmetic_tag = TUN_FRA
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

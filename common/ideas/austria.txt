@@ -19,17 +19,36 @@ ideas = {
 			picture = AUS_golden_austria-hungary
 
 			allowed = {
-				has_autonomy_state = sn_crownland
+				OR = {
+					has_autonomy_state = sn_crownland
+					TAG = AUS
+				}
 			}
 
 			available = {
-				has_autonomy_state = sn_crownland
+				OR = {
+					has_autonomy_state = sn_crownland
+					TAG = AUS
+				}
 			}
 
 			removal_cost = -1 
 
 			modifier = {
 				custom_modifier_tooltip = austria-hungary_tt
+			}
+		}
+
+		AUS_incompatible_irredentism = {
+
+			allowed = {
+				original_tag = AUS
+			}
+
+			removal_cost = -1 
+
+			modifier = {
+				custom_modifier_tooltip = AUS_incompatible_irredentism_tt
 			}
 		}
 	}

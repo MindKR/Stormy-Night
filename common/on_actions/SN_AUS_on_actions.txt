@@ -18,4 +18,15 @@ on_actions = {
 			}
 		}
 	}
+	on_weekly_AUS = {
+		effect = {
+			if = { #AUS_incompatible_irredentism
+				limit = {
+					original_tag = AUS
+					has_ideas = AUS_incompatible_irredentism
+				}
+				AUS_incompatible_irredentism_effect = yes
+			}
+		}
+	}
 }

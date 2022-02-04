@@ -19,7 +19,7 @@ set_variable = { AUS_state_days_reenable_high = 60 }
 set_variable = { AUS_state_days_reenable_very_high = 120 } 
 set_variable = { AUS_state_increase = 5 }
 set_variable = { AUS_state_decrease = -5 }
-
+set_variable = { AUS_incompatible_irredentism_decrease = -1 }
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
@@ -147,6 +147,8 @@ add_command_power = 20
 add_ideas = {
 	AUS_habsburg-lothringen
 	Austria-Hungary
+	AUS_incompatible_irredentism
+
 	limited_conscription
 	partial_economic_mobilisation
 }
