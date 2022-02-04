@@ -41,3 +41,13 @@ is_turkish_speaking_country = {
 		}
 	}
 }
+
+is_croatian_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_croatian_speaking_country_tt
+		OR = {
+			original_tag = CRO
+			original_tag = CRB
+		}
+	}
+}

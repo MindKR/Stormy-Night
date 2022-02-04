@@ -263,5 +263,16 @@ apply_german_endonyms = {
 			id = 6521
 			name = Berlin_GER
 		}
-	}		
+	}
+
+	if = { #Triest
+		limit = { state = 837 }
+		837 = {
+			set_state_name = Triest
+		}
+		set_province_name = {
+			id = 6626
+			name = Triest
+		}
+	}	
 }

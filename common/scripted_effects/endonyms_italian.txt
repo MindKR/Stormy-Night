@@ -101,5 +101,16 @@ apply_italian_endonyms = {
 			id = 6521
 			name = Berlin_ITA
 		}
-	}		
+	}
+
+	if = { #Triest
+		limit = { state = 837 }
+		837 = {
+			set_state_name = Trieste
+		}
+		set_province_name = {
+			id = 6626
+			name = Trieste
+		}
+	}	
 }
