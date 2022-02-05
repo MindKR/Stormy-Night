@@ -274,5 +274,27 @@ apply_german_endonyms = {
 			id = 6626
 			name = Triest
 		}
+	}
+
+	if = { #Nancy
+		limit = { state = 869 }
+		869 = {
+			set_state_name = Nanzig
+		}
+		set_province_name = {
+			id = 11516
+			name = Nanzig
+		}
+	}
+
+	if = { #Sedan
+		limit = { state = 870 }
+		870 = {
+			set_state_name = Sedan_GER
+		}
+		set_province_name = {
+			id = 3560
+			name = Sedan_GER
+		}
 	}	
 }

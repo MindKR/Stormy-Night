@@ -95,5 +95,27 @@ apply_french_endonyms = {
 			id = 6521
 			name = Berlin_FRA
 		}
-	}		
+	}
+
+	if = { #Nancy
+		limit = { state = 869 }
+		869 = {
+			set_state_name = Nancy
+		}
+		set_province_name = {
+			id = 11516
+			name = Nancy
+		}
+	}
+
+	if = { #Sedan
+		limit = { state = 870 }
+		870 = {
+			set_state_name = Sedan_FRA
+		}
+		set_province_name = {
+			id = 3560
+			name = Sedan_FRA
+		}
+	}	
 }
