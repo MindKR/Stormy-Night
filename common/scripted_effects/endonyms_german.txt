@@ -26,6 +26,14 @@ apply_german_endonyms = {
 		}
 	}
 
+	if = { #Champagne
+		limit = { state = 18 }
+		set_province_name = {
+			id = 3546
+			name = Wirten
+		}
+	}
+
 	if = { #Alsace-Lorraine
 		limit = { state = 28 }
 		28 = {

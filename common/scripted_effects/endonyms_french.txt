@@ -11,6 +11,14 @@ apply_french_endonyms = {
 		}
 	}
 
+	if = { #Champagne
+		limit = { state = 18 }
+		set_province_name = {
+			id = 3546
+			name = Verdun
+		}
+	}
+
 	if = { #Alsace-Lorraine
 		limit = { state = 28 }
 		28 = {
