@@ -31,6 +31,7 @@ set_war_support = 0.7
 add_ideas = {
 	vittoria_mutilata
 	ITA_risorgimento
+	ITA_corsica_problem
 
 	limited_exports
 	limited_conscription

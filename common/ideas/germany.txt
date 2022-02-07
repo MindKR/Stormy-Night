@@ -3,7 +3,6 @@ ideas = {
 	country = {
 
 		wilhelm_ii = {
-			name = GER_wilhelm_ii
 			
 			allowed = {
 				original_tag = "GER"

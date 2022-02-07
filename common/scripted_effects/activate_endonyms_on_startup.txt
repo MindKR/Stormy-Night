@@ -23,7 +23,7 @@ activate_endonyms_on_startup = {
 		apply_russian_endonyms = yes
 	}
 
-	else_if = { limit = { controller = { tag = POL } }
+	else_if = { limit = { controller = { tag = is_polish_speaking_country = yes } }
 		apply_polish_endonyms = yes
 	}
 

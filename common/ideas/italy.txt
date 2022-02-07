@@ -111,6 +111,27 @@ ideas = {
 				production_speed_buildings_factor = 0.1
 			}
 		}
+
+		ITA_corsica_problem = {
+
+			picture = ITA_risorgimento
+			
+			allowed = {
+				original_tag = "ITA"
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				1 = {
+					global_building_slots = -1
+				}
+			}
+		}
 	}
 
 

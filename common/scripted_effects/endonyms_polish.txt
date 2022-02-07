@@ -82,6 +82,17 @@ apply_polish_endonyms = {
 		}
 	}
 
+	if = { #Cieszyn
+		limit = { state = 72 }
+		72 = {
+			set_state_name = Cieszyn
+		}
+		set_province_name = {
+			id = 9551
+			name = Cieszyn
+		}
+	}
+
 	if = { #Czech Silesia
 		limit = { state = 74 }
 		74 = {
@@ -101,6 +112,21 @@ apply_polish_endonyms = {
 		set_province_name = {
 			id = 6558
 			name = Poznan
+		}
+	}
+
+	if = { #Krakau
+		limit = { state = 88 }
+		88 = {
+			set_state_name = Krakow
+		}
+		set_province_name = {
+			id = 442
+			name = Tarnow
+		}
+		set_province_name = {
+			id = 9427
+			name = Krakow
 		}
 	}
 

@@ -118,6 +118,12 @@
  Reichenberg:0 "라이헨베르크"
 
 
+#72, Teschen
+ Teschen:0 "테셴"
+ Tesin:0 "테신"
+ Cieszyn:0 "치에신"
+
+
 #74, Czech Silesia
  Ceske_Slezsko:0 "체코령 실레시아"
  Tschechisch-Schlesien:0 "체히시슐레지엔"
@@ -144,6 +150,13 @@
  Posen:0 "포젠"
  Poznan:0 "포즈난"
 
+
+#88, Krakau
+ Krakau:0 "크라카우"
+ Krakow:0 "크라쿠프"
+
+ Tarnau:0 "타르나우"
+ Tarnow:0 "타르누프"
 
 #158, Piemonte
  Piemonte:0 "피에몬테"

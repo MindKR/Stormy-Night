@@ -149,6 +149,17 @@ apply_german_endonyms = {
 			name = Reichenberg
 		}
 	}
+
+	if = { #Teschen
+		limit = { state = 72 }
+		72 = {
+			set_state_name = Teschen
+		}
+		set_province_name = {
+			id = 9551
+			name = Teschen
+		}
+	}
 	
 	if = { #Czech Silesia
 		limit = { state = 74 }
@@ -188,6 +199,21 @@ apply_german_endonyms = {
 		set_province_name = {
 			id = 6558
 			name = Posen
+		}
+	}
+
+	if = { #Krakau
+		limit = { state = 88 }
+		88 = {
+			set_state_name = Krakau
+		}
+		set_province_name = {
+			id = 442
+			name = Tarnau
+		}
+		set_province_name = {
+			id = 9427
+			name = Krakau
 		}
 	}
 

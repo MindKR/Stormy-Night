@@ -32,6 +32,16 @@ is_german_speaking_country = {
 	}
 }
 
+is_polish_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_polish_speaking_country_tt
+		OR = {
+			original_tag = POL
+			original_tag = GAL
+		}
+	}
+}
+
 is_turkish_speaking_country = {
 	custom_trigger_tooltip = {
 		tooltip = is_turkish_speaking_country_tt

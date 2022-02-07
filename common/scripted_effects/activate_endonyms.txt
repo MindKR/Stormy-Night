@@ -23,7 +23,7 @@ activate_endonyms = {
 		apply_russian_endonyms = yes
 	}
 
-	else_if = { limit = { ROOT = { tag = POL } }
+	else_if = { limit = { ROOT = { tag = is_polish_speaking_country = yes} }
 		apply_polish_endonyms = yes
 	}
 

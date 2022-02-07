@@ -30,6 +30,17 @@ apply_czech_endonyms = {
 		}
 	}
 
+	if = { #Teschen
+		limit = { state = 72 }
+		72 = {
+			set_state_name = Tesin
+		}
+		set_province_name = {
+			id = 9551
+			name = Tesin
+		}
+	}
+
 	if = { #Czech Silesia
 		limit = { state = 74 }
 		74 = {
