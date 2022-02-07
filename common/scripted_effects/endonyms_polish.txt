@@ -104,6 +104,17 @@ apply_polish_endonyms = {
 		}
 	}
 
+	if = { #Bukowina
+		limit = { state = 80 }
+		80 = {
+			set_state_name = Bukowina
+		}
+		set_province_name = {
+			id = 577
+			name = Czerniowce
+		}
+	}
+
 	if = { #Posen
 		limit = { state = 86 }
 		86 = {
@@ -127,6 +138,28 @@ apply_polish_endonyms = {
 		set_province_name = {
 			id = 9427
 			name = Krakow
+		}
+	}
+
+	if = { #Stanislau
+		limit = { state = 89 }
+		89 = {
+			set_state_name = Stanislawow
+		}
+		set_province_name = {
+			id = 11411
+			name = Stanislawow
+		}
+	}
+
+	if = { #Lemberg
+		limit = { state = 91 }
+		91 = {
+			set_state_name = Lwow
+		}
+		set_province_name = {
+			id = 11479
+			name = Lwow
 		}
 	}
 

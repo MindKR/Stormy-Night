@@ -69,5 +69,16 @@ apply_czech_endonyms = {
 			id = 9567
 			name = Ostrava
 		}
-	}	
+	}
+
+	if = { #Bukowina
+		limit = { state = 80 }
+		80 = {
+			set_state_name = Bukovina
+		}
+		set_province_name = {
+			id = 577
+			name = Cernovice
+		}
+	}
 }

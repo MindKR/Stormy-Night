@@ -59,5 +59,17 @@ activate_endonyms_on_startup = {
 		apply_slovene_endonyms = yes
 	}
 
+	else_if = { limit = { controller = { tag = UKR } }
+		apply_ukrainian_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = HUN } }
+		apply_hungarian_endonyms = yes
+	}
+
+	else_if = { limit = { controller = { tag = ROM } }
+		apply_romanian_endonyms = yes
+	}
+
 	else = { reset_state_name = yes }
 }

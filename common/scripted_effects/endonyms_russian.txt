@@ -1,5 +1,16 @@
 apply_russian_endonyms = {
 
+	if = { #Bukowina
+		limit = { state = 80 }
+		80 = {
+			set_state_name = Bucovina
+		}
+		set_province_name = {
+			id = 577
+			name = Chernovtsy
+		}
+	}
+
 	if = { #Saint Petersburg
 		limit = {
 			state = 195

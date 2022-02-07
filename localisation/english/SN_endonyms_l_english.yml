@@ -146,6 +146,21 @@
  Ostrau:0 "오스트라우"
 
 
+#80, Bukowina
+ Bukowina:0 "부코비나"
+ Bukovyna:0 "부코비나"
+ Bucovina:0 "부코비나"
+ Bukovina:0 "부코비나"
+
+ Czernowitz:0 "체르노비츠"
+ Czerniowce:0 "체르니오프체"
+ Chernivtsi:0 "체르니우치"
+ Chernovtsy:0 "체르놉치"
+ Cernauti:0 "체르너우치"
+ Csernovic:0 "체르노비츠"
+ Cernovice:0 "체르노비체"
+
+
 #86, Posen
  Posen:0 "포젠"
  Poznan:0 "포즈난"
@@ -157,6 +172,19 @@
 
  Tarnau:0 "타르나우"
  Tarnow:0 "타르누프"
+
+
+#89, Stanislau
+ Stanislau:0 "슈타니슬라비우"
+ Stanislawow:0 "스타니스와부프"
+ Stanyslaviv:0 "스타니슬라비우"
+
+
+#91, Lemberg
+ Lemberg:0 "렘베르크"
+ Lwow:0 "르부프"
+ Lviv: 0"리비우"
+
 
 #158, Piemonte
  Piemonte:0 "피에몬테"

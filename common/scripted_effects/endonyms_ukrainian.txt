@@ -1,0 +1,35 @@
+apply_ukrainian_endonyms = {
+
+	if = { #Bukowina
+		limit = { state = 80 }
+		80 = {
+			set_state_name = Bukovyna
+		}
+		set_province_name = {
+			id = 577
+			name = Chernivtsi
+		}
+	}
+
+	if = { #Stanislau
+		limit = { state = 89 }
+		89 = {
+			set_state_name = Stanyslaviv
+		}
+		set_province_name = {
+			id = 11411
+			name = Stanyslaviv
+		}
+	}
+
+	if = { #Lemberg
+		limit = { state = 91 }
+		91 = {
+			set_state_name = Lviv
+		}
+		set_province_name = {
+			id = 11479
+			name = Lviv
+		}
+	}
+}
