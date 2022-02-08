@@ -1,10 +1,7 @@
 ﻿capital = 2
 
-every_core_state = {
-	if = {
-		limit = { is_core_of = ITA }
-		add_manpower = 650000
-	}
+1 = {
+	add_dynamic_modifier = { modifier = ITA_corsica }
 }
 
 if = {
@@ -31,7 +28,6 @@ set_war_support = 0.7
 add_ideas = {
 	vittoria_mutilata
 	ITA_risorgimento
-	ITA_corsica_problem
 
 	limited_exports
 	limited_conscription

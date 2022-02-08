@@ -1,0 +1,9 @@
+ITA_corsica = {
+	enable = { always = yes }
+
+	icon = GFX_modifiers_ITA_corsica
+
+	custom_modifier_tooltip = ITA_corsica_tt
+	recruitable_population_factor = -0.1
+	local_building_slots = -1
+}

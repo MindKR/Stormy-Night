@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_modifiers_ITA_corsica"
+		texturefile = "gfx/interface/state_modifiers/modifiers_ITA_corsica.png"	
+	}
+}
