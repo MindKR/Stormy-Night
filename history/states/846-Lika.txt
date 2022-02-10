@@ -3,7 +3,7 @@ state={
 	name="STATE_846"
 
 	history={
-		owner = HUN
+		owner = CRO
 		victory_points = {
 			11564 10 
 		}
@@ -13,7 +13,6 @@ state={
 			industrial_complex = 2
 
 		}
-		add_core_of = HUN
 		add_core_of = CRO
 	}
 	provinces={

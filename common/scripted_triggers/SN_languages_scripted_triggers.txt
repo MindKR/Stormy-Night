@@ -28,6 +28,7 @@ is_german_speaking_country = {
 		OR = {
 			original_tag = GER
 			original_tag = AUS
+			original_tag = BKO
 		}
 	}
 }
@@ -57,7 +58,7 @@ is_croatian_speaking_country = {
 		tooltip = is_croatian_speaking_country_tt
 		OR = {
 			original_tag = CRO
-			original_tag = CRB
+			original_tag = DAL
 		}
 	}
 }
