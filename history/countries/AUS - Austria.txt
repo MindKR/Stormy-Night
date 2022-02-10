@@ -160,6 +160,22 @@ set_autonomy = {
 	autonomous_state = sn_crownland
 }
 set_autonomy = {
+	target = CZE
+	autonomous_state = sn_crownland
+}
+set_autonomy = {
+	target = GAL
+	autonomous_state = sn_crownland
+}
+set_autonomy = {
+	target = CRO
+	autonomous_state = sn_crownland
+}
+set_autonomy = {
+	target = DAL
+	autonomous_state = sn_crownland
+}
+set_autonomy = {
 	target = BOS
 	autonomous_state = sn_crownland
 }
