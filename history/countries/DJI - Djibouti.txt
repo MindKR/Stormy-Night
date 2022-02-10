@@ -1,7 +1,5 @@
 ﻿capital = 268
 
-set_cosmetic_tag = DJI_FRA
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

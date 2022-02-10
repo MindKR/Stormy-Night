@@ -7,7 +7,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = FRA
+		owner = RAJ
 		add_core_of = RAJ
 		buildings = {
 			infrastructure = 3 #was: 5
