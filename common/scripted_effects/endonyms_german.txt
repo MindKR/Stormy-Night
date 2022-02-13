@@ -79,6 +79,14 @@ apply_german_endonyms = {
 		}
 	}
 
+	if = { #Brandenburg
+		limit = { state = 64 }
+		set_province_name = {
+			id = 3473
+			name = Kustrin
+		}
+	}
+
 	if = { #Sachsen
 		limit = { state = 65 }
 		65 = {
@@ -128,10 +136,6 @@ apply_german_endonyms = {
 		limit = { state = 68 }
 		68 = {
 			set_state_name = Ostmark
-		}
-		set_province_name = {
-			id = 3473
-			name = Kustrin
 		}
 	}
 

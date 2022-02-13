@@ -26,6 +26,14 @@ apply_polish_endonyms = {
 		}
 	}
 
+	if = { #Brandenburg
+		limit = { state = 64 }
+		set_province_name = {
+			id = 3473
+			name = Kostrzyn_nad_Odra
+		}
+	}
+
 	if = { #Sachsen
 		limit = { state = 65 }
 		65 = {
@@ -75,10 +83,6 @@ apply_polish_endonyms = {
 		limit = { state = 68 }
 		68 = {
 			set_state_name = Lubuskie
-		}
-		set_province_name = {
-			id = 3473
-			name = Kostrzyn_nad_Odra
 		}
 	}
 
