@@ -841,6 +841,10 @@ CRO = {
 	color = rgb { 0 57 148 }
 	color_ui = rgb { 0 57 148 }
 }
+BOS = {
+	color = rgb { 70 70 255 }
+	color_ui = rgb { 70 70 255 }
+}
 DAL = {
 	color = rgb { 239 190 42 }
 	color_ui = rgb { 239 190 42 }
