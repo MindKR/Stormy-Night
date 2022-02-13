@@ -101,13 +101,13 @@ KUR_FRA = {
 }
 
 BOH = {
-    color = rgb { 200 75 75 }
-    color_ui = rgb { 200 75 75 }
+	color = rgb { 78 142 136 }
+	color_ui = rgb { 78 142 136 }
 }
 
 FRA_blue = {
-    color = rgb { 50 50 150 }
-    color_ui = rgb { 50 50 150 }
+	color = rgb { 0 18 127 }
+	color_ui = rgb { 0 18 127 }
 }
 
 ARM_OTT = {
@@ -123,11 +123,6 @@ AZR_OTT = {
 GEO_OTT = {
 	color = rgb { 185 8 19 }
 	color_ui = rgb { 185 8 19 }
-}
-
-LBA_Senussi = {
-    color = rgb { 0 0 0 }
-    color_ui = rgb { 0 0 0 }
 }
 
 SN_negotiation_territory = {
