@@ -149,8 +149,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 0 0 149 }
-	color_ui = rgb { 0 0 149 }
+	color = rgb { 0 42 177 }
+	color_ui = rgb { 0 42 177 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
