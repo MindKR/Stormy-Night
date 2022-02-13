@@ -45,7 +45,9 @@ autonomy_state = {
 			tag = HUN
 			tag = CZE
 			tag = GAL
-			tag = CRB
+			tag = CRO
+			tag = DAL
+			tag = BOS
 		}
 	}
 
