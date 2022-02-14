@@ -7,16 +7,6 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
-		"FRA"={
-			history = "FRA_INEVITABILITY_DESC"
-			ideology = libertarian_socialist
-			ideas = {
-				FRA_lagacy_of_revolution
-				FRA_resting_place_for_socialists
-			}
-			focuses = {
-			}
-		}
 		"USA"={
 			history = "USA_INEVITABILITY_DESC"
 			ideology = liberal
@@ -38,12 +28,30 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"AUS"={
+			history = "AUS_INEVITABILITY_DESC"
+			ideology = conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"GER"={
 			history = "GER_INEVITABILITY_DESC"
 			ideology = social_democrat
 			ideas = {
 				wilhelm_ii
 				unified_german_pride
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "FRA_INEVITABILITY_DESC"
+			ideology = libertarian_socialist
+			ideas = {
+				FRA_lagacy_of_revolution
+				FRA_resting_place_for_socialists
 			}
 			focuses = {
 			}
@@ -58,32 +66,15 @@ bookmarks = {
 			focuses = {
 			}		
 		}
-		"AUS"={
-			history = "AUS_INEVITABILITY_DESC"
-			ideology = conservative
+		"RUS"={
+			history = "RUS_INEVITABILITY_DESC"
+			ideology = strong_autocrat
 			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"SOV"={
-			history = "SOV_INEVITABILITY_DESC"
-			ideology = authoritarian_socialist
-			ideas = {
-				home_of_revolution
 			}
 			focuses = {
 			}	
 		}
-
-
-		"---"={
-			history = "OTHER_INEVITABILITY_DESC"
-		}
-
-		# minors
 		"JAP"={
-			minor = yes
 			history = "JAP_INEVITABILITY_DESC"
 			ideology = fascism
 			ideas = {
@@ -91,60 +82,59 @@ bookmarks = {
 			focuses = {
 			}			
 		}
-		"POL"={
+
+		# minors
+		"OTT"={
 			minor = yes
-			history = "POL_INEVITABILITY_DESC"
-			ideology = neutrality
+			history = "OTT_INEVITABILITY_DESC"
+			ideology = strong_autocrat
 			ideas = {
 				
 			}
 			focuses = {
 			}
 		}
-		"CZE"={
+		"CHI"={
 			minor = yes
-			history = "CZE_INEVITABILITY_DESC"
-			ideology = democratic
+			history = "CHI_INEVITABILITY_DESC"
+			ideology = conservative
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"HUN"={
+		"HOL"={
 			minor = yes
-			history = "HUN_INEVITABILITY_DESC"
-			ideology = strong_autocrat
-			ideas = {
-				HUN_disjointed_government
-				HUN_we_saved_our_territory
-			}
-			focuses = {
-			}
-		}
-		"SER"={
-			minor = yes
-			history = "SER_INEVITABILITY_DESC"
-			ideology = neutrality
+			history = "HOL_INEVITABILITY_DESC"
+			ideology = conservative
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"OTT"={
+		"SWE"={
 			minor = yes
-			history = "OTT_INEVITABILITY_DESC"
-			ideology = strong_autocrat
+			history = "SWE_INEVITABILITY_DESC"
+			ideology = social_democrat
 			ideas = {
 			}
 			focuses = {
 			}
 		}
-		"KOR"={
+		"FIN"={
 			minor = yes
-			history = "KOR_INEVITABILITY_DESC"
-			ideology = democatic
+			history = "FIN_INEVITABILITY_DESC"
+			ideology = conservative
 			ideas = {
-				yi_kang
+			}
+			focuses = {
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = "SPR_INEVITABILITY_DESC"
+			ideology = social_democrat
+			ideas = {
 			}
 			focuses = {
 			}
