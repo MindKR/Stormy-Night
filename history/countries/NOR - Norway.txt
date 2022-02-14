@@ -9,6 +9,8 @@ if = {
 	}
 }
 
+set_cosmetic_tag = NOR_SWE
+
 set_research_slots = 3
 
 add_ideas = {

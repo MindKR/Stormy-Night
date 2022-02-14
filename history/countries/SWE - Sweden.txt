@@ -9,6 +9,11 @@ if = {
 	}
 }
 
+set_autonomy = {
+	target = NOR
+	autonomous_state = SN_personal_union
+}
+
 set_research_slots = 3
 
 add_ideas = {

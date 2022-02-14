@@ -1,0 +1,87 @@
+on_actions = {
+	on_subject_free = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = NOR
+				}
+				NOR = {
+					abandon_colony_tag = yes
+					drop_cosmetic_tag = yes
+				}
+			}
+		}
+	}
+
+	on_subject_autonomy_level_change = {
+		effect = {
+			if = {
+				limit = {
+					tag = NOR
+					NOT = { is_subject_of = SWE }
+				}
+				NOR = {
+					abandon_colony_tag = yes
+					drop_cosmetic_tag = yes
+				}
+			}
+		}
+	}
+
+	on_puppet = {
+		effect = {
+			if = {
+				limit = {
+					tag = NOR
+					NOT = {
+						FROM = {
+							tag = SWE
+						}
+					}
+				}
+				NOR = {
+					abandon_colony_tag = yes
+					drop_cosmetic_tag = yes
+				}
+			}
+		}
+	}
+
+	on_release_as_puppet = {
+		effect = {
+			if = {
+				limit = {
+					tag = NOR
+					NOT = {
+						FROM = {
+							tag = SWE
+						}
+					}
+				}
+				NOR = {
+					abandon_colony_tag = yes
+					drop_cosmetic_tag = yes
+				}
+			}
+		}
+	}
+
+	on_release_as_free = {
+		effect = {
+			if = {
+				limit = {
+					tag = NOR
+					NOT = {
+						FROM = {
+							tag = SWE
+						}
+					}
+				}
+				NOR = {
+					abandon_colony_tag = yes
+					drop_cosmetic_tag = yes
+				}
+			}
+		}
+	}
+}

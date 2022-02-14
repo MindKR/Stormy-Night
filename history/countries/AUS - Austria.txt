@@ -157,7 +157,7 @@ create_faction = Austro-Hungarian_Empire
 
 set_autonomy = {
 	target = HUN
-	autonomous_state = sn_crownland
+	autonomous_state = SN_personal_union
 }
 set_autonomy = {
 	target = CZE
