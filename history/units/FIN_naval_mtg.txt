@@ -1,7 +1,7 @@
 ﻿units = {
 
 	##### NAVAL UNITS #####
-	fleet = {
+	fleet = { 
 		name = "Suomen Merivoimat"
 		naval_base = 11105 # Helsinki
 		task_force = {				
