@@ -177,11 +177,6 @@ if = {
 		freedom_level = 0.35
 	}
 	set_autonomy = {
-		target = AFG
-		autonomous_state = autonomy_puppet
-		freedom_level = 0.35
-	}
-	set_autonomy = {
 		target = CAN
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
@@ -206,6 +201,11 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = AFG
+		autonomous_state = SN_protectorate
+		freedom_level = 0.35
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ
@@ -222,6 +222,7 @@ add_to_faction = SAF
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAL
+add_to_faction = AFG
 
 if = {
 	limit = { has_dlc = "Together for Victory" }

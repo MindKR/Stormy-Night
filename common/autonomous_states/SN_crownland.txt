@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = sn_crownland
+	id = SN_crownland
 
 	is_puppet = yes
 	default = yes

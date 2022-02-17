@@ -1,5 +1,5 @@
 autonomy_state = {
-	id = sn_protectorate
+	id = SN_protectorate
 	
 	is_puppet = no
 	

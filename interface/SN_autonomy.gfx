@@ -1,18 +1,18 @@
 spriteTypes = {
 	
 	spriteType = {
-		name = "GFX_sn_protectorate_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_sn_protectorate.dds"
+		name = "GFX_SN_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_SN_protectorate.dds"
 	}
 
 	spriteType = {
-		name = "GFX_sn_crownland_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_sn_crownland.png"
+		name = "GFX_SN_crownland_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_SN_crownland.png"
 	}
 
 	spriteType = {
-		name = "GFX_sn_personal_union_icon"
-		textureFile = "gfx/interface/autonomy/autonomy_sn_personal_union.dds"
+		name = "GFX_SN_personal_union_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_SN_personal_union.dds"
 	}
 	
 }
