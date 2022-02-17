@@ -105,6 +105,14 @@ set_convoys = 25
 set_stability = 0.9
 
 
+create_faction = Sweden-Norway
+
+set_autonomy = {
+	target = NOR
+	autonomous_state = SN_personal_union
+}
+
+
 recruit_character = SWE_per_albin_hansson
 recruit_character = SWE_sven_linderot
 recruit_character = SWE_axel_pehrssonbramstorp
