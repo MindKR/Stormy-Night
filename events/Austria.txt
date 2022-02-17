@@ -43,7 +43,7 @@ country_event = {
 	
 	trigger = {
 		original_tag = AUS
-		NOT = { has_country_flag = Ferdinand_dies }
+		NOT = { has_country_flag = ferdinand_dead }
 		has_country_leader = { character = AUS_Franz_Ferdinand }
 	}
 
@@ -104,17 +104,17 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = austria.4.a
-		set_country_flag = surviving_emperor
+		name = austria.5.a
+		set_country_flag = surviving_kaiser
 	}
 
 	option = {
-		name = austria.4.b
-		set_country_flag = Ferdinand_dies
+		name = austria.5.b
+		set_country_flag = ferdinand_dead
 	}
 	
 	option = {
-		name = austria.4.c
+		name = austria.5.c
 		trigger = { has_country_flag = with_sophie }
 	}
 }
