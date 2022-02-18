@@ -48,6 +48,7 @@ autonomy_state = {
 			tag = CRO
 			tag = DAL
 			tag = BOS
+			tag = BKO
 		}
 	}
 
