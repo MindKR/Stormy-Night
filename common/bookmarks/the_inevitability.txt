@@ -11,9 +11,6 @@ bookmarks = {
 			history = "USA_INEVITABILITY_DESC"
 			ideology = liberal
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
 			}
 			focuses = {
 			}
@@ -41,7 +38,6 @@ bookmarks = {
 			ideology = social_democrat
 			ideas = {
 				wilhelm_ii
-				unified_german_pride
 			}
 			focuses = {
 			}
