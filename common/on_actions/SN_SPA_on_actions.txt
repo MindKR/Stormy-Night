@@ -21,11 +21,11 @@ on_actions = {
 				limit = {
 					SPR_scw_in_progress = yes
 					ROOT = { is_spanish_speaking_country = yes }
-					all_owned_state = {
-						AND = {
-							is_controlled_by = ROOT
+					all_state = {
+						limit = {
 							is_core_of = SPR
 						}
+						is_controlled_by = ROOT
 					}
 				}
 				set_global_flag = scw_over
