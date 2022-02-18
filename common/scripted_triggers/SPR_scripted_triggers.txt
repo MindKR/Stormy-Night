@@ -1,0 +1,6 @@
+#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE SPR/SPA/SPB/SPC/SPD TAGS
+
+SPR_scw_in_progress = {
+	has_global_flag = spanish_civil_war
+	NOT = { has_global_flag = scw_over }
+}

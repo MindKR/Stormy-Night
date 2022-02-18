@@ -62,3 +62,14 @@ is_croatian_speaking_country = {
 		}
 	}
 }
+
+is_spanish_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_spanish_speaking_country_tt
+		OR = {
+			original_tag = SPR
+			original_tag = FAL
+			original_tag = ALF
+		}
+	}
+}

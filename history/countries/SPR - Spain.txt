@@ -1,6 +1,9 @@
 ﻿capital = 41
 
 oob = "SPR"
+
+set_global_flag = spanish_civil_war
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "SPR_naval_mtg"

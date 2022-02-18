@@ -1,0 +1,8 @@
+is_mainland_spain = {
+	custom_trigger_tooltip = {
+		tooltip = is_mainland_spain_tt
+		OR = {
+
+		}
+	}
+}
