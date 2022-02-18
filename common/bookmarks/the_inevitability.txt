@@ -7,7 +7,7 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
-		"USA"={
+		USA={
 			history = "USA_INEVITABILITY_DESC"
 			ideology = liberal
 			ideas = {
@@ -18,7 +18,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"ENG"={
+		ENG={
 			history = "ENG_INEVITABILITY_DESC"
 			ideology = conservative
 			ideas = {
@@ -28,7 +28,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"AUS"={
+		AUS={
 			history = "AUS_INEVITABILITY_DESC"
 			ideology = conservative
 			ideas = {
@@ -36,7 +36,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"GER"={
+		GER={
 			history = "GER_INEVITABILITY_DESC"
 			ideology = social_democrat
 			ideas = {
@@ -46,7 +46,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"FRA"={
+		FRA={
 			history = "FRA_INEVITABILITY_DESC"
 			ideology = libertarian_socialist
 			ideas = {
@@ -56,7 +56,7 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"ITA"={
+		ITA={
 			history = "ITA_INEVITABILITY_DESC"
 			ideology = democratic
 			ideas = {
@@ -66,7 +66,7 @@ bookmarks = {
 			focuses = {
 			}		
 		}
-		"RUS"={
+		RUS={
 			history = "RUS_INEVITABILITY_DESC"
 			ideology = strong_autocrat
 			ideas = {
@@ -74,7 +74,7 @@ bookmarks = {
 			focuses = {
 			}	
 		}
-		"JAP"={
+		JAP={
 			history = "JAP_INEVITABILITY_DESC"
 			ideology = fascism
 			ideas = {
@@ -89,7 +89,6 @@ bookmarks = {
 			history = "OTT_INEVITABILITY_DESC"
 			ideology = strong_autocrat
 			ideas = {
-				
 			}
 			focuses = {
 			}

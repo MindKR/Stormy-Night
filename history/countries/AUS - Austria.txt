@@ -179,6 +179,10 @@ set_autonomy = {
 	target = BOS
 	autonomous_state = SN_crownland
 }
+set_autonomy = {
+	target = BKO
+	autonomous_state = SN_crownland
+}
 
 set_politics = {
 	ruling_party = conservative
