@@ -3,13 +3,9 @@ state={
 	id=461
 	name="STATE_461"
 	resources={
-		chromium=12.000 #added due to portugal setup
+		chromium=12.000
 	}
 
-	manpower = 3197719
-	
-	state_category = rural
-	
 	history={
 		owner = MOR
 		add_core_of = MOR
@@ -22,13 +18,22 @@ state={
 			air_base = 4
 			7069 = {
 				naval_base = 4
+
 			}
+			12100 = {
+				naval_base = 3
+
+			}
+
 		}
+
 	}
 
 	provinces={
-		989 1079 1111 1194 4084 4097 4139 7069 7100 7116 7173 10013 10023 10070 11943 11987 12042 
+		989 1079 1111 1194 4084 4097 4139 4199 7069 7100 7116 7173 7215 10013 10023 10070 10113 11943 11987 12042 12087 12100 
 	}
-
-	local_supplies=0.0 
+	manpower=3841719
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }
