@@ -246,7 +246,7 @@ units = {
 	}			
 	division = {			
 		name = "Circunscripción Oriental"		
-		location = 12100  #Melilla
+		location = 13234  #Melilla
 		division_template = "División de Infantería"		# garrison division, lower equipment, experience
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
