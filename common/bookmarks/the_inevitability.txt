@@ -58,7 +58,7 @@ bookmarks = {
 		}
 		ITA={
 			history = "ITA_INEVITABILITY_DESC"
-			ideology = democratic
+			ideology = social_democrat
 			ideas = {
 				victor_emmanuel
 				ITA_risorgimento4
@@ -76,7 +76,7 @@ bookmarks = {
 		}
 		JAP={
 			history = "JAP_INEVITABILITY_DESC"
-			ideology = fascism
+			ideology = national_populist
 			ideas = {
 			}	
 			focuses = {
