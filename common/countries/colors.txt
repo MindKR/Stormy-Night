@@ -61,8 +61,8 @@ LAT = {
 	color_ui = rgb { 124 125 184 }
 }
 SPR = {
-	color = rgb { 242 205 94 }
-	color_ui = rgb { 255 255 122 }
+	color = rgb { 99 11 87 }
+	color_ui = rgb { 99 11 87 }
 }
 ITA = {
 	color = rgb { 67 127 63 }
@@ -865,7 +865,11 @@ BKF = {
 	color = rgb { 50 50 50 }
 	color_ui = rgb { 50 50 50 }
 }
-KOR_JAP_subject = {
-    color = rgb { 255 140 60 }
-    color_ui = rgb { 255 140 60 }
+FAL = {
+	color = rgb { 109 9 13 }
+	color_ui = rgb { 109 9 13 }
+}
+ALF = {
+	color = rgb { 235 119 18 }
+	color_ui = rgb { 235 119 18 }
 }

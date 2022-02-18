@@ -626,3 +626,19 @@
  AST:0 "오스트레일리아"
  AST_DEF:0 "오스트레일리아"
  AST_ADJ:0 "오스트레일리아"
+
+ FAL_national_populist:0 "팔랑헤주의 스페인"
+ FAL_national_populist_DEF:0 "팔랑헤주의 스페인"
+ FAL:0 "팔랑헤"
+ FAL_DEF:0 "팔랑헤"
+ FAL_ADJ:0 "팔랑헤"
+
+ ALF_strong_autocrat:0 "알폰소주의 스페인"
+ ALF_strong_autocrat_DEF:0 "알폰소주의 스페인"
+ ALF:0 "알폰소주의자"
+ ALF_DEF:0 "알폰소주의자"
+ ALF_ADJ:0 "알폰소주의자"
+
+ SPR:0 "스페인 공화국"
+ SPR_DEF:0 "스페인 공화국"
+ SPR_ADJ:0 "스페인 공화국"
