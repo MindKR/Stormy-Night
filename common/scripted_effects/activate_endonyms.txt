@@ -71,5 +71,9 @@ activate_endonyms = {
 		apply_romanian_endonyms = yes
 	}
 
+	else_if = { limit = { ROOT = { tag = SER } }
+		apply_serbian_endonyms = yes
+	}
+
 	else = { reset_state_name = yes }
 }

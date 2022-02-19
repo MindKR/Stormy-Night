@@ -367,5 +367,12 @@ apply_german_endonyms = {
 			id = 3560
 			name = Sedan_GER
 		}
-	}	
+	}
+
+	if = { #Srijem
+		limit = { state = 873 }
+		873 = {
+			set_state_name = Syrmien
+		}
+	}
 }

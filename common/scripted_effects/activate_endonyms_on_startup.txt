@@ -71,5 +71,9 @@ activate_endonyms_on_startup = {
 		apply_romanian_endonyms = yes
 	}
 
+	else_if = { limit = { controller = { tag = SER } }
+		apply_serbian_endonyms = yes
+	}
+
 	else = { reset_state_name = yes }
 }

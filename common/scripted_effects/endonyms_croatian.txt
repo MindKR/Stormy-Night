@@ -10,4 +10,11 @@ apply_croatian_endonyms = {
 			name = Trst
 		}
 	}
+
+	if = { #Srijem
+		limit = { state = 873 }
+		873 = {
+			set_state_name = Srijem
+		}
+	}
 }

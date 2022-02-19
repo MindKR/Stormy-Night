@@ -1,0 +1,9 @@
+apply_serbian_endonyms = {
+
+	if = { #Srijem
+		limit = { state = 873 }
+		873 = {
+			set_state_name = Srem
+		}
+	}
+}

@@ -10,4 +10,11 @@ apply_hungarian_endonyms = {
 			name = Csernovic
 		}
 	}
+
+	if = { #Srijem
+		limit = { state = 873 }
+		873 = {
+			set_state_name = Szeremseg
+		}
+	}
 }
