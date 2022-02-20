@@ -374,5 +374,9 @@ apply_german_endonyms = {
 		873 = {
 			set_state_name = Syrmien
 		}
+		set_province_name = {
+			id = 11577
+			name = Mitrovica
+		}
 	}
 }

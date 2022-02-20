@@ -16,5 +16,9 @@ apply_hungarian_endonyms = {
 		873 = {
 			set_state_name = Szeremseg
 		}
+		set_province_name = {
+			id = 11577
+			name = Szavaszentdemeter
+		}
 	}
 }

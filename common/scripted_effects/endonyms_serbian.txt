@@ -5,5 +5,9 @@ apply_serbian_endonyms = {
 		873 = {
 			set_state_name = Srem
 		}
+		set_province_name = {
+			id = 11577
+			name = Sremska_Mitrovica
+		}
 	}
 }
