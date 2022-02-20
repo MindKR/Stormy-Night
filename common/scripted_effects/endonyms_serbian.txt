@@ -10,4 +10,11 @@ apply_serbian_endonyms = {
 			name = Sremska_Mitrovica
 		}
 	}
+
+	if = { #Southern Baranya
+		limit = { state = 874 }
+		874 = {
+			set_state_name = Southern_Baranja
+		}
+	}
 }

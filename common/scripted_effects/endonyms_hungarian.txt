@@ -21,4 +21,11 @@ apply_hungarian_endonyms = {
 			name = Szavaszentdemeter
 		}
 	}
+
+	if = { #Southern Baranya
+		limit = { state = 874 }
+		874 = {
+			set_state_name = Southern_Baranya
+		}
+	}
 }

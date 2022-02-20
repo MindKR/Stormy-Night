@@ -379,4 +379,11 @@ apply_german_endonyms = {
 			name = Mitrovica
 		}
 	}
+
+	if = { #Southern Baranya
+		limit = { state = 874 }
+		874 = {
+			set_state_name = Southern_Branau
+		}
+	}
 }
