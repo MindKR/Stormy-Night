@@ -3,6 +3,26 @@
 ###########################
 
 add_namespace = france
+add_namespace = History_FRA
+
+#########################
+### HISTORY OF FRANCE ###
+#########################
+
+# On Start
+country_event = {
+	id = History_FRA.1
+	title = History_FRA.1.t
+	desc = History_FRA.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = History_FRA.1.a
+		trigger = {
+		}
+	}
+}
 
 #############
 ### EVENT ####

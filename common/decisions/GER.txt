@@ -18,7 +18,7 @@ GER_history_category = {
 		cost = 0
 
 		complete_effect = {
-			GER = { country_event = germany.1 }
+			GER = { country_event = History_GER.1 }
 		}
 	}
 	
@@ -39,7 +39,7 @@ GER_history_category = {
 		cost = 0
 
 		complete_effect = {
-			GER = { country_event = History_GER.1 }
+			GER = { country_event = History_GER.2 }
 		}
 	}
 }

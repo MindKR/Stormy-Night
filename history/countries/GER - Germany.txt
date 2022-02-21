@@ -16,8 +16,8 @@ if = {
 }
 
 country_event = { id = olympics.1 days = 217 }
-country_event = { id = germany.1 days = 1 }
-country_event = { id = germany.2 days = 2019 } #Death of Wilhelm II
+country_event = { id = History_GER.1 days = 1 }
+country_event = { id = germany.1 days = 2019 } #Death of Wilhelm II
 
 starting_train_buffer = 2
 set_fuel_ratio = 0.8
