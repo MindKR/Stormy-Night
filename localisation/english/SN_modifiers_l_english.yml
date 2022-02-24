@@ -19,3 +19,12 @@
 
  SN_is_democratic:0 "현재 집권당이 §C민주주의 정부§!임."
  SN_is_socialist:0 "현재 집권당이 §R사회주의 정부§!임"
+
+ MODIFIER_CONSUMER_GOODS_FACTOR:0 "£consumer_goods_texticon 소비재 공장"
+ MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR:1 "£change_prod_eff 생산 효율 유지"
+ MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR_DESC:0 "생산 라인에서 생산품을 변경할 때 £prod_eff 생산 효율의 변화입니다."
+ MODIFIER_PRODUCTION_FACTORY_START_EFFICIENCY_FACTOR:0 "£prod_eff_stt 기본 생산 효율"
+
+ modifier_production_speed_infrastructure_factor:0 "£infrastructure_texticon §Y기반시설§! 건설 속도"
+ modifier_production_speed_arms_factory_factor:0 "£mil_factory §Y군수공장§! 건설 속도"
+ modifier_production_speed_industrial_complex_factor:0 "£civ_factory §Y민간공장§! 건설 속도"

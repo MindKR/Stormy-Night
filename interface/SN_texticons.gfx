@@ -1,0 +1,20 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_consumer_goods_texticon"
+		texturefile = "gfx/texticons/consumer_goods_texticon.png"
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_prod_eff_stt"
+		texturefile = "gfx/texticons/start_efficiency_texticon.png"
+		legacy_lazy_load = no
+	}
+
+	SpriteType = {
+		name = "GFX_change_prod_eff"
+		texturefile = "gfx/texticons/change_efficiency_texticon.png"
+		legacy_lazy_load = no
+	}
+}
