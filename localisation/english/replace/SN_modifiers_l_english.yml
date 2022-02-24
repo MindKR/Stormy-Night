@@ -20,6 +20,24 @@
  SN_is_democratic:0 "현재 집권당이 §C민주주의 정부§!임."
  SN_is_socialist:0 "현재 집권당이 §R사회주의 정부§!임"
 
+
+ MODIFIER_POLITICAL_POWER_GAIN:0 "£pol_power 매일 정치력 획득"
+ MODIFIER_POLITICAL_POWER_COST:0 "£pol_power 매일 정치력 비용"
+ MODIFIER_POLITICAL_POWER_FACTOR:0 "£pol_power 정치력 획득"
+
+ stability_good_modifier:0 "£stability_texticon 안정도"
+ stability_bad_modifier:0 "£stability_texticon 안정도"
+ MODIFIER_STABILITY_FACTOR:0 "£stability_texticon 안정도"
+ MODIFIER_STABILITY_WEEKLY:0 "£stability_texticon 주간 안정도"
+ MODIFIER_STABILITY_WEEKLY_FACTOR:0 "£stability_texticon 주간 안정도 획득"
+
+ war_support_modifier:0 "£war_support_icon 전쟁 지지도"
+ war_support_good_modifier:0 "£war_support_icon 전쟁 지지도"
+ war_support_bad_modifier:0 "£war_support_icon 전쟁 지지도"
+ MODIFIER_WAR_SUPPORT_FACTOR:0 "£war_support_icon 전쟁 지지도"
+ MODIFIER_WAR_SUPPORT_WEEKLY:0 "£war_support_icon 주간 전쟁 지지도"
+ MODIFIER_WAR_SUPPORT_WEEKLY_FACTOR:0 "£war_support_icon 주간 전쟁 지지도 획득"
+
  MODIFIER_CONSUMER_GOODS_FACTOR:0 "£consumer_goods_texticon 소비재 공장"
  MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR:1 "£change_prod_eff 생산 효율 유지"
  MODIFIER_LINE_CHANGE_PRODUCTION_EFFICIENCY_FACTOR_DESC:0 "생산 라인에서 생산품을 변경할 때 £prod_eff 생산 효율의 변화입니다."
