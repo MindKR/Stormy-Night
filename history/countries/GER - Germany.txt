@@ -150,11 +150,18 @@ set_politics = {
 	election_frequency = 60
 	elections_allowed = yes
 }
+
+set_variable = { var = social_democratic_party value = 186 } 
+set_variable = { var = DDP value = 107 } 
+set_variable = { var = DZP value = 88 }
+set_variable = { var = DkP value = 16 }
+
 set_popularities = {
 	social_democrat = 42
 	liberal = 27
 	conservative = 22
-	strong_autocrat = 7
+	authoritarian_democrat = 4
+	strong_autocrat = 3
 	authoritarian_socialist = 2
 }
 

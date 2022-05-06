@@ -1,5 +1,53 @@
 apply_lithuanian_endonyms = {
 
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = Voluine
+		}
+		set_province_name = {
+			id = 422
+			name = Kovelis
+		}
+		set_province_name = {
+			id = 6557
+			name = Rovnas
+		}
+	}
+
+	if = { #Novogrudok
+		limit = { state = 95 }
+		95 = {
+			set_state_name = Naugardukas
+		}
+		set_province_name = {
+			id = 9304
+			name = Baranoviciai
+		}
+	}
+
+	if = { #Viliejka (Vileyka)
+		limit = { state = 96 }
+		96 = {
+			set_state_name = Vileika
+		}
+		set_province_name = {
+			id = 406
+			name = Maladecina
+		}
+	}
+
+	if = { #Belostok
+		limit = { state = 97 }
+		97 = {
+			set_state_name = Baltstoge
+		}
+		set_province_name = {
+			id = 11301
+			name = Baltstoge
+		}
+	}
+
 	if = { #Memel
 		limit = { state = 188 }
 		188 = {
@@ -8,6 +56,36 @@ apply_lithuanian_endonyms = {
 		set_province_name = {
 			id = 3288
 			name = Klaipeda
+		}
+	}
+
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Vilnius
+		}
+		set_province_name = {
+			id = 3320
+			name = Vilnius
+		}
+		set_province_name = {
+			id = 3393
+			name = Gardinas
+		}
+	}
+
+	if = { #Suwalki
+		limit = { state = 814 }
+		814 = {
+			set_state_name = Suvalkai
+		}
+		set_province_name = {
+			id = 3254
+			name = Suvalkai
+		}
+		set_province_name = {
+			id = 11312
+			name = Marijampole
 		}
 	}
 }

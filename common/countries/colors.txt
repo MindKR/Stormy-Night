@@ -873,3 +873,7 @@ ALF = {
 	color = rgb { 235 119 18 }
 	color_ui = rgb { 235 119 18 }
 }
+SSI = {
+	color = rgb { 25 182 25 }
+	color_ui = rgb { 25 182 25 }
+}

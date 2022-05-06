@@ -1,5 +1,16 @@
 apply_russian_endonyms = {
 
+	if = { #Bessarabia
+		limit = { state = 78 }
+		78 = {
+			set_state_name = Bessarabiya
+		}
+		set_province_name = {
+			id = 3707
+			name = Kishinev
+		}
+	}
+
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
@@ -8,6 +19,109 @@ apply_russian_endonyms = {
 		set_province_name = {
 			id = 577
 			name = Chernovtsy
+		}
+	}
+
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = Volyn
+		}
+		set_province_name = {
+			id = 422
+			name = Kovel
+		}
+		set_province_name = {
+			id = 6557
+			name = Rovno
+		}
+	}
+
+	if = { #Brest-Litovsk
+		limit = { state = 94 }
+		94 = {
+			set_state_name = Brest-Litovsk
+		}
+		set_province_name = {
+			id = 3392
+			name = Brest-Litovsk
+		}
+	}
+
+	if = { #Novogrudok
+		limit = { state = 95 }
+		95 = {
+			set_state_name = Novogrudok
+		}
+		set_province_name = {
+			id = 9304
+			name = Baranovichy
+		}
+	}
+
+	if = { #Viliejka (Vileyka)
+		limit = { state = 96 }
+		96 = {
+			set_state_name = Viliejka
+		}
+		set_province_name = {
+			id = 406
+			name = Molodechno
+		}
+	}
+
+	if = { #Belostok
+		limit = { state = 97 }
+		97 = {
+			set_state_name = Belostok
+		}
+		set_province_name = {
+			id = 11301
+			name = Belostok
+		}
+	}
+
+	if = { #Crimea
+		limit = { state = 137 }
+		137 = {
+			set_state_name = Krym_RUS
+		}
+	}
+
+	if = { #Odessa
+		limit = { state = 192 }
+		192 = {
+			set_state_name = Odessa
+		}
+		set_province_name = {
+			id = 11670
+			name = Odessa
+		}
+	}
+
+	if = { #Chernihiv
+		limit = { state = 193 }
+		193 = {
+			set_state_name = Chernigov
+		}
+		set_province_name = {
+			id = 3568
+			name = Chernigov
+		}
+		set_province_name = {
+			id = 9288
+			name = Gomel
+		}
+	}
+
+	if = { #Mozyr
+		limit = { state = 194 }
+		194 = {
+			set_state_name = Mozyr
+		}
+		set_province_name = {
+			id = 6232
+			name = Mozyr
 		}
 	}
 
@@ -39,6 +153,146 @@ apply_russian_endonyms = {
 		}
 	}
 
+	if = { #Nikolayev 
+		limit = { state = 197 }
+		197 = {
+			set_state_name = Nikolayev 
+		}
+		set_province_name = {
+			id = 11683
+			name = Nikolayev
+		}
+	}
+
+	if = { #Proskurov 
+		limit = { state = 199 }
+		199 = {
+			set_state_name = Proskurov 
+		}
+		set_province_name = {
+			id = 3457
+			name = Proskurov
+		}
+	}
+
+	if = { #Aleksandrovsk 
+		limit = { state = 200 }
+		200 = {
+			set_state_name = Aleksandrovsk 
+		}
+		set_province_name = {
+			id = 11405
+			name = Aleksandrovsk
+		}
+	}
+
+	if = { #Zhitomir 
+		limit = { state = 201 }
+		201 = {
+			set_state_name = Zhitomir 
+		}
+		set_province_name = {
+			id = 6593
+			name = Zhitomir
+		}
+	}
+
+	if = { #Kiev
+		limit = { state = 202 }
+		202 = {
+			set_state_name = Kiev
+		}
+		set_province_name = {
+			id = 525
+			name = Kiev
+		}
+	}
+
+	if = { #Bobrujsk 
+		limit = { state = 204 }
+		204 = {
+			set_state_name = Bobrujsk 
+		}
+		set_province_name = {
+			id = 3350
+			name = Bobrujsk
+		}
+		set_province_name = {
+			id = 11313
+			name = Soligorsk
+		}
+	}
+
+	if = { #Minsk
+		limit = { state = 206 }
+		set_province_name = {
+			id = 9289
+			name = Mogilev
+		}
+	}
+
+	if = { #Vitebsk 
+		limit = { state = 207 }
+		207 = {
+			set_state_name = Vitebsk 
+		}
+		set_province_name = {
+			id = 11241
+			name = Vitebsk
+		}
+	}
+
+	if = { #Kharkov 
+		limit = { state = 221 }
+		221 = {
+			set_state_name = Kharkov 
+		}
+		set_province_name = {
+			id = 418
+			name = Kharkov
+		}
+	}
+
+	if = { #Yekaterinoslav 
+		limit = { state = 226 }
+		226 = {
+			set_state_name = Yekaterinoslav 
+		}
+		set_province_name = {
+			id = 11437
+			name = Yekaterinoslav
+		}
+		set_province_name = {
+			id = 11561
+			name = Krivoy_Rog
+		}
+	}
+
+	if = { #Yuzovka 
+		limit = { state = 227 }
+		227 = {
+			set_state_name = Yuzovka 
+		}
+		set_province_name = {
+			id = 6474
+			name = Yuzovka
+		}
+	}
+
+	if = { #Lugansk 
+		limit = { state = 228 }
+		228 = {
+			set_state_name = Lugansk 
+		}
+	}
+
+	if = { #Chaussy 
+		limit = { state = 241 }
+		241 = {
+			set_state_name = Chaussy 
+		}
+	}
+
 	if = { #Tver
 		limit = { state = 247 }
 		247 = {
@@ -47,6 +301,17 @@ apply_russian_endonyms = {
 		set_province_name = {
 			id = 6245
 			name = Tver
+		}
+	}
+
+	if = { #Poltava 
+		limit = { state = 259 }
+		259 = {
+			set_state_name = Poltava 
+		}
+		set_province_name = {
+			id = 11504
+			name = Poltava
 		}
 	}
 	
@@ -58,6 +323,29 @@ apply_russian_endonyms = {
 		set_province_name = {
 			id = 1384
 			name = Dushanbe
+		}
+	}
+
+	if = { #Southern Bessarabia
+		limit = { state = 766 }
+		set_province_name = {
+			id = 6727
+			name = Akkerman
+		}
+	}
+
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Vilna_RUS
+		}
+		set_province_name = {
+			id = 3320
+			name = Vilna_RUS
+		}
+		set_province_name = {
+			id = 3393
+			name = Grodno
 		}
 	}
 }

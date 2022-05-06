@@ -1,0 +1,227 @@
+enable_endonyms = {
+	set_global_flag = endonyms_flag
+	activate_endonyms = yes
+}
+
+activate_endonyms = {
+	every_state = {
+		if = { limit = { controller = { tag = KOR } }
+			apply_korean_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = JAP } }
+			apply_japanese_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { is_german_speaking_country = yes } }
+			apply_german_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = FRA } }
+			apply_french_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = ITA } }
+			apply_italian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = RUS } }
+			apply_russian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { is_polish_speaking_country = yes } }
+			apply_polish_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = LIT } }
+			apply_lithuanian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = CZE } }
+			apply_czech_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { is_turkish_speaking_country = yes } }
+			apply_turkish_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = GRE } }
+			apply_greek_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = BUL } }
+			apply_bulgarian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { is_arabic_speaking_country = yes } }
+			apply_arab_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { is_croatian_speaking_country = yes } }
+			apply_croatian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = SLV } }
+			apply_slovene_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = UKR } }
+			apply_ukrainian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = BLR } }
+			apply_belarusian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = HUN } }
+			apply_hungarian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { is_romanian_speaking_country = yes } }
+			apply_romanian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = SER } }
+			apply_serbian_endonyms = yes
+		}
+
+		else_if = { limit = { controller = { tag = LAT } }
+			apply_latvian_endonyms = yes
+		}
+
+		else = { reset_state_name = yes }
+	}
+}
+
+disable_endonyms = {
+	clr_global_flag = endonyms_flag
+	every_state = { reset_state_name = yes }
+
+	reset_province_name = 105
+	reset_province_name = 279
+	reset_province_name = 406
+	reset_province_name = 418
+	reset_province_name = 422
+	reset_province_name = 442
+	reset_province_name = 514
+	reset_province_name = 525
+	reset_province_name = 577
+	reset_province_name = 678
+	reset_province_name = 778
+	reset_province_name = 784
+	reset_province_name = 904
+	reset_province_name = 919
+	reset_province_name = 928
+	reset_province_name = 947
+	reset_province_name = 1003
+	reset_province_name = 1043
+	reset_province_name = 1100
+	reset_province_name = 1148
+	reset_province_name = 1177
+	reset_province_name = 1384
+	reset_province_name = 3151
+	reset_province_name = 3254
+	reset_province_name = 3288
+	reset_province_name = 3295
+	reset_province_name = 3320
+	reset_province_name = 3350
+	reset_province_name = 3392
+	reset_province_name = 3393
+	reset_province_name = 3457
+	reset_province_name = 3473
+	reset_province_name = 3535
+	reset_province_name = 3546
+	reset_province_name = 3560
+	reset_province_name = 3568
+	reset_province_name = 3569
+	reset_province_name = 3583
+	reset_province_name = 3585
+	reset_province_name = 3707
+	reset_province_name = 3780
+	reset_province_name = 3838
+	reset_province_name = 3856
+	reset_province_name = 3862
+	reset_province_name = 3870
+	reset_province_name = 3951
+	reset_province_name = 4052
+	reset_province_name = 4056
+	reset_province_name = 4086
+	reset_province_name = 4112
+	reset_province_name = 5095
+	reset_province_name = 6232
+	reset_province_name = 6245
+	reset_province_name = 6282
+	reset_province_name = 6332
+	reset_province_name = 6375
+	reset_province_name = 6418
+	reset_province_name = 6464
+	reset_province_name = 6474
+	reset_province_name = 6521
+	reset_province_name = 6557
+	reset_province_name = 6558
+	reset_province_name = 6562
+	reset_province_name = 6567
+	reset_province_name = 6593
+	reset_province_name = 6626
+	reset_province_name = 6727
+	reset_province_name = 6780
+	reset_province_name = 6807
+	reset_province_name = 6813
+	reset_province_name = 6822
+	reset_province_name = 6928
+	reset_province_name = 6938
+	reset_province_name = 6995
+	reset_province_name = 7175
+	reset_province_name = 7620
+	reset_province_name = 8088
+	reset_province_name = 8435
+	reset_province_name = 9263
+	reset_province_name = 9288
+	reset_province_name = 9289
+	reset_province_name = 9304
+	reset_province_name = 9427
+	reset_province_name = 9503
+	reset_province_name = 9511
+	reset_province_name = 9551
+	reset_province_name = 9559
+	reset_province_name = 9570
+	reset_province_name = 9598
+	reset_province_name = 9777
+	reset_province_name = 9799
+	reset_province_name = 9833
+	reset_province_name = 9861
+	reset_province_name = 9878
+	reset_province_name = 9909
+	reset_province_name = 9994
+	reset_province_name = 10041
+	reset_province_name = 10056
+	reset_province_name = 11241
+	reset_province_name = 11301
+	reset_province_name = 11312
+	reset_province_name = 11313
+	reset_province_name = 11372
+	reset_province_name = 11401
+	reset_province_name = 11405
+	reset_province_name = 11411
+	reset_province_name = 11437
+	reset_province_name = 11467
+	reset_province_name = 11479
+	reset_province_name = 11504
+	reset_province_name = 11516
+	reset_province_name = 11542
+	reset_province_name = 11561
+	reset_province_name = 11577
+	reset_province_name = 11598
+	reset_province_name = 11670
+	reset_province_name = 11683
+	reset_province_name = 11747
+	reset_province_name = 11810
+	reset_province_name = 11811
+	reset_province_name = 11835
+	reset_province_name = 11842
+	reset_province_name = 11881
+	reset_province_name = 11905
+	reset_province_name = 11969
+	reset_province_name = 11977
+	reset_province_name = 12085
+}

@@ -1,5 +1,16 @@
 apply_romanian_endonyms = {
 
+	if = { #Bessarabia
+		limit = { state = 78 }
+		78 = {
+			set_state_name = Basarabia
+		}
+		set_province_name = {
+			id = 3707
+			name = Chisinau
+		}
+	}
+
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
@@ -8,6 +19,14 @@ apply_romanian_endonyms = {
 		set_province_name = {
 			id = 577
 			name = Cernauti
+		}
+	}
+
+	if = { #Southern Bessarabia
+		limit = { state = 766 }
+		set_province_name = {
+			id = 6727
+			name = Cetatea_Alba
 		}
 	}
 }

@@ -1,0 +1,17 @@
+apply_latvian_endonyms = {
+
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Vilna_LAT
+		}
+		set_province_name = {
+			id = 3320
+			name = Vilna_LAT
+		}
+		set_province_name = {
+			id = 3393
+			name = Grodna
+		}
+	}
+}

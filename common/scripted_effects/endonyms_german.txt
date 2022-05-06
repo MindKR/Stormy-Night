@@ -195,6 +195,14 @@ apply_german_endonyms = {
 		}
 	}
 
+	if = { #Bessarabia
+		limit = { state = 78 }
+		set_province_name = {
+			id = 3707
+			name = Kischinau
+		}
+	}
+
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
@@ -210,6 +218,10 @@ apply_german_endonyms = {
 		limit = { state = 86 }
 		86 = {
 			set_state_name = Posen
+		}
+		set_province_name = {
+			id = 279
+			name = Bromberg
 		}
 		set_province_name = {
 			id = 6558
@@ -251,6 +263,21 @@ apply_german_endonyms = {
 		set_province_name = {
 			id = 11479
 			name = Lemberg
+		}
+	}
+
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = Wolhynien
+		}
+		set_province_name = {
+			id = 422
+			name = Kowel
+		}
+		set_province_name = {
+			id = 6557
+			name = Riwne
 		}
 	}
 
@@ -309,14 +336,25 @@ apply_german_endonyms = {
 		}
 	}
 
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Wilna
+		}
+		set_province_name = {
+			id = 3320
+			name = Wilna
+		}
+		set_province_name = {
+			id = 3393
+			name = Garten
+		}
+	}
+
 	if = { #Westpreußen
 		limit = { state = 807 }
 		807 = {
 			set_state_name = Westpreussen
-		}
-		set_province_name = {
-			id = 279
-			name = Bromberg
 		}
 		set_province_name = {
 			id = 3295

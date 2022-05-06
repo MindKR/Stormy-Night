@@ -27,6 +27,11 @@
  authoritarian_socialist_desc:0 "사회주의 체제"
  authoritarian_socialist_subtype_desc:0 "권위주의적사회주의설명"
 
+ authoritarian_democrat:0 "권위민주주의"
+ authoritarian_democrat_noun:0 "권위민주주의"
+ authoritarian_democrat_desc:0 "권위적"
+ authoritarian_democrat_subtype_desc:0 "권위민주주의설명"
+
  strong_autocrat:0 "강권전제주의"
  strong_autocrat_noun:0 "강권전제주의"
  strong_autocrat_desc:0 "권위적"
@@ -51,8 +56,8 @@
  KOR_strong_autocrat_party:1 "대한제국 황실"
 
  GER_social_democrat_party:0 "사회민주당"
- GER_liberal_party:0 "NLP, FVP"
- GER_liberal_party_long:0 "국민자유당, 진보인민당"
+ GER_liberal_party:0 "DDP"
+ GER_liberal_party_long:0 "민주당"
  GER_conservative_party:0 "중앙당"
  GER_libertarian_socialist_party:0 "독일 공산당"
  GER_libertarian_socialist_party_long:0 "독일 공산당 (자유지상주의 파벌)"

@@ -5,6 +5,7 @@
  libertarian_socialist_drift:0 "일일 자유지상적 사회주의 지지"
  authoritarian_socialist_drift:0 "일일 권위주의적 사회주의 지지"
  anarchist_drift:0 "일일 아나키즘 지지"
+ authoritarian_democrat_drift:0 "일일 권위민주주의 지지"
  strong_autocrat_drift:0 "일일 강권전제주의 지지"
  national_populist_drift:0 "일일 국민대중주의 지지"
 
@@ -14,6 +15,7 @@
  libertarian_socialist_acceptance:0 "자유지상적 사회주의 외교 수용"
  authoritarian_socialist_acceptance:0 "권위주의적 사회주의 외교 수용"
  anarchist_acceptance:0 "아나키즘 외교 수용"
+ authoritarian_democrat_acceptance:0 "권위민주주의 외교 수용"
  strong_autocrat_acceptance:0 "강권전제주의 외교 수용"
  national_populist_acceptance:0 "국민대중주의 외교 수용"
 

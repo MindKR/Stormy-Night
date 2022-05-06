@@ -1,5 +1,16 @@
 apply_ukrainian_endonyms = {
 
+	if = { #Bessarabia
+		limit = { state = 78 }
+		78 = {
+			set_state_name = Bessarabiya
+		}
+		set_province_name = {
+			id = 3707
+			name = Kyshyniv
+		}
+	}
+
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
@@ -30,6 +41,183 @@ apply_ukrainian_endonyms = {
 		set_province_name = {
 			id = 11479
 			name = Lviv
+		}
+	}
+
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = Volyn
+		}
+		set_province_name = {
+			id = 422
+			name = Kovel
+		}
+		set_province_name = {
+			id = 6557
+			name = Rivne_UKR
+		}
+	}
+
+	if = { #Crimea
+		limit = { state = 137 }
+		137 = {
+			set_state_name = Krym_UKR
+		}
+	}
+
+	if = { #Odessa
+		limit = { state = 192 }
+		192 = {
+			set_state_name = Odesa
+		}
+		set_province_name = {
+			id = 11670
+			name = Odesa
+		}
+	}
+
+	if = { #Chernihiv
+		limit = { state = 193 }
+		193 = {
+			set_state_name = Chernihiv
+		}
+		set_province_name = {
+			id = 3568
+			name = Chernihiv
+		}
+		set_province_name = {
+			id = 9288
+			name = Homiel
+		}
+	}
+
+	if = { #Nikolayev 
+		limit = { state = 197 }
+		197 = {
+			set_state_name = Mykolaiv 
+		}
+		set_province_name = {
+			id = 11683
+			name = Mykolaiv
+		}
+	}
+
+	if = { #Proskurov 
+		limit = { state = 199 }
+		199 = {
+			set_state_name = Proskuriv 
+		}
+		set_province_name = {
+			id = 3457
+			name = Proskuriv
+		}
+	}
+
+	if = { #Aleksandrovsk 
+		limit = { state = 200 }
+		200 = {
+			set_state_name = Oleksandrivsk 
+		}
+		set_province_name = {
+			id = 11405
+			name = Oleksandrivsk
+		}
+	}
+
+	if = { #Zhitomir 
+		limit = { state = 201 }
+		201 = {
+			set_state_name = Zhytomyr 
+		}
+		set_province_name = {
+			id = 6593
+			name = Zhytomyr
+		}
+	}
+
+	if = { #Kiev
+		limit = { state = 202 }
+		202 = {
+			set_state_name = Kyiv
+		}
+		set_province_name = {
+			id = 525
+			name = Kyiv
+		}
+	}
+
+	if = { #Kharkov 
+		limit = { state = 221 }
+		221 = {
+			set_state_name = Kharkiv 
+		}
+		set_province_name = {
+			id = 418
+			name = Kharkiv
+		}
+	}
+
+	if = { #Poltava 
+		limit = { state = 259 }
+		259 = {
+			set_state_name = Poltava 
+		}
+		set_province_name = {
+			id = 11504
+			name = Poltava
+		}
+	}
+	
+	if = { #Yekaterinoslav 
+		limit = { state = 226 }
+		226 = {
+			set_state_name = Katerynoslav 
+		}
+		set_province_name = {
+			id = 11437
+			name = Katerynoslav
+		}
+		set_province_name = {
+			id = 11561
+			name = Kryvyi_Rih
+		}
+	}
+
+	if = { #Lugansk 
+		limit = { state = 228 }
+		228 = {
+			set_state_name = Luhansk 
+		}
+	}
+
+	if = { #Poltava 
+		limit = { state = 259 }
+		259 = {
+			set_state_name = Poltava 
+		}
+		set_province_name = {
+			id = 11504
+			name = Poltava
+		}
+	}
+
+	if = { #Southern Bessarabia
+		limit = { state = 766 }
+		set_province_name = {
+			id = 6727
+			name = Akkerman
+		}
+	}
+
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Vilno
+		}
+		set_province_name = {
+			id = 3320
+			name = Vilno
 		}
 	}
 }

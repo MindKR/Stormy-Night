@@ -81,4 +81,19 @@ apply_czech_endonyms = {
 			name = Cernovice
 		}
 	}
+
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = Volyn
+		}
+		set_province_name = {
+			id = 422
+			name = Kovel
+		}
+		set_province_name = {
+			id = 6557
+			name = Rovno
+		}
+	}
 }

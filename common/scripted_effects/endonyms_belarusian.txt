@@ -1,0 +1,128 @@
+apply_belalusian_endonyms = {
+
+	if = { #Brest-Litovsk
+		limit = { state = 94 }
+		94 = {
+			set_state_name = Berastze_Litouski
+		}
+		set_province_name = {
+			id = 3392
+			name = Berastze_Litouski
+		}
+	}
+
+	if = { #Novogrudok
+		limit = { state = 95 }
+		95 = {
+			set_state_name = Navahrudak
+		}
+		set_province_name = {
+			id = 9304
+			name = Baranavichy
+		}
+	}
+
+	if = { #Viliejka (Vileyka)
+		limit = { state = 96 }
+		96 = {
+			set_state_name = Viliejka
+		}
+		set_province_name = {
+			id = 406
+			name = Maladziecna
+		}
+	}
+
+	if = { #Belostok
+		limit = { state = 97 }
+		97 = {
+			set_state_name = Bielastok
+		}
+		set_province_name = {
+			id = 11301
+			name = Bielastok
+		}
+	}
+
+	if = { #Chernihiv
+		limit = { state = 193 }
+		193 = {
+			set_state_name = Carnihau
+		}
+		set_province_name = {
+			id = 3568
+			name = Carnihau
+		}
+		set_province_name = {
+			id = 9288
+			name = Homyel
+		}
+	}
+
+	if = { #Mozyr
+		limit = { state = 194 }
+		194 = {
+			set_state_name = Mazyr
+		}
+		set_province_name = {
+			id = 6232
+			name = Mazyr
+		}
+	}
+
+	if = { #Bobrujsk 
+		limit = { state = 204 }
+		204 = {
+			set_state_name = Babruysk 
+		}
+		set_province_name = {
+			id = 3350
+			name = Babruysk
+		}
+		set_province_name = {
+			id = 11313
+			name = Salihorsk
+		}
+	}
+
+	if = { #Minsk
+		limit = { state = 206 }
+		set_province_name = {
+			id = 9289
+			name = Mahiliou
+		}
+	}
+
+	if = { #Vitebsk 
+		limit = { state = 207 }
+		207 = {
+			set_state_name = Viciebsk 
+		}
+		set_province_name = {
+			id = 11241
+			name = Viciebsk
+		}
+	}
+
+	if = { #Chaussy 
+		limit = { state = 241 }
+		241 = {
+			set_state_name = Chavusy 
+		}
+	}
+
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Vilnia
+		}
+		set_province_name = {
+			id = 3320
+			name = Vilnia
+		}
+		set_province_name = {
+			id = 3393
+			name = Hrodna
+		}
+	}
+}

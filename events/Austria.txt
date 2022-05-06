@@ -86,11 +86,17 @@ country_event = {
 
 	option = {
 		name = austria.4.a
+		hidden_effect = {
+			country_event = { id = austria.5 days = 7 }
+		}
 	}
 
 	option = {
 		name = austria.4.b
 		set_country_flag = with_sophie
+		hidden_effect = {
+			country_event = { id = austria.5 days = 7 }
+		}
 	}
 }
 
@@ -105,16 +111,52 @@ country_event = {
 
 	option = {
 		name = austria.5.a
-		set_country_flag = surviving_kaiser
+		complete_national_focus = AUS_federalism
 	}
 
 	option = {
 		name = austria.5.b
 		set_country_flag = ferdinand_dead
+		complete_national_focus = AUS_trialism
 	}
 	
 	option = {
 		name = austria.5.c
 		trigger = { has_country_flag = with_sophie }
+		complete_national_focus = AUS_unitary_state
+	}
+}
+
+country_event = {
+	id = austria.6
+	title = austria.6.t
+	desc = austria.6.d
+	picture = GFX_report_event_aus_ferdinand_arrive
+
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = AUS
+	}
+
+	option = {
+		name = austria.6.a
+	}
+}
+
+country_event = {
+	id = austria.7
+	title = austria.7.t
+	desc = austria.7.d
+	picture = GFX_report_event_aus_ferdinand_arrive
+
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = AUS
+	}
+
+	option = {
+		name = austria.7.a
 	}
 }

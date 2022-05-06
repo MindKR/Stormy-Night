@@ -1,4 +1,16 @@
 ﻿l_english:
+ endonyms_button_tooltip:0 "[endonyms_button_tooltip_loc]"
+ endonyms_button_tooltip_desc:0 "[endonyms_button_tooltip_desc_loc]"
+
+ endonyms_button_tooltip_enable:0 "유동 지명"
+ endonyms_button_tooltip_enable_desc:0 "지배국에 따라 지명이 변경됩니다."
+ endonyms_button_tooltip_disable:0 "고정 지명"
+ endonyms_button_tooltip_disable_desc:0 "지배국과 상관없이 지명이 고정됩니다."
+
+ endonyms_button_tooltip_enable_mp:0 "§R유동 지명 - 변경 불가§!"
+ endonyms_button_tooltip_disable_mp:0 "§R고정 지명 - 변경 불가§!"
+ endonyms_button_tooltip_mp_desc:0 "§R멀티 플레이 중에는 지명 기능을 변경할 수 없습니다!§!"
+
 #Endonyms and exonyms are classified according to pronunciation.
 
 
@@ -146,6 +158,18 @@
  Ostrau:0 "오스트라우"
 
 
+#78, Bessarabia
+ Basarabia:0 "베사라비아"
+ Bessarabiya:0 "베사라비야"
+ Besarabiya:0 "베사라비아"
+ Besarabya:0 "베사라비아"
+
+ Chisinau:0 "키시너우"
+ Kishinev:0 "키시네프" 
+ Kyshyniv:0 "키시니우"
+ Kischinau:0 "키시나우"
+ Kiszyniow:0 "키시니우프"
+
 #80, Bukowina
  Bukowina:0 "부코비나"
  Bukovyna:0 "부코비나"
@@ -184,6 +208,65 @@
  Lemberg:0 "렘베르크"
  Lwow:0 "르부프"
  Lviv:0"리비우"
+
+
+#93, Volhynia
+ Volyn:0 "볼린"
+ Wolyn:0 "보윈"
+ Wolhynien:0 "볼리니엔"
+ Volhinia:0 "볼히니어"
+ Voluine:0 "볼루이네"
+
+ Kovel:0 "코벨"
+ Kowel:0 "코벨"
+ Kovelis:0 "코벨리스"
+ Rivne_UKR:0 "리우네"
+ Rivne_HUN:0 "리브네"
+ Rovno:0 "로브노"
+ Riwne:0 "리브네"
+ Rowne:0 "루브네"
+ Rovnas:0 "로우나스"
+
+
+#94, Brest-Litovsk
+ Brest-Litovsk:0 "브레스트-리토프스크"
+ Berastze_Litouski:0 "베라스체 리토우스키"
+ Brzesc_Litewski:0 "브제시치 리테프스키"
+
+
+#95, Novogrudok
+ Novogrudok:0 "노보그루도크"
+ Navahrudak:0 "나바흐루다크"
+ Nowogrodek:0 "노보그루데크"
+ Naugardukas:0 "나우가르두카스"
+
+ Baranovichy:0 "바라노비치"
+ Baranavichy:0 "바라나비치"
+ Baranowicze:0 "바라노비체"
+ Baranoviciai:0 "바라노비차이"
+
+
+#96, Viliejka (Vileyka)
+ Viliejka:0 "빌레이카"
+ Vileika:0 "빌레이카"
+ Wilejka:0 "빌레이카"
+
+ Molodechno:0 "몰로데치노"
+ Maladziecna:0 "말라제치나"
+ Maladecina:0 "말라데치나"
+ Molodeczno:0 "모워데치노"
+
+
+#97, Belostok
+ Belostok:0 "벨로스토크"
+ Bielastok:0 "벨라스토크"
+ Bialystok:0 "비아위스토크"
+ Baltstoge:0 "발츠토게"
+
+
+#137, Crimea
+ Krym_RUS:0 "크림"
+ Krym_UKR:0 "크름"
 
 
 #158, Piemonte
@@ -228,13 +311,113 @@
  Klajpeda:0 "크와이페다"
 
 
+#192, Odessa
+ Odessa:0 "오데사"
+ Odesa:0 "오데사"
+
+
+#193, Homiel
+ Chernihiv:0 "체르니히우"
+ Carnihau:0 "차르니하우"
+ Chernigov:0 "체르니고프"
+ Czernihow:0 "체르니후프"
+
+ Homiel:0 "호멜"
+ Homyel:0 "호멜"
+ Gomel:0 "고멜"
+
+
+#194, Mozyr
+ Mozyr:0 "모지르"
+ Mazyr:0 "마지르"
+ Mozyrz:0 "모지시"
+
+
 #195, Saint Petersburg
  StPetersburg:0 "상트페테르부르크"
  Petrograd:0 "페트로그라드"
 
 
+#197, Nikolayev
+ Nikolayev:0 "니콜라예프"
+ Mykolaiv:0 "미콜라이우"
+
+
+#199, Proskurov 
+ Proskurov:0 "프로스쿠로프"
+ Proskuriv:0 "프로스쿠리우"
+
+
+#200, Aleksandrovsk
+ Aleksandrovsk:0 "알렉산드롭스크"
+ Oleksandrivsk:0 "올렉산드릅시크"
+
+
+#201, Zhitomir
+ Zhitomir:0 "지토미르"
+ Zhytomyr:0 "지토미르"
+ Zytomierz:0 "지토미에시"
+
+
+#202, Kiev
+ Kiev:0 "키예프"
+ Kyiv:0 "키이우"
+
+
+#204, Babruysk
+ Bobrujsk:0 "보브루이스크"
+ Babruysk:0 "바브루이스크"
+
+ Soligorsk:0 "솔리고르스크"
+ Salihorsk:0 "살리호르스크"
+
+
+#206, Minsk
+ Mogilev:0 "모길료프"
+ Mahiliou:0 "마힐료우"
+
+
+#207, Vitebsk
+ Vitebsk:0 "비텝스크"
+ Viciebsk:0 "비쳅스크"
+ Witebsk:0 "비텝스크"
+
+
+#221, Kharkov
+ Kharkov:0 "하리코프"
+ Kharkiv:0 "하르키우"
+
+
+#226, Yekaterinoslav
+ Yekaterinoslav:0 "예카테리노슬라프"
+ Katerynoslav:0 "카테리노슬라프"
+
+ Krivoy_Rog:0 "크리보이로크"
+ Kryvyi_Rih:0 "크리비리흐"
+
+
+#227, Yuzovka
+ Yuzovka:0 "유좁카"
+ Yuzivka:0 "유지우카"
+
+
+#228, Lugansk
+ Lugansk:0 "루간스크"
+ Luhansk:0 "루한스크"
+
+
+#241, Chaussy
+ Chaussy:0 "차우시"
+ Chavusy:0 "차부시"
+
+
 #247, Tver
  Tver:0 "트베리"
+
+
+#259, Poltava
+ Poltava:0 "폴타바"
+ Poltawa:0 "포우타바"
 
 
 #339, Izmir
@@ -386,8 +569,25 @@
  Krolewiec:0 "크롤레비츠"
 
 
-#784, Vilnius
+#766, Southern Bessarabia
+ Akkerman:0 "아케르만"
+ Cetatea_Alba:0 "체타테아알버"
+
+
+#784, Vilna
+ Vilna_RUS:0 "빌나"
+ Vilna_LAT:0 "빌냐"
+ Vilnius:0 "빌뉴스"
  Wilna:0 "빌나"
+ Wilno:0 "빌노"
+ Vilno:0 "빌노"
+ Vilnia:0 "빌냐"
+
+ Grodno:0 "그로드노"
+ Grodna:0 "그로드냐"
+ Gardinas:0 "가르디나스"
+ Garten:0 "가르텐"
+ Hrodna:0 "흐로드나"
 
 
 #797, Konstantiniyye
@@ -415,6 +615,14 @@
  Bydgoszcz:0 "비드고슈치"
  Thorn:0 "토른"
  Torun:0 "토룬"
+
+
+#814, Suwałki
+ Suwalki:0 "수바우키"
+ Suvalkai:0 "수발카이"
+
+ Mariampol:0 "마리암폴"
+ Marijampole:0 "마리얌폴레"
 
 
 #835, Berlin
@@ -517,11 +725,6 @@
  Southern_Baranya:0 "남버러녀"
  Southern_Branau:0 "남바라냐"
  Southern_Baranja:0 "남바라냐"
- 
-
-# Polish Provinces
- Wilno:0 "빌노"					#Vilnius, 3320, 784
-
 
 
 # Soviet Provinces

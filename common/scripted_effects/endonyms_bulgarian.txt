@@ -1,5 +1,12 @@
 apply_bulgarian_endonyms = {
 
+	if = { #Bessarabia
+		limit = { state = 78 }
+		78 = {
+			set_state_name = Besarabiya
+		}
+	}
+
 	if = { #Tsargrad
 		limit = {
 			state = 797

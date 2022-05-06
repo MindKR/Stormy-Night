@@ -15,6 +15,13 @@ apply_turkish_endonyms = {
 		}
 	}
 
+	if = { #Bessarabia
+		limit = { state = 78 }
+		78 = {
+			set_state_name = Besarabya
+		}
+	}
+
 	if = { #Dedeağaç
 		limit = { state = 184 }
 		184 = {
@@ -211,6 +218,14 @@ apply_turkish_endonyms = {
 		set_province_name = {
 			id = 6995
 			name = Sinop
+		}
+	}
+
+	if = { #Southern Bessarabia
+		limit = { state = 766 }
+		set_province_name = {
+			id = 6727
+			name = Akkerman
 		}
 	}
 

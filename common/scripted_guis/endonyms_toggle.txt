@@ -1,0 +1,40 @@
+scripted_gui = {
+	SN_endonyms = {
+		context_type = player_context
+		window_name = "SN_endonyms_container"
+		parent_window_token = top_bar
+		dirty = global.endonyms_frame
+
+		ai_enabled = {
+			always = no
+		}
+
+		triggers = {
+			endonyms_button_click_enabled = {
+				NOT = { has_global_flag = is_mp }
+			}
+		}
+
+		effects = {
+			endonyms_button_click = {
+				if = {
+					limit = { NOT = { has_global_flag = endonyms_flag } }
+					enable_endonyms = yes
+					set_variable = { global.endonyms_frame = 1 }
+				}
+				else = {
+					limit = { has_global_flag = endonyms_flag }
+					disable_endonyms = yes
+					set_variable = { global.endonyms_frame = 2 }
+				}
+			}
+		}
+
+		properties = {
+			endonyms_button = {
+				frame = global.endonyms_frame
+			}
+		}
+	}
+}
+

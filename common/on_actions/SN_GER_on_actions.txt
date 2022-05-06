@@ -1,0 +1,10 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			GER = {
+				# You can put this in the country's history file alternatively too.
+				reichstag_gui_initial = yes
+			}
+		}
+	}
+}

@@ -108,6 +108,17 @@ apply_polish_endonyms = {
 		}
 	}
 
+	if = { #Bessarabia
+		limit = { state = 78 }
+		78 = {
+			set_state_name = Bessarabiya
+		}
+		set_province_name = {
+			id = 3707
+			name = Kiszyniow
+		}
+	}
+
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
@@ -123,6 +134,10 @@ apply_polish_endonyms = {
 		limit = { state = 86 }
 		86 = {
 			set_state_name = Poznan
+		}
+		set_province_name = {
+			id = 279
+			name = Bydgoszcz
 		}
 		set_province_name = {
 			id = 6558
@@ -167,6 +182,65 @@ apply_polish_endonyms = {
 		}
 	}
 
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = Wolyn
+		}
+		set_province_name = {
+			id = 422
+			name = Kowel
+		}
+		set_province_name = {
+			id = 6557
+			name = Rowne
+		}
+	}
+
+	if = { #Brest-Litovsk
+		limit = { state = 94 }
+		94 = {
+			set_state_name = Brzesc_Litewski
+		}
+		set_province_name = {
+			id = 3392
+			name = Brzesc_Litewski
+		}
+	}
+
+	if = { #Novogrudok
+		limit = { state = 95 }
+		95 = {
+			set_state_name = Nowogrodek
+		}
+		set_province_name = {
+			id = 9304
+			name = Baranowicze
+		}
+	}
+
+	if = { #Viliejka (Vileyka)
+		limit = { state = 96 }
+		96 = {
+			set_state_name = Wilejka
+		}
+		set_province_name = {
+			id = 406
+			name = Molodeczno
+		}
+	}
+
+	if = { #Belostok
+		limit = { state = 97 }
+		97 = {
+			set_state_name = Bialystok
+		}
+		set_province_name = {
+			id = 11301
+			name = Bialystok
+		}
+	}
+
 	if = { #Memel
 		limit = { state = 188 }
 		188 = {
@@ -175,6 +249,61 @@ apply_polish_endonyms = {
 		set_province_name = {
 			id = 3288
 			name = Klajpeda
+		}
+	}
+
+	if = { #Chernihiv
+		limit = { state = 193 }
+		193 = {
+			set_state_name = Czernihow
+		}
+		set_province_name = {
+			id = 3568
+			name = Czernihow
+		}
+	}
+
+	if = { #Mozyr
+		limit = { state = 194 }
+		194 = {
+			set_state_name = Mozyrz
+		}
+		set_province_name = {
+			id = 6232
+			name = Mozyrz
+		}
+	}
+
+	if = { #Zhytomir 
+		limit = { state = 201 }
+		201 = {
+			set_state_name = Zytomierz 
+		}
+		set_province_name = {
+			id = 6593
+			name = Zytomierz
+		}
+	}
+
+	if = { #Vitebsk 
+		limit = { state = 207 }
+		207 = {
+			set_state_name = Witebsk 
+		}
+		set_province_name = {
+			id = 11241
+			name = Witebsk
+		}
+	}
+
+	if = { #Poltava 
+		limit = { state = 259 }
+		259 = {
+			set_state_name = Poltawa 
+		}
+		set_province_name = {
+			id = 11504
+			name = Poltawa
 		}
 	}
 
@@ -189,14 +318,25 @@ apply_polish_endonyms = {
 		}
 	}
 
+	if = { #Vilna
+		limit = { state = 784 }
+		784 = {
+			set_state_name = Wilno
+		}
+		set_province_name = {
+			id = 3320
+			name = Wilno
+		}
+		set_province_name = {
+			id = 3393
+			name = Grodno
+		}
+	}
+
 	if = { #Westpreußen
 		limit = { state = 807 }
 		807 = {
 			set_state_name = Gdynia
-		}
-		set_province_name = {
-			id = 279
-			name = Bydgoszcz
 		}
 		set_province_name = {
 			id = 3295
@@ -205,6 +345,21 @@ apply_polish_endonyms = {
 		set_province_name = {
 			id = 9263
 			name = Gdynia
+		}
+	}
+
+	if = { #Suwalki
+		limit = { state = 814 }
+		814 = {
+			set_state_name = Suwalki
+		}
+		set_province_name = {
+			id = 3254
+			name = Suwalki
+		}
+		set_province_name = {
+			id = 11312
+			name = Mariampol
 		}
 	}
 }

@@ -1,6 +1,11 @@
 spriteTypes = {
 	
-	### AUH
+	### AUS
+
+	SpriteType = {
+		name = "GFX_AUS_demanding_decision_from_hungary"
+		texturefile = "gfx/interface/goals/AUS/AUS_demanding_decision_from_hungary.png"	
+	}
 	
 	SpriteType = {
 		name = "GFX_standstill"

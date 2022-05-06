@@ -11,6 +11,21 @@ apply_hungarian_endonyms = {
 		}
 	}
 
+	if = { #Volhynia
+		limit = { state = 93 }
+		93 = {
+			set_state_name = Volhinia
+		}
+		set_province_name = {
+			id = 422
+			name = Kovel
+		}
+		set_province_name = {
+			id = 6557
+			name = Rivne_HUN
+		}
+	}
+
 	if = { #Srijem
 		limit = { state = 873 }
 		873 = {

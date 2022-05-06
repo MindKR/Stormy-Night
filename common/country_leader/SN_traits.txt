@@ -17,4 +17,14 @@ leader_traits = {
 		random = no
 	}
 
+	KOR_prime_minister_empire = {
+		random = no
+		custom_modifier_tooltip = KOR_prime_minister_empire_tt
+	}
+
+	KOR_reformist_faction = {
+		random = no
+		political_power_factor = 0.05
+	}
+		
 }

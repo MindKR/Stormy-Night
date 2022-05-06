@@ -1,0 +1,17 @@
+﻿l_english:
+
+# REICHSTAG
+  reichstag_gui_decision_category:0 "라이히스탁§!"
+  reichstag_gui_decision_category_desc:0 "라이히스탁은 독일의 유서 깊은 의회로, 1903년 이후로 실질적인 권력을 행사하는 총리를 배출해왔습니다. 이 곳에서 국가의 다양한 정책을 정할 수 있습니다."
+
+ reichstag_title:0 "라이히스탁"
+
+ reichstag_main_icon_tt:0 "[GetReichstagSeatName] - [GetReichstagPartyName]"
+ reichstag_seat_text:0 "Seat [?temp_seat|Y0]"
+ reichstag_member_text:0 "[GetReichstagPartyName] - [?reichstag_seat_array^reichstag_member_index]석"
+ reichstag_ruling_party:0 "현재 집권 여당은 [GetReichstagRulingPartyName]입니다."
+
+ SPD_text:0 "§R사회민주당§!"
+ DDP_text:0 "§Y독일 민주당§!"
+ DZP_text:0 "§g중앙당§!"
+ DkP_text:0 "§4독일 보수당§!"

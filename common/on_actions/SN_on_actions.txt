@@ -22,6 +22,10 @@ on_actions = {
 				}
 				set_cosmetic_tag = GER
 			}
+			if = {
+				limit = { check_variable = { global.players^num > 1 } }
+				set_global_flag = is_mp
+			}
 		}
 	}
 	on_war = {

@@ -31,4 +31,12 @@ spriteTypes = {
 		name = "GFX_news_event_gavrilo_princip_captured"
 		texturefile = "gfx/event_pictures/news_event_gavrilo_princip_captured.dds"
 	}
+	spriteType = {
+		name = "GFX_report_event_aus_ferdinand_arrive"
+		texturefile = "gfx/event_pictures/AUS/report_event_aus_ferdinand_arrive.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_aus_hungarian_army"
+		texturefile = "gfx/event_pictures/AUS/report_event_aus_hungarian_army.png"
+	}
 }

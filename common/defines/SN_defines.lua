@@ -82,7 +82,9 @@ NDefines.NAI.ORG_UNIT_NORMAL = 0.35						-- Organization % for unit to be consid
 NDefines.NAI.STR_UNIT_NORMAL = 0.4						-- Strength (equipment) % for unit to be considered normal
 
 
+NDefines.NGraphics.CAPITAL_ICON_CUTOFF = 1500
 NDefines.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {300, 500, 750}  -- At what camera distance the VP name text disappears.
 NDefines.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {300, 500, 1250} -- At what distance VPs are hidden
 NDefines.NGraphics.MAX_NUMBER_OF_TEXTURES = 50000 -- increase if you have more than this textures
 
+NDefines_Graphics.NFrontend.CAMERA_MIN_HEIGHT = 35.0

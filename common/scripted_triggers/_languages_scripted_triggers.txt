@@ -28,7 +28,6 @@ is_german_speaking_country = {
 		OR = {
 			original_tag = GER
 			original_tag = AUS
-			original_tag = BKO
 		}
 	}
 }
@@ -70,6 +69,17 @@ is_spanish_speaking_country = {
 			original_tag = SPR
 			original_tag = FAL
 			original_tag = ALF
+		}
+	}
+}
+
+is_romanian_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_romanian_speaking_country_tt
+		OR = {
+			original_tag = ROM
+			original_tag = MOL
+			original_tag = BKO
 		}
 	}
 }

@@ -46,10 +46,10 @@ characters={
 		name=GER_wilhelm_iii
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/Portrait_GER_Wilhelm_III.dds"
+				large="gfx/leaders/GER/Portrait_GER_Wilhelm_III.png"
 			}
 			army={
-				large="gfx/leaders/GER/Portrait_GER_Wilhelm_III.dds"
+				large="gfx/leaders/GER/Portrait_GER_Wilhelm_III.png"
 			}	
 		}
 

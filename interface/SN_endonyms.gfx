@@ -1,0 +1,8 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_endonyms_button"
+		texturefile = "gfx/interface/topbar/endonyms_button.png"	
+		noOfFrames = 2
+	}
+}

@@ -9,7 +9,17 @@ on_actions = {
 						option = ON
 					}
 				}
-				every_state = { activate_endonyms_on_startup = yes }
+				set_global_flag = endonyms_flag
+				every_state = { activate_endonyms = yes }
+			}
+			else = {
+				limit = {
+					has_game_rule = {
+						rule = SN_endonyms
+						option = OFF
+					}
+				}
+				set_variable = { global.endonyms_frame = 2 }
 			}
 		}
 	}
@@ -18,14 +28,9 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {
-					has_game_rule = {
-						rule = SN_endonyms
-						option = ON
-					}
+					has_global_flag = endonyms_flag
 				}
-				FROM.FROM = {
-					activate_endonyms = yes
-				}
+				FROM.FROM = { activate_endonyms = yes }
 			}
 			if = { #Berlin - socialist
 				limit = {

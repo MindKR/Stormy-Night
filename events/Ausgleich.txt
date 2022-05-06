@@ -2,26 +2,26 @@
 # Austrian Events
 ###########################
 
-add_namespace = austria-hungary
+add_namespace = ausgleich
 
 # Hungary's Independence - Decide (HUN)
 country_event = {
-	id = austria-hungary.1
-	title = austria-hungary.1.t
-	desc = austria-hungary.1.d
+	id = ausgleich.1
+	title = ausgleich.1.t
+	desc = ausgleich.1.d
 	
 	is_triggered_only = yes
 	
 	option = { #independence
-		name = austria-hungary.1.a
+		name = ausgleich.1.a
 		ai_chance = {
 			factor = 95
 		}
-		HUN = { country_event = { id = austria-hungary.2 hours = 24 } }
+		HUN = { country_event = { id = ausgleich.2 hours = 24 } }
 	}
 
 	option = { #stay
-		name = austria-hungary.1.b
+		name = ausgleich.1.b
 		ai_chance = {
 			factor = 5
 		}
@@ -31,42 +31,44 @@ country_event = {
 
 #decide on independence
 country_event = {
-	id = austria-hungary.2
-	title = austria-hungary.2.t
-	desc = austria-hungary.2.d
+	id = ausgleich.2
+	title = ausgleich.2.t
+	desc = ausgleich.2.d
 	picture = GFX_report_event_election_vote
 	
 	is_triggered_only = yes
 
 	option = {
-		name = austria-hungary.2.a
+		name = ausgleich.2.a
 		AUS = {
-			set_autonomy = { target = HUN autonomy_state = autonomy_free }
-			remove_from_faction = HUN
-			set_country_flag = AUS_hungary_independent_flag
-			country_event = { id = austria-hungary.3 days = 5 }
+			country_event = { id = ausgleich.3 days = 10 }
+			country_event = { id = ausgleich.4 days = 1 }
 		}
+		custom_effect_tooltip = ausgleich.2_tt
 	}
 }
 
 # Hungary's Independence - Decide (AUS)
 country_event = {
-	id = austria-hungary.3
-	title = austria-hungary.3.t
-	desc = austria-hungary.3.d
+	id = ausgleich.3
+	title = ausgleich.3.t
+	desc = ausgleich.3.d
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = austria-hungary.3.a
+		name = ausgleich.3.a
+
 		ai_chance = {
 			factor = 95
 			modifier = {
-				has_country_flag = AUS_hungary_independent_flag
 				strength_ratio = { tag = HUN ratio > 1 }
 			}	
 		}
 		AUS = {
+			set_country_flag = AUS_hungary_independent_flag
+			set_autonomy = { target = HUN autonomy_state = autonomy_free }
+			remove_from_faction = HUN
 			declare_war_on = { target = HUN type = annex_everything }
 			create_faction = Austrian_Empire
 		}
@@ -74,18 +76,37 @@ country_event = {
 	}
 
 	option = {
-		name = austria-hungary.3.b
+		name = ausgleich.3.b
 		ai_chance = { 
 			factor = 5
 			modifier = {
-				has_country_flag = AUS_hungary_independent_flag
 				strength_ratio = { tag = HUN ratio < 1 }
 				factor = 50
 			}
 		}
 		AUS = {
 			create_faction = Austrian_Empire
+			set_country_flag = AUS_hungary_independent_flag
+			set_autonomy = { target = HUN autonomy_state = autonomy_free }
+			remove_from_faction = HUN
 		}
 		hidden_effect = { news_event = { id = worldnews.1 hours = 12 } }
+	}
+}
+
+country_event = {
+	id = ausgleich.4
+	title = ausgleich.4.t
+	desc = ausgleich.4.d
+	picture = GFX_report_event_aus_hungarian_army
+
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = AUS
+	}
+
+	option = {
+		name = ausgleich.4.a
 	}
 }
