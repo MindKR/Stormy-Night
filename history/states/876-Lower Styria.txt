@@ -1,0 +1,22 @@
+state={
+	id=876
+	name="STATE_876"
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = AUS
+
+	}
+
+	provinces={
+		596 665 3654 9596 
+	}
+	manpower=525000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
