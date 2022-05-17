@@ -10,4 +10,33 @@ apply_slovene_endonyms = {
 			name = Trst
 		}
 	}
+
+	if = { #Muravidek
+		limit = { state = 877 }
+		877 = {
+			set_state_name = Prekmurje
+		}
+		set_province_name = {
+			id = 5035
+			name = Muraszombat
+		}
+	}
+
+	if = { #Slovene Carinthia
+		limit = { state = 878 }
+		878 = {
+			set_state_name = Koroska
+		}
+	}
+
+	if = { #Murakoz megye
+		limit = { state = 880 }
+		880 = {
+			set_state_name = Medzimurska_zupanija
+		}
+		set_province_name = {
+			id = 6672
+			name = Cakovec
+		}
+	}
 }

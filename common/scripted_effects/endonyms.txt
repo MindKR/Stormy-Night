@@ -89,6 +89,10 @@ activate_endonyms = {
 			apply_latvian_endonyms = yes
 		}
 
+		else_if = { limit = { controller = { tag = DEN } }
+			apply_danish_endonyms = yes
+		}
+
 		else = { reset_state_name = yes }
 	}
 }
@@ -147,6 +151,7 @@ disable_endonyms = {
 	reset_province_name = 4056
 	reset_province_name = 4086
 	reset_province_name = 4112
+	reset_province_name = 5035
 	reset_province_name = 5095
 	reset_province_name = 6232
 	reset_province_name = 6245
@@ -163,6 +168,7 @@ disable_endonyms = {
 	reset_province_name = 6567
 	reset_province_name = 6593
 	reset_province_name = 6626
+	reset_province_name = 6672
 	reset_province_name = 6727
 	reset_province_name = 6780
 	reset_province_name = 6807
@@ -173,6 +179,7 @@ disable_endonyms = {
 	reset_province_name = 6995
 	reset_province_name = 7175
 	reset_province_name = 7620
+	reset_province_name = 8061
 	reset_province_name = 8088
 	reset_province_name = 8435
 	reset_province_name = 9263
@@ -186,6 +193,7 @@ disable_endonyms = {
 	reset_province_name = 9559
 	reset_province_name = 9570
 	reset_province_name = 9598
+	reset_province_name = 9670
 	reset_province_name = 9777
 	reset_province_name = 9799
 	reset_province_name = 9833

@@ -25,6 +25,7 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = { id = austria.4 }
+			custom_effect_tooltip = AUS_unlock_reform
 		}
 	}
 	focus = {
@@ -37,7 +38,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = AUS_trialism
 		}
-		x = 6
+		x = 4
 		y = 1
 
 		available = {
@@ -49,36 +50,19 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_political_power = 120
-		}
-	}
-	focus = {
-		id = AUS_ferdinand's_address
-		icon = GFX_goal_unknown
-		cost = 0.00
-		prerequisite = {
-			focus = AUS_federalism
-		}
-		x = 6
-		y = 2
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
 			country_event = { id = austria.6 }
+			add_political_power = 120
 		}
 	}
 	focus = {
 		id = AUS_prohibition_of_ethnic_discrimination
 		icon = GFX_goal_continuous_increase_nu
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
-			focus = AUS_ferdinand's_address
+			focus = AUS_federalism
 		}
-		x = 3
-		y = 3
+		x = 2
+		y = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -92,12 +76,12 @@ focus_tree = {
 	focus = {
 		id = AUS_securing_bohemian_support
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = AUS_prohibition_of_ethnic_discrimination
 		}
 		x = 0
-		y = 4
+		y = 3
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -110,79 +94,87 @@ focus_tree = {
 	focus = {
 		id = AUS_develop_galicia
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = AUS_prohibition_of_ethnic_discrimination
 		}
 		x = 2
-		y = 4
+		y = 3
+
+	}
+	focus = {
+		id = AUS_promote_german_education
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AUS_federalism
+		}
+		x = 4
+		y = 2
 
 	}
 	focus = {
 		id = AUS_develop_transylvania
 		icon = GFX_goal_unknown
-		cost = 10.00
+		cost = 8.00
 		prerequisite = {
 			focus = AUS_prohibition_of_ethnic_discrimination
 		}
 		x = 4
-		y = 4
-
-	}
-	focus = {
-		id = AUS_illyria_project
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = AUS_prohibition_of_ethnic_discrimination
-		}
-		x = 6
-		y = 4
-
-	}
-	focus = {
-		id = AUS_assure_szekler
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = AUS_prohibition_of_ethnic_discrimination
-		}
-		x = 4
-		y = 5
-
-	}
-	focus = {
-		id = AUS_educating_german
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = AUS_ferdinand's_address
-		}
-		x = 9
 		y = 3
 
 	}
 	focus = {
-		id = AUS_demanding_decision_from_hungary 
-		icon = GFX_AUS_demanding_decision_from_hungary 
+		id = AUS_religious_equality
+		icon = GFX_goal_generic_national_unity
 		cost = 5.00
 		prerequisite = {
-			focus = AUS_illyria_project
+			focus = AUS_federalism
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = AUS_slavic_irredentism_against_serbia
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = AUS_religious_equality
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = AUS_ausgleich
+		icon = GFX_goal_unknown
+		cost = 15.00
+		prerequisite = {
+			focus = AUS_securing_bohemian_support
 		}
 		prerequisite = {
-			focus = AUS_assure_szekler
+			focus = AUS_develop_transylvania
 		}
 		prerequisite = {
 			focus = AUS_develop_galicia
 		}
 		prerequisite = {
-			focus = AUS_securing_bohemian_support
+			focus = AUS_slavic_irredentism_against_serbia
 		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = AUS_demanding_decision_from_hungary
+		icon = GFX_AUS_demanding_decision_from_hungary
+		cost = 5.00
 		prerequisite = {
-			focus = AUS_educating_german
+			focus = AUS_ausgleich
 		}
-		x = 6
-		y = 6
+		x = 4
+		y = 5
 
 	}
 	focus = {
@@ -190,21 +182,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = AUS_demanding_decision_from_hungary 
+			focus = AUS_demanding_decision_from_hungary
 		}
-		x = 6
-		y = 7
-
-	}
-	focus = {
-		id = AUS_united_states_of_greater_austria
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = AUS_reorganize_the_empire
-		}
-		x = 6
-		y = 8
+		x = 4
+		y = 6
 
 	}
 	focus = {
@@ -212,14 +193,12 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = AUS_united_states_of_greater_austria
+			focus = AUS_reorganize_the_empire
 		}
-		x = 6
-		y = 9
+		x = 4
+		y = 7
 
 	}
-
-
 	focus = {
 		id = AUS_trialism
 		icon = GFX_goal_unknown
@@ -254,5 +233,4 @@ focus_tree = {
 		available = {
 			hidden_trigger = { always = no }
 		}
-	}
 }

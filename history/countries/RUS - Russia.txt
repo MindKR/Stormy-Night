@@ -1,4 +1,5 @@
 ﻿#COUNTRY LEADERS
+recruit_character = RUS_Nicholas_II
 recruit_character = RUS_iosif_stalin
 recruit_character = RUS_lev_trotsky
 recruit_character = RUS_supreme_soviet #This is a fake character! Proper country leader role is added via focus

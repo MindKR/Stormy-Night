@@ -3,26 +3,26 @@ apply_german_endonyms = {
 	if = { #Ermland-Masuren
 		limit = { state = 5 }
 		5 = {
-			set_state_name = Ermland-Masuren
+			set_state_name = GER_Ermland-Masuren
 		}
 		set_province_name = {
 			id = 6375
-			name = Allenstein
+			name = GER_Allenstein
 		}
 	}
 	
 	if = { #Čechy
 		limit = { state = 9 }
 		9 = {
-			set_state_name = Bohmen
+			set_state_name = GER_Bohmen
 		}
 		set_province_name = {
 			id = 6418
-			name = Pilsen
+			name = GER_Pilsen
 		}
 		set_province_name = {
 			id = 11542
-			name = Prag
+			name = GER_Prag
 		}
 	}
 
@@ -30,52 +30,52 @@ apply_german_endonyms = {
 		limit = { state = 18 }
 		set_province_name = {
 			id = 3546
-			name = Wirten
+			name = GER_Wirten
 		}
 	}
 
 	if = { #Alsace-Lorraine
 		limit = { state = 28 }
 		28 = {
-			set_state_name = Elsass-Lothringen
+			set_state_name = GER_Elsass-Lothringen
 		}
 		set_province_name = {
 			id = 678
-			name = Mulhausen
+			name = GER_Mulhausen
 		}
 		set_province_name = {
 			id = 9503
-			name = Strassburg
+			name = GER_Strassburg
 		}
 		set_province_name = {
 			id = 9559
-			name = Metz_GER
+			name = GER_Metz
 		}
 	}
 
 	if = { #Südtirol
 		limit = { state = 39 }
 		39 = {
-			set_state_name = Sudtirol
+			set_state_name = GER_Sudtirol
 		}
 		set_province_name = {
 			id = 11598
-			name = Bozen
+			name = GER_Bozen
 		}
 	}
 
 	if = { #Hinterpommern
 		limit = { state = 63 }
 		63 = {
-			set_state_name = Hinterpommern
+			set_state_name = GER_Hinterpommern
 		}
 		set_province_name = {
 			id = 6282
-			name = Stettin
+			name = GER_Stettin
 		}
 		set_province_name = {
 			id = 11372
-			name = Koslin
+			name = GER_Koslin
 		}
 	}
 
@@ -83,115 +83,108 @@ apply_german_endonyms = {
 		limit = { state = 64 }
 		set_province_name = {
 			id = 3473
-			name = Kustrin
+			name = GER_Kustrin
 		}
 	}
 
 	if = { #Sachsen
 		limit = { state = 65 }
 		65 = {
-			set_state_name = Sachsen
+			set_state_name = GER_Sachsen
 		}
 		set_province_name = {
 			id = 514
-			name = Dresden
+			name = GER_Dresden
 		}
 		set_province_name = {
 			id = 3535
-			name = Leipzig
+			name = GER_Leipzig
 		}
 	}
 
 	if = { #Niederschlesien
 		limit = { state = 66 }
 		66 = {
-			set_state_name = Niederschlesien
+			set_state_name = GER_Niederschlesien
 		}
 		set_province_name = {
 			id = 9570
-			name = Breslau
+			name = GER_Breslau
 		}
 	}
 
 	if = { #Oberschlesien
 		limit = { state = 67 }
 		67 = {
-			set_state_name = Oberschlesien
+			set_state_name = GER_Oberschlesien
 		}
 		set_province_name = {
 			id = 6464
-			name = Kattowitz
+			name = GER_Kattowitz
 		}
 		set_province_name = {
 			id = 9511
-			name = Oppeln
+			name = GER_Oppeln
 		}
 		set_province_name = {
 			id = 11467
-			name = Gleiwitz
-		}
-	}
-
-	if = { #Ostmark
-		limit = { state = 68 }
-		68 = {
-			set_state_name = Ostmark
+			name = GER_Gleiwitz
 		}
 	}
 
 	if = { #Sudety
 		limit = { state = 69 }
 		69 = {
-			set_state_name = Sudetenland
+			set_state_name = GER_Sudetenland
 		}
 		set_province_name = {
 			id = 3585
-			name = Karlsbad
+			name = GER_Karlsbad
 		}
 		set_province_name = {
 			id = 11401
-			name = Reichenberg
+			name = GER_Reichenberg
 		}
 	}
 
 	if = { #Teschen
 		limit = { state = 72 }
 		72 = {
-			set_state_name = Teschen
+			set_state_name = GER_Teschen
 		}
 		set_province_name = {
 			id = 9551
-			name = Teschen
+			name = GER_Teschen
 		}
 	}
 	
 	if = { #Czech Silesia
 		limit = { state = 74 }
 		74 = {
-			set_state_name = Tschechisch-Schlesien
+			set_state_name = GER_Tschechisch-Schlesien
 		}
 		set_province_name = {
 			id = 3583
-			name = Troppau
+			name = GER_Troppau
 		}
 	}
 
 	if = { #Morava
 		limit = { state = 75 }
 		75 = {
-			set_state_name = Mahren
+			set_state_name = GER_Mahren
 		}
 		set_province_name = {
 			id = 3569
-			name = Brunn
+			name = GER_Brunn
 		}
 		set_province_name = {
 			id = 6562
-			name = Olmutz
+			name = GER_Olmutz
 		}
 		set_province_name = {
 			id = 9567
-			name = Ostrau
+			name = GER_Ostrau
 		}
 	}
 
@@ -199,7 +192,7 @@ apply_german_endonyms = {
 		limit = { state = 78 }
 		set_province_name = {
 			id = 3707
-			name = Kischinau
+			name = GER_Kischinau
 		}
 	}
 
@@ -385,6 +378,13 @@ apply_german_endonyms = {
 		}
 	}
 
+	if = { #Nordschleswig
+		limit = { state = 848 }
+		848 = {
+			set_state_name = Nordschleswig
+		}
+	}
+
 	if = { #Nancy
 		limit = { state = 869 }
 		869 = {
@@ -422,6 +422,46 @@ apply_german_endonyms = {
 		limit = { state = 874 }
 		874 = {
 			set_state_name = Southern_Branau
+		}
+	}
+
+	if = { #Muravidek
+		limit = { state = 877 }
+		877 = {
+			set_state_name = Ubermurgebiet
+		}
+		set_province_name = {
+			id = 5035
+			name = Olsnitz
+		}
+	}
+
+	if = { #Slovene Carinthia
+		limit = { state = 878 }
+		878 = {
+			set_state_name = Niederkarnten
+		}
+	}
+
+	if = { #Szekelyfold
+		limit = { state = 879 }
+		879 = {
+			set_state_name = Szeklerland
+		}
+		set_province_name = {
+			id = 9670
+			name = Neumarkt_am_Mieresch
+		}
+	}
+
+	if = { #Murakoz megye
+		limit = { state = 880 }
+		880 = {
+			set_state_name = Murinsel
+		}
+		set_province_name = {
+			id = 6672
+			name = Tschakathurn
 		}
 	}
 }

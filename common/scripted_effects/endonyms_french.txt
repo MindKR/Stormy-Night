@@ -3,11 +3,11 @@ apply_french_endonyms = {
 	if = { #Corsica
 		limit = { state = 1 }
 		1 = { #Corsica
-			set_state_name = Corse
+			set_state_name = FRA_Corse
 		}
 		set_province_name = { #Ajaccio
 			id = 3838
-			name = Ajaccio
+			name = FRA_Ajaccio
 		}
 	}
 
@@ -15,26 +15,26 @@ apply_french_endonyms = {
 		limit = { state = 18 }
 		set_province_name = {
 			id = 3546
-			name = Verdun
+			name = FRA_Verdun
 		}
 	}
 
 	if = { #Alsace-Lorraine
 		limit = { state = 28 }
 		28 = {
-			set_state_name = Alsace-Lorraine
+			set_state_name = FRA_Alsace-Lorraine
 		}
 		set_province_name = {
 			id = 678
-			name = Mulhouse
+			name = FRA_Mulhouse
 		}
 		set_province_name = {
 			id = 9503
-			name = Strasbourg
+			name = FRA_Strasbourg
 		}
 		set_province_name = {
 			id = 9559
-			name = Metz_FRA
+			name = FRA_Metz
 		}
 	}
 

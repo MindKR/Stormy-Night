@@ -117,8 +117,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 136 76 69 }
-	color_ui = rgb { 136 76 69 }
+	color = rgb { 152 85 92 }
+	color_ui = rgb { 152 85 92 }
 }
 AFG = {
 	color = rgb { 64 160 167 }
@@ -416,8 +416,8 @@ MAL = {
 }
 
 MNT = {
-	color = rgb { 77  90  105 }
-	color_ui = rgb { 77  90  105 }
+	color = rgb { 39 108 140 }
+	color_ui = rgb { 39 108 140 }
 }
 
 BLR = {

@@ -11,164 +11,188 @@
  endonyms_button_tooltip_disable_mp:0 "§R고정 지명 - 변경 불가§!"
  endonyms_button_tooltip_mp_desc:0 "§R멀티 플레이 중에는 지명 기능을 변경할 수 없습니다!§!"
 
-#Endonyms and exonyms are classified according to pronunciation.
+#Endonyms and exonyms are classified according to korean pronunciation.
+#ex) GER_Metz -> 메츠 / FRA_Metz -> 메스
+
+#The following is the prefix.
+ Arab:0 "ARA"
+ Belarussian:0 "BEL"
+ Bulgarian:0 "BUL"
+ Croatian:0 "CRO"
+ Czech:0 "CZE"
+ Danish:0 "DEN"
+ French:0 "FRA"
+ German:0 "GER"
+ Greek:0 "GRE"
+ Hungarian:0 "HUN"
+ Italian:0 "ITA"
+ Japanese:0 "JAP"
+ Korean:0 "KOR"
+ Latvian:0 "LAT"
+ Lituanian:0 "LIT"
+ Polish:0 "POL"
+ Romanian:0 "ROM"
+ Russian:0 "RUS"
+ Serbian:0 "SER"
+ Slovene:0 "SLV"
+ Turkish:0 "TUR"
+ Ukrainian:0 "UKR"
 
 
 #1, Corsica
- Corse:0 "코르스"
- Corsica:0 "코르시카"
+ FRA_Corse:0 "코르스"
+ ITA_Corsica:0 "코르시카"
 
- Ajaccio:0 "아작시오"
- Aiaccio:0 "아야치오"
+ FRA_Ajaccio:0 "아작시오"
+ ITA_Aiaccio:0 "아야치오"
 
 
 #5, Ermland-Masuren
- Ermland-Masuren:0 "에름란트-마주렌"
- Warmia-Masuria:0 "바르미아마주리"
+ GER_Ermland-Masuren:0 "에름란트-마주렌"
+ POL_Warmia-Masuria:0 "바르미아마주리"
 
- Allenstein:0 "알렌슈타인"
- Olsztyn:0 "올슈틴"
+ GER_Allenstein:0 "알렌슈타인"
+ POL_Olsztyn:0 "올슈틴"
 
  
 #9, Čechy
- Cechy:0 "체히"
- Bohmen:0 "뵈멘"
+ CZE_Cechy:0 "체히"
+ GER_Bohmen:0 "뵈멘"
 
- Plzen:0 "플젠"
- Pilsen:0 "필젠"
- Praha:0 "프라하"
- Prag:0 "프라그"
+ CZE_Plzen:0 "플젠"
+ GER_Pilsen:0 "필젠"
+ CZE_Praha:0 "프라하"
+ GER_Prag:0 "프라그"
 
 
 #18, Champagne
- Verdun:0 "베르됭"
- Wirten:0 "비르텐"
+ FRA_Verdun:0 "베르됭"
+ GER_Wirten:0 "비르텐"
 
 
 #28, Elsaß-Lothringen
- Elsass-Lothringen:0 "엘자스-로트링겐"
- Alsace-Lorraine:0 "알자스-로렌"
+ GER_Elsass-Lothringen:0 "엘자스-로트링겐"
+ FRA_Alsace-Lorraine:0 "알자스-로렌"
 
- Mulhausen:0 "뮐하우젠"
- Mulhouse:0 "뮐루즈"
- Strassburg:0 "슈트라스부르크"
- Strasbourg:0 "스트라스부르"	
- Metz_GER:0 "메츠"
- Metz_FRA:0 "메스"	
+ GER_Mulhausen:0 "뮐하우젠"
+ FRA_Mulhouse:0 "뮐루즈"
+ GER_Strassburg:0 "슈트라스부르크"
+ FRA_Strasbourg:0 "스트라스부르"	
+ GER_Metz:0 "메츠"
+ FRA_Metz:0 "메스"	
 
 
 #39, Südtirol
- Sudtirol:0 "쥐트티롤"
- Bozen:0 "보첸"
- Bolzano:0 "볼차노"
+ GER_Sudtirol:0 "쥐트티롤"
+ GER_Bozen:0 "보첸"
+ ITA_Bolzano:0 "볼차노"
 
 
 #49, Ankara
- Ankara:0 "앙카라"
- Ancyra:0 "앙키라"
+ TUR_Ankara:0 "앙카라"
+ GRE_Ancyra:0 "앙키라"
 
- Eskisehir:0 "에스키셰히르"
- Dorylaion:0 "도릴레온"
+ TUR_Eskisehir:0 "에스키셰히르"
+ GRE_Dorylaion:0 "도릴레온"
 
 
 #63, Hinterpommern
- Hinterpommern:0 "힌터포메른"
- Zachodniopomorskie:0 "서포모제"
+ GER_Hinterpommern:0 "힌터포메른"
+ POL_Zachodniopomorskie:0 "자호드니오포모르스키에"
 
- Stettin:0 "슈테틴"
- Szczecin:0 "슈체친"
- Koslin:0 "쾨즐린"
- Koszalin:0 "코샬린"
+ GER_Stettin:0 "슈테틴"
+ POL_Szczecin:0 "슈체친"
+ GER_Koslin:0 "쾨즐린"
+ POL_Koszalin:0 "코샬린"
+
+
+#64, Brandenburg
+ GER_Kustrin:0 "퀴스트린"
+ POL_Kostrzyn_nad_Odra:0 "코스트신나트오드롱"
 
 
 #65, Sachsen
- Sachsen:0 "작센"
- Saksonia:0 "삭소니아"
+ GER_Sachsen:0 "작센"
+ POL_Saksonia:0 "삭소니아"
 
- Dresden:0 "드레스덴"
- Drezno:0 "드레즈노"
- Leipzig:0 "라이프치히"
- Lipsk:0 "립스크"
+ GER_Dresden:0 "드레스덴"
+ POL_Drezno:0 "드레즈노"
+ GER_Leipzig:0 "라이프치히"
+ POL_Lipsk:0 "립스크"
 
 
 #66, Niederschlesien
- Niederschlesien:0 "니더슐레지엔"
- Dolny_Slask:0 "도르니 실롱스크"
+ GER_Niederschlesien:0 "니더슐레지엔"
+ POL_Dolny_Slask:0 "도르니실롱스크"
 
- Breslau:0 "브레슬라우"
- Wroclaw:0 "브로츠와프"
+ GER_Breslau:0 "브레슬라우"
+ POL_Wroclaw:0 "브로츠와프"
 
 
 #67, Oberschlesien
- Oberschlesien:0 "오버슐레지엔"
- Gorny_Slask:0 "고르니 실롱스크"
+ GER_Oberschlesien:0 "오버슐레지엔"
+ POL_Gorny_Slask:0 "고르니실롱스크"
 
- Kattowitz:0 "카토비츠"
- Katowice:0 "카토비체"
- Oppeln:0 "오펠른"
- Opole:0 "오폴레"
- Gleiwitz:0 "글라이비츠"
- Gliwice:0 "글리비체"
+ GER_Kattowitz:0 "카토비츠"
+ POL_Katowice:0 "카토비체"
+ GER_Oppeln:0 "오펠른"
+ POL_Opole:0 "오폴레"
+ GER_Gleiwitz:0 "글라이비츠"
+ POL_Gliwice:0 "글리비체"
 
-
-#68, Ostmark
- Ostmark:0 "오스트마르크"
- Lubuskie:0 "루부시"
-
- Kustrin:0 "퀴스트린"
- Kostrzyn_nad_Odra:0 "코스트신나트오드롱"
 
 
 #69, Sudety
- Sudety:0 "수데티"
- Sudetenland:0 "주데텐란트"
+ CZE_Sudety:0 "수데티"
+ GER_Sudetenland:0 "주데텐란트"
 
- Karlovy_Vary:0 "카를로비바리"
- Karlsbad:0 "카를스바트"
+ CZE_Karlovy_Vary:0 "카를로비바리"
+ GER_Karlsbad:0 "카를스바트"
 
- Liberec:0 "리베레츠"
- Reichenberg:0 "라이헨베르크"
+ CZE_Liberec:0 "리베레츠"
+ GER_Reichenberg:0 "라이헨베르크"
 
 
 #72, Teschen
- Teschen:0 "테셴"
- Tesin:0 "테신"
- Cieszyn:0 "치에신"
+ GER_Teschen:0 "테셴"
+ CZE_Tesin:0 "테신"
+ POL_Cieszyn:0 "치에신"
 
 
 #74, Czech Silesia
- Ceske_Slezsko:0 "체코령 실레시아"
- Tschechisch-Schlesien:0 "체히시슐레지엔"
- Slask_Czeski:0 "실롱스크 체스키"
+ CZE_Ceske_Slezsko:0 "체스케슬레스코"
+ GER_Tschechisch-Schlesien:0 "체히시슐레지엔"
+ POL_Slask_Czeski:0 "실롱스크체스키"
 
- Opava:0 "오파바"
- Troppau:0 "트로파우"
- Opawa:0 "오파바"
+ CZE_Opava:0 "오파바"
+ GER_Troppau:0 "트로파우"
+ POL_Opawa:0 "오파바"
 
 
 #75, Morava
- Morava:0 "모라바"
- Mahren:0 "메렌"
+ CZE_Morava:0 "모라바"
+ GER_Mahren:0 "메렌"
 
- Brno:0 "브르노"
- Brunn:0 "브륀"
- Olomouc:0 "올로모우츠"
- Olmutz:0 "올뮈츠"
- Ostrava:0 "오스트라바"
- Ostrau:0 "오스트라우"
+ CZE_Brno:0 "브르노"
+ GER_Brunn:0 "브륀"
+ CZE_Olomouc:0 "올로모우츠"
+ GER_Olmutz:0 "올뮈츠"
+ CZE_Ostrava:0 "오스트라바"
+ GER_Ostrau:0 "오스트라우"
 
 
 #78, Bessarabia
- Basarabia:0 "베사라비아"
- Bessarabiya:0 "베사라비야"
- Besarabiya:0 "베사라비아"
- Besarabya:0 "베사라비아"
+ ROM_Basarabia:0 "베사라비아"
+ RUS_Bessarabiya:0 "베사라비야"
+ TUR_Besarabya:0 "베사라비아"
+ UKR_Besarabiya:0 "베사라비아"
+ BUL_Besarabiya:0 "베사라비아"
 
- Chisinau:0 "키시너우"
- Kishinev:0 "키시네프" 
- Kyshyniv:0 "키시니우"
- Kischinau:0 "키시나우"
- Kiszyniow:0 "키시니우프"
+ ROM_Chisinau:0 "키시너우"
+ RUS_Kishinev:0 "키시네프" 
+ UKR_Kyshyniv:0 "키시니우"
+ GER_Kischinau:0 "키시나우"
+ POL_Kiszyniow:0 "키시니우프"
 
 #80, Bukowina
  Bukowina:0 "부코비나"
@@ -607,7 +631,7 @@
 
 
 #807, Westpreußen
- Westpreussen:0 "서프로이센"
+ Westpreussen:0 "베스트프로이센"
  Gdingen:0 "그딩겐"
  Gdynia:0 "그디니아"
 
@@ -699,6 +723,11 @@
  Ganko:0 "간코"
 
 
+#848, Nordschleswig
+ Nordschleswig:0 "노르트슐레스비히"
+ Sonderjyllands:0 "쇠네르윌란"
+
+
 #869, Nancy
  Nancy:0 "낭시"
  Nanzig:0 "난치히"
@@ -726,6 +755,41 @@
  Southern_Branau:0 "남바라냐"
  Southern_Baranja:0 "남바라냐"
 
+
+#877, Muravidek
+ Muravidek:0 "무러비데크"
+ Prekmurje:0 "프레크무리에"
+ Ubermurgebiet:0 "위베르무르게비트"
+ 
+ Murska_Sobota:0 "무르스카소보타"
+ Muraszombat:0 "무러솜버트"
+ Olsnitz:0 "올스니츠"
+
+
+#878, Slovene Carinthia
+ Niederkarnten:0 "하카르텐"
+ Koroska:0 "코로슈카"
+
+
+#879, Szekelyfold
+ Szekelyfold:0 "세케이푈드"
+ Tinutul_Secuiesc:0 "치누툴세쿠이에스크"
+ Szeklerland:0 "스체클레를란트"
+
+ Marosvasarhely:0 "머로슈바샤르헤이"
+ Targu_Mures:0 "트르구무레슈"
+ Neumarkt_am_Mieresch:0 "노이마르크트암미레슈"
+
+
+#880, Murakoz megye
+ Murakoz_megye:0 "무러쾨즈메제"
+ Medimurje:0 "메지무레"
+ Medzimurska_zupanija:0 "메지무르스카주파니야"
+ Murinsel:0 "무린젤"
+ 
+ Cakovec:0 "차코베츠"
+ Csaktornya:0 "착토르녀"
+ Tschakathurn:0 "차카투른"
 
 # Soviet Provinces
  Volgograd:0 "볼고그라드"				#Tsaritsyn, 3529, 217

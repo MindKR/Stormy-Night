@@ -3,26 +3,26 @@ apply_polish_endonyms = {
 	if = { #Ermland-Masuren
 		limit = { state = 5 }
 		5 = {
-			set_state_name = Warmia-Masuria
+			set_state_name = POL_Warmia-Masuria
 		}
 		set_province_name = {
 			id = 6375
-			name = Olsztyn
+			name = POL_Olsztyn
 		}
 	}
 
 	if = { #Hinterpommern
 		limit = { state = 63 }
 		63 = {
-			set_state_name = Zachodniopomorskie
+			set_state_name = POL_Zachodniopomorskie
 		}
 		set_province_name = {
 			id = 6282
-			name = Szczecin
+			name = POL_Szczecin
 		}
 		set_province_name = {
 			id = 11372
-			name = Koszalin
+			name = POL_Koszalin
 		}
 	}
 
@@ -30,81 +30,74 @@ apply_polish_endonyms = {
 		limit = { state = 64 }
 		set_province_name = {
 			id = 3473
-			name = Kostrzyn_nad_Odra
+			name = POL_Kostrzyn_nad_Odra
 		}
 	}
 
 	if = { #Sachsen
 		limit = { state = 65 }
 		65 = {
-			set_state_name = Saksonia
+			set_state_name = POL_Saksonia
 		}
 		set_province_name = {
 			id = 514
-			name = Drezno
+			name = POL_Drezno
 		}
 		set_province_name = {
 			id = 3535
-			name = Lipsk
+			name = POL_Lipsk
 		}
 	}
 
 	if = { #Niederschlesien
 		limit = { state = 66 }
 		66 = {
-			set_state_name = Dolny_Slask
+			set_state_name = POL_Dolny_Slask
 		}
 		set_province_name = {
 			id = 9570
-			name = Wroclaw
+			name = POL_Wroclaw
 		}
 	}
 
 	if = { #Oberschlesien
 		limit = { state = 67 }
 		67 = {
-			set_state_name = Gorny_Slask
+			set_state_name = POL_Gorny_Slask
 		}
 		set_province_name = {
 			id = 6464
-			name = Katowice
+			name = POL_Katowice
 		}
 		set_province_name = {
 			id = 9511
-			name = Opole
+			name = POL_Opole
 		}
 		set_province_name = {
 			id = 11467
-			name = Gliwice
-		}
-	}
-
-	if = { #Ostmark
-		limit = { state = 68 }
-		68 = {
-			set_state_name = Lubuskie
+			name = POL_Gliwice
 		}
 	}
 
 	if = { #Cieszyn
 		limit = { state = 72 }
 		72 = {
-			set_state_name = Cieszyn
+			set_state_name = POL_Cieszyn
 		}
 		set_province_name = {
 			id = 9551
-			name = Cieszyn
+			name = POL_Cieszyn
 		}
 	}
 
 	if = { #Czech Silesia
 		limit = { state = 74 }
 		74 = {
-			set_state_name = Slask_Czeski
+			set_state_name = POL_Slask_Czeski
 		}
 		set_province_name = {
 			id = 3583
-			name = Opawa
+			name = POL_Opawa
 		}
 	}
 
@@ -115,7 +108,7 @@ apply_polish_endonyms = {
 		}
 		set_province_name = {
 			id = 3707
-			name = Kiszyniow
+			name = POL_Kiszyniow
 		}
 	}
 

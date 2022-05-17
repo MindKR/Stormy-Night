@@ -2,6 +2,7 @@ autonomy_state = {
 	id = SN_personal_union
 	
 	is_puppet = yes
+	default = yes
 	
 	min_freedom_level = 0.0
 	
@@ -30,7 +31,7 @@ autonomy_state = {
 	}
 	
 	ai_subject_wants_higher = {
-		factor = 5.0
+		factor = 0.0
 	}
 	
 	ai_overlord_wants_lower = {

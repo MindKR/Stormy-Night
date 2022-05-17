@@ -3,22 +3,22 @@ apply_turkish_endonyms = {
 	if = { #Ankara
 		limit = { state = 49 }
 		49 = {
-			set_state_name = Ankara
+			set_state_name = TUR_Ankara
 		}
 		set_province_name = {
 			id = 3951
-			name = Eskisehir
+			name = TUR_Eskisehir
 		}
 		set_province_name = {
 			id = 11747
-			name = Ankara
+			name = TUR_Ankara
 		}
 	}
 
 	if = { #Bessarabia
 		limit = { state = 78 }
 		78 = {
-			set_state_name = Besarabya
+			set_state_name = TUR_Besarabya
 		}
 	}
 

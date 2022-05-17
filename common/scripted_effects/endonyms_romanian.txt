@@ -3,11 +3,11 @@ apply_romanian_endonyms = {
 	if = { #Bessarabia
 		limit = { state = 78 }
 		78 = {
-			set_state_name = Basarabia
+			set_state_name = ROM_Basarabia
 		}
 		set_province_name = {
 			id = 3707
-			name = Chisinau
+			name = ROM_Chisinau
 		}
 	}
 
@@ -27,6 +27,17 @@ apply_romanian_endonyms = {
 		set_province_name = {
 			id = 6727
 			name = Cetatea_Alba
+		}
+	}
+
+	if = { #Szekelyfold
+		limit = { state = 879 }
+		879 = {
+			set_state_name = Tinutul_Secuiesc
+		}
+		set_province_name = {
+			id = 9670
+			name = Targu_Mures
 		}
 	}
 }

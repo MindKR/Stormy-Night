@@ -10,7 +10,25 @@ characters = {
  #       #    #  #    #  #  # #    #    #####     #        #       #       ######  #    #  #       #####        # 
  #    #  #    #  #    #  #   ##    #    #   #     #        #       #       #    #  #    #  #       #   #   #    # 
   ####    ####    ####   #    #    #    #    #    #        ######  ######  #    #  #####   ######  #    #   ####  
-          
+ 
+	RUS_Nicholas_II = {
+		name = RUS_Nicholas_II
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
+			}
+			army = {
+				large = "gfx/leaders/RUS/Portrait_RUS_Nicholas_II.png"
+				small = "gfx/interface/ideas/idea_Portrait_RUS_Nicholas_II.png"
+			}
+		}
+		country_leader = {
+			ideology = strong_autocrat_subtype
+			traits = { }
+			expire = "1965.3.1.1"
+			id = -1
+		}
+	}
 
 	RUS_lev_trotsky = {
 		name = RUS_lev_trotsky

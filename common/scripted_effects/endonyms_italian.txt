@@ -3,22 +3,22 @@ apply_italian_endonyms = {
 	if = { #Corsica
 		limit = { state = 1 }
 		1 = { #Corsica
-			set_state_name = Corsica
+			set_state_name = ITA_Corsica
 		}
 		set_province_name = { #Ajaccio
 			id = 3838
-			name = Aiaccio
+			name = ITA_Aiaccio
 		}
 	}
 
 	if = { #Südtirol
 		limit = { state = 39 }
 		39 = {
-			set_state_name = Bolzano
+			set_state_name = ITA_Bolzano
 		}
 		set_province_name = {
 			id = 11598
-			name = Bolzano
+			name = ITA_Bolzano
 		}
 	}
 

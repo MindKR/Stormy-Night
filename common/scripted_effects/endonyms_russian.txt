@@ -3,11 +3,11 @@ apply_russian_endonyms = {
 	if = { #Bessarabia
 		limit = { state = 78 }
 		78 = {
-			set_state_name = Bessarabiya
+			set_state_name = RUS_Bessarabiya
 		}
 		set_province_name = {
 			id = 3707
-			name = Kishinev
+			name = RUS_Kishinev
 		}
 	}
 

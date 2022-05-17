@@ -43,4 +43,37 @@ apply_hungarian_endonyms = {
 			set_state_name = Southern_Baranya
 		}
 	}
+
+	if = { #Muravidek
+		limit = { state = 877 }
+		877 = {
+			set_state_name = Muravidek
+		}
+		set_province_name = {
+			id = 5035
+			name = Murska_Sobota
+		}
+	}
+
+	if = { #Szekelyfold
+		limit = { state = 879 }
+		879 = {
+			set_state_name = Szekelyfold
+		}
+		set_province_name = {
+			id = 9670
+			name = Marosvasarhely
+		}
+	}
+
+	if = { #Murakoz megye
+		limit = { state = 880 }
+		880 = {
+			set_state_name = Medimurje
+		}
+		set_province_name = {
+			id = 6672
+			name = Csaktornya
+		}
+	}
 }
