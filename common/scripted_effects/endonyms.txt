@@ -93,6 +93,10 @@ activate_endonyms = {
 			apply_danish_endonyms = yes
 		}
 
+		else_if = { limit = { controller = { is_chinese_speaking_country = yes } }
+			apply_chinese_endonyms = yes
+		}
+
 		else = { reset_state_name = yes }
 	}
 }

@@ -165,19 +165,6 @@ set_popularities = {
 	authoritarian_socialist = 2
 }
 
-add_ideas = {
-	wilhelm_ii
-	GER_unified_german_pride
-	GER_conservative_military
-	GER_exclusive_of_junkers
-	GER_great_depression
-	GER_aftermath_of_naval_arms_race
-
-	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
-}
-
 recruit_character = GER_otto_wels #Social Democrat
 recruit_character = GER_franz_von_papen #Conservative
 recruit_character = GER_wilhelm_ii #strong_autocrat
@@ -255,6 +242,21 @@ recruit_character = GER_wilhelm_iii
 recruit_character = GER_august_von_mackensen
 
 recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
+
+add_ideas = {
+	wilhelm_ii
+	GER_unified_german_pride
+	GER_conservative_military
+	GER_exclusive_of_junkers
+	GER_great_depression
+	GER_aftermath_of_naval_arms_race
+
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
+
+	GER_otto_wels
+}
 
 if = {
 	limit = {

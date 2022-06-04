@@ -14,11 +14,11 @@ apply_ukrainian_endonyms = {
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
-			set_state_name = Bukovyna
+			set_state_name = UKR_Bukovyna
 		}
 		set_province_name = {
 			id = 577
-			name = Chernivtsi
+			name = UKR_Chernivtsi
 		}
 	}
 

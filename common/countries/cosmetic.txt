@@ -101,8 +101,8 @@ KUR_FRA = {
 }
 
 BOH = {
-	color = rgb { 161 139 40 }
-	color_ui = rgb { 161 139 40 }
+	color = rgb { 200 78 78 }
+	color_ui = rgb { 200 78 78 }
 }
 
 FRA_blue = {
@@ -153,4 +153,9 @@ BKF_VIN = {
 NOR_SWE = {
 	color = rgb { 0 106 167 }
 	color_ui = rgb { 0 106 167 }
+}
+
+GER_republic = {
+	color = rgb { 80 80 80 }
+	color_ui = rgb { 80 80 80 }
 }

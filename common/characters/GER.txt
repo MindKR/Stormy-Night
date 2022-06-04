@@ -4,6 +4,7 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/GER/Portrait_GER_Otto_Wels.png"
+				small="gfx/interface/ideas/GER/Otto_Wels.png"
 			}
 		}
 		country_leader={
@@ -11,6 +12,17 @@ characters={
 			expire="1965.1.1.1"
 			desc = "GER_otto_wels_desc"
 			id=-1
+		}
+		advisor={
+			slot = head_of_gov
+			idea_token = GER_otto_wels
+			desc = "GER_otto_wels_desc"
+			available = {
+				has_country_leader = { character = GER_otto_wels }
+			}
+			allowed = { original_tag = GER }
+			traits = {
+			}
 		}
 	}
 
@@ -46,10 +58,10 @@ characters={
 		name=GER_wilhelm_iii
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/Portrait_GER_Wilhelm_III.png"
+				large="gfx/leaders/GER/Portrait_GER_Kaiser_Wilhelm_III.png"
 			}
 			army={
-				large="gfx/leaders/GER/Portrait_GER_Wilhelm_III.png"
+				large="gfx/leaders/GER/Portrait_GER_Kaiser_Wilhelm_III.png"
 			}	
 		}
 
@@ -1797,7 +1809,7 @@ characters={
 			}
 		}
 		advisor={
-			slot = political_advisor
+			slot = head_of_gov
 			idea_token = ger_wilhelm_canaris
 			available = {
 				has_intelligence_agency = yes 

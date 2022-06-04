@@ -199,11 +199,11 @@ apply_german_endonyms = {
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
-			set_state_name = Bukowina
+			set_state_name = GER_Bukowina
 		}
 		set_province_name = {
 			id = 577
-			name = Czernowitz
+			name = GER_Czernowitz
 		}
 	}
 

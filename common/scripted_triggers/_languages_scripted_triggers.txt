@@ -83,3 +83,16 @@ is_romanian_speaking_country = {
 		}
 	}
 }
+
+is_chinese_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_chinese_speaking_country_tt
+		OR = {
+			original_tag = CHI
+			AND = {
+				original_tag = MAN
+				NOT = { is_subject_of = RUS }
+			}
+		}
+	}
+}

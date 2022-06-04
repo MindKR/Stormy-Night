@@ -3,6 +3,16 @@ spriteTypes = {
 	### AUS
 
 	SpriteType = {
+		name = "GFX_Ferdinand_II"
+		texturefile = "gfx/interface/goals/AUS/Ferdinand_II.png"	
+	}
+
+	SpriteType = {
+		name = "GFX_AUS_cooperate_with_hungary"
+		texturefile = "gfx/interface/goals/AUS/AUS_cooperate_with_hungary.png"	
+	}
+
+	SpriteType = {
 		name = "GFX_AUS_demanding_decision_from_hungary"
 		texturefile = "gfx/interface/goals/AUS/AUS_demanding_decision_from_hungary.png"	
 	}
@@ -10,5 +20,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_standstill"
 		texturefile = "gfx/interface/goals/standstill.dds"	
+	}
+
+	SpriteType = {
+		name = "GFX_focus_generic_befriend_serbia"
+		texturefile = "gfx/interface/goals/focus_generic_befriend_serbia.png"	
 	}
 }

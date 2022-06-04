@@ -11,6 +11,7 @@ ideas = {
 			available = {
 				NOT = {
 					OR = {
+						has_cosmetic_tag = GER_republic
 						has_country_leader = { character = GER_wilhelm_ii }
 						has_socialist_government = yes #remove if King in power
 					}
@@ -44,7 +45,8 @@ ideas = {
 			available = {
 				NOT = {
 					OR = {
-						has_country_leader = { character = GER_wilhelm_ii }
+						has_cosmetic_tag = GER_republic
+						has_country_leader = { character = GER_wilhelm_iii }
 						has_socialist_government = yes #remove if King in power
 					}
 				}

@@ -37,6 +37,7 @@
  Slovene:0 "SLV"
  Turkish:0 "TUR"
  Ukrainian:0 "UKR"
+ Chinese:0 "CHI"
 
 
 #1, Corsica
@@ -187,6 +188,7 @@
  TUR_Besarabya:0 "베사라비아"
  UKR_Besarabiya:0 "베사라비아"
  BUL_Besarabiya:0 "베사라비아"
+ POL_Bessarabiya:0 "베사라비야"
 
  ROM_Chisinau:0 "키시너우"
  RUS_Kishinev:0 "키시네프" 
@@ -195,18 +197,21 @@
  POL_Kiszyniow:0 "키시니우프"
 
 #80, Bukowina
- Bukowina:0 "부코비나"
- Bukovyna:0 "부코비나"
- Bucovina:0 "부코비나"
- Bukovina:0 "부코비나"
+ GER_Bukowina:0 "부코비나"
+ POL_Bukowina:0 "부코비나"
+ UKR_Bukovyna:0 "부코비나"
+ RUS_Bucovina:0 "부코비나"
+ ROM_Bucovina:0 "부코비나"
+ HUN_Bukovina:0 "부코비나"
+ CZE_Bukovina:0 "부코비나"
 
- Czernowitz:0 "체르노비츠"
- Czerniowce:0 "체르니오프체"
- Chernivtsi:0 "체르니우치"
- Chernovtsy:0 "체르놉치"
- Cernauti:0 "체르너우치"
- Csernovic:0 "체르노비츠"
- Cernovice:0 "체르노비체"
+ GER_Czernowitz:0 "체르노비츠"
+ POL_Czerniowce:0 "체르니오프체"
+ UKR_Chernivtsi:0 "체르니우치"
+ RUS_Chernovtsy:0 "체르놉치"
+ ROM_Cernauti:0 "체르너우치"
+ HUN_Csernovic:0 "체르노비츠"
+ CZE_Cernovice:0 "체르노비체"
 
 
 #86, Posen
@@ -754,6 +759,11 @@
  Southern_Baranya:0 "남버러녀"
  Southern_Branau:0 "남바라냐"
  Southern_Baranja:0 "남바라냐"
+
+
+#875, Jiandao
+ CHI_Jiandao:0 "젠다오"
+ KOR_Gando:0 "간도"
 
 
 #877, Muravidek

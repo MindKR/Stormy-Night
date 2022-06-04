@@ -74,11 +74,11 @@ apply_czech_endonyms = {
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
-			set_state_name = Bukovina
+			set_state_name = CZE_Bukovina
 		}
 		set_province_name = {
 			id = 577
-			name = Cernovice
+			name = CZE_Cernovice
 		}
 	}
 

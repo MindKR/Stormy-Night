@@ -119,5 +119,11 @@ apply_korean_endonyms = {
 			name = Hamhung
 		}
 	}
-			
+
+	if = { #Jiandao
+		limit = { state = 875 }
+		875 = {
+			set_state_name = KOR_Gando
+		}
+	}	
 }

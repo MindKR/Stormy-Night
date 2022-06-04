@@ -1,0 +1,9 @@
+apply_chinese_endonyms = {
+
+	if = { #Jiandao
+		limit = { state = 875 }
+		875 = {
+			set_state_name = CHI_Jiandao
+		}
+	}
+}

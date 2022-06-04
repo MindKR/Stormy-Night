@@ -14,11 +14,11 @@ apply_romanian_endonyms = {
 	if = { #Bukowina
 		limit = { state = 80 }
 		80 = {
-			set_state_name = Bucovina
+			set_state_name = ROM_Bucovina
 		}
 		set_province_name = {
 			id = 577
-			name = Cernauti
+			name = ROM_Cernauti
 		}
 	}
 

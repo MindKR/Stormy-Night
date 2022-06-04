@@ -10,7 +10,9 @@
  IRE_ENG_autonomy_dominion:0 "아일랜드 자유국"
 
  HUN_AUS_subject:0 "헝가리 왕국"
- BOH:0 "보헤미아"
+ CRO_AUS_subject:0 "크로아티아-슬라보니아"
+ BOS_AUS_subject:0 "보스니아 공동통치령"
+ BOH:0 "보헤미아 왕관령"
  SER_AUS_subject:0 "세르비아 섭정왕국"
 
  FRA_blue:0 "프랑스 공화국"
@@ -34,6 +36,15 @@
  FIN_RUS_strong_autocrat:0 "핀란드 대공국"
  FIN_RUS_strong_autocrat_DEF:0 "핀란드 대공국"
 
+ MAN_subject:0 "$OVERLORDADJ$령 만주"
+ MAN_subject_DEF:0 "$OVERLORDADJ$령 만주"
+ MAN_libertarian_socialist_subject:0 "만주 자치 사회주의 공화국"
+ MAN_libertarian_socialist_subject_DEF:0 "만주 자치 사회주의 공화국"
+ MAN_authoritarian_socialist_subject:0 "만주 자치 사회주의 공화국"
+ MAN_authoritarian_socialist_subject_DEF:0 "만주 자치 사회주의 공화국"
+ MAN_RUS_strong_autocrat:0 "러시아령 만주"
+ MAN_RUS_strong_autocrat_DEF:0 "러시아령 만주"
+
  MOR_FRA:0 "모로코 협의통치령"
  TUN_FRA:0 "튀니지 협의통치령"
  DJI_FRA:0 "지부티 협의통치령"
@@ -43,3 +54,21 @@
  GEO_OTT:0 "조지아"
 
  LBA_Senussi:0 "세누시야"
+
+ GER_republic_social_democrat:0 "독일 연방공화국"
+ GER_republic_social_democrat_DEF:0 "독일 연방공화국"
+ GER_republic_liberal:0 "독일 연방공화국"
+ GER_republic_liberal_DEF:0 "독일 연방공화국"
+ GER_republic_conservative:0 "독일 연방공화국"
+ GER_republic_conservative_DEF:0 "독일 연방공화국"
+ GER_republic_libertarian_socialist:0 "독일 사회주의 공화국"
+ GER_republic_libertarian_socialist_DEF:0 "독일 사회주의 공화국"
+ GER_republic_authoritarian_socialist:0 "독일 평의회 공화국"
+ GER_republic_authoritarian_socialist_DEF:0 "독일 평의회 공화국"
+ GER_republic_strong_autocrat:0 "독일 연방공화국"
+ GER_republic_strong_autocrat_DEF:0 "독일 연방공화국"
+ GER_republic_national_populist:0 "독일국"
+ GER_republic_national_populist_DEF:0 "독일국"
+ GER_republic:0 "독일"
+ GER_republic_DEF:0 "독일"
+ GER_republic_ADJ:0 "독일"

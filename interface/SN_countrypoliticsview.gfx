@@ -1,0 +1,11 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_slot_head_of_gov"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_slot_cabinet"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+}

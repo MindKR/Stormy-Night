@@ -17,6 +17,7 @@ replace_path="events"
 replace_path="gfx/loadingscreens"
 replace_path="history/states"
 replace_path="map/strategicregions"
+replace_path="localisation/replace"
 tags={
 	"Events"
 	"Gameplay"
