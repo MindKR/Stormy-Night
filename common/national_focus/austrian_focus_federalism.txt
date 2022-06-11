@@ -29,14 +29,66 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = AUS_prohibition_of_ethnic_discrimination
-		icon = GFX_goal_continuous_increase_nu
+		id = AUS_reform_the_moi
+		icon = GFX_AUS_reform_the_moi
 		cost = 5.00
 		prerequisite = {
 			focus = AUS_federalism
 		}
-		x = 2
+		x = 12
 		y = 1
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = { country_event = { id = austria.9 days = 1 } }
+			custom_effect_tooltip = AUS_reform_the_moi_tt
+		}
+	}
+	focus = {
+		id = AUS_cooperate_with_hungary
+		icon = GFX_AUS_cooperate_with_hungary
+		cost = 5.00
+		prerequisite = {
+			focus = AUS_reform_the_moi
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = AUS_support_the_economy
+		icon = GFX_goal_unknown
+		cost = 1.45
+		prerequisite = {
+			focus = AUS_cooperate_with_hungary
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = AUS_reform_hungarian_economy
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = AUS_support_the_economy
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = AUS_prohibition_of_ethnic_discrimination
+		icon = GFX_goal_continuous_increase_nu
+		cost = 4.00
+		prerequisite = {
+			focus = AUS_reform_the_moi
+		}
+		x = 2
+		y = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -55,18 +107,18 @@ focus_tree = {
 			focus = AUS_prohibition_of_ethnic_discrimination
 		}
 		x = 0
-		y = 2
+		y = 3
 
 	}
 	focus = {
 		id = AUS_securing_bohemian_support
 		icon = GFX_goal_unknown
-		cost = 8.00
+		cost = 4.00
 		prerequisite = {
 			focus = AUS_bohemian_commerce_and_industry
 		}
 		x = 0
-		y = 6
+		y = 7
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -79,34 +131,34 @@ focus_tree = {
 	focus = {
 		id = AUS_develop_galicia
 		icon = GFX_goal_unknown
-		cost = 8.00
-		prerequisite = {
-			focus = AUS_prohibition_of_ethnic_discrimination
-		}
-		x = 2
-		y = 2
-
-	}
-	focus = {
-		id = AUS_giving_greater_autonomy
-		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = AUS_develop_galicia
+			focus = AUS_prohibition_of_ethnic_discrimination
 		}
 		x = 2
 		y = 3
 
 	}
 	focus = {
+		id = AUS_giving_greater_autonomy
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = AUS_develop_galicia
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
 		id = AUS_immigration_is_over
 		icon = GFX_goal_unknown
-		cost = 5.00
+		cost = 4.00
 		prerequisite = {
 			focus = AUS_giving_greater_autonomy
 		}
 		x = 2
-		y = 6
+		y = 7
 	}
 	focus = {
 		id = AUS_doppelgesicht
@@ -116,7 +168,7 @@ focus_tree = {
 			focus = AUS_prohibition_of_ethnic_discrimination
 		}
 		x = 5
-		y = 2
+		y = 3
 
 	}
 	focus = {
@@ -127,7 +179,7 @@ focus_tree = {
 			focus = AUS_doppelgesicht
 		}
 		x = 5
-		y = 3
+		y = 4
 
 	}
 	focus = {
@@ -138,29 +190,29 @@ focus_tree = {
 			focus = AUS_unite_the_balkans
 		}
 		x = 4
-		y = 4
+		y = 5
 
 	}
 	focus = {
 		id = AUS_slavic_irredentism_against_serbia
 		icon = GFX_goal_unknown
-		cost = 5.00
+		cost = 4.00
 		prerequisite = {
 			focus = AUS_religious_equality
 		}
 		x = 4
-		y = 5
+		y = 6
 
 	}
 	focus = {
 		id = AUS_reconcile_with_serbia
 		icon = GFX_focus_generic_befriend_serbia
-		cost = 5.00
+		cost = 4.00
 		prerequisite = {
 			focus = AUS_unite_the_balkans
 		}
 		x = 6
-		y = 4
+		y = 5
 
 		completion_reward = {
 			country_event = { id = austria.8 days = 1 }
@@ -175,7 +227,7 @@ focus_tree = {
 			focus = AUS_reconcile_with_serbia
 		}
 		x = 6
-		y = 5
+		y = 6
 
 	}
 	focus = {
@@ -189,24 +241,13 @@ focus_tree = {
 			focus = AUS_aid_to_serbia
 		}
 		x = 5
-		y = 6
-
-	}
-	focus = {
-		id = AUS_cooperate_with_hungary
-		icon = GFX_AUS_cooperate_with_hungary
-		cost = 10.00
-		prerequisite = {
-			focus = AUS_federalism
-		}
-		x = 12
-		y = 1
+		y = 7
 
 	}
 	focus = {
 		id = AUS_develop_transylvania
 		icon = GFX_goal_unknown
-		cost = 8.00
+		cost = 5.00
 		prerequisite = {
 			focus = AUS_prohibition_of_ethnic_discrimination
 		}
@@ -214,7 +255,7 @@ focus_tree = {
 			focus = AUS_cooperate_with_hungary
 		}
 		x = 9
-		y = 2
+		y = 3
 
 	}
 	focus = {
@@ -225,29 +266,29 @@ focus_tree = {
 			focus = AUS_develop_transylvania
 		}
 		x = 8
-		y = 3
+		y = 4
 
 	}
 	focus = {
 		id = AUS_catholic-romanian_orthodox_cooperation
 		icon = GFX_goal_unknown
-		cost = 5.00
+		cost = 4.00
 		prerequisite = {
 			focus = AUS_rule_bohemian_style
 		}
 		x = 8
-		y = 4
+		y = 5
 
 	}
 	focus = {
 		id = AUS_szeklers_problem
 		icon = GFX_goal_unknown
-		cost = 5.00
+		cost = 4.00
 		prerequisite = {
 			focus = AUS_develop_transylvania
 		}
 		x = 10
-		y = 4
+		y = 5
 
 	}
 	focus = {
@@ -261,29 +302,7 @@ focus_tree = {
 			focus = AUS_szeklers_problem
 		}
 		x = 9
-		y = 6
-
-	}
-	focus = {
-		id = AUS_support_the_economy
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = AUS_cooperate_with_hungary
-		}
-		x = 12
-		y = 2
-
-	}
-	focus = {
-		id = AUS_reform_hungarian_economy
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = AUS_support_the_economy
-		}
-		x = 12
-		y = 3
+		y = 7
 
 	}
 	focus = {
@@ -306,7 +325,7 @@ focus_tree = {
 			focus = AUS_reform_hungarian_economy
 		}
 		x = 12
-		y = 7
+		y = 8
 
 	}
 	focus = {
@@ -317,18 +336,18 @@ focus_tree = {
 			focus = AUS_establish_parliament
 		}
 		x = 12
-		y = 8
+		y = 9
 
 	}
 	focus = {
 		id = AUS_demanding_decision_from_hungary
 		icon = GFX_AUS_demanding_decision_from_hungary
-		cost = 5.00
+		cost = 4.00
 		prerequisite = {
 			focus = AUS_ausgleich
 		}
 		x = 12
-		y = 9
+		y = 10
 
 	}
 	focus = {
@@ -339,7 +358,7 @@ focus_tree = {
 			focus = AUS_demanding_decision_from_hungary
 		}
 		x = 12
-		y = 10
+		y = 11
 
 	}
 	focus = {
@@ -350,7 +369,7 @@ focus_tree = {
 			focus = AUS_crisis_in_hungary
 		}
 		x = 12
-		y = 11
+		y = 12
 
 	}
 	focus = {
@@ -358,10 +377,10 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = AUS_federalism
+			focus = AUS_reform_the_moi
 		}
 		x = 19
-		y = 1
+		y = 2
 
 	}
 	focus = {
@@ -372,7 +391,7 @@ focus_tree = {
 			focus = AUS_the_united_states_of_all_people
 		}
 		x = 12
-		y = 12
+		y = 13
 
 	}
 }

@@ -175,3 +175,32 @@ country_event = { #AUS_reconcile_with_serbia
 		name = austria.8.a
 	}
 }
+
+country_event = { #AUS_reform_the_moi
+	id = austria.9
+	title = austria.9.t
+	desc = austria.9.d
+
+	is_triggered_only = yes
+	
+	trigger = { original_tag = AUS }
+
+	option = {
+		name = austria.9.a
+	}
+}
+
+country_event = { #
+	id = austria.10
+	title = austria.10.t
+	desc = austria.10.d
+	picture = GFX_report_event_aus_ferdinand
+
+	is_triggered_only = yes
+	
+	trigger = { original_tag = AUS }
+
+	option = {
+		name = austria.10.a
+	}
+}

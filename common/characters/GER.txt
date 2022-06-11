@@ -21,8 +21,7 @@ characters={
 				has_country_leader = { character = GER_otto_wels }
 			}
 			allowed = { original_tag = GER }
-			traits = {
-			}
+			traits = { head_of_gov social_democrat principles_of_humanity_and_justice }
 		}
 	}
 

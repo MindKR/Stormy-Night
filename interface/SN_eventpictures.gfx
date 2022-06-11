@@ -39,4 +39,8 @@ spriteTypes = {
 		name = "GFX_report_event_aus_hungarian_army"
 		texturefile = "gfx/event_pictures/AUS/report_event_aus_hungarian_army.png"
 	}
+	spriteType = {
+		name = "GFX_report_event_aus_ferdinand"
+		texturefile = "gfx/event_pictures/AUS/report_event_aus_ferdinand.png"
+	}
 }

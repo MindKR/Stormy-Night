@@ -14,7 +14,7 @@ focus_tree = {
 		id = AUS_go_to_budapest
 		icon = GFX_focus_proclaim_the_restauration_of_austria_hungary
 		cost = 5.00
-		x = 15
+		x = 10
 		y = 0
 
 		cancel_if_invalid = yes

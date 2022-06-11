@@ -26,5 +26,11 @@ leader_traits = {
 		random = no
 		political_power_factor = 0.05
 	}
+
+	principles_of_humanity_and_justice = {
+		random = no
+		political_power_factor = 0.05
+		social_democrat_acceptance = 50
+	}
 		
 }

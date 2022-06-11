@@ -8,4 +8,5 @@ spriteTypes = {
 		name = "GFX_idea_slot_cabinet"
 		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
 	}
+
 }
