@@ -1,0 +1,47 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_balance_scale_no_dominant"
+		texturefile = "gfx/interface/wrrf_gui/balance_scale_no_dominant.dds"
+	}
+	spriteType = {
+		name = "GFX_balance_scale_tukh_dominant"
+		texturefile = "gfx/interface/wrrf_gui/balance_scale_tukh_dominant.dds"
+	}
+	spriteType = {
+		name = "GFX_balance_scale_zhukov_dominant"
+		texturefile = "gfx/interface/wrrf_gui/balance_scale_zhukov_dominant.dds"
+	}
+	spriteType = {
+		name = "GFX_WRRF_struggle_factionalism"
+		texturefile = "gfx/interface/wrrf_gui/factionalism.dds"
+	}
+	spriteType = {
+		name = "GFX_WRRF_tukhacesky"
+		texturefile = "gfx/interface/wrrf_gui/wrrf_tukhacevsky.dds"
+	}
+	spriteType = {
+		name = "GFX_WRRF_zhukov"
+		texturefile = "gfx/interface/wrrf_gui/wrrf_zhukov.dds"
+	}
+	spriteType = {
+		name = "GFX_WRRF_struggle_progbar_frame"
+		texturefile = "gfx/interface/wrrf_gui/progbar_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_WRRF_flag_ui"
+		texturefile = "gfx/interface/wrrf_gui/WRS_flag_ui.dds"
+	}
+	progressbartype = {
+		name = "GFX_WRRF_struggle_progress_bar"
+		texturefile1 = "gfx/interface/wrrf_gui/progbar_bar_tukhacevsky.dds"
+		texturefile2 = "gfx/interface/wrrf_gui/progbar_bar_zhukov.dds"
+		color = { 0.0 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 }
+		size = {
+			x = 446
+			y = 31
+		}
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+}

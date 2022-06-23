@@ -1,0 +1,259 @@
+#VARIABLES
+#WRSAltuninInfluence
+#WRSZhukovInfluence
+#WRSTukhaInfluence
+#WRSFactionalism
+
+WRS_increase_tukha_influence_low = {
+	add_to_variable = { global.WRSTukhaInfluence = 2 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_increase_tukha_influence_low_tt
+}
+
+WRS_increase_tukha_influence_med = {
+	add_to_variable = { global.WRSTukhaInfluence = 6 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_increase_tukha_influence_med_tt
+}
+
+WRS_increase_tukha_influence_high = {
+	add_to_variable = { global.WRSTukhaInfluence = 10 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_increase_tukha_influence_high_tt
+}
+
+WRS_decrease_tukha_influence_low = {
+	add_to_variable = { global.WRSTukhaInfluence = -2 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_decrease_tukha_influence_low_tt
+}
+
+WRS_decrease_tukha_influence_med = {
+	add_to_variable = { global.WRSTukhaInfluence = -6 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_decrease_tukha_influence_med_tt
+}
+
+WRS_decrease_tukha_influence_high = {
+	add_to_variable = { global.WRSTukhaInfluence = -10 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_decrease_tukha_influence_high_tt
+}
+
+WRS_tank_tukha_influence = {
+	add_to_variable = { global.WRSTukhaInfluence = -20 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_tank_tukha_influence_tt
+}
+
+WRS_increase_zhukov_influence_low = {
+	add_to_variable = { global.WRSZhukovInfluence = 2 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_increase_zhukov_influence_low_tt
+}
+
+WRS_increase_zhukov_influence_med = {
+	add_to_variable = { global.WRSZhukovInfluence = 6 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_increase_zhukov_influence_med_tt
+}
+
+WRS_increase_zhukov_influence_high = {
+	add_to_variable = { global.WRSZhukovInfluence = 10 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_increase_zhukov_influence_high_tt
+}
+
+WRS_decrease_zhukov_influence_low = {
+	add_to_variable = { global.WRSZhukovInfluence = -2 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_decrease_zhukov_influence_low_tt
+}
+
+WRS_decrease_zhukov_influence_med = {
+	add_to_variable = { global.WRSZhukovInfluence = -6 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_decrease_zhukov_influence_med_tt
+}
+
+WRS_decrease_zhukov_influence_high = {
+	add_to_variable = { global.WRSZhukovInfluence = -10 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_decrease_zhukov_influence_high_tt
+}
+
+WRS_tank_zhukov_influence = {
+	add_to_variable = { global.WRSZhukovInfluence = -20 }
+	WRS_power_struggle_pulse = yes
+	custom_effect_tooltip = WRS_tank_zhukov_influence_tt
+}
+
+WRS_power_struggle_pulse = { # WRS_progbar_frame = a(100/(a+b))
+	set_temp_variable = { WRS_struggle_temp = global.WRSTukhaInfluence }
+	add_to_temp_variable = { WRS_struggle_temp = global.WRSZhukovInfluence }
+	
+	set_temp_variable = { WRS_struggle_100 = 100 }
+	divide_temp_variable = { WRS_struggle_100 = WRS_struggle_temp }
+	multiply_temp_variable = { WRS_struggle_100 = global.WRSTukhaInfluence }
+	set_variable = { WRS_tukh_percentage = WRS_struggle_100 }
+	round_temp_variable = WRS_struggle_100
+	clamp_temp_variable = {
+		var = WRS_struggle_100
+		min = 0
+		max = 100
+	}
+	set_variable = { WRS_progbar_frame = WRS_struggle_100 }
+	
+	# This is for show
+	set_variable = { WRS_zhukov_percentage = 100 }
+	subtract_from_variable = { WRS_zhukov_percentage = WRS_tukh_percentage }
+	add_to_variable = { WRRF_struggle_dirty_var = 0.01 }
+}
+
+WRS_decrease_factionalism_low = {
+	add_to_variable = { global.WRSFactionalism = -3 }
+	custom_effect_tooltip = WRS_decrease_factionalism_low_tt
+}
+
+WRS_decrease_factionalism_med = {
+	add_to_variable = { global.WRSFactionalism = -6 }
+	custom_effect_tooltip = WRS_decrease_factionalism_med_tt
+}
+
+WRS_decrease_factionalism_high = {
+	add_to_variable = { global.WRSFactionalism = -9 }
+	custom_effect_tooltip = WRS_decrease_factionalism_high_tt
+}
+
+WRS_increase_factionalism_low = {
+	add_to_variable = { global.WRSFactionalism = 3 }
+	custom_effect_tooltip = WRS_increase_factionalism_low_tt
+}
+
+WRS_increase_factionalism_med = {
+	add_to_variable = { global.WRSFactionalism = 6 }
+	custom_effect_tooltip = WRS_increase_factionalism_med_tt
+}
+
+WRS_increase_factionalism_high = {
+	add_to_variable = { global.WRSFactionalism = 9 }
+	custom_effect_tooltip = WRS_increase_factionalism_high_tt
+}
+
+
+### ZHUKOV REGIONAL ###
+
+WRS_zhukovregional_increase_akhromeyev_influence_low = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_akhromeyev_influence_low_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = 1 }
+	add_to_variable = { WRS_Yakovlev_Balance = -0.5 }
+	add_to_variable = { WRS_Ryzhkov_Balance = -0.5 }
+}
+
+WRS_zhukovregional_increase_akhromeyev_influence_med = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_akhromeyev_influence_med_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = 2 }
+	add_to_variable = { WRS_Yakovlev_Balance = -1 }
+	add_to_variable = { WRS_Ryzhkov_Balance = -1 }
+}
+
+WRS_zhukovregional_increase_akhromeyev_influence_high = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_akhromeyev_influence_high_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = 5 }
+	add_to_variable = { WRS_Yakovlev_Balance = -2.5 }
+	add_to_variable = { WRS_Ryzhkov_Balance = -2.5 }
+}
+
+
+WRS_zhukovregional_increase_ryzhkov_influence_low = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_ryzhkov_influence_low_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = -0.5 }
+	add_to_variable = { WRS_Yakovlev_Balance = -0.5 }
+	add_to_variable = { WRS_Ryzhkov_Balance = 1 }
+}
+
+WRS_zhukovregional_increase_ryzhkov_influence_med = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_ryzhkov_influence_med_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = -1 }
+	add_to_variable = { WRS_Yakovlev_Balance = -1 }
+	add_to_variable = { WRS_Ryzhkov_Balance = 2 }
+}
+
+WRS_zhukovregional_increase_ryzhkov_influence_high = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_ryzhkov_influence_high_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = -2.5 }
+	add_to_variable = { WRS_Yakovlev_Balance = -2.5 }
+	add_to_variable = { WRS_Ryzhkov_Balance = 5 }
+}
+
+
+WRS_zhukovregional_increase_yakovlev_influence_low = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_yakovlev_influence_low_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = -0.5 }
+	add_to_variable = { WRS_Yakovlev_Balance = 1 }
+	add_to_variable = { WRS_Ryzhkov_Balance = -0.5 }
+}
+
+WRS_zhukovregional_increase_yakovlev_influence_med = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_yakovlev_influence_med_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = -1 }
+	add_to_variable = { WRS_Yakovlev_Balance = 2 }
+	add_to_variable = { WRS_Ryzhkov_Balance = -1 }
+}
+
+WRS_zhukovregional_increase_yakovlev_influence_high = {
+	custom_effect_tooltip = WRS_zhukovregional_increase_yakovlev_influence_high_tt
+	add_to_variable = { WRS_Akhromeyev_Balance = -2.5 }
+	add_to_variable = { WRS_Yakovlev_Balance = 5 }
+	add_to_variable = { WRS_Ryzhkov_Balance = -2.5 }
+}
+
+
+## WRRFTangle calcXY
+#  - Calculates the x & y values used by WRRFTangle to set the location of it's point
+#  - The Equation is the following;
+#  - (x,y) = (1/2 * ((2B+C)/(A+B+C)), sqrt(3)/2 * ((C)/(A+B+C)))
+#  - Where A = Akhromeyev, B = Yakovlev, C = Ryzhkov.
+WRRFTangle_calcXY = {
+	log = "[GetDateText]: [Root.GetName]: WRRFTangle_calcXY; Executing"
+
+	clamp_variable = { var = WRS_Yakovlev_Balance min = 0 max = 95 }
+	clamp_variable = { var = WRS_Ryzhkov_Balance min = 0 max = 95 }
+	clamp_variable = { var = WRS_Akhromeyev_Balance min = 0 max = 95 }
+
+
+	## Temp Variable Definition
+	# Done to make life a bit easier
+	set_temp_variable = { A = WRS_Yakovlev_Balance }
+	set_temp_variable = { B = WRS_Ryzhkov_Balance }
+	set_temp_variable = { C = WRS_Akhromeyev_Balance }
+	# ABC = A+B+C
+	set_temp_variable = { ABC = A }
+	add_to_temp_variable = { ABC = B }
+	add_to_temp_variable = { ABC = C }
+
+	## Calc X
+	# 1/2 * ((2B+C)/(A+B+C))
+	set_variable = { WRRFTangle_X = B }
+	multiply_variable = { WRRFTangle_X = 2 }
+	add_to_variable = { WRRFTangle_X = C }
+	divide_variable = { WRRFTangle_X = ABC }	#A+B+C
+	multiply_variable = { WRRFTangle_X = 0.5 }	#1/2
+
+	## Calc Y
+	# sqrt(3)/2 * ((C)/(A+B+C))
+	set_variable = { WRRFTangle_Y = C }
+	divide_variable = { WRRFTangle_Y = ABC }	#A+B+C
+	multiply_variable = { WRRFTangle_Y = 0.866 }	#sqrt(3)/2
+
+	## Scaling
+	# The above calculates the x and y values for a triangle contained in a 1x1 square,
+	# that's not per se how large the end triangle will be.
+	# So, we scale it up. We can do so by just multiplying x & y by some scale.
+	multiply_variable = { WRRFTangle_X = 496 }
+	multiply_variable = { WRRFTangle_Y = 392 }
+	multiply_variable = { WRRFTangle_Y = -1 }
+	add_to_variable = { WRRFTangle_Y = 392 }
+
+	log = "[GetDateText]: [Root.GetName]: WRRFTangle_calcXY; Completed execution."
+}

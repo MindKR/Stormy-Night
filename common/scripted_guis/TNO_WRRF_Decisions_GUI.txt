@@ -1,0 +1,39 @@
+scripted_gui = {
+	TNO_WRRF_Tangle_Decisions_GUI = {
+		context_type = decision_category
+		window_name = "TNO_WRRF_Tangle_Decisions_GUI"
+
+		visible = {
+			always = yes
+		}
+
+		triggers = {
+
+		}
+
+		effects = {
+
+		}
+
+		properties = {
+			WRRF_Tangle_Dot = {
+				x = WRRFTangle_X
+				y = WRRFTangle_Y
+			}
+		}
+	}
+	TNO_WRRF_struggle_decisions_GUI = {
+		context_type = decision_category
+		window_name = "TNO_WRRF_Power_Struggle_Decisions_GUI"
+		parent_window_token = decision_tab
+		dirty = WRRF_struggle_dirty_var
+		
+		visible = {
+			always = yes
+		}
+		properties = {
+			WRRF_struggle_progress_bar = { frame = WRS_progbar_frame }
+			WRRF_balance_scale = { image = "[GetWRRFBalanceScale]" }
+		}
+	}
+}

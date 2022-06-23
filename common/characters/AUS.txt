@@ -1,50 +1,64 @@
 characters={
-	AUS_Karl_I={
-		name = "AUS_Karl_I"
+	AUS_Ferdinand_II={
+		name = "AUS_Ferdinand_II"
 		portraits={
 			civilian={
-				large="gfx/leaders/AUS/Portrait_AUS_Karl_I.png"
+				large="gfx/leaders/AUS/Portrait_AUS_Ferdinand_II.png"
 			}
 		}
 		country_leader={
 			ideology=social_democrat_subtype
-			desc = "AUS_Karl_I_desc"
+			desc = "AUS_Ferdinand_II_desc"
+			traits={ unpopular_kaiser }
 			expire = "1965.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=liberal_subtype
-			desc = "AUS_Karl_I_desc"
+			desc = "AUS_Ferdinand_II_desc"
+			traits={ unpopular_kaiser }
 			expire = "1965.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=conservative_subtype
-			desc = "AUS_Karl_I_desc"
+			desc = "AUS_Ferdinand_II_desc"
+			traits={ unpopular_kaiser }
 			expire = "1965.1.1"
 			id=-1
 		}
 		country_leader={
 			ideology=strong_autocrat_subtype
-			desc = "AUS_Karl_I_desc"
+			desc = "AUS_Ferdinand_II_desc"
+			traits={ unpopular_kaiser }
 			expire = "1965.1.1"
 			id=-1
 		}
 	}
 
-	AUS_Franz_Joseph_II={
-		name = "AUS_Franz_Joseph_II"
-		desc = "POLITICS_KARL_I_DESC"
+	AUS_Karl_I={
+		name = "AUS_Karl_I"
+		desc = "AUS_Karl_I_desc"
 		portraits={
 			civilian={
-				large="gfx/leaders/AUS/Portrait_AUS_Franz_Joseph_II.dds"
+				large="gfx/leaders/AUS/Portrait_AUS_Karl_I.png"
+			}
+		}
+	}
+
+	AUS_Franz_Joseph_II={
+		name = "AUS_Franz_Joseph_II"
+		desc = "POLITICS_Ferdinand_II_DESC"
+		portraits={
+			civilian={
+				large="gfx/leaders/AUS/Portrait_AUS_Franz_Joseph_II.png"
 			}
 		}
 	}
 
 	AUS_Alfred_Klahr={
 		name = "AUS_Alfred_Klahr"
-		desc = "POLITICS_KARL_I_DESC"
+		desc = "POLITICS_Ferdinand_II_DESC"
 		portraits={
 			civilian={
 				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"

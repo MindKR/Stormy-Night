@@ -198,6 +198,7 @@ set_popularities = {
 	strong_autocrat = 1
 }
 
+recruit_character = AUS_Ferdinand_II
 recruit_character = AUS_Karl_I #This is Karl I
 recruit_character = AUS_Franz_Joseph_II #And This is Otto von Habsburg
 recruit_character = AUS_Alfred_Klahr #libertarian_socialist

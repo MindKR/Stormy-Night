@@ -1,0 +1,3 @@
+AUF = {
+	has_focus_tree = austrian_focus_federalism
+}

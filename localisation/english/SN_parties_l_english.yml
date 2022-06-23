@@ -1,4 +1,6 @@
 ﻿l_english:
+ Minority_Party:0 "소수 정당"
+
  social_democrat:0 "사회민주주의"
  social_democrat_noun:0 "사회민주주의"
  social_democrat_desc:0 "사회민주주의 체제"
@@ -45,14 +47,6 @@
  anarchist:0 "아나키즘"
  anarchist_subtype_desc:0 "자본주의와 권위주의를 반대하며 사회주의와 함께 발흥한 아나키즘은 지도자가 없는 '아나키'의 상태를 추구합니다."
 
- AUS_social_democrat_party:0 "사회민주노동당"
- AUS_liberal_party:0 "독일자유당"
- AUS_conservative_party:0 "기독사회당"
- AUS_libertarian_socialist_party:0 "사회주의 작업공동체당"
- AUS_authoritarian_socialist_party:0 "전체주의 인민회의"
- AUS_strong_autocrat_party:0 "합스부르크로트링겐가"
- AUS_anarchist_party:0 "사회주의 노동위원회"
-
  KOR_strong_autocrat_party:1 "대한제국 황실"
 
  GER_social_democrat_party:0 "사회민주당"
@@ -60,11 +54,12 @@
  GER_liberal_party_long:0 "민주당"
  GER_conservative_party:0 "중앙당"
  GER_libertarian_socialist_party:0 "독일 공산당"
- GER_libertarian_socialist_party_long:0 "독일 공산당 (자유지상주의 파벌)"
+ GER_libertarian_socialist_party_long:0 "독일 공산당"
  GER_authoritarian_socialist_party:0 "독일 공산당"
- GER_authoritarian_socialist_party_long:0 "독일 공산당 (레닌주의 파벌)"
- GER_strong_autocrat_party:0 "인민당"
+ GER_authoritarian_socialist_party_long:0 "독일 공산당"
+ GER_strong_autocrat_party:0 "독일 보수당"
  GER_anarchist_party:0 "독일자유노동조합"
+ GER_national_populist_party:0 "독일 조국당"
 
  ITA_social_democrat_party:0 "이탈리아 사회당"
  ITA_liberal_party:0 "이탈리아 자유당"

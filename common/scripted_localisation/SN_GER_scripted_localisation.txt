@@ -4,26 +4,115 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = { v = 1 }
+			has_country_flag = Reichstag_KPD
+		}
+		localization_key = KPD_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			has_country_flag = Reichstag_SPD
 		}
 		localization_key = SPD_text
 	}
 	text = {
 		trigger = {
-			check_variable = { v = 2 }
-		}
-		localization_key = DDP_text
-	}
-	text = {
-		trigger = {
 			check_variable = { v = 3 }
 		}
-		localization_key = DZP_text
+		localization_key = Reichstag_poland_text
 	}
 	text = {
 		trigger = {
 			check_variable = { v = 4 }
 		}
+		localization_key = Reichstag_alsace-lorraine_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }	
+			has_country_flag = Reichstag_DDP
+		}
+		localization_key = DDP_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+			has_country_flag = Reichstag_DZP
+		}
+		localization_key = DZP_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+			has_country_flag = Reichstag_DkP
+		}
 		localization_key = DkP_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = Minority_Party
+	}
+	text = {
+		localization_key = Error
+	}
+}
+
+defined_text = {
+	name = GetReichstagPartyDesc
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+			has_country_flag = Reichstag_KPD
+		}
+		localization_key = KPD_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+			has_country_flag = Reichstag_SPD
+		}
+		localization_key = SPD_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = Reichstag_poland_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = Reichstag_alsace-lorraine_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+			has_country_flag = Reichstag_DDP
+		}
+		localization_key = DDP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+			has_country_flag = Reichstag_DZP
+		}
+		localization_key = DZP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+			has_country_flag = Reichstag_DkP
+		}
+		localization_key = DkP_desc
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = Minority_Party
 	}
 	text = {
 		localization_key = Error
@@ -52,7 +141,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = authoritarian_democrat
+			has_government = strong_autocrat
 		}
 		localization_key = DkP_text
 	}

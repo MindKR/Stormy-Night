@@ -151,18 +151,33 @@ set_politics = {
 	elections_allowed = yes
 }
 
-set_variable = { var = social_democratic_party value = 186 } 
-set_variable = { var = DDP value = 107 } 
-set_variable = { var = DZP value = 88 }
-set_variable = { var = DkP value = 16 }
+set_country_flag = banned_anarchist
+set_country_flag = banned_national_populist
+
+set_variable = { var = Reichstag_socialist_seat value = 4 } #KPD
+set_variable = { var = Reichstag_social_democrat_seat value = 148 } #SPD
+set_variable = { var = Reichstag_poland_seat value = 20 } #PP
+set_variable = { var = Reichstag_alsace-lorraine_seat value = 9 } #SPD
+set_variable = { var = Reichstag_liberal_seat value = 107 } #DDP
+set_variable = { var = Reichstag_conservative_seat value = 88 } #DZP
+set_variable = { var = Reichstag_strong_autocrat_seat value = 16 } #DkP
+set_variable = { var = Reichstag_MP value = 5 }
+
+set_country_flag = Reichstag_KPD
+set_country_flag = Reichstag_SPD
+set_country_flag = Reichstag_DDP
+set_country_flag = Reichstag_DZP
+set_country_flag = Reichstag_DkP
 
 set_popularities = {
-	social_democrat = 42
-	liberal = 27
+	social_democrat = 34
+	liberal = 31
 	conservative = 22
-	authoritarian_democrat = 4
-	strong_autocrat = 3
-	authoritarian_socialist = 2
+	strong_autocrat = 7
+	libertarian_socialist = 1
+	authoritarian_socialist = 1
+	anarchist = 1
+	national_populist = 3
 }
 
 recruit_character = GER_otto_wels #Social Democrat

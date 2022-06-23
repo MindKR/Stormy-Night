@@ -1,3 +1,253 @@
+WRS_power_struggle_tukha_category = {
+	WRS_zhukov_influence_ticker = {
+		allowed = {
+			tag = AUS
+		}
+
+		activation = {
+			always = no
+		}
+
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		days_mission_timeout = 25
+
+		timeout_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision timeout WRS_zhukov_influence_ticker"
+			WRS_increase_factionalism_low = yes
+			WRS_increase_zhukov_influence_low = yes
+			hidden_effect = {
+				activate_mission = WRS_zhukov_influence_ticker
+			}
+		}
+	}
+	WRS_appease_zhukov = {
+
+		icon = GFX_decision_generic_civil_support
+
+		allowed = {
+			tag = AUS
+		}
+		cost = 10
+		days_remove = 10
+		fire_only_once = no
+		days_re_enable = 30
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove WRS_appease_zhukov"
+			WRS_decrease_factionalism_low = yes
+			WRS_increase_zhukov_influence_med = yes
+			add_stability = 0.02
+		}
+		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 5
+				set_temp_variable = { WRS_Diff = global.WRSZhukovInfluence }
+				subtract_from_temp_variable = { WRS_Diff = global.WRSTukhaInfluence }
+				check_variable = { WRS_Diff < -10 }
+			}
+
+			modifier = {
+				add = 30
+				has_country_flag = WRS_appease
+			}
+		}
+	}
+	WRS_work_against_zhukov = {
+
+		icon = GFX_decision_generic_use_force
+
+		allowed = {
+			tag = AUS
+		}
+		cost = 10
+		days_remove = 10
+		fire_only_once = no
+		days_re_enable = 30
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove WRS_work_against_zhukov"
+			WRS_increase_factionalism_low = yes
+			WRS_decrease_zhukov_influence_low = yes
+			add_stability = -0.02
+		}
+		ai_will_do = {
+			factor = 0
+
+			modifier = {
+				add = 30
+				set_temp_variable = { WRS_Diff = global.WRSZhukovInfluence }
+				subtract_from_temp_variable = { WRS_Diff = global.WRSTukhaInfluence }
+				check_variable = { WRS_Diff > 0 }
+				NOT = { has_country_flag = WRS_appease }
+			}
+		}
+	}
+	WRS_tukha_meet_with_veterans = {
+
+		icon = GFX_decision_humanitarian_aid_increase
+
+		allowed = {
+			tag = AUS
+		}
+		cost = 10
+		fire_only_once = no
+		days_re_enable = 60
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove WRS_tukha_meet_with_veterans"
+			WRS_decrease_factionalism_low = yes
+			WRS_increase_tukha_influence_low = yes
+		}
+		ai_will_do = {
+			factor = 60
+		}
+	}
+	WRS_tukha_military_parade = {
+
+		icon = GFX_decision_generic_military_parade
+
+		allowed = {
+			tag = AUS
+		}
+		days_remove = 2
+		fire_only_once = no
+		days_re_enable = 180
+		custom_cost_trigger = {
+			has_equipment = {infantry_equipment > 249}
+			has_manpower > 99
+		}
+		custom_cost_text = WRS_military_parade_cost
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision WRS_tukha_military_parade"
+			WRS_increase_tukha_influence_med = yes
+			TNO_improve_training_policy_effectiveness_low = yes
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -250
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	WRS_tukha_publish_theory = {
+
+		icon = GFX_decision_generic_political_action
+
+		allowed = {
+			tag = AUS
+		}
+		cost = 15
+		days_remove = 10
+		fire_only_once = yes
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove WRS_tukha_publish_theory"
+			custom_effect_tooltip = WRS_tukha_publish_theory_tt
+			country_event = { id = WRS_power_struggle.2 days = 1 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+	}
+	WRS_tukha_meet_with_voroshilov = {
+
+		icon = GFX_decision_generic_phone_call
+
+		allowed = {
+			tag = AUS
+		}
+		cost = 25
+		days_remove = 30
+		fire_only_once = yes
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove WRS_tukha_meet_with_voroshilov"
+			custom_effect_tooltip = WRS_tukha_meet_with_voroshilov_tt
+			country_event = { id = WRS_power_struggle.3 days = 3 }
+		}
+		ai_will_do = {
+			factor = 20
+		}
+	}
+	WRS_tukha_test_their_mettle = {
+
+		icon = GFX_decision_border_war
+
+		allowed = {
+			tag = AUS
+		}
+		days_remove = 30
+		fire_only_once = yes
+		custom_cost_trigger = {
+			has_equipment = {infantry_equipment > 499}
+			has_manpower > 999
+		}
+		custom_cost_text = WRS_test_their_mettle_cost
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision WRS_tukha_test_their_mettle"
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove WRS_tukha_test_their_mettle"
+			custom_effect_tooltip = WRS_tukha_test_their_mettle_tt
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 214
+					num_provinces = 2
+					on_win = WRS_power_struggle.4
+					on_lose = WRS_power_struggle.5
+					on_cancel = WRS_power_struggle.6
+				}
+
+				defender = {
+					state = 859
+					num_provinces = 2
+					on_win = WRS.13
+					on_lose = WRS.14
+					on_cancel = raiding.5
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 15
+		}
+	}
+	WRS_tukha_operation_firebird = {
+
+		icon = GFX_decision_generic_assault
+
+		allowed = {
+			tag = AUS
+		}
+		cost = 100
+		days_remove = 30
+		fire_only_once = yes
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove WRS_tukha_operation_firebird"
+			custom_effect_tooltip = WRS_tukha_operation_firebird_tt
+			country_event = { id = WRS_power_struggle.7 days = 1 }
+		}
+		ai_will_do = {
+			factor = 150
+
+			modifier = {
+				factor = 0
+				check_variable = { global.WRSFactionalism > 28 }
+			}
+		}
+	}
+}
+
 AUS_constituent_states = {
 
 	AUS_cooperation_hungary  = {

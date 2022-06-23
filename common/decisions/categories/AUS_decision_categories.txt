@@ -1,3 +1,15 @@
+WRS_power_struggle_tukha_category = {
+	icon = GFX_decision_category_power_struggle
+
+	#picture = GFX_decision_ITA_decision_political_situation
+
+	allowed = {
+		tag = AUS
+	}
+	priority = 10000
+	scripted_gui = TNO_WRRF_struggle_decisions_GUI
+}
+
 AUS_constituent_states = {
 	priority = 10
 

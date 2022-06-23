@@ -71,3 +71,17 @@ country_event = {
 		Wilhelm_II_dies = yes
 	}
 }
+
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = germany.3.d
+	picture = GFX_Frederick_III
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.3.a
+		Reichstag_hold_federal_election = yes
+	}
+}
