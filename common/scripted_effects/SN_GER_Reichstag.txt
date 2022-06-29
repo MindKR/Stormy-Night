@@ -906,8 +906,45 @@ Reichstag_hold_federal_election = {
 			round_temp_variable = Reichstag_social_democrat_temp
 			divide_temp_variable = { Reichstag_social_democrat_temp = 100 }
 
-			set_temp_variable = { Reichstag_397 = 397 }
-			multiply_temp_variable = { Reichstag_social_democrat_temp = Reichstag_397 }
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = removed_poland
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_temp_variable = { Reichstag_seats = 364 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_alsace-lorraine
+					NOT = {
+						has_country_flag = removed_poland
+					}
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 373 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_poland
+					NOT = {
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 383 }
+			}
+			else = {
+				limit = {
+					has_country_flag = removed_poland
+					has_country_flag = removed_alsace-lorraine
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 392 }
+			}
+			multiply_temp_variable = { Reichstag_social_democrat_temp = Reichstag_seats }
 			round_temp_variable = Reichstag_social_democrat_temp
 			set_variable = { Reichstag_social_democrat_seat = Reichstag_social_democrat_temp }
 		}
@@ -920,8 +957,45 @@ Reichstag_hold_federal_election = {
 			round_temp_variable = Reichstag_liberal_temp
 			divide_temp_variable = { Reichstag_liberal_temp = 100 }
 
-			set_temp_variable = { Reichstag_397 = 397 }
-			multiply_temp_variable = { Reichstag_liberal_temp = Reichstag_397 }
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = removed_poland
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_temp_variable = { Reichstag_seats = 364 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_alsace-lorraine
+					NOT = {
+						has_country_flag = removed_poland
+					}
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 373 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_poland
+					NOT = {
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 383 }
+			}
+			else = {
+				limit = {
+					has_country_flag = removed_poland
+					has_country_flag = removed_alsace-lorraine
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 392 }
+			}
+			multiply_temp_variable = { Reichstag_liberal_temp = Reichstag_seats }
 			round_temp_variable = Reichstag_liberal_temp
 			set_variable = { Reichstag_liberal_seat = Reichstag_liberal_temp }
 		}
@@ -934,8 +1008,45 @@ Reichstag_hold_federal_election = {
 			round_temp_variable = Reichstag_conservative_temp
 			divide_temp_variable = { Reichstag_conservative_temp = 100 }
 
-			set_temp_variable = { Reichstag_397 = 397 }
-			multiply_temp_variable = { Reichstag_conservative_temp = Reichstag_397 }
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = removed_poland
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_temp_variable = { Reichstag_seats = 364 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_alsace-lorraine
+					NOT = {
+						has_country_flag = removed_poland
+					}
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 373 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_poland
+					NOT = {
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 383 }
+			}
+			else = {
+				limit = {
+					has_country_flag = removed_poland
+					has_country_flag = removed_alsace-lorraine
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 392 }
+			}
+			multiply_temp_variable = { Reichstag_conservative_temp = Reichstag_seats }
 			round_temp_variable = Reichstag_conservative_temp
 			set_variable = { Reichstag_conservative_seat = Reichstag_conservative_temp }
 		}
@@ -949,8 +1060,45 @@ Reichstag_hold_federal_election = {
 			round_temp_variable = Reichstag_libertarian_socialist_temp
 			divide_temp_variable = { Reichstag_libertarian_socialist_temp = 100 }
 
-			set_temp_variable = { Reichstag_397 = 397 }
-			multiply_temp_variable = { Reichstag_libertarian_socialist_temp = Reichstag_397 }
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = removed_poland
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_temp_variable = { Reichstag_seats = 364 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_alsace-lorraine
+					NOT = {
+						has_country_flag = removed_poland
+					}
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 373 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_poland
+					NOT = {
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 383 }
+			}
+			else = {
+				limit = {
+					has_country_flag = removed_poland
+					has_country_flag = removed_alsace-lorraine
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 392 }
+			}
+			multiply_temp_variable = { Reichstag_libertarian_socialist_temp = Reichstag_seats }
 			round_temp_variable = Reichstag_libertarian_socialist_temp
 			set_variable = { Reichstag_libertarian_socialist_seat = Reichstag_libertarian_socialist_temp }
 
@@ -959,8 +1107,45 @@ Reichstag_hold_federal_election = {
 			round_temp_variable = Reichstag_authoritarian_socialist_temp
 			divide_temp_variable = { Reichstag_authoritarian_socialist_temp = 100 }
 
-			set_temp_variable = { Reichstag_397 = 397 }
-			multiply_temp_variable = { Reichstag_authoritarian_socialist_temp = Reichstag_397 }
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = removed_poland
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_temp_variable = { Reichstag_seats = 364 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_alsace-lorraine
+					NOT = {
+						has_country_flag = removed_poland
+					}
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 373 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_poland
+					NOT = {
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 383 }
+			}
+			else = {
+				limit = {
+					has_country_flag = removed_poland
+					has_country_flag = removed_alsace-lorraine
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 392 }
+			}
+			multiply_temp_variable = { Reichstag_authoritarian_socialist_temp = Reichstag_seats }
 			round_temp_variable = Reichstag_authoritarian_socialist_temp
 			set_temp_variable = { Reichstag_authoritarian_socialist_seat = Reichstag_authoritarian_socialist_temp }
 
@@ -977,8 +1162,45 @@ Reichstag_hold_federal_election = {
 			round_temp_variable = Reichstag_anarchist_temp
 			divide_temp_variable = { Reichstag_anarchist_temp = 100 }
 
-			set_temp_variable = { Reichstag_397 = 397 }
-			multiply_temp_variable = { Reichstag_anarchist_temp = Reichstag_397 }
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = removed_poland
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_temp_variable = { Reichstag_seats = 364 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_alsace-lorraine
+					NOT = {
+						has_country_flag = removed_poland
+					}
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 373 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_poland
+					NOT = {
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 383 }
+			}
+			else = {
+				limit = {
+					has_country_flag = removed_poland
+					has_country_flag = removed_alsace-lorraine
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 392 }
+			}
+			multiply_temp_variable = { Reichstag_anarchist_temp = Reichstag_seats }
 			round_temp_variable = Reichstag_anarchist_temp
 			set_variable = { Reichstag_anarchist_seat = Reichstag_anarchist_temp }
 		}
@@ -991,8 +1213,45 @@ Reichstag_hold_federal_election = {
 			round_temp_variable = Reichstag_strong_autocrat_temp
 			divide_temp_variable = { Reichstag_strong_autocrat_temp = 100 }
 
-			set_temp_variable = { Reichstag_397 = 397 }
-			multiply_temp_variable = { Reichstag_strong_autocrat_temp = Reichstag_397 }
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = removed_poland
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_temp_variable = { Reichstag_seats = 364 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_alsace-lorraine
+					NOT = {
+						has_country_flag = removed_poland
+					}
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 373 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_poland
+					NOT = {
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 383 }
+			}
+			else = {
+				limit = {
+					has_country_flag = removed_poland
+					has_country_flag = removed_alsace-lorraine
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 392 }
+			}
+			multiply_temp_variable = { Reichstag_strong_autocrat_temp = Reichstag_seats }
 			round_temp_variable = Reichstag_strong_autocrat_temp
 			set_variable = { Reichstag_strong_autocrat_seat = Reichstag_strong_autocrat_temp }
 		}
@@ -1005,8 +1264,45 @@ Reichstag_hold_federal_election = {
 			round_temp_variable = Reichstag_national_populist_temp
 			divide_temp_variable = { Reichstag_national_populist_temp = 100 }
 
-			set_temp_variable = { Reichstag_397 = 397 }
-			multiply_temp_variable = { Reichstag_national_populist_temp = Reichstag_397 }
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = removed_poland
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_temp_variable = { Reichstag_seats = 364 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_alsace-lorraine
+					NOT = {
+						has_country_flag = removed_poland
+					}
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 373 }
+			}
+			else_if = {
+				limit = {
+					has_country_flag = removed_poland
+					NOT = {
+						has_country_flag = removed_alsace-lorraine
+					}
+				}
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 383 }
+			}
+			else = {
+				limit = {
+					has_country_flag = removed_poland
+					has_country_flag = removed_alsace-lorraine
+				}
+				set_variable = { var = Reichstag_alsace-lorraine_seat value = 0 }
+				set_variable = { var = Reichstag_poland_seat value = 0 }
+				set_temp_variable = { Reichstag_seats = 392 }
+			}
+			multiply_temp_variable = { Reichstag_national_populist_temp = Reichstag_seats }
 			round_temp_variable = Reichstag_national_populist_temp
 			set_variable = { Reichstag_national_populist_seat = Reichstag_national_populist_temp }
 		}
@@ -1019,8 +1315,9 @@ Reichstag_hold_federal_election = {
 		add_to_temp_variable = { Reichstag_MP_temp = Reichstag_anarchist_seat }
 		add_to_temp_variable = { Reichstag_MP_temp = Reichstag_strong_autocrat_seat }
 		add_to_temp_variable = { Reichstag_MP_temp = Reichstag_national_populist_seat }
-		subtract_from_temp_variable = { Reichstag_397 = Reichstag_MP_temp }
-		set_variable = { Reichstag_MP = Reichstag_397 }
+		subtract_from_temp_variable = { Reichstag_seats = Reichstag_MP_temp }
+		set_variable = { Reichstag_MP = Reichstag_seats }
+		add_to_variable = { var = Reichstag_MP value = 5 }
 	}
 	clear_array = reichstag_seat_array
 	clear_array = reichstag_member_array

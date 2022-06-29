@@ -3,45 +3,6 @@
 ###########################
 
 add_namespace = germany
-add_namespace = History_GER
-
-#########################
-### HISTORY OF GERMANY ###
-#########################
-
-country_event = {
-	id = History_GER.1
-	title = History_GER.1.t
-	desc = History_GER.1.d
-	picture = GFX_Germany_Start
-
-	is_triggered_only = yes
-
-	option = {
-		name = History_GER.1.a
-		if = {
-			limit = {
-				is_ai = no
-			}
-		}
-	}
-}
-
-# Frederick III
-country_event = {
-	id = History_GER.2
-	title = History_GER.2.t
-	desc = History_GER.2.d
-	picture = GFX_Frederick_III
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = History_GER.2.a
-		trigger = {
-		}
-	}
-}
 
 ############
 ### EVENT ###

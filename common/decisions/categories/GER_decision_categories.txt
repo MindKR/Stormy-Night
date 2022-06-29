@@ -10,11 +10,3 @@ reichstag_gui_decision_category = {
 	scripted_gui = reichstag_gui
 	visible_when_empty = yes
 }
-
-
-GER_history_category = { 
-	allowed = {
-		original_tag = GER
-	}
-	priority = -9999
-}

@@ -1,0 +1,12 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_SN_history_bg"
+		texturefile = "gfx/interface/SN_History/SN_history_bg.png"
+	}
+	
+	SpriteType = {
+		name = "GFX_SN_history_button"
+		texturefile = "gfx/interface/SN_History/SN_history_button.png"
+	}
+}

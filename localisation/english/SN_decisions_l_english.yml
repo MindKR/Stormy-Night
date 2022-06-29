@@ -1,17 +1,4 @@
 ﻿ l_english:
- history_category:0 "세계의 역사"
- history_austrian-serbian_war:0 "사라예보 사건과 오스트리아-세르비아 전쟁 (1914~1916)"
-
- GER_history_category:0 "독일의 역사"
- GER_history:0 "독일의 역사"
- GER_history_Frederick_III:0 "프리드리히 3세와 입헌군주제로의 길 (1888~1903)"
- GER_history_russian_intervention:0 "독일의 러시아 개입 (1919)"
-
-
- POL_treaty_of_warsaw:0 "바르샤바 조약"
- POL_request_implement:0 "독일에 조약 이행 요청"
-
-
  AUS_constituent_states:0 "구성국 관리"
  AUS_constituent_states_desc:0 "§Y오스트리아-헝가리§!는 수많은 구성국들로 이루어져있습니다. 우리는 작지만 커다란 효과를 지닌 수많은 대타협을 통해 몇몇 구성국들의 자치도를 올려왔습니다. 물론, 헝가리를 견제하기 위해 급격히 진행한 점도 있었습니다. 우리는 계속해서 이 구성국들의 여론을 수렴하고 그들이 원하는 것을 부분적으로 들어주어야 할 것입니다."
  AUS_ui_states_header:0 "구성국"

@@ -1,0 +1,56 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "SN_history"
+		position = { x = 725 y = 200 }
+		size = { width = 700 height = 740 }
+		orientation = UPPER_LEFT
+		moveable = yes
+		upsound = click
+		
+		background = {
+			name = "background"
+			spriteType = "GFX_SN_history_bg"
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 80 y = 15 }
+			text = "GetHistoryTitle"
+			font = "hoi_30header"
+			format = center
+			maxWidth = 300
+			maxHeight = 30
+			scrollbartype = "standardtext_slider"
+		}
+	
+		instantTextBoxType = {
+			name = "desc"
+			position = { x = 22 y = 55 }
+			text = "GetHistoryDesc"
+			font = "hoi_20bs"
+			format = left
+			maxWidth = 418
+			maxHeight = 535
+			scrollbartype = "standardtext_slider"
+		}
+
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_SN_history_button"
+			position = { x = 18 y = 592 }
+			pdx_tooltip = "DIPLOMACY_CLOSE"
+			shortcut = "ESCAPE"
+		}
+
+		instantTextBoxType = {
+			name = "close_text"
+			position = { x = 80 y = 608 }
+			text = "GetHistoryOK"
+			font = "hoi_20bs"
+			format = center
+			maxWidth = 300
+			maxHeight = 30
+		}
+	}
+}

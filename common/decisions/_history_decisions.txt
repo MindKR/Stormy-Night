@@ -1,19 +1,21 @@
 history_category = {
 
-	history_austrian-serbian_war = {
+	country_history = {
 
 		icon = generic
-		
+
 		allowed = {
 			always = yes
 		}
-		
-		fire_only_once = no
+
+		visible = {
+			has_country_flag = close_history
+		}
 
 		cost = 0
 
 		complete_effect = {
-			ROOT = { country_event = History.2 }
+			ROOT = { clr_country_flag = close_history }
 		}
 	}
 }

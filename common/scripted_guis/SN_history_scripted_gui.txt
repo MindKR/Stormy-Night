@@ -1,0 +1,22 @@
+scripted_gui = {
+	SN_history = {
+		context_type = player_context
+		
+		window_name = SN_history
+		parent_window_token = top_bar
+		
+		visible = {
+			is_ai = no
+			NOT = { has_country_flag = close_history }
+			OR = {
+				original_tag = GER
+			}
+		}
+		
+		effects = {
+			close_button_click = {
+				set_country_flag = close_history
+			}
+		}
+	}
+}
