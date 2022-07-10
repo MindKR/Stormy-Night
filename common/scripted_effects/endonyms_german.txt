@@ -175,7 +175,7 @@ apply_german_endonyms = {
 			set_state_name = GER_Mahren
 		}
 		set_province_name = {
-			id = 3718
+			id = 3569
 			name = GER_Brunn
 		}
 		set_province_name = {

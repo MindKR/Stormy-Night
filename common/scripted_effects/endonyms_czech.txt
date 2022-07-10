@@ -58,7 +58,7 @@ apply_czech_endonyms = {
 			set_state_name = CZE_Morava
 		}
 		set_province_name = {
-			id = 3718
+			id = 3569
 			name = CZE_Brno
 		}
 		set_province_name = {
