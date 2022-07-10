@@ -157,10 +157,10 @@ set_variable = { var = Reichstag_socialist_seat value = 4 } #KPD
 set_variable = { var = Reichstag_social_democrat_seat value = 148 } #SPD
 set_variable = { var = Reichstag_poland_seat value = 19 } #PP
 set_variable = { var = Reichstag_alsace-lorraine_seat value = 9 }
-set_variable = { var = Reichstag_liberal_seat value = 108 } #DDP
-set_variable = { var = Reichstag_conservative_seat value = 88 } #DZP
+set_variable = { var = Reichstag_liberal_seat value = 101 } #DDP
+set_variable = { var = Reichstag_conservative_seat value = 83 } #DZP
 set_variable = { var = Reichstag_strong_autocrat_seat value = 16 } #DkP
-set_variable = { var = Reichstag_MP value = 5 }
+set_variable = { var = Reichstag_MP value = 17 }
 
 set_country_flag = Reichstag_KPD
 set_country_flag = Reichstag_SPD

@@ -120,6 +120,61 @@ defined_text = {
 }
 
 defined_text = {
+	name = GetReichstagSeatModifiers
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = Reichstag_socialist_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = Reichstag_social_democrat_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = Reichstag_0
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = Reichstag_0
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = Reichstag_liberal_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 6 }
+		}
+		localization_key = Reichstag_conservative_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 7 }
+		}
+		localization_key = Reichstag_strong_autocrat_seat_modifiers
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 8 }
+		}
+		localization_key = Reichstag_MP_seat_modifiers
+	}
+	text = {
+		localization_key = Error
+	}
+}
+
+defined_text = {
 	name = GetReichstagRulingPartyName
 	text = {
 		trigger = {

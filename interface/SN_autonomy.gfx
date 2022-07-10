@@ -1,4 +1,14 @@
 spriteTypes = {
+
+	spriteType = {
+		name = "GFX_SN_federation_of_colonies"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SN_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_colony_icon.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_SN_protectorate_icon"

@@ -2,8 +2,6 @@
 
 oob = "WAF"
 
-set_cosmetic_tag = SN_negotiation_territory
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

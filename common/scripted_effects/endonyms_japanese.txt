@@ -30,6 +30,17 @@ apply_japanese_endonyms = {
 		}
 	}
 
+	if = { #South Sakhalin
+		limit = { state =  537 }
+		537 = { 
+			set_state_name = JAP_Minami_Karafuto
+		}
+		set_province_name = {
+			id = 12446
+			name = JAP_Toyohara
+		}
+	}
+
 	if = { #Chungcheong
 		limit = { state =  840 }
 		840 = { 

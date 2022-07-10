@@ -16,7 +16,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "reichstag_semicircle_main_container"
-			position = { x = 0 y = 40 }
+			position = { x = -7 y = 40 }
 			size = { width = 507 height = 365 }
 
 			background = {
@@ -83,13 +83,13 @@ guiTypes = {
         name = "reichstag_semicircle_main_entry"
         position = { x = 0 y = 20 }
 
-		iconType = {
-			name = "reichstag_semicircle_main_icon"
-			spriteType = "GFX_parliament_party_icon"
-			position = { x = 0 y = 0 }
-			pdx_tooltip = "reichstag_main_icon_tt"
-		}
-    }
+	iconType = {
+		name = "reichstag_semicircle_main_icon"
+		spriteType = "GFX_parliament_party_icon"
+		position = { x = 0 y = 0 }
+		pdx_tooltip = "reichstag_main_icon_tt"
+	}
+}
 
 	containerWindowType = {
         name = "reichstag_member_entry"
@@ -111,14 +111,12 @@ guiTypes = {
 			name = "reichstag_member_text"
 			position = { x = 0 y = 0 }
 			font = "hoi_16mbs"
-			maxWidth = 500
+			maxWidth = 250
 			maxHeight = 16
 			format = left
 			text = "reichstag_member_text"
+			text = "reichstag_member_text"
 			pdx_tooltip = "reichstag_member_desc"
-		}
-		
-    }
-
-
+		}	
+	}
 }

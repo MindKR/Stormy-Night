@@ -10,6 +10,7 @@ scripted_gui = {
 			NOT = { has_country_flag = close_history }
 			OR = {
 				original_tag = GER
+				original_tag = FRA
 			}
 		}
 		

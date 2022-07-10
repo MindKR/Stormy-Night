@@ -3,15 +3,15 @@ apply_lithuanian_endonyms = {
 	if = { #Volhynia
 		limit = { state = 93 }
 		93 = {
-			set_state_name = Voluine
+			set_state_name = LIT_Voluine
 		}
 		set_province_name = {
 			id = 422
-			name = Kovelis
+			name = LIT_Kovelis
 		}
 		set_province_name = {
 			id = 6557
-			name = Rovnas
+			name = LIT_Rovnas
 		}
 	}
 

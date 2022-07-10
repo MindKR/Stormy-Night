@@ -28,6 +28,7 @@ is_german_speaking_country = {
 		OR = {
 			original_tag = GER
 			original_tag = AUS
+			has_autonomy_state = SN_crownland
 		}
 	}
 }
@@ -83,6 +84,17 @@ is_romanian_speaking_country = {
 		}
 	}
 }
+
+is_serbo-croatian_speaking_country = {
+	custom_trigger_tooltip = {
+		tooltip = is_serbo-croatian_speaking_country_tt
+		OR = {
+			original_tag = SER
+			original_tag = CRO
+			original_tag = BOS
+			original_tag = MON
+		}
+	}
 
 is_chinese_speaking_country = {
 	custom_trigger_tooltip = {

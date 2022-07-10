@@ -1,6 +1,7 @@
 ﻿l_english:
  OVERLORD_SUBJECT:0 "$OVERLORDADJ$령 $NONIDEOLOGY$"
- SN_negotiation_territory:0 "$NONIDEOLOGY$ 협의통치령"
+
+ RAJ_UK:0 "영국령 인도"
 
  INS_HOL:0 "네덜란드령 동인도"
  INS_HOL_DEF:0 "네덜란드령 동인도"
@@ -45,10 +46,6 @@
  MAN_RUS_strong_autocrat:0 "러시아령 만주"
  MAN_RUS_strong_autocrat_DEF:0 "러시아령 만주"
 
- MOR_FRA:0 "모로코 협의통치령"
- TUN_FRA:0 "튀니지 협의통치령"
- DJI_FRA:0 "지부티 협의통치령"
-
  ARM_OTT:0 "오스만령 아르메니아"
  AZR_OTT:0 "아제르바이잔"
  GEO_OTT:0 "조지아"
@@ -72,3 +69,16 @@
  GER_republic:0 "독일"
  GER_republic_DEF:0 "독일"
  GER_republic_ADJ:0 "독일"
+
+ WAF_subject:0 "$OVERLORDADJ$령 서아프리카"
+ WAF_subject_DEF:0 "$OVERLORDADJ$령 서아프리카"
+
+ EAF_subject:0 "$OVERLORDADJ$령 적도아프리카"
+ EAF_subject_DEF:0 "$OVERLORDADJ$령 적도아프리카"
+
+ TUN_subject:0 "$OVERLORDADJ$령 튀니지"
+
+ DJI_subject:0 "$OVERLORDADJ$령 지부티"
+ DJI_FRA_subject:0 "프랑스령 소말릴랜드"
+
+ MAD_subject:0 "$OVERLORDADJ$령 마다가스카르"

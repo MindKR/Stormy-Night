@@ -10,9 +10,19 @@
 
  reichstag_main_icon_tt:0 "[GetReichstagSeatName] - [GetReichstagPartyName]"
  reichstag_seat_text:0 "[?temp_seat|Y0]번 의석"
- reichstag_member_text:0 "[GetReichstagPartyName] - [?reichstag_seat_array^reichstag_member_index]석"
+ reichstag_member_text:0 "[GetReichstagPartyName] - [?reichstag_seat_array^reichstag_member_index]석 ([GetReichstagSeatModifiers])"
  reichstag_member_desc:0 "[GetReichstagPartyDesc]"
  reichstag_ruling_party:0 "현재 카이저 폐하의 정부는 [GetReichstagRulingPartyName]입니다."
+
+ Reichstag_social_democrat_seat_modifiers:0 "[?Reichstag_social_democrat_seat_modifiers|+0]"
+ Reichstag_liberal_seat_modifiers:0 "[?Reichstag_liberal_seat_modifiers|+0]"
+ Reichstag_conservative_seat_modifiers:0 "[?Reichstag_conservative_seat_modifiers|+0]"
+ Reichstag_socialist_seat_modifiers:0 "[?Reichstag_socialist_seat_modifiers|+0]"
+ Reichstag_anarchist_seat_modifiers:0 "[?Reichstag_anarchist_seat_modifiers|+0]"
+ Reichstag_strong_autocrat_seat_modifiers:0 "[?Reichstag_strong_autocrat_seat_modifiers|+0]"
+ Reichstag_national_populist_seat_modifiers:0 "[?Reichstag_national_populist_seat_modifiers|+0]"
+ Reichstag_MP_seat_modifiers:0 "[?Reichstag_MP_seat_modifiers|+0]"
+ Reichstag_0:0 "§Y0§!"
 
  KPD_text:0 "§R독일 공산당§!"
  KPD_desc:0 "§R독일 공산당§!" (사회주의)\n\n독일 공산당은 혼란스럽고 어려운 시기에도 주목받지 못하는 정당입니다. 이들은 변절해버린 사회민주당의 행태를 비난하며 생겨난 분파입니다. 공산당이 추구하는 사회주의 체제의 실현은 현재 이루어지기엔 먼산일 뿐입니다."

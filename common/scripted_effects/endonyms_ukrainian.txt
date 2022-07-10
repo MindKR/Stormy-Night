@@ -25,37 +25,37 @@ apply_ukrainian_endonyms = {
 	if = { #Stanislau
 		limit = { state = 89 }
 		89 = {
-			set_state_name = Stanyslaviv
+			set_state_name = UKR_Stanyslaviv
 		}
 		set_province_name = {
 			id = 11411
-			name = Stanyslaviv
+			name = UKR_Stanyslaviv
 		}
 	}
 
 	if = { #Lemberg
 		limit = { state = 91 }
 		91 = {
-			set_state_name = Lviv
+			set_state_name = UKR_Lviv
 		}
 		set_province_name = {
 			id = 11479
-			name = Lviv
+			name = UKR_Lviv
 		}
 	}
 
 	if = { #Volhynia
 		limit = { state = 93 }
 		93 = {
-			set_state_name = Volyn
+			set_state_name = UKR_Volyn
 		}
 		set_province_name = {
 			id = 422
-			name = Kovel
+			name = UKR_Kovel
 		}
 		set_province_name = {
 			id = 6557
-			name = Rivne_UKR
+			name = UKR_Rivne
 		}
 	}
 

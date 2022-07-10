@@ -58,7 +58,7 @@ apply_czech_endonyms = {
 			set_state_name = CZE_Morava
 		}
 		set_province_name = {
-			id = 3569
+			id = 3718
 			name = CZE_Brno
 		}
 		set_province_name = {
@@ -85,15 +85,15 @@ apply_czech_endonyms = {
 	if = { #Volhynia
 		limit = { state = 93 }
 		93 = {
-			set_state_name = Volyn
+			set_state_name = CZE_Volyn
 		}
 		set_province_name = {
 			id = 422
-			name = Kovel
+			name = CZE_Kovel
 		}
 		set_province_name = {
 			id = 6557
-			name = Rovno
+			name = CZE_Rovno
 		}
 	}
 }

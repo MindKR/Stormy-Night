@@ -4,6 +4,10 @@ defined_text = {
 		trigger = { original_tag = GER }
 		localization_key = History_GER
 	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = History_FRA
+	}
 }
 
 defined_text = {
@@ -11,6 +15,10 @@ defined_text = {
 	text = {
 		trigger = { original_tag = GER }
 		localization_key = History_GER_OK
+	}
+	text = {
+		trigger = { original_tag = FRA }
+		localization_key = History_FRA_OK
 	}
 	text = {
 		localization_key = History_OK

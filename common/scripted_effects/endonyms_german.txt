@@ -175,7 +175,7 @@ apply_german_endonyms = {
 			set_state_name = GER_Mahren
 		}
 		set_province_name = {
-			id = 3569
+			id = 3718
 			name = GER_Brunn
 		}
 		set_province_name = {
@@ -210,67 +210,108 @@ apply_german_endonyms = {
 	if = { #Posen
 		limit = { state = 86 }
 		86 = {
-			set_state_name = Posen
+			set_state_name = GER_Posen
 		}
 		set_province_name = {
 			id = 279
-			name = Bromberg
+			name = GER_Bromberg
 		}
 		set_province_name = {
 			id = 6558
-			name = Posen
+			name = GER_Posen
 		}
 	}
 
 	if = { #Krakau
 		limit = { state = 88 }
 		88 = {
-			set_state_name = Krakau
+			set_state_name = GER_Krakau
 		}
 		set_province_name = {
 			id = 442
-			name = Tarnau
+			name = GER_Tarnau
 		}
 		set_province_name = {
 			id = 9427
-			name = Krakau
+			name = GER_Krakau
 		}
 	}
 
 	if = { #Stanislau
 		limit = { state = 89 }
 		89 = {
-			set_state_name = Stanislau
+			set_state_name = GER_Stanislau
 		}
 		set_province_name = {
 			id = 11411
-			name = Stanislau
+			name = GER_Stanislau
 		}
 	}
 
 	if = { #Lemberg
 		limit = { state = 91 }
 		91 = {
-			set_state_name = Lemberg
+			set_state_name = GER_Lemberg
 		}
 		set_province_name = {
 			id = 11479
-			name = Lemberg
+			name = GER_Lemberg
 		}
 	}
 
 	if = { #Volhynia
 		limit = { state = 93 }
 		93 = {
-			set_state_name = Wolhynien
+			set_state_name = GER_Wolhynien
 		}
 		set_province_name = {
 			id = 422
-			name = Kowel
+			name = GER_Kowel
 		}
 		set_province_name = {
 			id = 6557
-			name = Riwne
+			name = GER_Riwne
+		}
+	}
+
+	if = { #Dalmatia
+		limit = { state = 103 }
+		103 = {
+			set_state_name = GER_Dalmatien
+		}
+		set_province_name = {
+			id = 3868
+			name = GER_Ragus
+		}
+		set_province_name = {
+			id = 3924
+			name = GER_Splitt
+		}
+	}
+
+	if = { #Bosnia
+		limit = { state = 104 }
+		104 = {
+			set_state_name = GER_Bosnien
+		}
+		set_province_name = {
+			id = 6983
+			name = GER_Weina_Luka
+		}
+		set_province_name = {
+			id = 11899
+			name = GER_Sarajewo
+		}
+	}
+
+	if = { #Zareb
+		limit = { state = 109 }
+		109 = {
+			set_state_name = GER_Agram
+		}
+		set_province_name = {
+			id = 11581
+			name = GER_Agram
 		}
 	}
 
@@ -344,6 +385,17 @@ apply_german_endonyms = {
 		}
 	}
 
+	if = { #Herzegovina
+		limit = { state = 804 }
+		804 = {
+			set_state_name = GER_Herzegowina
+		}
+		set_province_name = {
+			id = 9894
+			name = GER_Mostar
+		}
+	}
+
 	if = { #Westpreußen
 		limit = { state = 807 }
 		807 = {
@@ -375,6 +427,14 @@ apply_german_endonyms = {
 		set_province_name = {
 			id = 6626
 			name = Triest
+		}
+	}
+
+	if = { #Lika
+		limit = { state = 846 }
+		set_province_name = {
+			id = 11564
+			name = GER_Sankt_Veit_am_Flaum
 		}
 	}
 

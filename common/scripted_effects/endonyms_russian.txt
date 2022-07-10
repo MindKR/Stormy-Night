@@ -25,15 +25,15 @@ apply_russian_endonyms = {
 	if = { #Volhynia
 		limit = { state = 93 }
 		93 = {
-			set_state_name = Volyn
+			set_state_name = RUS_Volyn
 		}
 		set_province_name = {
 			id = 422
-			name = Kovel
+			name = RUS_Kovel
 		}
 		set_province_name = {
 			id = 6557
-			name = Rovno
+			name = RUS_Rovno
 		}
 	}
 
@@ -312,6 +312,17 @@ apply_russian_endonyms = {
 		set_province_name = {
 			id = 11504
 			name = Poltava
+		}
+	}
+
+	if = { #South Sakhalin
+		limit = { state =  537 }
+		537 = { 
+			set_state_name = RUS_Yuzhno-Sakhalin
+		}
+		set_province_name = {
+			id = 12446
+			name = RUS_Vladimirovka
 		}
 	}
 	

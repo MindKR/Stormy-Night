@@ -2,8 +2,16 @@ on_actions = {
 	on_startup = {
 		effect = {
 			GER = {
-				# You can put this in the country's history file alternatively too.
+				Reichstag_update = yes
 				reichstag_gui_initial = yes
+			}
+		}
+	}
+
+	on_daily = {
+		effect = {
+			GER = {
+				Reichstag_update = yes
 			}
 		}
 	}

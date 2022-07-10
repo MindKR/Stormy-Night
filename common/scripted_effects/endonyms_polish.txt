@@ -126,67 +126,67 @@ apply_polish_endonyms = {
 	if = { #Posen
 		limit = { state = 86 }
 		86 = {
-			set_state_name = Poznan
+			set_state_name = POL_Poznan
 		}
 		set_province_name = {
 			id = 279
-			name = Bydgoszcz
+			name = POL_Bydgoszcz
 		}
 		set_province_name = {
 			id = 6558
-			name = Poznan
+			name = POL_Poznan
 		}
 	}
 
 	if = { #Krakau
 		limit = { state = 88 }
 		88 = {
-			set_state_name = Krakow
+			set_state_name = POL_Krakow
 		}
 		set_province_name = {
 			id = 442
-			name = Tarnow
+			name = POL_Tarnow
 		}
 		set_province_name = {
 			id = 9427
-			name = Krakow
+			name = POL_Krakow
 		}
 	}
 
 	if = { #Stanislau
 		limit = { state = 89 }
 		89 = {
-			set_state_name = Stanislawow
+			set_state_name = POL_Stanislawow
 		}
 		set_province_name = {
 			id = 11411
-			name = Stanislawow
+			name = POL_Stanislawow
 		}
 	}
 
 	if = { #Lemberg
 		limit = { state = 91 }
 		91 = {
-			set_state_name = Lwow
+			set_state_name = POL_Lwow
 		}
 		set_province_name = {
 			id = 11479
-			name = Lwow
+			name = POL_Lwow
 		}
 	}
 
 	if = { #Volhynia
 		limit = { state = 93 }
 		93 = {
-			set_state_name = Wolyn
+			set_state_name = POL_Wolyn
 		}
 		set_province_name = {
 			id = 422
-			name = Kowel
+			name = POL_Kowel
 		}
 		set_province_name = {
 			id = 6557
-			name = Rowne
+			name = POL_Rowne
 		}
 	}
 

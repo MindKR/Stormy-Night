@@ -57,10 +57,6 @@ activate_endonyms = {
 			apply_arab_endonyms = yes
 		}
 
-		else_if = { limit = { controller = { is_croatian_speaking_country = yes } }
-			apply_croatian_endonyms = yes
-		}
-
 		else_if = { limit = { controller = { tag = SLV } }
 			apply_slovene_endonyms = yes
 		}
@@ -81,8 +77,8 @@ activate_endonyms = {
 			apply_romanian_endonyms = yes
 		}
 
-		else_if = { limit = { controller = { tag = SER } }
-			apply_serbian_endonyms = yes
+		else_if = { limit = { controller = { tag = is_serbo-croatian_speaking_country = yes } }
+			apply_serbo-croatian_endonyms = yes
 		}
 
 		else_if = { limit = { controller = { tag = LAT } }
@@ -145,11 +141,14 @@ disable_endonyms = {
 	reset_province_name = 3583
 	reset_province_name = 3585
 	reset_province_name = 3707
+	reset_province_name = 3718
 	reset_province_name = 3780
 	reset_province_name = 3838
 	reset_province_name = 3856
 	reset_province_name = 3862
+	reset_province_name = 3868
 	reset_province_name = 3870
+	reset_province_name = 3924
 	reset_province_name = 3951
 	reset_province_name = 4052
 	reset_province_name = 4056
@@ -180,6 +179,7 @@ disable_endonyms = {
 	reset_province_name = 6822
 	reset_province_name = 6928
 	reset_province_name = 6938
+	reset_province_name = 6983
 	reset_province_name = 6995
 	reset_province_name = 7175
 	reset_province_name = 7620
@@ -203,6 +203,7 @@ disable_endonyms = {
 	reset_province_name = 9833
 	reset_province_name = 9861
 	reset_province_name = 9878
+	reset_province_name = 9894
 	reset_province_name = 9909
 	reset_province_name = 9994
 	reset_province_name = 10041
@@ -222,18 +223,23 @@ disable_endonyms = {
 	reset_province_name = 11516
 	reset_province_name = 11542
 	reset_province_name = 11561
+	reset_province_name = 11564
 	reset_province_name = 11577
+	reset_province_name = 11581
 	reset_province_name = 11598
 	reset_province_name = 11670
 	reset_province_name = 11683
 	reset_province_name = 11747
 	reset_province_name = 11810
 	reset_province_name = 11811
+	reset_province_name = 11816
 	reset_province_name = 11835
 	reset_province_name = 11842
 	reset_province_name = 11881
+	reset_province_name = 11899
 	reset_province_name = 11905
 	reset_province_name = 11969
 	reset_province_name = 11977
 	reset_province_name = 12085
+	reset_province_name = 12446
 }

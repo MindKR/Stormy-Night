@@ -18,8 +18,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_news_event_ger_russian_intervention"
-		texturefile = "gfx/event_pictures/GER/news_event_ger_russian_intervention.dds"
+		name = "GFX_Hitler"
+		texturefile = "gfx/event_pictures/GER/report_event_ger_hitler.png"
 	}
 
 	#AUS

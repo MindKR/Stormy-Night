@@ -22,6 +22,21 @@ apply_italian_endonyms = {
 		}
 	}
 
+	if = { #Dalmatia
+		limit = { state = 103 }
+		103 = {
+			set_state_name = ITA_Dalmazia
+		}
+		set_province_name = {
+			id = 3868
+			name = ITA_Ragusa
+		}
+		set_province_name = {
+			id = 3924
+			name = ITA_Spalato
+		}
+	}
+
 	if = { #Piemonte
 		limit = { state = 158 }
 		158 = {
@@ -111,6 +126,14 @@ apply_italian_endonyms = {
 		set_province_name = {
 			id = 6626
 			name = Trieste
+		}
+	}
+
+	if = { #Lika
+		limit = { state = 846 }
+		set_province_name = {
+			id = 11564
+			name = ITA_Fiume
 		}
 	}	
 }

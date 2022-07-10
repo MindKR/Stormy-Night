@@ -18,7 +18,7 @@
  Arab:0 "ARA"
  Belarussian:0 "BEL"
  Bulgarian:0 "BUL"
- Croatian:0 "CRO"
+ Serbo-Croatian:0 "SCR"
  Czech:0 "CZE"
  Danish:0 "DEN"
  French:0 "FRA"
@@ -174,8 +174,8 @@
  CZE_Morava:0 "모라바"
  GER_Mahren:0 "메렌"
 
- CZE_Brno:0 "브르노"
  GER_Brunn:0 "브륀"
+ CZE_Brno:0 "브르노"
  CZE_Olomouc:0 "올로모우츠"
  GER_Olmutz:0 "올뮈츠"
  CZE_Ostrava:0 "오스트라바"
@@ -215,46 +215,54 @@
 
 
 #86, Posen
- Posen:0 "포젠"
- Poznan:0 "포즈난"
+ GER_Posen:0 "포젠"
+ POL_Poznan:0 "포즈난"
+
+ GER_Bromberg:0 "브롬베르크"
+ POL_Bydgoszcz:0 "비드고슈치"
 
 
 #88, Krakau
- Krakau:0 "크라카우"
- Krakow:0 "크라쿠프"
+ GER_Krakau:0 "크라카우"
+ POL_Krakow:0 "크라쿠프"
 
- Tarnau:0 "타르나우"
- Tarnow:0 "타르누프"
+ GER_Tarnau:0 "타르나우"
+ POL_Tarnow:0 "타르누프"
 
 
 #89, Stanislau
- Stanislau:0 "슈타니슬라비우"
- Stanislawow:0 "스타니스와부프"
- Stanyslaviv:0 "스타니슬라비우"
+ GER_Stanislau:0 "슈타니슬라비우"
+ POL_Stanislawow:0 "스타니스와부프"
+ UKR_Stanyslaviv:0 "스타니슬라비우"
 
 
 #91, Lemberg
- Lemberg:0 "렘베르크"
- Lwow:0 "르부프"
- Lviv:0"리비우"
+ GER_Lemberg:0 "렘베르크"
+ POL_Lwow:0 "르부프"
+ UKR_Lviv:0"리비우"
 
 
 #93, Volhynia
- Volyn:0 "볼린"
- Wolyn:0 "보윈"
- Wolhynien:0 "볼리니엔"
- Volhinia:0 "볼히니어"
- Voluine:0 "볼루이네"
+ UKR_Volyn:0 "볼린"
+ RUS_Volyn:0 "볼린"
+ CZE_Volyn:0 "볼린"
+ POL_Wolyn:0 "보윈"
+ GER_Wolhynien:0 "볼리니엔"
+ HUN_Volhinia:0 "볼히니어"
+ LIT_Voluine:0 "볼루이네"
 
- Kovel:0 "코벨"
- Kowel:0 "코벨"
- Kovelis:0 "코벨리스"
- Rivne_UKR:0 "리우네"
- Rivne_HUN:0 "리브네"
- Rovno:0 "로브노"
- Riwne:0 "리브네"
- Rowne:0 "루브네"
- Rovnas:0 "로우나스"
+ UKR_Kovel:0 "코벨"
+ CZE_Kovel:0 "코벨"
+ GER_Kowel:0 "코벨"
+ POL_Kowel:0 "코벨"
+ LIT_Kovelis:0 "코벨리스"
+ UKR_Rivne:0 "리우네"
+ HUN_Rivne:0 "리브네"
+ RUS_Rovno:0 "로브노"
+ CZE_Rovno:0 "로브노"
+ GER_Riwne:0 "리브네"
+ POL_Rowne:0 "루브네"
+ LIT_Rovnas:0 "로우나스"
 
 
 #94, Brest-Litovsk
@@ -291,6 +299,37 @@
  Bielastok:0 "벨라스토크"
  Bialystok:0 "비아위스토크"
  Baltstoge:0 "발츠토게"
+
+
+#103, Dalmatia
+ GER_Dalmatien:0 "달마티엔"
+ SCR_Dalmacija:0 "달마치야"
+ ITA_Dalmazia:0 "달마치아"
+
+ GER_Ragus:0 "라구스"
+ SCR_Dubrovnik:0 "두브로브니크"
+ ITA_Ragusa:0 "라구사"
+ GER_Splitt:0 "스플리트"
+ SCR_Split:0 "스플리트"
+ ITA_Spalato:0 "스팔라토"
+
+
+#104, Bosnia
+ GER_Bosnien:0 "보스니엔"
+ SCR_Bosna:0 "보스나"
+ HUN_Bosznia:0 "보스니어"
+
+ GER_Weina_Luka:0 "바이나루카"
+ SCR_Banja_Luka:0 "바냐루카"
+ HUN_Obaszvar:0 "오바스바르"
+ GER_Sarajewo:0 "자라예보"
+ SCR_Sarajevo:0 "사라예보"
+ HUN_Sarajevo:0"셔러예보"
+
+
+#109, Zagreb
+ GER_Agram:0 "아그람"
+ SCR_Zagreb:0 "자그레브"
 
 
 #137, Crimea
@@ -575,6 +614,14 @@
  Singishu:0 "신기슈"
 
 
+#537, South Sakhalin
+ RUS_Yuzhno-Sakhalin:0 "유즈노사할린"
+ JAP_Minami_Karafuto:0 "미나미가라후토"
+
+ RUS_Vladimirovka:0 "블라디미로프카"
+ JAP_Toyohara:0 "도요하라" 
+
+
 #735, Savoy
  Savoie:0 "사부아"
  Savoy:0 "사보이"
@@ -635,13 +682,19 @@
  Bozok:0 "보조크"
 
 
+#804, Herzegovina
+ GER_Herzegowina:0 "헤르체고비나"
+ SCR_Hercegovina:0 "헤르체고비나"
+ 
+ GER_Mostar:0 "모스타어"
+ SCR_Mostar:0 "모스타르"
+
+
 #807, Westpreußen
  Westpreussen:0 "베스트프로이센"
  Gdingen:0 "그딩겐"
  Gdynia:0 "그디니아"
 
- Bromberg:0 "브롬베르크"
- Bydgoszcz:0 "비드고슈치"
  Thorn:0 "토른"
  Torun:0 "토룬"
 
@@ -728,6 +781,12 @@
  Ganko:0 "간코"
 
 
+#846, Lika
+ GER_Sankt_Veit_am_Flaum:0 "장크트 파이트 암 플라움"
+ SCR_Rijeka:0 "리예카"
+ ITA_Fiume:0 "피우메"
+
+
 #848, Nordschleswig
  Nordschleswig:0 "노르트슐레스비히"
  Sonderjyllands:0 "쇠네르윌란"
@@ -800,6 +859,7 @@
  Cakovec:0 "차코베츠"
  Csaktornya:0 "착토르녀"
  Tschakathurn:0 "차카투른"
+
 
 # Soviet Provinces
  Volgograd:0 "볼고그라드"				#Tsaritsyn, 3529, 217

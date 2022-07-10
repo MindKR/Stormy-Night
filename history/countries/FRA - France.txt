@@ -106,34 +106,58 @@ if = {
 	}
 }
 
-set_autonomy = {
-	target = WAF
-	autonomous_state = SN_negotiation_territory
-}
-set_autonomy = {
-	target = EAF
-	autonomous_state = SN_negotiation_territory
-}
-set_autonomy = {
-	target = DJI
-	autonomous_state = SN_negotiation_territory
-}
-set_autonomy = {
-	target = TUN
-	autonomous_state = SN_negotiation_territory
-}
-set_autonomy = {
-	target = MOR
-	autonomous_state = SN_negotiation_territory
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = EAF
+		autonomous_state = SN_federation_of_colonies
+	}
+	set_autonomy = {
+		target = WAF
+		autonomous_state = SN_federation_of_colonies
+	}
+	set_autonomy = {
+		target = TUN
+		autonomous_state = SN_colonial_protectorate
+	}
+	set_autonomy = {
+		target = DJI
+		autonomous_state = SN_colonial_protectorate
+	}
+	set_autonomy = {
+		target = MAD
+		autonomous_state = SN_colonial_protectorate
+	}
+	else = {
+		puppet = WAF
+		puppet = EAF
+		puppet = TUN
+		puppet = DJI
+		puppet = MAD
+	}
 }
 
-create_faction = Marseille_Pact
+create_faction = French_Republic
 add_to_faction = WAF
 add_to_faction = EAF
-
 add_to_faction = DJI
 add_to_faction = TUN
-add_to_faction = MOR
+add_to_faction = MAD
+
+"TUN" = {
+	set_politics = {
+		ruling_party = liberal
+		last_election = "1932.5.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+}
 
 
 set_convoys = 300

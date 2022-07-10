@@ -1,0 +1,120 @@
+apply_serbo-croatian_endonyms = {
+
+	if = { #Dalmatia
+		limit = { state = 103 }
+		103 = {
+			set_state_name = SCR_Dalmacija
+		}
+		set_province_name = {
+			id = 3868
+			name = SCR_Dubrovnik
+		}
+		set_province_name = {
+			id = 3924
+			name = SCR_Split
+		}
+	}
+
+	if = { #Bosnia
+		limit = { state = 104 }
+		104 = {
+			set_state_name = SCR_Bosna
+		}
+		set_province_name = {
+			id = 6983
+			name = SCR_Banja_Luka
+		}
+		set_province_name = {
+			id = 11899
+			name = SCR_Sarajevo
+		}
+	}
+
+	if = { #Zareb
+		limit = { state = 109 }
+		109 = {
+			set_state_name = SCR_Zagreb
+		}
+		set_province_name = {
+			id = 11581
+			name = SCR_Zagreb
+		}
+	}
+
+	if = { #Herzegovina
+		limit = { state = 804 }
+		804 = {
+			set_state_name = SCR_Hercegovina
+		}
+		set_province_name = {
+			id = 9894
+			name = SCR_Mostar
+		}
+	}
+
+	if = { #Triest
+		limit = { state = 837 }
+		837 = {
+			set_state_name = Trst
+		}
+		set_province_name = {
+			id = 6626
+			name = Trst
+		}
+	}
+
+	if = { #Lika
+		limit = { state = 846 }
+		set_province_name = {
+			id = 11564
+			name = SCR_Rijeka
+		}
+	}
+
+	if = { #Serbian - Srijem
+		limit = { state = 873 tag = SER }
+		873 = {
+			set_state_name = Srem
+		}
+		set_province_name = {
+			id = 11577
+			name = Sremska_Mitrovica
+		}
+	}
+
+	if = { #Croatian - Srijem
+		limit = { state = 873 tag = CRO }
+		873 = {
+			set_state_name = Srijem
+		}
+		set_province_name = {
+			id = 11577
+			name = Srijemska_Mitrovica
+		}
+	}
+
+	if = { #Serbian - Southern Baranya
+		limit = { state = 874 tag = SER }
+		874 = {
+			set_state_name = Southern_Baranja
+		}
+	}
+
+	if = { #Croatian - Southern Baranya
+		limit = { state = 874 tag = CRO }
+		874 = {
+			set_state_name = Southern_Baranja
+		}
+	}
+
+	if = { #Murakoz megye
+		limit = { state = 880 }
+		880 = {
+			set_state_name = Murakoz_megye
+		}
+		set_province_name = {
+			id = 6672
+			name = Cakovec
+		}
+	}
+}
