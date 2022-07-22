@@ -458,7 +458,7 @@
 
 #226, Yekaterinoslav
  Yekaterinoslav:0 "예카테리노슬라프"
- Katerynoslav:0 "카테리노슬라프"
+ Katerynoslav:0 "카테리노슬라우"
 
  Krivoy_Rog:0 "크리보이로크"
  Kryvyi_Rih:0 "크리비리흐"
@@ -859,6 +859,16 @@
  Cakovec:0 "차코베츠"
  Csaktornya:0 "착토르녀"
  Tschakathurn:0 "차카투른"
+
+
+#883, Znaim
+ GER_Znaim:0 "츠나임"
+ CZE_Znojmo:0 "즈노이모"
+
+
+#884, Frankenstadt
+ GER_Frankenstadt:0 "프랑켄슈타트"
+ HUN_Baja:0 "버여"
 
 
 # Soviet Provinces

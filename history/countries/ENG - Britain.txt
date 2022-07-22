@@ -1,12 +1,5 @@
 ﻿capital = 126
 
-every_core_state = {
-	if = {
-		limit = { is_core_of = ENG }
-		add_manpower = 908371
-	}
-}
-
 if = {
 	limit = {
 		NOT = {

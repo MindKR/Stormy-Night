@@ -1,0 +1,25 @@
+state={
+	id=884
+	name="STATE_884"
+
+	history={
+		owner = HUN
+		victory_points = {
+			6670 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		3623 6670 9621 
+	}
+	manpower=591379
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=2.000
+}

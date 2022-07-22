@@ -524,4 +524,26 @@ apply_german_endonyms = {
 			name = Tschakathurn
 		}
 	}
+
+	if = { #Znaim
+		limit = { state = 883 }
+		883 = {
+			set_state_name = GER_Znaim
+		}
+		set_province_name = {
+			id = 3718
+			name = GER_Znaim
+		}
+	}
+
+	if = { #Frankenstadt
+		limit = { state = 884 }
+		884 = {
+			set_state_name = GER_Frankenstadt
+		}
+		set_province_name = {
+			id = 6670
+			name = GER_Frankenstadt
+		}
+	}
 }

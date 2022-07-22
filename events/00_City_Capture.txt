@@ -9,19 +9,19 @@ news_event = {
 	id = city.1
 	title = city.1.t
 	desc = city.1.d
-	picture = GFX_news_event_german_reichstag_ruins_02
+	picture = GFX_captured_berlin
 
 	major = yes
 
 	fire_only_once = yes
 
 	trigger = {
-		833 = { NOT = { is_controlled_by = GER } }
-		833 = { is_owned_by = GER }
+		835 = { NOT = { is_controlled_by = GER } }
+		835 = { is_owned_by = GER }
 	}
 
 	immediate = {
-		833 = {
+		835 = {
 			owner = { save_event_target_as = old_controller }
 			controller = { save_event_target_as = new_controller }
 		}
@@ -62,8 +62,8 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		833 = { is_controlled_by = FRA }
-		833 = { is_owned_by = GER }
+		835 = { is_controlled_by = FRA }
+		835 = { is_owned_by = GER }
 		FRA = { has_war_with = GER }
 		NOT = { has_global_flag = fall_of_berlin_fra }
 	}
@@ -106,8 +106,8 @@ news_event = {
 	major = yes
 	
 	trigger = {
-		833 = { is_controlled_by = SOV }
-		833 = { is_owned_by = GER }
+		835 = { is_controlled_by = SOV }
+		835 = { is_owned_by = GER }
 		GER = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_berlin_sov }
 	}

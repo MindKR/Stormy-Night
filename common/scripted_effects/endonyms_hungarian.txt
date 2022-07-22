@@ -91,4 +91,15 @@ apply_hungarian_endonyms = {
 			name = Csaktornya
 		}
 	}
+
+	if = { #Frankenstadt
+		limit = { state = 884 }
+		884 = {
+			set_state_name = HUN_Baja
+		}
+		set_province_name = {
+			id = 6670
+			name = HUN_Baja
+		}
+	}
 }

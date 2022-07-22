@@ -96,4 +96,15 @@ apply_czech_endonyms = {
 			name = CZE_Rovno
 		}
 	}
+
+	if = { #Znaim
+		limit = { state = 883 }
+		883 = {
+			set_state_name = CZE_Znojmo
+		}
+		set_province_name = {
+			id = 3718
+			name = CZE_Znojmo
+		}
+	}
 }

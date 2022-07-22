@@ -86,6 +86,24 @@ if = {
 }
 save_global_event_target_as = WTT_current_china_leader
 
+# DIPLOMACY
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = TIB
+		autonomous_state = SN_military_government
+		freedom_level = 0.35
+	}
+	else = {
+		puppet = TIB
+	}
+}
+
 set_convoys = 40
 
 set_politics = {

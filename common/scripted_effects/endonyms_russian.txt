@@ -29,7 +29,7 @@ apply_russian_endonyms = {
 		}
 		set_province_name = {
 			id = 422
-			name = RUS_Kovel
+			name = UKR_Kovel
 		}
 		set_province_name = {
 			id = 6557
