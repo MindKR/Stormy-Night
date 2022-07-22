@@ -1,4 +1,4 @@
-﻿capital = 613 # Nanjing
+﻿capital = 608
 
 oob = "CHI"
 if = {

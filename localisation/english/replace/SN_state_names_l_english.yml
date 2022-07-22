@@ -606,7 +606,7 @@ l_english:
  STATE_604:0 "칭하이"
  STATE_605:0 "쓰촨"
  STATE_606:0 "안후이"
- STATE_607:0 "허난"
+ STATE_607:0 "베이허난"
  STATE_608:0 "베이징"
  STATE_609:0 "동허베이"
  STATE_610:0 "러허"
@@ -884,3 +884,5 @@ l_english:
  STATE_882:0 "바덴"
  STATE_883:0 "츠나임"
  STATE_884:0 "프랑켄슈타트"
+ STATE_885:0 "난허난" #what
+ STATE_886:0 "창사"

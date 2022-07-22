@@ -1,0 +1,25 @@
+state={
+	id=886
+	name="STATE_886"
+
+	history={
+		owner = LHC
+		add_core_of = LHC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7097 5 
+		}
+	}
+
+	provinces={
+		7097 9999 10517 13140 
+	}
+	manpower=4058740 # (20293700 x0.2)
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

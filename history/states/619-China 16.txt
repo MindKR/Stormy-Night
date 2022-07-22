@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = SIK
-		add_core_of = SIK
+		owner = ETR
+		add_core_of = ETR
 		add_core_of = CHI
 
 		buildings = {

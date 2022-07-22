@@ -7,8 +7,8 @@ state={
 	state_category = large_city
 	
 	history={
-		owner = CHI
-		add_core_of = CHI
+		owner = ZJC
+		add_core_of = ZJC
 
 		buildings = {
 			infrastructure = 3 #was: 5
@@ -29,10 +29,6 @@ state={
 		}
 		victory_points = {
 			10076 3
-		}
-
-		1938.10.25 = {
-			controller = JAP
 		}
 	}
 

@@ -889,3 +889,15 @@ ROC = {
 	color = rgb { 0 42 177 }
 	color_ui = rgb { 0 42 177 }
 }
+ZJC = {
+	color = rgb { 113 110 29 }
+	color_ui = rgb { 113 110 29 }
+}
+LHC = {
+	color = rgb { 154 149 48 }
+	color_ui = rgb { 154 149 48 }
+}
+ETR = {
+	color = rgb { 0 133 255 }
+	color_ui = rgb { 0 133 255 }
+}

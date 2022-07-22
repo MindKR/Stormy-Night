@@ -1,0 +1,22 @@
+state={
+	id=885
+	name="STATE_885"
+
+	history={
+		owner = LHC
+		add_core_of = LHC
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		4158 4519 4547 7459 7540 7568 10434 10446 12426 
+	}
+	manpower=10286940 # (34289800 x0.3)
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}
