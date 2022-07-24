@@ -99,8 +99,20 @@ if = {
 		autonomous_state = SN_military_government
 		freedom_level = 0.35
 	}
+	set_autonomy = {
+		target = TUG
+		autonomous_state = SN_military_government
+		freedom_level = 0.35
+	}
+	set_autonomy = {
+		target = XSM
+		autonomous_state = SN_warlord
+		freedom_level = 0.35
+	}
 	else = {
 		puppet = TIB
+		puppet = TUG
+		puppet = XSM
 	}
 }
 

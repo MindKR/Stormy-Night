@@ -901,3 +901,7 @@ ETR = {
 	color = rgb { 0 133 255 }
 	color_ui = rgb { 0 133 255 }
 }
+TUG = {
+	color = rgb { 218 37 29 }
+	color_ui = rgb { 218 37 29 }
+}

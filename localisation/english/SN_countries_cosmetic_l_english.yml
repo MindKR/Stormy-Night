@@ -83,4 +83,5 @@
 
  MAD_subject:0 "$OVERLORDADJ$령 마다가스카르"
 
- TIB_CHI_SN_military_government_subject:0 "티베트 군사정부"
+ TIB_SN_military_government:0 "$NONIDEOLOGY$ 군사정부"
+ TUG_SN_military_government:0 "$NONIDEOLOGY$ 군사정부"

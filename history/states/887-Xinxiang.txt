@@ -1,0 +1,25 @@
+state={
+	id=887
+	name="STATE_887"
+
+	history={
+		owner = BKF
+		add_core_of = BKF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			4114 1 
+		}
+
+	}
+
+	provinces={
+		1139 4010 4114 4144 4606 7074 7085 7129 
+	}
+	manpower=24002860 # (24002860 x0.14)
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

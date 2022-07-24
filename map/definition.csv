@@ -13002,7 +13002,7 @@
 13001;190;79;72;land;true;jungle;6
 13002;199;16;94;land;true;forest;6
 13003;210;90;30;land;true;plains;1
-13004;214;55;134;sea;true;ocean;0
+13004;214;55;134;land;false;plains;6
 13005;214;237;203;land;true;forest;6
 13006;238;149;159;sea;true;ocean;0
 13007;254;123;76;sea;false;ocean;0
