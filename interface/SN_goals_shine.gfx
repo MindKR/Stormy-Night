@@ -34,10 +34,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_Ferdinand_II_shine"
-		texturefile = "gfx/interface/goals/Ferdinand_II.png"
+		texturefile = "gfx/interface/goals/AUS_Ferdinand_II.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Ferdinand_II.png"
+			animationmaskfile = "gfx/interface/goals/AUS_Ferdinand_II.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -50,7 +50,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/Ferdinand_II.png"
+			animationmaskfile = "gfx/interface/goals/AUS_Ferdinand_II.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -66,10 +66,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_AUS_cooperate_with_hungary_shine"
-		texturefile = "gfx/interface/goals/AUS_cooperate_with_hungary.png"
+		texturefile = "gfx/interface/goals/AUS/AUS_cooperate_with_hungary.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/AUS_cooperate_with_hungary.png"
+			animationmaskfile = "gfx/interface/goals/AUS/AUS_cooperate_with_hungary.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -82,7 +82,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/AUS_cooperate_with_hungary.png"
+			animationmaskfile = "gfx/interface/goals/AUS/AUS_cooperate_with_hungary.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -98,10 +98,10 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_AUS_demanding_decision_from_hungary_shine"
-		texturefile = "gfx/interface/goals/AUS_demanding_decision_from_hungary.png"
+		texturefile = "gfx/interface/goals/AUS/AUS_demanding_decision_from_hungary.png"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/AUS_demanding_decision_from_hungary.png"
+			animationmaskfile = "gfx/interface/goals/AUS/AUS_demanding_decision_from_hungary.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -114,7 +114,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/AUS_demanding_decision_from_hungary.png"
+			animationmaskfile = "gfx/interface/goals/AUS/AUS_demanding_decision_from_hungary.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no

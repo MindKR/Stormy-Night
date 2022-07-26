@@ -4,17 +4,17 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_Ferdinand_II"
-		texturefile = "gfx/interface/goals/Ferdinand_II.png"	
+		texturefile = "gfx/interface/goals/AUS/AUS_Ferdinand_II.png"	
 	}
 
 	SpriteType = {
 		name = "GFX_AUS_cooperate_with_hungary"
-		texturefile = "gfx/interface/goals/AUS_cooperate_with_hungary.png"	
+		texturefile = "gfx/interface/goals/AUS/AUS_cooperate_with_hungary.png"	
 	}
 
 	SpriteType = {
 		name = "GFX_AUS_demanding_decision_from_hungary"
-		texturefile = "gfx/interface/goals/AUS_demanding_decision_from_hungary.png"	
+		texturefile = "gfx/interface/goals/AUS/AUS_demanding_decision_from_hungary.png"	
 	}
 	
 	SpriteType = {
